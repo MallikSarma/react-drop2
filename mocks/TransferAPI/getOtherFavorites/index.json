@@ -1,0 +1,18 @@
+{
+	"favorites":[
+		{
+			"nickName":"Emman",
+			"name": "Emmancipate",
+			"bank":"Maybank",
+			"transactionType": {
+				"id": "fundTransfer",
+				"display": "Fund Transfer"
+			},
+			"accountNumber":"1111 2222 2224 5454"
+		}
+	],
+	"type": "other",
+	"currentPageNo": 1,
+	"nextPage": true,
+	"previousPage": false
+}

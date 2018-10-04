@@ -1,0 +1,87 @@
+@import '../../../../assets/css/variables.scss';
+.container{
+    :global(.panel) {
+        width: 100%;
+        box-shadow: 0 0 1rem 0 rgba(118, 118, 118, 0.1);
+        position: relative;
+        border: solid 0.1rem $app_grey2;
+        margin-bottom: 1rem;
+        cursor: pointer;
+        &:hover{
+            box-shadow: 0 0 1rem 0 hsla(0, 0%, 50%, .5);
+        }
+    }
+    :global(.panel-body){
+        padding: 1.3rem 2rem 1.2rem 2rem;
+        .row{
+            margin-bottom: 0rem;
+            text-align:left;
+        }
+        .selectFavorite{
+            display: flex;
+            justify-content: space-around;
+            @media(min-width: 678px){
+                flex-direction:row;
+            }
+            @media(max-width: 677px){
+                flex-direction:column;
+                min-height: 6.5rem;
+            }
+            &:hover{
+                cursor: pointer;
+                img{
+                   border-radius: 5rem;
+                   background-color: $app_gold;
+                }
+            }
+        }
+        .menu{
+            float: right;
+            padding-right: 0.5rem;
+            font-size: 3rem;
+            margin-top: -1.3rem;
+            a:hover{
+                cursor: pointer;
+                text-decoration: none;
+            }
+        }
+        .number{
+            line-height: 2.5rem;
+            font-size: 1.3rem;
+            color: $app_grey3;
+            margin-left: 1.2rem;
+            position: relative;
+            top:0.2rem;
+        }
+        .payee{
+            font-size: 1.3rem;
+            line-height: 2.5rem;
+            color: $app_black;
+            margin-left: 1.2rem;
+            position: relative;
+            top:0.2rem;            
+        }
+        .favoriteName{
+            font-size: 1.6rem;
+            font-weight: bold;
+            line-height: 2.5rem;
+            color: $app_black;
+            padding-left: 0rem;
+        }
+        .toggleButton{
+            position: absolute;
+            right: 0;
+        }
+        .favoriteContent{
+            display: flex;
+            @media(min-width: 678px){
+                flex-direction:row;
+                position: relative;
+                left: -1.5rem;                
+            }
+            @media(max-width: 677px){
+                flex-direction:column;
+            }
+        }
+    }
+}

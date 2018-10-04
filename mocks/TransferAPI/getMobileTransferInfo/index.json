@@ -1,0 +1,46 @@
+{
+	"transfers": [
+		{
+			"date": "23 Jan, 2016",
+			"name": "Emman",
+			"number": "125 12125",
+			"amount": 55,
+			"status": "pending",
+			"transferMode": "Credit to Account",
+			"recipientReference": "Allowance"
+
+		},
+		{
+			"date": "23 Jan, 2016",
+			"name": "Salman",
+			"number": "125 12125",
+			"amount": 55,
+			"status": "cancelled",
+			"transferMode": "Credit to Account",
+			"recipientReference": "Allowance"
+
+		},
+		{
+			"date": "23 Jan, 2016",
+			"name": "Emman",
+			"number": "125 12125",
+			"amount": 55,
+			"status": "completed",
+			"transferMode": "Credit to Account",
+			"recipientReference": "Allowance"
+
+		}
+	],
+	"transferModes": [
+		{
+			"name": "Credit to Account",
+			"id": 155454,
+			"fee": 3.2
+		},
+		{
+			"name": "Cardless Withdrawal",
+			"id": 155458,
+			"fee": 5
+		}
+	]
+}

@@ -1,0 +1,72 @@
+@import '../../../../assets/css/variables.scss';
+
+.container{
+    :global(.panel) {
+        width: 100%;
+        box-shadow: 0 0 1rem 0 rgba(118, 118, 118, 0.1);
+        position: relative;
+        border: solid 0.1rem $app_grey2;
+    }
+    :global(.panel-body){
+        height: 100%;
+        display: flex;
+        padding: 0;
+        padding-top: 2rem;
+        padding-bottom: 2rem;
+        .row{
+            display: flex;
+            justify-content: space-between;
+            font-size: 1.6rem;
+            padding-bottom: 1.5rem;
+            font-weight: normal;
+            color: $app_grey5;
+            .currency{
+                padding-right: 0.3rem;
+            }
+        }
+    }
+}
+.rightPanel{
+    background-color: $app_grey1;
+    margin-top: -2rem;
+    margin-bottom: -2rem;
+    border-radius: 0 0.7rem 0.7rem 0;
+    font-size: 1.8rem;
+    padding-top: 4%;
+    &.treatsPoints{
+        padding-top: 2%;
+    }
+    text-align: center;
+    @media(max-width: 767px){
+        padding-bottom: 2.4rem;
+        text-align: left;
+        padding-top: 2.4rem;
+        font-size: 1.6rem;
+    }
+}
+.leftPanel{
+    img{
+        margin-left: 0.5rem;
+    }
+    @media(max-width: 990px){
+        padding-bottom: 1.5rem;
+    }
+}
+.middlePanel{
+    display: block;
+    margin: auto;
+    padding-left: 1rem;
+}
+.title{
+    color:$app_black;
+    font-size: 1.6rem;
+    @media(max-width: 767px){
+        font-size: 1.4rem;    }
+}
+.number{
+    color:$app_grey3;
+    font-size: 1.2rem;
+}
+.leftPadded{
+    padding-left: 2rem;
+}

@@ -1,0 +1,74 @@
+@import '../../../../assets/css/variables.scss';
+.container{
+    :global(.panel) {
+		width: 100%;
+        min-height: auto;
+        max-height: 23rem;
+        box-shadow: 0 0 1rem 0 rgba(194, 194, 194, 0.5);
+        position: relative;
+    }
+    :global(.panel-body){
+        height: 100%;
+    }
+    :global(.well){
+        position: absolute;
+        height: 6rem;
+        padding: 0.7rem;
+        width: 100%;
+        left: 0;
+        margin-bottom: 0;
+        border-radius: 0 0 0.7rem 0.7rem;
+        border: none;
+        font-size: 1.8rem;
+        color: $app_grey5;
+    }
+    .cardSummary{
+        .imgWrapper{
+            margin-top: 0.1rem;
+        }
+        .imgMore{
+            img{
+                cursor: pointer;
+            }
+        }
+        .wealthSummary{
+            height: 9.5rem;
+        }
+    }
+    .cardName{
+        font-size: 1.6rem;
+        letter-spacing: 0.02rem;
+        color: $app_black;
+    }
+    .cardDescription{
+        margin-top: 1rem;
+        font-size: 1.3rem;
+        color: $app_grey3;
+    }
+    .extraInfo{
+        bottom: 2rem;
+        margin-top: 3rem;
+        span{
+            font-size: 1.2rem;
+            font-weight: bold;
+            line-height: 1.3;
+            color: $app_grey4;
+        }
+        p{
+            font-size: 1.6rem;
+            letter-spacing: 0.01rem;
+            color: $app_grey5;
+        }
+        .negativeAmount{
+            color: $app_red;
+        }
+        .positiveAmount{
+            color: $app_green;
+        }
+    }
+    :global(.well){
+        background-color: $app_white;
+        -webkit-box-shadow: none;
+        box-shadow: none;
+    }
+}

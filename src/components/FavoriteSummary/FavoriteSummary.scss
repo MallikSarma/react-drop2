@@ -1,0 +1,103 @@
+@import '../../assets/css/variables.scss';
+.container{
+    @media(min-width:1200px){
+        width:90rem;
+        margin-left:auto;
+        margin-right:auto;
+    }
+    margin: 2rem auto 20rem auto;
+    padding: 0 2rem;
+    :global(.panel) {
+        width: 100%;
+        box-shadow: 0 0 1rem 0 rgba(118, 118, 118, 0.1);
+        position: relative;
+        border: solid 0.1rem $app_grey2;
+        margin-bottom: 0rem;
+    }
+    .head{
+        margin-bottom: 0.7rem;
+    }
+    .amount{
+        border:0;
+        border-bottom: solid 0.2rem $app_gold;
+        border-bottom-left-radius:0;
+        border-bottom-right-radius:0;
+        margin-bottom: 0rem;
+        background-color: $app_grey1;
+    }
+    .confirmed{
+        border:0;
+        border-bottom: solid 0.2rem $app_gold;
+        border-bottom-left-radius:0;
+        border-bottom-right-radius:0;
+        margin-bottom: 0rem;
+        background-color: $app_green;
+        color: $app_white;
+    }
+    .account{
+        font-weight: normal;
+        font-size: 1.3rem;
+    }
+    .favoriteStar{
+        padding-left:4rem;
+        &:hover{
+            cursor: pointer;
+            img{
+                content: url(../../assets/icons/favorite_filled_gold.svg);
+            }  
+        }
+    }
+    .details{
+        border:0;
+        border-top-left-radius:0;
+        border-top-right-radius:0;
+        margin-bottom: 0.7rem;
+    }
+    :global(.panel-body){
+        height: 100%;
+        padding: 2rem 2rem 0.5rem 2rem;
+        .row{
+            display: flex;
+            justify-content: space-between;
+            font-size: 1.6rem;
+            padding-bottom: 1.5rem;
+            font-weight: normal;
+            color: $app_black;
+            .accountType{
+                font-weight: bold;
+                margin-left: 1rem;
+                margin-right: 1rem;
+            }
+            .availableBalance{
+                color:$app_green;
+            }
+            .currency{
+                text-align: right;
+                padding-right: 0.3rem;
+                border-bottom: solid 0.2rem $app_gold;
+                .principalAmount{
+                color:$app_red;
+                }
+                .closingAmount{
+                    color: $app_green;
+                }
+            }
+            .edit{
+                display: inline-block;
+                margin-left: 1rem;
+                cursor: pointer;
+            }
+            .tick{
+                width: 1.3rem;
+                height: 1.04rem;
+                display: inline-block;
+                margin-right: 1.8rem;
+                img{
+                    width: 100%;
+                    height: 100%;
+
+                }
+            }
+        }
+    }
+}

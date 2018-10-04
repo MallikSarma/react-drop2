@@ -1,0 +1,80 @@
+@import '../../../../assets/css/variables.scss';
+.container{
+    @media (min-width: 768px){
+        width: 100%;
+        margin-left: auto;
+        margin-right: auto;
+        padding-right: 0;
+        padding-left: 0;
+    }
+    :global(.panel) {
+        width: 100%;
+        box-shadow: 0 0 1rem 0 rgba(118, 118, 118, 0.1);
+        position: relative;
+        border: solid 0.1rem $app_grey2;
+    }
+    :global(.panel-body){
+        height: 100%;
+        padding: 2rem 2rem 0.5rem 2rem;
+        .row{
+            display: flex;
+            justify-content: space-between;
+            font-size: 1.6rem;
+            padding-bottom: 1.5rem;
+            font-weight: normal;
+            color: $app_grey5;
+            .currency{
+                padding-right: 0.3rem;
+            }
+        }
+    }
+    .lastUpdated{
+        font-size: 12px;
+        line-height: 1.1;
+        letter-spacing: 0.02rem;
+        color: $app_grey4;
+        text-align: right;
+        margin-bottom: 2rem;
+    }
+    .positivePercentage{
+        color: $app_green;
+        @media(max-width: 767px){
+            span{
+                display: block;
+            }
+        }
+        div{
+            background-image: url(../../../../assets/icons/increase_green.svg);
+            background-repeat: no-repeat;
+            display: inline-block;
+            width: 2rem;
+            height: 1.9rem;
+            background-size: contain;
+            background-position: center;
+        }
+    }
+    .positiveAmount{
+        color: $app_green;
+        font-size: 1.7rem;
+    }
+    .negativePercentage{
+        color: $app_red;
+        div{
+            background-image: url(../../../../assets/icons/decrease_red.svg);
+            background-repeat: no-repeat;
+        }
+    }
+    .negativeAmount{
+        color: $app_red;
+        @media(max-width: 767px){
+            span{
+                display: block;
+            }
+        }
+    }
+    .unrealisedGainLossText{
+        @media(max-width: 767px){
+            max-width: 8rem;
+        }
+    }
+}

@@ -1,0 +1,153 @@
+@import '../../../../assets/css/variables.scss';
+.totalSpendingContainer{
+    .totalSpendingContent{
+        @media (min-width: 1200px){
+            max-width: 93rem;
+            margin-left: auto;
+            margin-right: auto;
+            padding-right: 0;
+            padding-left: 0;
+        }
+    }
+    :global(.dropdown.btn-group){
+        float: right;
+    }
+    padding-top: 4rem;
+    @media(max-width: 767px){
+        padding-top: 2rem;
+        padding-bottom: 2rem;
+    }
+    padding-bottom: 4rem;
+    background-color: $app_white;
+    text-align: center;
+    button{
+        background-color: transparent;
+        color: $app_grey3;
+        border: none;
+        cursor: pointer; 
+    }
+    hr{         
+        width: 100%;
+        left: 0;            
+        border-top: solid 0.1rem $slider-runnable-track-bg;
+        opacity: 0.2;
+    }
+    .totalSpendingHeader{
+        text-align: left;
+        h2{
+            font-size: 1.3rem;
+            font-weight: bold;
+            letter-spacing: 0.05rem;
+            color: $app_black;
+            margin-bottom: 5rem;
+            margin-right: 1.1rem;
+            display: inline-block;
+            text-transform: uppercase;
+            @media(max-width: 767px){
+                margin-bottom: 2rem;
+            }
+        }
+    }
+    .selectWrapper{
+        @media(min-width: 376px) and (max-width: 991px){
+            margin-right: 3rem;
+        }
+        margin-bottom: 2rem;
+        img{
+            margin-left:2rem;
+        }
+        ul{           
+            border-radius: 0.7rem;
+            background-color: $app_grey5;
+            box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.3);
+            max-height: 17.3rem;
+            overflow-y: auto;
+            top:0;
+            li {
+                a{
+                color:$app_white;
+                font-size: 1.6rem;
+                line-height: 1.9;
+                letter-spacing: 0.02rem;
+                    &:hover, &:focus {
+                    text-decoration: none;
+                    color: $app_gold;
+                    background-color: transparent;
+                    }
+                }
+            }
+        }   
+    }
+    @media(max-width: 767px){
+        display: flex;
+        flex-direction: column;
+        .totalSpendingHeader{
+            margin-left: 1.5rem;
+            margin-right: 1.5rem;
+            margin-bottom: 1.5rem;
+        }
+    }
+    .totalSpendingHeaderCenter{
+        text-align: center;
+        margin-left: 1.5rem;
+        margin-right: 1.5rem;
+        margin-bottom: 1.5rem;
+        h2{
+            font-size: 1.3rem;
+            font-weight: bold;
+            letter-spacing: 0.05rem;
+            color: $app_black;
+            margin-bottom: 5rem;
+            margin-right: 1.1rem;
+            display: inline-block;
+        }
+    }
+    :global(.btn-default){
+        background-color:none;
+        border-radius: 0.7rem;
+        border: solid 0.1rem $app_grey5;
+        vertical-align: middle;
+        color: $app_grey5;
+        font-size: 1.3rem;
+        font-weight: bold;
+        width: 100%;
+        img{
+            padding-left: 0.4rem;
+            padding-bottom: 0.4rem;
+
+        }
+    }
+    .goals_count_circle{
+        width: 2.7rem;
+        height: 2.7rem;
+        border-radius: 50%;
+        background-color: $app_green;
+        display: inline-block;
+        vertical-align: middle;
+        text-align: center;
+        padding: 0;
+        margin: 0;
+        span{
+            vertical-align: middle;
+            font-size: 1.2rem;
+            font-weight: 100;
+            color: $app_white;
+        }
+    }
+    :global(.form-control){
+        border-radius: 0.7rem;
+        background-color: $app_white;
+        box-shadow: 0 0 1rem 0 rgba(125, 125, 125, 0.15);
+        border: solid 0.1rem $app_grey2;
+        text-transform: capitalize;
+    }
+    select{
+        -webkit-appearance: none;
+        -moz-appearance: none;
+        appearance: none;
+        padding: 0.2rem 2rem 0.2rem 2rem;
+        border: none;
+        background: transparent url("../../../../assets/icons/open_dropdown.svg") no-repeat right center;
+        background-origin: content-box;
+    }
+}

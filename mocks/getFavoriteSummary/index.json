@@ -1,0 +1,62 @@
+{
+    "favInfo":{
+        "name": "My TNB",
+        "favoriteDetails":[
+	    	{
+	    		"label": "Payee",
+	    		"value": "Tenaga Nasional Behard"
+	    	},
+	    	{
+	    		"label": "Account Number",
+	    		"value": "1111 2222 3333"
+	    	}
+    	]
+    },
+    "regBillInfo":{
+        "name": "Tenaga Nasional Behard",
+        "regBillDetails":[
+	    	{
+	    		"label": "Account Holder",
+	    		"value": "Tenaga Nasional Behard"
+	    	},
+	    	{
+	    		"label": "IC Number",
+	    		"value": "810101146831"
+	    	}
+	    ]
+    },
+    "transferInfo":{
+        "name": "Azhar Razali",
+        "transferFavDetails":[
+	    	{
+	    		"label": "Reicipent's Name",
+	    		"value": "Mohd Norazhar bin Razali"
+	    	},
+	    	{
+	    		"label": "Reicipent's Bank",
+	    		"value": "CIMB Bank Berhad"
+	    	},
+	    	{
+	    		"label": "Account Number",
+	    		"value": "111122223333"
+	    	},
+	    	{
+	    		"label": "Transaction Type",
+	    		"value": "Fund Transfer"
+	    	}
+	    ]
+    },
+    "reloadInfo":{
+        "name": "Amit Kaushal",
+        "reloadFavDetails":[
+	    	{
+	    		"label": "Telco",
+	    		"value": "Digi"
+	    	},
+	    	{
+	    		"label": "Mobile Number",
+	    		"value": "010 4015830"
+	    	}
+	    ]
+    }
+}

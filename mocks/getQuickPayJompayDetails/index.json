@@ -1,0 +1,111 @@
+{
+  "tacRequired": true,
+  "currency": "RM",
+  "quickOption": "pay",
+  "akpkPaymentType": {
+    "displayName": "DMP Monthly Instalment",
+    "id": 123
+  },
+  "currentEffectiveDate": {
+    "display": "20 Dec, 2016",
+    "expected": "20161220"
+  },
+  "accounts": [
+    {
+      "name": "Wadiah Account",
+      "accountNumber": "3121 5454 4545 4645",
+      "availableBalance": 1454,
+      "displayNumber": "XXXX XXXX XXXX 4645",
+      "type": "casa"
+    },
+    {
+      "name": "Wadiah Account-i",
+      "accountNumber": "3121 5454 4545 4644",
+      "availableBalance": 1454,
+      "displayNumber": "XXXX XXXX XXXX 4644",
+      "type": "mfca"
+    },
+    {
+      "name": "Wadiah Account-i",
+      "accountNumber": "3121 5454 4545 4643",
+      "availableBalance": 1454,
+      "displayNumber": "XXXX XXXX XXXX 4643",
+      "type": "card"
+    }
+  ],
+  "transactionInfo": {
+    "name": "Celcom Abah",
+    "payee": "Celcom",
+    "accountNumber": "1234 3355 5488 5455",
+    "billUrl": "",
+    "billerCode": "8787",
+    "jompayRefList": [
+      12345678,
+      13456788
+    ],
+    "id": 12152155,
+    "billAmount": 235,
+    "zakat": false,
+    "lhdn": false,
+    "epf": false,
+    "akpk": false,
+    "mygst": false,
+    "notes":[
+      "Please key-in zero in your installment number if its not aplicable.",
+      "Please do not include the Tax Reference Prefix i,e (SG,OG,TP,F,J,C,CS,TA,TC)",
+      "You are advice to contact LHDN to finde out your payment code."
+    ],
+    "lhdnInfo":{
+        "paymentCode": {
+    			"displayName": "Code 1",
+    			"id": 115
+    		},
+    		"taxNumber": "123456788"
+    },
+    "zakatInfo": {
+      "type": {
+    		"type": "Zakat 1",
+    		"id": 1215
+    	},
+      "number": "221 54545 1212"
+    },
+    "epfInfo": {
+      "number": "21215",
+      "type": "",
+      "memberName": "",
+      "icNo": ""
+    },
+    "akpkInfo":{
+      "paymentType": "",
+      "mobileNumber": "",
+      "icNumber": ""
+    }
+  },
+  "epfAccountTypes": [
+		{
+			"displayName": "EPF 1",
+			"id": 5545
+		},{
+			"displayName": "EPF 2",
+			"id": 5546
+		}
+	],
+  "lhdnInfo": {
+		"paymentCode": [{
+			"displayName": "Code 1",
+			"id": 115
+		}, {
+			"displayName": "Code 2",
+			"id": 116
+		}],
+		"assessmentYears": [2016, 2015, 2014]
+	},
+  "zakatTypes": [{
+		"type": "Zakat 1",
+		"id": 1215
+	}, {
+		"type": "Zakat 2",
+		"id": 1215
+	}],
+  "isFavourite": false
+}

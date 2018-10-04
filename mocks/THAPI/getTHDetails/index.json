@@ -1,0 +1,43 @@
+{
+	"currency": "RM",
+	"date": {
+		"display": "20 Dec, 2016",
+		"expected": "20161220"
+	},
+	"accounts": [{
+		"name": "Wadiah Account",
+		"accountNumber": "3121 5454 4545 4645",
+		"availableBalance": 1454,
+		"displayNumber": "XXXX XXXX XXXX 4645",
+		"type": "casa"
+	}, {
+		"name": "Wadiah Account-i",
+		"accountNumber": "3121 5454 4545 4644",
+		"availableBalance": 1454,
+		"displayNumber": "XXXX XXXX XXXX 4644",
+		"type": "mfca"
+	}, {
+		"name": "Wadiah Account-i",
+		"accountNumber": "3121 5454 4545 4643",
+		"availableBalance": 1454,
+		"displayNumber": "XXXX XXXX XXXX 4643",
+		"type": "card"
+	}],
+	"recurringOptionsInMonths": [
+		1,
+		6,
+		12
+	],
+	"sampleBillUrl": "",
+	"linkedOwnTH": [
+		{
+			"name": "Amanah Saham 1Malaysia",
+			"payee": "Tabung Haji",
+			"accountNumber": "1122 2211 2121 1212"
+		}
+	],
+	"nextPage": true,
+	"previousPage": false,
+	"type": "own",
+	"currentPageNo": 1
+}

@@ -1,0 +1,18 @@
+{
+    "accountInfo":{
+        "name": "Emman Savings Account",
+        "number": "1111 2222 3333 4445",
+        "availableBalance": 51000
+    },
+    "requestTac":false,
+    "currency":"RM",
+    "totalAmount": 5190, 
+    "linkedAccount":{
+        "name":"My Indah Water",
+        "number":"1111 2222 3333"
+    },
+    "quickPayInfo": [{
+        "label":"Effective Date",
+        "value":"Today 21 October, 2016 "
+    }]
+}

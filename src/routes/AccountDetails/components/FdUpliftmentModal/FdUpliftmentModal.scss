@@ -1,0 +1,335 @@
+@import '../../../../assets/css/variables.scss';
+.container{
+    margin-left: -1.5rem;
+    :global(.modal-content){
+        width:50rem;
+        margin: auto;
+    }
+    :global(.dropdown) {
+        flex:1;
+    }
+    :global(.caret){
+        border:0;
+        position: absolute;
+        right: 1rem;
+        top: 50%;
+        transform: translateY(-50%);
+        background: url(../../../../assets/icons/open_dropdown.svg) center center no-repeat;
+        width: 0.6rem;
+        height: 1.2rem;
+        background-size:contain;
+    }
+    :global(.btn){
+        &.drop {
+            width: 100%;
+            text-align: left;
+            height: 4.5rem;
+            padding: 0 2rem;
+            background: $app_white;
+            border: 0.1rem solid $app_grey2;
+            border-radius: 0.7rem;
+            position: relative;
+        }
+    }
+    :global(.modal-header){
+        width: 100%;
+        height: 7.5rem;
+        border:none;
+        padding-left: 3.8rem;
+        padding-right: 3.8rem;
+        background-color: $body_bg;
+        text-transform: capitalize;
+        border-top-left-radius: 0.8rem;
+        border-top-right-radius: 0.8rem;
+        border-bottom: solid 0.2rem $app_gold;
+        h6{
+            color: $btn-default-white_text_color;
+            font-size: 1.6rem;
+            line-height: 1;
+            letter-spacing: 0.01rem;
+            text-transform: capitalize;
+            padding-top: 0.7rem;
+        }
+        .close {
+            background: url(../../../../assets/icons/close_white.svg) center center no-repeat ;
+            background-size: contain;
+            width: 1.7rem;
+            height: 1.7rem;
+            position: absolute;
+            right: 3.5rem;
+            top: 3rem;
+            cursor: pointer;
+        }
+    }
+    :global(.btn-group){
+        width: 100%;
+        button{
+            width: 100%;
+            text-align: left;
+            padding-left: 1.5rem;
+            height: 4.5rem;
+            background-color: $app_white;
+            border: solid 0.1rem $app_grey2;
+            img{
+                top: 2rem;
+                right: 0;
+                position: absolute;
+                margin-right: 1.5rem;
+            }
+        }
+    }
+    .accountDropdown{
+        .accountNumber{
+            float: right;
+        }
+        @media(min-width: 992px){
+            :global(.dropdown-menu){
+                    width: 45.6rem;
+                    left: -22rem;
+                }
+        }
+        @media(max-width: 991px){
+            :global(.dropdown-menu){
+                    width: 45.6rem;
+                    left: -3rem;
+                }
+        }
+    }
+    :global(.dropdown-menu){
+        width: 100%;
+    }
+    .selectWrapper{
+        ul{           
+            border-radius: 0.7rem;
+            background-color: $app_grey5;
+            box-shadow: 0 0 1rem 0 rgba(0, 0, 0, 0.3);
+            max-height: 17.3rem;
+            overflow-y: auto;
+            top:0;
+            li {
+                a{
+                color:$app_white;
+                font-size: 1.6rem;
+                line-height: 1.9;
+                letter-spacing: 0.02rem;
+                    &:hover, &:focus {
+                    text-decoration: none;
+                    color: $app_gold;
+                    background-color: transparent;
+                    }
+                }
+            }
+        }   
+    }
+    @media (max-width: 767px) {
+        padding-left: 0;
+        :global(.modal-dialog){
+            width: 100%;
+            top: 0;
+            height: 100%;
+            margin: 0;
+            z-index: 9999;
+        }
+        :global(.modal-header){
+            -webkit-border-radius: 0rem;
+            -moz-border-radius: 0rem;
+            border-radius: 0rem;
+        }   
+        :global(.modal-body){
+            button{
+                background-color: transparent;
+                color: $btn-default-white_text_color;
+            }
+            p{
+                font-size: 1.6rem;
+                line-height: 1.4;
+                letter-spacing: -0.03rem;
+            }       
+        }
+        :global(.modal-content){
+            width: 100%;
+            -webkit-border-radius: 0rem;
+            -moz-border-radius: 0rem;
+            border-radius: 0rem;
+        }
+        :global(.btn){
+            margin-bottom: 1.5rem;
+        }
+    }
+    .termsContainer{
+        padding-top: 1.2rem;
+        padding-bottom: 1.2rem;
+        padding-left: 3.8rem;
+        padding-right: 3.8rem;
+        background-color: $app_grey1;
+        .terms{
+            font-size: 1.2rem;
+            color: $app_grey4;
+            text-align: left;
+        }
+    }
+    .greybg{
+        background: $app_ash;
+        padding: 1.5rem 3.5rem 0.6rem 3.5rem;
+    }
+    .whitebg{
+        background: $app_white;
+        border-bottom-left-radius: 1rem;
+        border-bottom-right-radius: 1rem;
+        padding: 1.5rem 3.5rem 3rem 3.5rem;
+    }
+    .whitebgMiddle{
+        background: $app_white;
+        padding: 1.5rem 3.5rem 0.6rem 3.5rem;
+    }
+    :global(.modal-content) {
+        background: none;
+    }
+    :global(.modal-body){
+        padding: 0;
+    }
+    :global(label) {
+        color: $app_grey5;
+        font-size: 1.6rem;
+        font-weight: normal;
+        margin-top: 1.1rem;
+    }
+    .help {
+        background: url(../../../../assets/icons/tooltip.svg) center center no-repeat ;
+        height: 1.8rem;
+        width: 1.8rem;
+        background-size: contain;
+        position: absolute;
+        top: 50%;
+        transform: translateY(-50%);
+        left: -3rem;
+    }
+    .amount-wrapper {
+        flex:1;
+        position: relative;
+    }
+    .amount-currency {
+        position: absolute;
+        display: inline-block;
+        top:50%;
+        left: 2rem;
+        transform: translate(0,-50%);
+        margin: auto 0; 
+    }
+    .account-number{
+        padding-left: 2rem;
+        background: none;
+        width: 100%;
+    }
+    .pay-btn {
+        background: $app_green;
+        color: $app_white;
+        width: 11.2rem;
+        height: 4.5rem;
+        line-height: 4.5rem;
+        display: inline-block;
+    }
+    .pay-btn-text{
+        display: inline-block;
+        vertical-align: middle;
+        margin-right: 2rem;
+    }
+    .pay-btn-icon {
+        background: url(../../../../assets/icons/transaction_white.svg) center center no-repeat ;
+        background-size: contain;
+        width: 1.3rem;
+        height: 1.8rem;
+        display: inline-block;
+        vertical-align: middle;
+    }
+    :global(.btn){
+        padding: 0;
+    }
+    .effective-date {
+        flex:1;
+        height: 4.5rem;
+        line-height: 4.5rem;
+        border: 0.1rem solid $app_grey2;
+        border-radius: 0.7rem;
+    }
+    .referance {
+        flex:1;
+        height: 4.5rem;
+        line-height: 4.5rem;
+        border: 0.1rem solid $app_grey2;
+        border-radius: 0.7rem;
+    }
+    .right {
+        margin-top: 3rem;
+        text-align: right;
+    }
+    .seperator {
+        margin-bottom: 1rem;
+    }
+    input[type="text"] {
+        background: $app_white;
+        border: 0.1rem solid $app_grey2;
+        border-radius: 0.7rem;
+        height: 4.5rem;
+        line-height: 4.5rem;
+        flex:1;
+        display:inline-block;
+        vertical-align: middle;
+        width: 100%;
+        height: 4.5rem;
+    }
+    input[type="text"]:disabled {
+        background:$app_ash;
+    }
+    :global(.modal-footer){
+        padding-left: 3.8rem;
+        padding-right: 3.8rem;
+        background-color: $app_white;
+        border-bottom-left-radius: 0.8rem;
+        border-bottom-right-radius: 0.8rem;
+        text-align: left;
+        label{
+            font-size: 1.4rem;
+            color: $app_grey5;
+            font-weight: normal;
+            padding-top: 1rem;
+            padding-bottom: 1rem;
+            text-align: left;
+        }
+        :global(.btn){
+            font-size: 1.3rem;
+            width: 100%;
+            height: 4.5rem;
+            padding: 0;
+            border-radius: 0.7rem;
+            font-size: 1.3rem;
+            font-weight: bold;
+            img{
+                margin-left: 2.1rem;
+            }
+        }
+        .btn-wrapper{
+            padding-top: 0rem;
+        }
+        :global(.btn-success){  
+            width: 100%;
+            border: none;
+        }
+        .input-wrapper {
+            display: block;
+            margin-bottom: 1rem;
+        }
+    }
+    .commonInput{      
+        padding-left: 1.4rem;
+        padding-right: 1.4rem;
+    }
+    .amountInput{      
+        padding-left: 4rem;
+    }
+    .inputCurrency{
+        position: absolute;
+        left: 3rem;
+        top: 1.25rem;
+    }
+}

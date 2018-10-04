@@ -1,0 +1,179 @@
+@import '../../assets/css/variables.scss';
+.container{
+    z-index: 9995;
+    @media (min-width: 768px) {
+        :global(.modal-dialog){
+            width: 67rem;
+            top:7rem;
+            height: inherit;
+            margin: auto;
+        }
+        :global(.modal-content){
+            width: 42rem;
+            padding-bottom: 3rem;
+            border-radius: 0.8rem;
+            padding: 0;
+        }
+        :global(.modal-body){
+            height: 100%;
+        }
+    }
+    @media (max-width: 767px) {
+        padding-left: 0;
+        :global(.modal-dialog){
+            width: 100%;
+            top: 0;
+            height: 100%;
+            margin: 0;
+            z-index: 9995;
+        }
+        :global(.modal-header){
+            -webkit-border-radius: 0rem;
+            -moz-border-radius: 0rem;
+            border-radius: 0rem;
+        }   
+        :global(.modal-body){
+            button{
+                background-color: transparent;
+                color: $btn-default-white_text_color;
+            }
+            p{
+                font-size: 1.6rem;
+                line-height: 1.4;
+                letter-spacing: -0.03rem;
+            }       
+        }
+        :global(.modal-content){
+            width: 100%;
+            -webkit-border-radius: 0;
+            -moz-border-radius: 0;
+            border-radius: 0;
+        }
+        :global(.btn){
+            margin-bottom: 1.5rem;
+            width: 20rem;
+        }
+    }
+    :global(.modal-header){
+        width: 100%;
+        height: 7.5rem;
+        border:none;
+        padding-left: 3.8rem;
+        padding-right: 3.8rem;
+        background-color: $body_bg;
+        text-transform: capitalize;
+        border-top-left-radius: 0.8rem;
+        border-top-right-radius: 0.8rem;
+        h6{
+            color: $btn-default-white_text_color;
+            font-size: 1.6rem;
+            line-height: 1;
+            letter-spacing: 0.01rem;
+            text-transform: capitalize;
+            padding-top: 0.7rem;
+        }
+        .close {
+            background: url(../../assets/icons/close_white.svg) center center no-repeat ;
+            background-size: contain;
+            width: 1.7rem;
+            height: 1.7rem;
+            position: absolute;
+            right: 3.5rem;
+            top: 3rem;
+            cursor: pointer;
+        }
+    }
+    :global(.modal-body){
+        padding:0;
+        background-color: $app_ash;
+        margin: 0;
+        h1{
+            padding-top:0;
+            padding-bottom: 2.1rem;
+        }
+    }
+    :global(.modal-content){
+        margin: auto;
+    }
+    :global(.modal-footer){
+        padding-left: 3.8rem;
+        padding-right: 3.8rem;
+        padding-bottom: 2rem;
+        text-align: left;
+        label{
+            font-size: 1.4rem;
+            color: $app_grey5;
+            font-weight: normal;
+            padding-top: 1rem;
+            padding-bottom: 1rem;
+            text-align: left;
+        }
+        :global(.btn){
+            font-size: 1.3rem;
+            height: 4.5rem;
+            padding: 0;
+            border-radius: 0.7rem;
+            font-size: 1.3rem;
+            font-weight: 500;
+            width:15rem;
+        }
+        .btn-wrapper{
+            padding-top: 0rem;
+        }
+        :global(.btn-success){  
+            border: none;
+        }
+    }
+    :global(.close){
+        margin-top: 0;
+        margin-left: 3rem;
+        font-size: 3.4rem;
+        opacity: 5;
+        text-shadow: 0 0 0 $btn-default-white_text_color;
+        span{
+            vertical-align: middle;
+            &:hover{
+                cursor: pointer;
+            }
+        }
+
+    }
+    :global(.btn){
+        font-size: 1.3rem;
+        width: 20rem;
+        height: 4.5rem;
+        padding: 0;
+        border-radius: 0.7rem;
+        font-size: 1.3rem;
+        font-weight: bold;
+        text-transform: uppercase;
+    }
+    :global(.btn-success){  
+        border: none;
+        img{
+            margin-left: 1rem;
+        }
+    }
+    .btnContainer{
+        display: flex;
+        justify-content:center;
+    }
+    .bodyText{
+        text-align: center;
+        font-size:1.9rem;
+        font-weight: 500;
+    }
+    h6{
+        text-transform: capitalize;
+    }
+    .whiteBg{
+        padding-top: 1.2rem;
+        padding-bottom: 1.2rem;
+        padding-left: 3.8rem;
+        padding-right: 3.8rem;
+        background-color: $app_white;
+        label{
+            margin-top: 1.5rem;
+        }
+    }
+}

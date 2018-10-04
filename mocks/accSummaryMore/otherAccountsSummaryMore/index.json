@@ -1,0 +1,154 @@
+{
+	"retrievalReference":{
+		"others":"000000000000000000000000"
+	},
+	"dashboardType":"casa",
+    "otherAccountsSummary":[
+        {
+        "idx":"7",
+        "code":"03",
+        "type":"S",
+        "longName":"Wadiah Savings Account",
+        "shortName":"WSA",
+        "displayNumber":"1111 2222 3333 4444",
+        "imgAccessUrl":null,
+        "status":"true",
+        "statusMessage":"",
+        "pageData": 
+        {
+            "lastUpdated": "30 January 2016, 06:00am",
+            "amountConsumed":
+                {
+                    "label":null,
+                    "indicator":"+",
+                    "value":null,
+                    "currency":"RM"
+                },
+            "maxLimit":
+                {
+                    "label":null,
+                    "indicator":"+",
+                    "value":null,
+                    "currency":"RM"
+                },
+            "primaryBalance":
+                {
+                    "label":null,
+                    "indicator":"+",
+                    "value":"2001.00",
+                    "currency":"RM"
+                },
+            "secondaryBalance":null,          
+            "availableBalance":
+                {
+                    "label":"Available Balance",
+                    "indicator":"+",
+                    "value":"2001.00",
+                    "currency":"RM"
+                },
+            "moneyIn":
+                {
+                    "label":"MONEY IN",
+                    "indicator":"-",
+                    "value":"4000",
+                    "currency":"RM"
+                },
+            "moneyOut":
+                {
+                    "label":"MONEY OUT",
+                    "indicator":"-",
+                    "value":"30404",
+                    "currency":"RM"
+                }
+        },
+        "panelData":null,
+        "transactionTypes":[
+            "debitCard",
+            "m2uPay",
+            "m2uTransaction"
+        ]
+    },{
+        "idx":"8",
+        "code":"03",
+        "type":"S",
+        "longName":"Maybank2u Current Account",
+        "shortName":"MCA",
+        "displayNumber":"1111 2222 3333 4444",
+        "imgAccessUrl":null,
+        "status":"true",
+        "statusMessage":"",
+        "pageData": 
+        {
+            "lastUpdated": "30 January 2016, 06:00am",
+            "amountConsumed":
+                {
+                    "label":null,
+                    "indicator":"+",
+                    "value":null,
+                    "currency":"RM"
+                },
+            "maxLimit":
+                {
+                    "label":null,
+                    "indicator":"+",
+                    "value":null,
+                    "currency":"RM"
+                },
+            "primaryBalance":
+                {
+                    "label":null,
+                    "indicator":"+",
+                    "value":"2001.00",
+                    "currency":"RM"
+                },
+            "secondaryBalance":null,          
+            "availableBalance":
+                {
+                    "label":"Available Balance",
+                    "indicator":"+",
+                    "value":"2001.00",
+                    "currency":"RM"
+                },
+            "moneyIn":
+                {
+                    "label":"MONEY IN",
+                    "indicator":"-",
+                    "value":"4000",
+                    "currency":"RM"
+                },
+            "moneyOut":
+                {
+                    "label":"MONEY OUT",
+                    "indicator":"-",
+                    "value":"30404",
+                    "currency":"RM"
+                }
+        },
+        "panelData":[
+            {
+                "label":"One Day Float",
+                "indicator":"+",
+                "value":"2001.00",
+                "currency":"RM"
+            },
+            {
+                "label":"Two Days Float",
+                "indicator":"+",
+                "value":"300.00",
+                "currency":"RM"
+            },
+            {
+                "label":"Authorized Limit",
+                "indicator":"+",
+                "value":"10001.00",
+                "currency":"RM"
+            }
+
+        ],
+        "transactionTypes":[
+            "debitCard",
+            "m2uPay",
+            "m2uTransaction"
+        ]
+    }]
+}

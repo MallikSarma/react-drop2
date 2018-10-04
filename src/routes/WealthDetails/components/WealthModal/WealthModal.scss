@@ -1,0 +1,429 @@
+@import '../../../../assets/css/variables.scss';
+.container{
+    .goals{
+        display: flex;
+        justify-content: space-around;
+        position: relative;
+        a{
+            position: absolute;
+            margin-top: 12%;
+            @media(max-width: 991px){
+                margin-top: 16%;
+            }
+            cursor: pointer;
+            &.next_arrow{
+                right: 1.5rem;
+            }
+            &.back_arrow{
+                left: 1.5rem;
+                -webkit-transform: rotate(180deg);
+                -moz-transform: rotate(180deg);
+                -o-transform: rotate(180deg);
+                -ms-transform: rotate(180deg);
+                transform: rotate(180deg);
+            }
+            img{
+                width: 0.89rem;
+            }
+        }
+    }
+    @media (min-width: 768px) {
+        :global(.modal-dialog){
+            top:7rem;
+            height: inherit;
+            margin: auto;
+            width: 55rem;
+        }
+        :global(.modal-content) {
+            background: none;
+        }
+        :global(.modal-body){
+            padding-bottom: 2.5rem;
+            padding-top: 2.91rem;
+            padding-left: 13.4rem;
+            padding-right: 13.4rem;
+            border-bottom-left-radius: 0rem;
+            border-bottom-right-radius: 0rem;
+        }
+        :global(.modal-header) {
+            border-top-right-radius: 1rem;
+            border-top-left-radius: 1rem; 
+        }
+        .panelText{
+            display: flex;
+        } 
+        .whitebg{
+            :global(.modal-footer){
+                border-bottom-left-radius: 1rem;
+                border-bottom-right-radius: 1rem;
+            }
+        }
+        .topButton{
+            button{
+                width: 100%;
+            }
+        }
+        .panelCenter{
+            position:relative;
+            left: 25%;
+        }
+        .dropdownHolder{
+            padding-left:0;
+        } 
+    }
+    @media (max-width: 767px) {
+        :global(.modal-dialog){
+            width: 100%;
+            top: 0;
+            height: 100%;
+            margin: auto;
+            z-index: 9999;
+        }
+        :global(.modal-content){
+            width: 100%;
+            min-height: 100%;
+        }
+        :global(.modal-body){
+            margin-left: -1.5rem;
+            margin-right: -1.5rem;
+        }
+        :global(.modal-header){
+            border-radius: 0;
+        }
+        .termsDiv{
+                position: relative;
+                top: .5rem;
+        }
+        :global(.termsDiv){
+                position: relative;
+                top: .5rem;
+        }
+        .panelText{
+            display: flex;
+        }     
+        .whitebg{
+            :global(.modal-footer){
+                border-bottom-left-radius: 1rem;
+                border-bottom-right-radius: 1rem;
+            }
+        }
+        .topButton{
+            button{
+                width: 100%;
+            }
+        }
+        .panelCenter{
+            position:relative;
+            left: 25%;
+        }
+        .dropdownHolder{
+            padding-left:auto;
+        }
+        .bodySubHeader{
+        margin-left: 1.5rem;
+        }
+        .inputPair{
+            margin-left: .1rem;
+            margin-right: .1rem;
+        }
+    }
+    label{
+        font-weight: normal;
+    }
+    .error{
+        border: 0.2rem solid $app_red;
+        &:focus{
+            box-shadow: 0 none;
+            outline: 0 none;
+        }
+    }
+    .flexWrapper{
+        display: flex;
+        padding-top: 0.5rem;
+        &:hover{
+            cursor: pointer;
+        }
+    }
+    .radioButton{
+        width: 2.5rem;
+        height: 2.5rem;
+        cursor: pointer;
+        img{
+            width: 100%;
+            height: 100%;
+            cursor: pointer;
+        }
+        &:hover{
+            cursor: pointer;
+        }
+    }
+    :global(.panel-body){
+        padding: 0;
+        padding-left: .8rem;
+    }
+    :global(.modal-footer){
+        .whitebg{
+            border-bottom-left-radius: 1rem;
+            border-bottom-right-radius: 1rem;
+        }
+    }
+    .currentAmountTitle{
+        font-size: 1.5rem;
+    }
+    .bodySubHeader{
+        font-size: 1.2rem;
+        font-weight: bold;
+        font-family: lato;
+        width: 100%;
+        padding-bottom: 2rem;
+    }
+    .panelTop{
+        border-bottom-left-radius: 0rem;
+        border-bottom-right-radius: 0rem;
+        border-color: $app_grey5;
+        background-color: $app_grey5;
+        label:nth-child(1){
+            color: $app_white;
+            font-size: 1rem;
+            font-weight: bold;
+        }
+        label:nth-child(2){
+            color: $app_grey3;
+            font-size: 1rem;
+            margin-bottom: .5rem;
+            font-weight: bold;
+        }
+    }
+    :global(.topLabelLast){
+        padding-right: 5rem;
+    }
+    .panelDown{
+        position: relative;
+        top: -1.9rem;
+        border-top-left-radius: 0rem;
+        border-top-right-radius: 0rem;
+        border-top: none;
+        border-color: $app_gold;
+        background-color: $app_gold;
+        label{
+            font-size: 1.2rem;
+        }
+    }
+    .termsContainer{
+        padding: 1rem;
+        margin-left: .5rem;
+        span{
+            letter-spacing: 0.02rem;
+            margin-left: 1rem;
+            &:nth-child(1){
+                margin-left: 0;
+                font-weight: bold;
+            }
+            .lastSpan{
+                margin-left: 0;
+                font-weight: bold;
+            }
+        }
+    }
+    :global(.modal-header){
+        width: 100%;
+        height: 7.5rem;
+        border:none;
+        padding-left: 3.8rem;
+        padding-right: 3.8rem;
+        background-color: $body_bg;
+        text-transform: capitalize;
+        border-top-left-radius: 0.8rem;
+        border-top-right-radius: 0.8rem;
+        h6{
+            color: $btn-default-white_text_color;
+            font-size: 1.7rem;
+            line-height: 1;
+            letter-spacing: 0.01rem;
+            text-transform: capitalize;
+        }
+    }
+     :global(.modal-body){
+        padding: 0;
+        border-bottom-left-radius: 0rem;
+        border-bottom-right-radius: 0rem;
+    }
+    :global(.modal-footer){
+        padding:0;
+        border-bottom-left-radius: 1rem;
+        border-bottom-right-radius: 1rem;
+        img{
+            margin-left : 1rem;
+        }
+    }
+    .firstSubhHeader{
+        margin-left: 0.2rem;
+    } 
+    .topButton{
+        margin-top: -2rem;
+        margin-bottom: 1.6rem;
+        .btn-default-white{
+            background-color: transparent;
+            border-radius: 0.7rem;
+            border: solid 0.1rem $app_grey4;
+            font-size: 1.3rem;
+            font-weight: bold;
+            text-align: center;
+            &:hover{
+                background-color: $app_gold;
+                color: $app_black;
+            }
+            img{
+                position:relative;
+                left: .5rem;
+            }
+        }
+    }
+    .lightgreybg{
+        background: $app_grey1;
+        padding: 0.5rem 3.5rem 0.5rem 3.5rem;
+    }
+    .greybg{
+        background: $app_ash;
+        padding: 0.5rem 3.5rem 0.5rem 3.5rem;
+    }
+    .whitebgNoRadius{
+        background: $app_white;
+        padding: 0.5rem 3.5rem 0.5rem 3.5rem;
+    }
+    .whitebg{
+        background: $app_white;
+        padding: 0.5rem 3.5rem 0.5rem 3.5rem;
+    }
+    .whitebgMiddle{
+        background: $app_white;
+        padding: 0.5rem 3.5rem 0.5rem 3.5rem;
+    }
+    .title {
+        height: 7.5rem;
+        line-height: 7.5rem;
+        font-size: 1.6rem;
+        text-transform: capitalize;
+    }
+    .titleRight {
+        margin-left: 0.5rem;
+    }
+    label{
+        @media(min-width: 992px){
+            width: 17rem;
+        }
+        display: inline-block;
+        font-size: 1.6rem;
+        vertical-align: middle;
+        margin-bottom: 0;
+        height: 100%;
+        padding-top: 1rem;
+        line-height: 2rem;
+        text-transform: capitalize;
+    }
+    .close {
+        background: url(../../../../assets/icons/close_white.svg) center center no-repeat ;
+        background-size: contain;
+        width: 1.7rem;
+        height: 1.7rem;
+        position: absolute;
+        right: 3.5rem;
+        top: 3rem;
+        cursor: pointer;
+    }
+    .date{
+        color: $app_grey4;
+    }
+    .wrapper {
+        flex:1;
+        position: relative;
+        .inputCurrency{
+            position: absolute;
+            left: 2rem;
+            top: 1.2rem;
+        }
+    }
+    .day{
+        font-weight: bold;
+        margin-right: 0.5rem;
+        padding-left:2rem;
+    }
+    .pay-amount{
+        padding-left: 5rem;
+        width: 100%;
+    }
+    .amount-wrapper {
+        flex:1;
+        position: absolute;
+    }
+    .amount-currency {
+        position: absolute;
+        display: inline-block;
+        top:50%;
+        left: 2rem;
+        transform: translate(0,-50%);
+        margin: auto 0; 
+    }
+    .account-number{
+        padding-left: 2rem;
+        width: 100%;
+    }
+    .input-with-lable{
+        padding-left: 5rem;
+        width: 100%;  
+    }
+    .inputCurrency{
+        position: absolute;
+        top: 1.3rem;
+        left: 3.5rem;
+        font-weight: 600;
+    }
+    .inputPair{
+        :global(.col-md-4){
+            padding-right:0;
+            display: flex;
+        }
+        label{
+            font-size: 1.5rem;
+        }
+        .topButton{
+            margin-top: 0;
+            float: right;
+        }
+        input{
+            border: 0.1rem solid $app_grey2;
+            border-radius: 0.7rem;
+            height: 4.5rem;
+            line-height: 4.5rem;
+        }
+    }
+}
+.containerClass{
+    background-color: $app_white;
+    width: 100%;
+    margin-bottom: 1rem;
+    border-radius: 0.8rem;
+    .selectedItem{
+        span:nth-child(2){
+            float:right;
+            right: 3rem;
+            position: absolute;
+            -webkit-justify-content: space-around; /* Safari 6.1+ */
+            justify-content: space-around;
+        }
+    }
+    :global(.dropdown){
+        height:4.5rem;
+        width:100%;
+        border: 0.1rem solid $app_grey2;
+        border-radius: 0.7rem;
+        button{
+            width: 100%;
+            display: flex;
+            border:none;
+        }
+        ul{
+            width:100%;
+        }
+    }
+}

@@ -1,0 +1,36 @@
+@import '../../../assets/css/variables.scss';
+html,body{
+    overflow: auto;
+}
+.inboxContainer{
+    min-height: 100%;
+    display: flex;
+    background: $app_ash;
+    @media(max-width: 991px){
+        &.mobileRTL{
+            direction: rtl;
+            :global(.side_bar_container){
+                direction:ltr;
+                min-width:100%;
+            }
+        }
+    }
+    .summarySection{
+        width: 100%;  
+    }
+    :global(.notification.notification-visible){
+        min-height: 9rem;
+        margin: 2rem;
+    }
+}
+.container{
+    width: 100%;
+    overflow: hidden;
+    @media(max-width: 991px){
+        direction:ltr;
+        min-width: 100%;
+    }
+    :global(.put-in-modal){
+        right:0;
+    }
+}

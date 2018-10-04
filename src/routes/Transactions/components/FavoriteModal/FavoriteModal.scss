@@ -1,0 +1,393 @@
+@import '../../../../assets/css/variables.scss';
+.container{
+    .error{
+        border: 0.2rem solid $app_red;
+        &:focus{
+            box-shadow: 0 none;
+            outline: 0 none;
+        }
+    }
+    .billRegisterContainer{
+        padding-top: 1.2rem;
+        padding-bottom: 1.2rem;
+        padding-left: 3.8rem;
+        padding-right: 3.8rem;
+        background-color: $app_grey1;
+    }
+    .billLabel{
+        padding-top:0;
+        padding-left: 1.5rem;
+        &:hover{
+            cursor: pointer;
+        }
+    }
+    .flexWrapper{
+        display: flex;
+        padding-top: 2rem;
+    }
+    .radioButton{
+        width: 2.5rem;
+        height: 2.5rem;
+        cursor: pointer;
+        img{
+            width: 100%;
+            height: 100%;
+            cursor: pointer;
+        }
+        &:hover{
+            cursor: pointer;
+        }
+    }
+    .left{
+        text-align: left;
+        padding-left: 1rem;
+        font-size: 1.2rem;
+    }
+    .termsLeft{
+        padding-top: 0.5rem;
+        padding-left:0.5rem;
+    }
+    .terms{
+        font-weight: 600;
+        padding-top: 0.5rem;
+        padding-left:1rem;
+        padding-right: 0;
+    }
+    @media (min-width: 768px) {
+        :global(.modal-dialog){
+            top:7rem;
+            height: inherit;
+            margin: auto;
+            margin-bottom:10rem;
+            width:55rem;
+        }
+        :global(.modal-content) {
+            background: none; 
+        }
+        :global(.modal-body){
+            padding-bottom: 2.5rem;
+            padding-top: 2.91rem;
+            padding-left: 13.4rem;
+            padding-right: 13.4rem;
+        }
+        :global(.modal-header) {
+            border-top-right-radius: 1rem;
+            border-top-left-radius: 1rem; 
+        }
+        .whitebg{
+            border-bottom-left-radius: 1rem;
+            border-bottom-right-radius: 1rem;
+        }
+        .dropdownHolder{
+            padding-left:0;
+        } 
+    }
+    @media (max-width: 767px) {
+        padding-left: 0;
+        :global(.modal-dialog){
+            width: 100%;
+            min-height: 100%;
+            top: 0;
+            margin: auto;
+            z-index: 9999;
+        }
+        :global(.modal-content){
+            width: 100%;
+            min-height: 100%;
+            position: absolute;
+            background: $app_white;
+            border-radius: 0;
+        }
+        :global(.modal-header){
+            border-radius: 0;
+        }
+        .dropdownHolder{
+            padding-left:auto;
+        }
+    }
+    :global(.dropdown) {
+        flex:1;
+    }
+    :global(.caret){
+        border:0;
+        position: absolute;
+        right: 1rem;
+        top: 50%;
+        transform: translateY(-50%);
+        background: url(../../../../assets/icons/open_dropdown.svg) center center no-repeat;
+        width: 0.6rem;
+        height: 1.2rem;
+        background-size:contain;
+    }
+    :global(.btn){
+        padding: 0;
+        &.drop {
+            width: 100%;
+            text-align: left;
+            height: 4.5rem;
+            padding: 0 2rem;
+            background: $app_white;
+            border: 0.1rem solid $app_grey2;
+            border-radius: 0.7rem;
+            position: relative;
+        }
+    }
+    .lightgreybg{
+        background: $app_grey1;
+        padding: 0.5rem 3.5rem 0.5rem 3.5rem;
+    }
+    .greybg{
+        background: $app_ash;
+        padding: 1.5rem 3.5rem 3rem 3.5rem;
+    }
+    .whitebg{
+        background: $app_white;
+        padding: 1.5rem 3.5rem 2rem 3.5rem;
+    }
+    .whitebgMiddle{
+        background: $app_white;
+        padding: 1.5rem 3.5rem 3rem 3.5rem;
+    }
+    :global(.modal-header) {
+        background: $body_bg;
+        color: $app_white;
+        border-bottom: solid 0.2rem $app_gold;
+        position: relative;
+        padding: 0;
+    }
+    .title {
+        height: 7.5rem;
+        line-height: 7.5rem;
+        padding-left: 3.5rem;
+        font-size: 1.6rem;
+        text-transform: capitalize;
+    }
+    :global(.modal-body){
+        padding: 0;
+        :global(.btn-group){
+            width: 100%;
+            button{
+                width: 100%;
+                text-align: left;
+                padding-left: 1.5rem;
+                height: 4.5rem;
+                background-color: $app_white;
+                border: solid 0.1rem $app_grey2;
+                img{
+                    top: 2rem;
+                    right: 0;
+                    position: absolute;
+                    margin-right: 1.5rem;
+                }
+            }
+        }
+        .selectWrapper{
+            margin-bottom: 0rem;
+            ul{           
+                border-radius: 0.7rem;
+                background-color: $app_grey5;
+                box-shadow: 0 0 1rem 0 rgba(0, 0, 0, 0.3);
+                overflow: auto;
+                top:0;
+                width: 100%;
+                li {
+                    a{
+                    color:$app_white;
+                    font-size: 1.6rem;
+                    line-height: 1.9;
+                    letter-spacing: 0.02rem;
+                        &:hover, &:focus {
+                        text-decoration: none;
+                        color: $app_gold;
+                        background-color: transparent;
+                        }
+                    }
+                }
+            }   
+        }
+    }
+    :global(label) {
+        width: 17rem;
+        display: inline-block;
+        font-size: 1.6rem;
+        vertical-align: middle;
+        margin-bottom: 0;
+        height: 4.5rem;
+        text-transform: capitalize;
+        padding-top: 1rem;
+        span{
+            padding-top: 0;
+            img{
+                padding-right: 1rem;
+            }
+        } 
+    }
+    .tightLines{
+        &.breakLines{
+            white-space:pre-line;
+            line-height: 2rem;
+        }
+        &.noBreakLines{
+            line-height: 4.5rem;
+        }
+    }
+    .close {
+        background: url(../../../../assets/icons/close_white.svg) center center no-repeat ;
+        background-size: contain;
+        width: 1.7rem;
+        height: 1.7rem;
+        position: absolute;
+        right: 3.5rem;
+        top: 3rem;
+        cursor: pointer;
+    }
+    .date{
+        color: $app_grey4;
+    }
+    .wrapper {
+        flex:1;
+        position: relative;
+    }
+    .day{
+        font-weight: bold;
+        margin-right: 0.5rem;
+        padding-left:2rem;
+    }
+    .pay-amount{
+        padding-left: 5rem;
+        width: 100%;
+    }
+    .help {
+        background: url(../../../../assets/icons/tooltip.svg) center center no-repeat ;
+        height: 1.8rem;
+        width: 1.8rem;
+        background-size: contain;
+        position: absolute;
+        top: 50%;
+        transform: translateY(-50%);
+        left: -3rem;
+    }
+    .amount-wrapper {
+        flex:1;
+        position: relative;
+    }
+    .amount-currency {
+        position: absolute;
+        display: inline-block;
+        top:50%;
+        left: 2rem;
+        transform: translate(0,-50%);
+        margin: auto 0; 
+    }
+    .account-number{
+        padding-left: 2rem;
+        width: 100%;
+    }
+    .payment-type{
+        background-color: transparent;
+        padding-left: 2rem;
+        width: 100%;
+    }
+    .pay-btn {
+        background: $app_green;
+        color: $app_white;
+        padding: 0 2rem;
+        height: 4.5rem;
+        line-height: 4.5rem;
+        display: inline-block;
+    }
+    .pay-btn-text{
+        display: inline-block;
+        vertical-align: middle;
+        margin-right: 2rem;
+    }
+    .pay-btn-icon {
+        background: url(../../../../assets/icons/transaction_white.svg) center center no-repeat ;
+        background-size: contain;
+        width: 1.3rem;
+        height: 1.8rem;
+        display: inline-block;
+        vertical-align: middle;
+    }
+    .effective-date {
+        position: relative;
+        flex:1;
+        height: 4.5rem;
+        line-height: 4.5rem;
+        display: flex;
+        justify-content: space-between;
+        :global(.input-group) {
+            height:100%;
+            display:inline-block;
+            :global(.input-group-addon) {
+                visibility: hidden;
+            } 
+            :global(.form-control) {
+                width: 100%;        
+                border: 0.1rem solid $app_grey2;
+                border-radius: 0.7rem;
+            }
+        }
+        img {
+            position: absolute;
+            z-index: 5;
+            right: 0;
+            margin-right: 1rem;
+            margin-top: 1.4rem;
+        }
+    }
+    .referance {
+        flex:1;
+        height: 4.5rem;
+        line-height: 4.5rem;
+        border: 0.1rem solid $app_grey2;
+        border-radius: 0.7rem;
+    }
+    .recipientReferance{
+        background: $app_white;
+        flex:1;
+        height: 4.5rem;
+        line-height: 4.5rem;
+        border: 0.1rem solid $app_grey2;
+        border-radius: 0.7rem;
+    }
+    .right {
+        margin-top: 2rem;
+        text-align: right;
+    }
+    .inputPair{
+        padding: 0.5rem 1rem 0.5rem 1rem;
+        :global(.col-md-4){
+            padding-right:0;
+            display: flex;
+        }
+    }
+    .additional{
+        font-size: 1.2rem;
+        width: 20rem;
+    }
+    .icon{
+        float:right;
+        margin-top: 1rem;
+        cursor:pointer;
+    }
+    input{
+        border: 0.1rem solid $app_grey2;
+        border-radius: 0.7rem;
+        height: 4.5rem;
+        line-height: 4.5rem;
+    }
+    .recurring{
+        display: flex;
+        position: relative;
+        left: 17rem;
+        span{
+            padding-left: 1rem;
+            font-size: 1.6rem;
+        }
+    }
+    .checkBox{
+        margin-top: 1.2rem;
+        margin-right: 1rem;
+    }
+}

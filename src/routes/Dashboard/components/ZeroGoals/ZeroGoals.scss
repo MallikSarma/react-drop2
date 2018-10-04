@@ -1,0 +1,22 @@
+@import "../../../../assets/css/variables.scss";
+.zero_goals-wrapper{
+    .error_picture_container{
+        text-align: center;
+        img{
+            width: 8.6rem;
+            height: 8.6rem;
+        }
+    }
+    h6{
+        font-size: 1.6rem;
+        color: $app_grey5;
+        text-transform: none;
+    }
+    h2{
+        height: 2.4rem;
+        font-size: 2rem;
+        color: $app_grey5;
+        text-transform: none;
+    }
+}
+

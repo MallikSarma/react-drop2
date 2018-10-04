@@ -1,0 +1,71 @@
+{
+    "status":true,
+    "statusMessage":"",
+    "tableMessage":"",
+    "reqInfo":{
+        "retrievalReference":"RTGHNMY67890OLHGFTEDVBNT",
+        "retrievalMode":"1",
+        "showMore":true
+    },
+    "transaction":[{
+        "transactionDate":"28/01/2017",
+        "postingDate":"28/01/2017",
+        "description":"Coffee Been KLCC",
+        "amountCurrency":"RM",
+        "amount":-17.35,
+        "foreignAmountCurrency":"",
+        "foreignAmount":-17.35,
+        "buyerDetails":{
+            "name":"",
+            "email":""
+        }
+    },{
+        "transactionDate":"28/01/2017",
+        "postingDate":"28/01/2017",
+        "description":"Coffee Been KLCC",
+        "amountCurrency":"RM",
+        "amount":17.35,
+        "foreignAmountCurrency":"",
+        "foreignAmount":-17.35,
+        "buyerDetails":{
+            "name":"",
+            "email":""
+        }
+    }],
+    "viewStatement":true,
+    "statementDetails":[{
+        "id": 101,
+        "label": "26 Nov 2015 - 25 Dec 2015",
+        "statementPdfUrl": "static/img/Blank_pdf.pdf"
+    },
+    {
+        "id": 102,
+        "label": "26 Oct 2015 - 25 Nov 2015",
+        "statementPdfUrl": "static/img/Blank_pdf.pdf"
+    },
+    {
+        "id": 103,
+        "label": "26 Aug 2015 - 25 Sep 2015",
+        "statementPdfUrl": "static/img/Blank_pdf.pdf"
+    },
+    {
+        "id": 104,
+        "label": "26 Jun 2015 - 25 Jul 2015",
+        "statementPdfUrl": "static/img/Blank_pdf.pdf"
+    },
+    {
+        "id": 105,
+        "label": "26 Apr 2015 - 25 May 2015",
+        "statementPdfUrl": "static/img/Blank_pdf.pdf"
+    }],
+"collectionModes":[
+    {
+        "label": "Mail To Address",
+        "address": "65 Jalan Camar Taman Camar Indah Selangor 66700, Malaysia"
+     },
+     {
+        "label": "Collect At Branch",
+        "address": "MAYBANK IB Registered Office. 33rd Floor, Menara Maybank 100 Jalan Tun Perak 50050 Kuala Lumpur P.O. Box 11057 50734 Kuala Lumpur."
+    }]
+    
+}

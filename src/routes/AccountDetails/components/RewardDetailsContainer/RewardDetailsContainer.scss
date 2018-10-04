@@ -1,0 +1,111 @@
+@import '../../../../assets/css/variables.scss';
+.rewardDetailsContainer{    
+    h6{
+        font-size: 1.4rem;
+        line-height: 1.58;
+        text-transform: initial;
+        padding: 0;
+        margin: 0;
+    }    
+    @media(max-width: 767px){
+        padding: 0 3rem;
+    }
+    @media(max-width: 375px){
+        padding: 0 1.5rem;
+    }
+    .rewardDetailsHeader{
+        padding-left: 4.5rem;
+        padding-right: 4.5rem;
+        @media(max-width: 991px){
+            padding-left: 3rem;
+            padding-right: 3rem;
+        }
+        @media(max-width: 375px){
+            padding: 0;
+            padding-top: 3rem;
+        }
+        padding-top: 3rem;
+        @media(max-width: 767px){
+            padding-top: 0rem;  
+        }
+        span{
+            font-size: 1.6rem;
+            margin: 0;
+            display: inline;
+        }
+        select{
+            margin-bottom: 1rem;
+            @media(max-width: 767px){      
+                font-size: 1.6rem
+            }
+        }
+    }
+    .headerRight{
+        float: right;
+        text-align: right;
+        padding-right: 0;
+        padding-left:0rem;
+        button{
+            width:100%;
+        }
+    }
+    .headerLeft{
+        float: left;
+    }
+    .rightPadded{
+        text-align: right;
+        padding-right: 1rem;
+    }
+    .selectWrapper{
+        padding-left: 0;
+        margin-bottom: 3rem;
+        :global(.dropdown){
+            width:100%;
+            button{
+                width:100%;
+                font-size: 1.6rem; 
+                background-color:$app_white; 
+                padding: 1.4rem 1.8rem;    
+            }
+        }
+        img{
+            float: right;
+            margin-right:2rem;
+            margin-left:2rem;
+            margin-top: 1rem;
+        }
+        ul{      
+            width:100%;     
+            border-radius: 0.7rem;
+            background-color: $app_grey5;
+            box-shadow: 0 0 1rem 0 rgba(0, 0, 0, 0.3);
+            max-height: 17.3rem;
+            overflow-y: auto;
+            top:0;
+            li {
+                a{
+                color:$app_white;
+                font-size: 1.6rem;
+                line-height: 1.9;
+                letter-spacing: 0.02rem;
+                    &:hover, &:focus {
+                    text-decoration: none;
+                    color: $app_gold;
+                    background-color: transparent;
+                    }
+                }
+            }
+        }   
+    }
+    :global(.btn.btn-success){
+        margin-bottom: 2rem;
+    }
+}
+.availablePoints{
+    color: $app_green;
+    text-align: right;
+}
+.rewardCards{
+    margin-bottom: 2rem;
+}
+

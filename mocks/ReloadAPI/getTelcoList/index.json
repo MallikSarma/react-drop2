@@ -1,0 +1,25 @@
+[
+	{
+		"name": "Tune Talk",
+		"amounts": [10,20,50],
+		"reloadType": [
+			"One-off Reload",
+			"Recurring Reload",
+			"Auto Reload"
+		],
+		"autoReloadOptions": [
+			"Remaining Credit",
+			"Credit Expires in"
+		],
+		"creditExpiryOptions": [
+			1,5,10
+		]
+	},
+	{
+		"name": "Celcom",
+		"amounts": [10,20,50],
+		"reloadType": null,
+		"autoReloadOptions": null,
+		"creditExpiryOptions": null
+	}
+]

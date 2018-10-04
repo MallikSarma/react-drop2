@@ -1,0 +1,85 @@
+@import '../../../../assets/css/variables.scss';
+.favoriteContainer{
+    @media(min-width:1200px){
+        .fixContainer{
+            width:110rem;
+            margin-left:auto;
+            margin-right:auto;
+        } 
+    }
+    background-color: $app_white;
+    padding-top: 3rem;
+    padding-bottom: 4rem;
+    button{
+        border-radius: 0.7rem;
+        font-size: 1.6rem;
+        color: $app_grey3;
+        text-align: left;
+        width: 100%;
+        font-weight: normal;
+        padding: 1.3rem 2rem 1.3rem 2.5rem;
+        &:hover {
+            background-color: white;
+        }
+        span{
+            float: left;
+            margin-right: 1.8rem;
+        }
+    }
+    @media(max-width: 767px){
+        .title{
+            vertical-align: top;
+            text-align: left;
+            padding-left:1.5rem; 
+        }
+        .favHolder{
+            padding-left:auto;
+        }
+    }
+    @media(min-width:768px){
+        .favHolder{
+            padding-left:0;
+        }
+        .favButton{
+            padding-left:0;
+        }
+        .title{
+            padding-left: 0;
+        }
+    }
+    .title{
+        vertical-align: middle;
+        padding-top: 1.6rem;
+        font-size: 1.6rem;
+        font-weight: normal;
+        letter-spacing: 0.05rem;
+        color: $app_black;
+    }
+    .favoriteFooter{
+        a{
+            position: absolute;
+            margin-top: 20%;
+            margin-bottom: 12%;
+            cursor: pointer;
+            &.next_arrow{
+                right: 3rem;
+            }
+            &.back_arrow{
+                left: 3rem;
+                -webkit-transform: rotate(180deg);
+                -moz-transform: rotate(180deg);
+                -o-transform: rotate(180deg);
+                -ms-transform: rotate(180deg);
+                transform: rotate(180deg);
+            }
+        }
+    }
+    .pullHeaderRight{
+        text-align: right;
+        margin-bottom: 1rem;
+    }
+    .pullHeaderLeft{
+        text-align: left;
+        margin-bottom: 1rem;   
+    }
+}

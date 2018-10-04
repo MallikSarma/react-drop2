@@ -1,0 +1,76 @@
+{
+    "tacRequired": true,
+    "currency": "RM",
+    "quickOption": "transfer",
+    "currentEffectiveDate": {
+        "display": "20 Dec, 2016",
+        "expected": "20161220"
+    },
+    "accounts": [{
+        "name": "Wadiah Account",
+        "accountNumber": "3121 5454 4545 4645",
+        "availableBalance": 1454,
+        "displayNumber": "XXXX XXXX XXXX 4645",
+        "type": "casa"
+    },
+    {
+        "name": "Wadiah Account-i",
+        "accountNumber": "3121 5454 4545 4644",
+        "availableBalance": 1454,
+        "displayNumber": "XXXX XXXX XXXX 4644",
+        "type": "mfca"
+    },
+    {
+        "name": "Wadiah Account-i",
+        "accountNumber": "3121 5454 4545 4643",
+        "availableBalance": 1454,
+        "displayNumber": "XXXX XXXX XXXX 4643",
+        "type": "card"
+    }],
+    "transactionTypes": [{
+        "id": "fundTransfer",
+        "displayName": "Fund Transfer"
+    },
+    {
+        "id": "creditCard",
+        "displayName": "Credit Card"
+    },
+    {
+        "id": "loanPayment",
+        "displayName": "Loan Payment"
+    },
+    {
+        "id": "hirePurchase",
+        "displayName": "Hire Purchase"
+    }],
+    "transferModes": [{
+        "id": "specialinstantTransfer",
+        "displayName": "Special Instant Transfer (IT)",
+        "fee": 0.23
+    },
+    {
+      "id": "instantTransfer",
+      "displayName": "Instant Transfer (IT)",
+      "fee": 0.53
+    }],
+    "transactionInfo": {
+        "name": "Mom",
+        "accountNumber": "XXXX XXXX XXXX 1234",
+        "mobileNumber":"01116341711",
+        "recipientBank": "CIMB",
+        "transactionType": "Fund Transfer",
+        "transferMode": "Instant Transfer (IT)",
+        "itibg": false,
+        "mobile": false,
+        "own": true,
+        "thirdParty": false,
+        "cardPayment": true,
+        "payOptions": 
+            {
+                "minimumAmount": 254,
+                "statementAmount": 454,
+                "outstandingAmount": 548
+            }
+    },
+  "isFavourite": false
+}

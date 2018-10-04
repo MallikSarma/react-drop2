@@ -1,0 +1,177 @@
+@import '../../../../assets/css/variables.scss';
+.container{
+    background-image:url('../../../../assets/img/Bike2.png');
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    background-position: top;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
+    text-align: center;
+    color: $btn-default-white_text_color;
+    min-height: 100%;
+    :global(.col-md-12){
+        height: 100%;
+    }
+}
+.navbar-default-p{
+    padding-top: 2.1rem;
+    z-index: 5;
+    a{
+        font-family: Lato;
+        font-size: 1.3rem !important;
+        font-weight: bold;
+        letter-spacing: 0.05rem !important;
+        color: $btn-default-white_text_color;
+    }
+}
+.header {
+    .intro-heading {
+        font-family: "Lato";
+        text-transform: uppercase;
+        font-weight: 700;
+        font-size: 5rem;
+        line-height: 5rem;
+        margin-bottom: 2.5rem;
+    }
+}
+.logo{
+    width: 20.4rem;
+    height: 3.4rem;
+    position: relative;
+}
+.navbar-toggle{
+    border: none;
+    background-color: transparent;
+    .menu{
+        width: 3.2rem;
+    }
+    .search{
+        width: 2rem;
+    }
+}
+.navbar-left{        
+    float: left;
+    margin-left: 0.5rem;
+}
+.navbar-right{
+    float: right;
+    margin-right: 1rem;
+}
+.navbar-right-shift {
+    float: right !important;
+    margin-right: 3.3rem;
+}
+@media (min-width: 768px) {
+    .header  .intro-text {
+        .intro-lead-in {
+            padding-top:22rem;
+            font-family: "Lato";
+            font-size: 8rem;
+            font-weight: bold;
+            line-height: 0.8;
+            letter-spacing: -0.17rem;
+            text-align: center;
+            color: $btn-default-white_text_color;
+        }
+        .intro-heading {
+            text-transform: uppercase;
+            margin-top: 23.6rem;
+        }
+    }
+}
+
+@media (max-width: 767px) {
+    .header  .intro-text {
+        padding-top: 50%;
+        .intro-lead-in {
+            font-family: "Lato";
+            font-size: 5rem;
+            font-weight: bold;
+            line-height: 1;
+            letter-spacing: -0.11px;
+            text-align: center;
+            color: $btn-default-white_text_color;
+        }
+        .intro-heading {
+            text-transform: uppercase;
+            margin-top: 23.6rem;
+        }
+    }
+}
+@media (max-width: 767px) { 
+    .logo{
+        position: absolute;
+        left: 50%;
+        width: 20.4rem;
+        height: 3.4rem;
+        margin-top: 0rem;
+        margin-left: -10.3rem;
+        top: 2rem;
+    }
+}
+@media (min-width: 768px) { 
+    .logo{
+        width: 20.4rem;
+        height: 3.4rem;
+        position: relative;
+    }
+}
+.registerBtn {
+    cursor: pointer;
+    padding-top: 0;
+    padding-bottom: 0;
+    padding-left: 1.7rem;
+    width: 18rem;
+    height: 4.5rem;
+    border-radius: 0.7rem;
+    border: solid 0.1rem $btn-default-white_text_color;
+    font-size: 1.3rem;
+    font-weight: bold;
+    letter-spacing: 0.05rem;
+    color: $btn-default-white_text_color; 
+    text-align: left;
+    background-color: transparent;
+    img {
+        position: absolute;
+        right:1.7rem;
+        top:1rem;
+    }
+    div{
+        width: 2.3rem;
+        height: 2.3rem;
+        display: inline-block;
+        background-image:url('../../../../assets/icons/profile_white.svg');
+        background-repeat: no-repeat;
+        background-size: cover;
+        position: absolute;
+        right:1.7rem;
+        top:1rem;
+    }
+    &:hover{
+        color: $app_black;
+        border: none;
+        background-color: $app_gold;
+        div{
+            background-image:url('../../../../assets/icons/profile.svg');
+        }
+    }
+}
+
+.footer-link {
+    position: relative;
+    text-align: center;
+    padding-top: 25%;
+    width: 100%;
+    a{
+        text-decoration: none;
+        font-family: Lato;
+        font-size: 1.2rem;
+        font-weight: bold;
+        letter-spacing: 0.01rem;
+        text-align: center;
+        color: $app_gold;
+    }
+
+}

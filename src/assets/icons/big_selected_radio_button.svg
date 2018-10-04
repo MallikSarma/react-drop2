@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg width="22px" height="22px" viewBox="0 0 22 22" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 40 (33762) - http://www.bohemiancoding.com/sketch -->
+    <title>Tick</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Dashboard_CASA" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Tick">
+            <g id="Group">
+                <circle id="Oval-1153" fill="#FFC83D" cx="10.8999996" cy="10.8999996" r="10.8999996"></circle>
+                <path d="M10.1543977,12.2051562 L8.07890625,9.96601563 C7.7645046,9.63134676 7.26027553,9.63134676 6.94587388,9.96601563 C6.63147223,10.3006845 6.63147223,10.8374176 6.94587388,11.1720864 L9.59084757,14.0174197 C9.74508235,14.1815969 9.95270608,14.27 10.1543977,14.27 C10.3560893,14.27 10.5637131,14.1879114 10.7179478,14.0174197 L15.6893671,9.46260319 C16.0037687,9.12793433 16.0037687,8.59120124 15.6893671,8.25653238 C15.3808975,7.915549 14.8707364,7.915549 14.5563347,8.25021787 L10.1543977,12.2051562 Z" id="Shape" fill="#171717"></path>
+            </g>
+        </g>
+    </g>
+</svg>

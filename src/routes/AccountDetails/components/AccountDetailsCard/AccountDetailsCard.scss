@@ -1,0 +1,33 @@
+@import '../../../../assets/css/variables.scss';
+.container{
+    padding: 0;
+    @media (min-width: 768px){
+        width: 100%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    :global(.panel) {
+        width: 100%;
+        box-shadow: 0 0 1rem 0 rgba(118, 118, 118, 0.1);
+        position: relative;
+        border: solid 0.1rem $app_grey2;
+    }
+    :global(.panel-body){
+        height: 100%;
+        padding: 2rem 0.5rem 0.5rem 0.5rem;
+        .row{
+            :global(.col-xs-5){
+                text-align: right;
+            }
+            display: flex;
+            justify-content: space-between;
+            font-size: 1.6rem;
+            padding-bottom: 1.5rem;
+            font-weight: normal;
+            color: $app_grey5;
+            .currency{
+                padding-right: 0.3rem;
+            }
+        }
+    }
+}

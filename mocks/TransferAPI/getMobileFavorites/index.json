@@ -1,0 +1,13 @@
+{
+	"favorites": [
+		{
+			"name": "salman",
+			"nickName": "salman salari",
+			"number": "123 54543"
+		}
+	],
+	"type": "mobile",
+	"currentPageNo": 1,
+	"nextPage": true,
+	"previousPage": false
+}

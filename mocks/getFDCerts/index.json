@@ -1,0 +1,27 @@
+{
+	"retrievalReference":"RTGHNMY67890OLHGFTEDVBNT",
+	"Idx":"",
+	"Code":"",
+	"Type":"",
+	"accountLongName":"Wadiah FD Account",
+	"accountShortName":"",
+	"displayNumber":"1111 2222 3333 4454",
+	"accountHolderName":[
+		"Rina Mariani",
+		"Emman"
+	],
+	"currency":"RM",
+	"certificates":[{
+		"certNumber":"000001",
+		"principalAmount":50000,
+		"termInMonths":6,
+		"interestPA": 3.8,
+		"maturityDate":"18/06/2016",
+		"interestPaymentMode":"Add To Principal",
+		"maturityInstruction":"Auto-renewal",
+		"actionAllowed":[
+			"manage",
+			"uplift"
+		]
+	}]
+}}

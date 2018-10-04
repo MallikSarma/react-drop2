@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg width="121px" height="121px" viewBox="0 0 121 121" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 40 (33762) - http://www.bohemiancoding.com/sketch -->
+    <title>Default_Image</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <ellipse id="path-1" cx="60.4431399" cy="60.4431399" rx="60.4431399" ry="60.4431399"></ellipse>
+        <ellipse id="path-3" cx="62.079646" cy="61" rx="62.079646" ry="61"></ellipse>
+    </defs>
+    <g id="Login" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Default_Image">
+            <g id="Group-12-+-Oval-658-+-avatar-Mask">
+                <mask id="mask-2" fill="white">
+                    <use xlink:href="#path-1"></use>
+                </mask>
+                <use id="Mask" fill="#D8D8D8" xlink:href="#path-1"></use>
+                <g id="Group-12" mask="url(#mask-2)">
+                    <g transform="translate(6.180180, 7.180180)" id="Group-19">
+                        <g>
+                            <circle id="Oval-2" cx="54.3198198" cy="54.4099099" r="53.9594595"></circle>
+                        </g>
+                    </g>
+                </g>
+                <circle id="Oval-658" stroke="#D7D7D7" stroke-width="3" mask="url(#mask-2)" cx="60.6999512" cy="61.6999512" r="55.5"></circle>
+                <g id="avatar" mask="url(#mask-2)">
+                    <g transform="translate(-1.313148, -1.819820)">
+                        <mask id="mask-4" fill="white">
+                            <use xlink:href="#path-3"></use>
+                        </mask>
+                        <g id="Mask" stroke="none" fill="none"></g>
+                        <g id="avatar" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" mask="url(#mask-4)">
+                            <g transform="translate(22.167660, 33.466630)" id="Capa_1">
+                                <g transform="translate(0.000000, -0.000000)">
+                                    <path d="M48.775504,11.5096305 C48.0917267,10.8301232 46.9587237,10.8301232 46.2510937,11.5096305 C45.5693041,12.1680827 45.5693041,13.2591227 46.2510937,13.9175749 L59.048065,26.2386702 L16.8248179,26.2386702 C15.8389064,26.2386702 15.0537552,26.9947418 15.0537552,27.944138 C15.0537552,28.8858778 15.8389064,29.6706609 16.8248179,29.6706609 L59.048065,29.6706609 L46.2510937,41.9630447 C45.5693041,42.6444661 45.5693041,43.7431625 46.2510937,44.3939583 C46.9587237,45.0734656 48.0917267,45.0734656 48.775504,44.3939583 L64.59978,29.1557666 C65.3054223,28.4973144 65.3054223,27.4062744 64.59978,26.7554786 L48.775504,11.5096305 Z" id="Fill-1" stroke="#7D7D7D" stroke-width="0.2" fill="#7D7D7D" transform="translate(40.091383, 27.951794) scale(-1, 1) rotate(-90.000000) translate(-40.091383, -27.951794) "></path>
+                                </g>
+                            </g>
+                        </g>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

@@ -1,0 +1,68 @@
+[
+	{
+		"name": "My Indah water",
+		"id": 121555,
+		"billAmount": null,
+		"billUrl": null,
+		"zakat": true,
+		"lhdn": false,
+		"epf": false,
+		"akpk": false,
+		"mygst":false
+	},
+	{
+		"name": "Maxis",
+		"id": 121558,
+		"billAmount": 445,
+		"billUrl": "",
+		"zakat": false,
+		"lhdn": false,
+		"epf": false,
+		"akpk": false,
+		"mygst":true
+	},
+	{
+		"name": "Cellcom",
+		"id": 121556,
+		"billAmount": 445,
+		"billUrl": "",
+		"zakat": false,
+		"lhdn": false,
+		"epf": true,
+		"akpk": false,
+		"mygst":false
+	},
+	{
+		"name": "Digi",
+		"id": 121557,
+		"billAmount": 445,
+		"billUrl": "",
+		"zakat": false,
+		"lhdn": false,
+		"epf": false,
+		"akpk": true,
+		"mygst":false
+	},
+	{
+		"name": "UMobile",
+		"id": 121554,
+		"billAmount": 445,
+		"billUrl": "",
+		"zakat": false,
+		"lhdn": true,
+		"epf": false,
+		"akpk": false,
+		"mygst":false
+	},
+	{
+		"name": "Tenanga",
+		"id": 121560,
+		"billAmount": 445,
+		"billUrl": "",
+		"zakat": false,
+		"lhdn": false,
+		"epf": false,
+		"akpk": false,
+		"mygst":false
+	}
+]

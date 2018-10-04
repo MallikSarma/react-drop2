@@ -1,0 +1,420 @@
+@import '../../assets/css/variables.scss';
+.container{
+    padding-bottom: 15rem;
+    label{
+        font-weight: normal;
+    }
+    .error{
+        border: 0.2rem solid $app_red;
+        &:focus{
+            box-shadow: 0 none;
+            outline: 0 none;
+        }
+    }
+    .flexWrapper{
+        display: flex;
+        padding-top: 0.5rem;
+        &:hover{
+            cursor: pointer;
+        }
+    }
+    .radioButton{
+        width: 2.5rem;
+        height: 2.5rem;
+        cursor: pointer;
+        img{
+            width: 100%;
+            height: 100%;
+            cursor: pointer;
+        }
+        &:hover{
+            cursor: pointer;
+        }
+    }
+    .termsLeft{
+        padding-top: 0.5rem;
+        padding-left:1rem;
+    }
+    .terms{
+        font-weight: 600;
+        padding-top: 0.5rem;
+        padding-left:0.5rem;
+        padding-right: 0;
+    }
+    .contentRound{
+        background: $app_ash;
+        padding:2rem;
+        border-radius: 0.7rem;
+        display: flex;
+        flex-direction:column;
+    }
+    .termDeclare{
+        font-size: 1.4rem;
+        font-weight: 600;
+        vertical-align: middle;
+        margin-bottom: 2rem;
+    }
+    .termsOption{
+        font-size: 1.2rem;
+        line-height: 1.5rem; 
+        padding-left: 2rem;
+        margin-bottom: 1rem;
+    }
+    @media (min-width: 768px) {
+        padding-left:0;
+        input{
+            width:26.2rem;
+        }
+        :global(.modal-dialog){
+            top:7rem;
+            height: inherit;
+            margin: auto;
+            width: 50rem;
+        }
+        :global(.modal-content) {
+            background: none;
+        }
+        :global(.modal-body){
+            padding-bottom: 2.5rem;
+            padding-top: 2.91rem;
+            padding-left: 13.4rem;
+            padding-right: 13.4rem;
+        }
+        :global(.modal-header) {
+            border-top-right-radius: 1rem;
+            border-top-left-radius: 1rem; 
+        }
+        .whitebg{
+            border-bottom-left-radius: 1rem;
+            border-bottom-right-radius: 1rem;
+        }
+        .dropdownHolder{
+            padding-left:0;
+        } 
+    }
+    @media (max-width: 767px) {
+        :global(.modal-dialog){
+            width: 100%;
+            top: 0;
+            height: 100%;
+            margin: auto;
+            z-index: 9999;
+        }
+        :global(.modal-content){
+            width: 100%;
+            min-height: 100%;
+        }
+        :global(.modal-header){
+            border-radius: 0;
+        }
+        .dropdownHolder{
+            padding-left:auto;
+        }
+    }
+    .notesHead{
+        font-size: 1.2rem;
+        font-weight: bold;
+        color: $app_grey3;
+        padding-left: 3rem;
+        padding-down: 2rem;  
+    }
+    .notes{
+        list-style-type:disc;
+        padding-left: 3rem;
+        font-size: 1.2rem;
+        color: $app_grey3;
+    }
+    .accountNumber{
+        width: 100%;
+        padding-left: 2.4rem;
+    }
+    .dropdownHolder{
+        position: relative;
+        .inputImage{
+            position: absolute;
+            left: 2rem;
+            top: 1.2rem;
+        }
+    }
+    .breakLines{
+        white-space:pre-line;
+        line-height: 2rem;
+        margin-top: -0.8rem;
+    }
+    :global(.modal-header) {
+        background: $body_bg;
+        color: $app_white;
+        border-bottom: solid 0.2rem $app_gold;
+        position: relative;
+        padding: 0;
+        height: 8rem;
+    }
+    :global(.btn){
+        &.drop {
+            width: 100%;
+            text-align: left;
+            height: 4.5rem;
+            padding: 0 2rem;
+            background: $app_white;
+            border: 0.1rem solid $app_grey2;
+            border-radius: 0.7rem;
+            position: relative;
+        }
+    }
+    .lightgreybg{
+        background: $app_grey1;
+        padding: 0.7rem 2.8rem 0.7rem 2.8rem;
+    }
+    .greybg{
+        background: $app_ash;
+        padding: 0.7rem 2.8rem 0.7rem 2.8rem; 
+    }
+    .whitebgNoRadius{
+        background: $app_white;
+        padding: 0.7rem 2.8rem 0.7rem 2.8rem
+    }
+    .whitebg{
+        background: $app_white;
+        padding: 1rem 2.8rem 1rem 2.8rem;
+    }
+    .whitebgMiddle{
+        background: $app_white;
+        padding: 0.7rem 2.8rem 0.7rem 2.8rem;
+    }
+    :global(.btn){
+        border-radius: 0.7rem;
+    }
+    .title {
+        height: 7.5rem;
+        line-height: 7.5rem;
+        padding-left: 3.5rem;
+        font-size: 1.6rem;
+        text-transform: capitalize;
+    }
+    .titleRight {
+        margin-left: 0.5rem;
+    }
+    :global(.modal-body){
+        padding: 0;
+    }
+    label{
+        @media(max-width: 767px){
+            width: 17rem;
+        }
+        display: inline-block;
+        font-size: 1.6rem;
+        vertical-align: middle;
+        margin-bottom: 0;
+        height: 100%;
+        padding-top: 1rem;
+        line-height: 2rem;
+        text-transform: capitalize;
+    }
+    .close {
+        background: url(../../assets/icons/close_white.svg) center center no-repeat ;
+        background-size: contain;
+        width: 1.7rem;
+        height: 1.7rem;
+        position: absolute;
+        right: 3.5rem;
+        top: 3rem;
+        cursor: pointer;
+    }
+    .date{
+        color: $app_grey4;
+    }
+    .wrapper {
+        flex:1;
+        position: relative;
+        .inputCurrency{
+            position: absolute;
+            left: 2rem;
+            top: 1.2rem;
+        }
+    }
+    .day{
+        font-weight: bold;
+        margin-right: 0.5rem;
+        padding-left:2rem;
+    }
+    .pay-amount{
+        padding-left: 4rem;
+        width: 100%;
+    }
+    .amount-wrapper {
+        flex:1;
+        position: absolute;
+    }
+    .amount-currency {
+        position: absolute;
+        display: inline-block;
+        top:50%;
+        left: 3rem;
+        transform: translate(0,-50%);
+        margin: auto 0; 
+    }
+    .account-number{
+        padding-left: 2rem;
+        width: 100%;
+    }
+    .input-with-lable{
+        padding-left: 5rem;
+        width: 100%;  
+    }
+    label{
+        width: 17rem;
+        display: inline-block;
+        font-size: 1.6rem;
+        vertical-align: middle;
+        margin-bottom: 0;
+        height: 100%;
+        padding-top: 1rem;
+        line-height: 2rem;
+        text-transform: capitalize;
+    }
+    .inputCurrency{
+        position: absolute;
+        top: 1.3rem;
+        left: 3.5rem;
+        font-weight: 600;
+    }
+    .add-btn {
+        background: $app_white;
+        width: 19rem;
+        padding-left: 0.5rem;
+        height: 4.5rem;
+        line-height: 4.5rem;
+        display: inline-block;
+        &:active{
+            background-color: $app_grey1;
+            color: $app_white;
+        }
+    }
+    .pay-btn {
+        float: right;
+        background: $app_green;
+        color: $app_white;
+        min-width: 11.2rem;
+        height: 4.5rem;
+        line-height: 4.5rem;
+        display: inline-block;
+        &:active{
+            background-color: $app_green;
+            color: $app_white;
+        }
+    }
+    .pay-btn-text{
+        display: inline-block;
+        vertical-align: middle;
+        margin-right: 2rem;
+    }
+    .pay-btn-icon {
+        background: url(../../assets/icons/transaction_white.svg) center center no-repeat ;
+        background-size: contain;
+        width: 1.3rem;
+        height: 1.8rem;
+        display: inline-block;
+        vertical-align: middle;
+    }
+    :global(.btn){
+        padding: 0;
+    }
+    .effectiveDate {
+        border: 0.1rem solid $app_grey2;
+        border-radius: 0.7rem;
+        line-height: 4.5rem;
+        span{
+            font-weight: 700;
+            margin: 0 1rem;
+        }
+    }
+    .referance {
+        flex:1;
+        height: 4.5rem;
+        line-height: 4.5rem;
+        border: 0.1rem solid $app_grey2;
+        border-radius: 0.7rem;
+    }
+    .recipientReferance{
+        background: $app_white;
+        flex:1;
+        height: 4.5rem;
+        line-height: 4.5rem;
+        border: 0.1rem solid $app_grey2;
+        border-radius: 0.7rem;
+    }
+    .right {
+        margin-top: 3rem;
+        text-align: right;
+    }
+    .seperator {
+        margin-bottom: 1rem;
+        display: flex;
+    }
+    .additional{
+        font-size: 1.2rem;
+        width: 20rem;
+    }
+    .icon{
+        float:right;
+        margin-top: 1rem;
+        cursor:pointer;
+    }
+    input{
+        border: 0.1rem solid $app_grey2;
+        border-radius: 0.7rem;
+        height: 4.5rem;
+        line-height: 4.5rem;
+    }
+    .inputPair{
+    	padding: 0.5rem 1rem 0.5rem 1rem;
+        :global(.col-sm-5){
+            padding-right:0;
+            display: flex;
+        }
+    }
+    .recurring{
+        display: flex;
+        position: relative;
+        span{
+            padding-left: 1rem;
+            font-size: 1.6rem;
+        }
+    }
+    .checkBox{
+        margin-top: 1.2rem;
+        margin-right: 1rem;
+    }
+}
+.containerClass{
+    background-color: $app_white;
+    width: 100%;
+    border-radius: 0.8rem;
+    .selectedItem{
+        span:nth-child(2){
+            float:right;
+            right: 3rem;
+            position: absolute;
+            -webkit-justify-content: space-around; /* Safari 6.1+ */
+            justify-content: space-around;
+        }
+    }
+    :global(.dropdown){
+        span:nth-child(1){
+            margin-top:1.2rem;
+            margin-left:1.2rem;
+        }
+        height:4.5rem;
+        width:100%;
+        border: 0.1rem solid $app_grey2;
+        border-radius: 0.7rem;
+        button{
+            width: 100%;
+            display: flex;
+            border:none;
+        }
+        ul{
+            width:100%;
+        }
+    }
+}

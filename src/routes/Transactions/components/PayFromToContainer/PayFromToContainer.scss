@@ -1,0 +1,211 @@
+@import '../../../../assets/css/variables.scss';
+.payFromToContainer{
+    @media(min-width:1200px){
+        width:110rem;
+        margin-left:auto;
+        margin-right:auto;
+    }
+    padding-top: 3rem;
+    padding-bottom: 1.5rem;
+    @media(max-width: 767px){
+        .title{
+            vertical-align: top;
+            text-align: left;
+            padding-left: 1.5rem
+        }
+        .dropdownHolder{
+            padding-left:auto;
+        }
+        .jompayLogo{
+            text-align: left;
+            padding:auto;
+        }
+    }
+    @media(min-width:768px){
+        .title{
+            padding-left: 0;
+        }
+        .jompayLogo{
+            text-align: left;
+            padding:0;
+        }
+        .dropdownHolder{
+            padding-left:0;
+        }
+    }
+    .dropdownHolder{
+        position: relative;
+        .inputImage{
+            position: absolute;
+            left: 1.5rem;
+            top: 1.1rem;
+        }
+    }
+    .Highlighted{
+        color: $app_gold;
+    }
+    .paymentInput{
+        font-size: 1.6rem;
+        margin-bottom: 1.5rem;
+        border-radius: 0.7rem;
+        border: solid 0.1rem $app_grey2;
+        -webkit-box-flex: 1;
+        -ms-flex: 1;
+        flex: 1;
+        width: 100%;
+        padding-left: 5rem;
+        height:5rem;
+        &:focus{
+            text-decoration: none;
+            :global( + .clearfix .dropdown-menu){
+                display: block;
+            }
+        }
+    }
+    .payeeDisabled{
+        margin-bottom: 1.5rem;
+        border-radius: 0.7rem;
+        border: solid 0.1rem $app_grey2;
+        width: 100%;
+        padding-left: 2rem;
+        height:5rem;
+    }
+    :global(.clearfix){
+        position:relative;
+        width:100%;
+        &:hover{
+            :global(.dropdown-menu){
+                display: block;
+            }
+        }
+        ul{
+            width:100%;
+        }
+    }
+    :global(.dropdown-menu) {
+        background-color:$app_grey5;
+        color:$app_white;
+        top:-1.5rem;
+        font-size: 1.6rem;
+        font-weight: normal;
+        padding-top: 1.4rem;
+        padding-bottom: 1.4rem;
+        li {
+            padding-bottom: 0rem;
+            a {
+                &:hover,&:focus,&:active{
+                    text-decoration: none;
+                    color: $app_gold;
+                    background-color: $app_grey5;
+                }                
+                color:$app_white;
+                line-height: 3rem;
+                padding: 0rem 2rem;
+                span {
+                    font-size: inherit;
+                    font-weight: inherit;
+                }
+            }
+        }        
+    }
+    .title{
+        vertical-align: middle;
+        padding-top: 1.4rem;
+        font-size: 1.6rem;
+        font-weight: normal;
+        letter-spacing: 0.05rem;
+        color: $app_black;
+    }
+    .avaliableBalance{
+        float:right;
+        -webkit-justify-content: space-around; /* Safari 6.1+ */
+        justify-content: space-around;
+        font-weight: 600;
+        .amountAvailable{
+            color:$app_green;
+        }
+    }
+}
+.containerClass{
+    background-color: $app_white;
+    width: 100%;
+    box-shadow: 0 0 1rem 0 rgba(118, 118, 118, 0.1);
+    border-radius: 0.8rem;
+    margin-bottom: 1.5rem;
+    .selectedItem{
+        display: flex;
+        span:nth-child(1){
+            left: 2rem;
+        }
+        span:nth-child(2){
+            float:right;
+            right: 2rem;
+            position: absolute;
+            -webkit-justify-content: space-around; /* Safari 6.1+ */
+            justify-content: space-around;
+        }
+    }
+    .amountAvailable{
+        color:$app_green;
+    }
+    :global .dropdown {
+        font-size: 1.6rem;   
+        width:100%;      
+        button.btn.dropdown-toggle.btn-default {
+            &:focus,:hover{
+                background-color: $app_white;
+            }
+            &#accounts_dropdown{
+                background-color: $app_white;
+            }
+            &#payto_dropdown{
+                background-color: $app_white;
+            }
+            box-shadow: none;
+            border-radius: 0.7rem;
+            width: 100%;
+            display: flex;
+            border:none;
+            font-size: inherit;
+            font-weight: inherit;
+            padding: 1.4rem 2rem;
+            span {
+                div {
+                    span:nth-child(2){
+                        right:5.7rem;
+                        span{
+                            margin-left: 0.4rem;
+                        }
+                    }
+                }
+                :local(.caret) {
+                    position: absolute;
+                    right: 0;
+                    top: 2.2rem;
+                    margin-right: 2rem;
+                }
+            }            
+        }
+        .dropdown-menu {
+            width:100%;
+            top:5rem;
+            padding-top: 1.4rem;
+            padding-bottom: 1.4rem;
+            font-size: inherit;
+            font-weight: inherit;
+            li {
+                padding-bottom: 0rem;
+                a {
+                    line-height: 3rem;
+                    padding: 0rem 2rem;
+                    span {
+                        font-size: inherit;
+                        font-weight: inherit;
+                    }
+                }
+            }        
+        }        
+    }
+}
+
+

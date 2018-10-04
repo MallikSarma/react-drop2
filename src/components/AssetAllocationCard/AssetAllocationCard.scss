@@ -1,0 +1,88 @@
+@import '../../assets/css/variables.scss';
+.container{
+    :global(.panel) {
+		width: 100%;
+        min-height: auto;
+        box-shadow: 0 0 1rem 0 rgba(194, 194, 194, 0.5);
+        position: relative;
+        &:hover{
+            border: solid 0.2rem $app_grey3;
+            border-radius: 0.7rem;
+            cursor: pointer;
+        }
+    }
+    :global(.panel-body){
+        padding: 0;
+        height: 8.4rem;
+        .wrapper{
+            height: 8.4rem;
+            .percentageWrapper{
+                height: 100%;
+                background-color: $app_grey1;
+                border-top-left-radius: 0.7rem;
+                border-bottom-left-radius: 0.7rem;
+            }
+        }
+        .percentage{
+            width: 5.4rem;
+            height: 5.4rem;
+            line-height: 4.5rem;
+            margin: auto;
+            border-radius: 50%; 
+            border: 0.3rem solid $dropzone-active-bg;
+            text-align: center;
+            margin-top: 1.5rem;
+            span{
+                font-size: 1.4rem;
+                margin-left: 0.4rem;
+                vertical-align: middle;
+            }
+        }
+        .middleContent{
+            padding: 2.1rem 0 2rem 1rem;
+            h6{
+                font-size: 1.4rem;
+                font-weight: bold;
+                letter-spacing: 0.02rem;
+                color: $app_black;
+                margin: 0;
+                margin-bottom: 0.5rem;
+                padding: 0;
+                text-transform: none;
+            }
+        }
+        .amount{
+            font-size: 1.4rem;
+            letter-spacing: 0.02rem;
+            color: $app_black;
+        }
+    }
+    .more {
+        padding-top: 1.8rem;
+        div{
+            background-image: url(../../assets/icons/show_more.svg);
+            background-position: right top;
+            background-repeat: no-repeat;
+            width: 1.8rem;
+            height: 1.6rem;
+            cursor: pointer;
+        }
+    }
+    :global(.well){
+        position: absolute;
+        height: 6rem;
+        padding: 0.7rem;
+        width: 100%;
+        left: 0;
+        margin-bottom: 0;
+        border-radius: 0 0 0.7rem 0.7rem;
+        border: none;
+        font-size: 1.8rem;
+        color: $app_grey5;
+    }
+    :global(.well){
+        background-color: $app_white;
+        -webkit-box-shadow: none;
+        box-shadow: none;
+    }
+}

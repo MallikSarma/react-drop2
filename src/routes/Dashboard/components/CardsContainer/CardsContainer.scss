@@ -1,0 +1,80 @@
+@import '../../../../assets/css/variables.scss';
+.cardsContainer{
+    @media (min-width: 1200px){
+        max-width: 93rem;
+        margin-left: auto;
+        margin-right: auto;
+        padding-right: 0;
+        padding-left: 0;
+    }
+	padding-top: 3rem;
+	@media(max-width: 767px){
+		padding-left: 1.5rem;
+		padding-right: 1.5rem;
+	}
+    @media(min-width: 768px){
+        .even{
+            padding-left: 1rem;
+        }
+        .odd{
+            padding-right: 1rem;
+        }
+    }
+    .sectionHeader{
+        text-align: left;
+        h2{
+            font-size: 1.3rem;
+            font-weight: bold;
+            letter-spacing: 0.05rem;
+            color: $app_black;
+            margin-bottom: 1.5rem;
+            margin-right: 1.1rem;
+            margin-top: 0;
+            display: inline-block;
+        }
+    }
+    .sectionHeader{
+        margin-bottom: 1.5rem;
+        @media(max-width: 768px){
+            @media(min-width: 376px){
+                margin-left: 2rem;
+                margin-right: 2rem;
+            }
+        }
+    }
+	.more{
+        position: relative;
+        bottom: 1rem;
+        padding-bottom: 1rem;
+		text-align: center;
+		font-size: 1.3rem;
+		font-weight: 900;
+		letter-spacing: 0.02rem;
+		text-align: center;
+		color: $app_grey3;
+		text-transform: uppercase;
+        :global(.col-sm-10){
+            display:flex;
+        }
+	}
+	button{
+		background-color: transparent;
+		color: $app_grey3;
+		border: none;
+		cursor: pointer; 
+        width: 30rem;
+	}
+	hr{         
+        width: 100%;
+        border-top: solid 0.1rem $slider-runnable-track-bg;
+        opacity: 0.2;
+        }
+}
+.cards{
+    @media(min-width: 376px){
+        @media(max-width: 775px){
+            padding-right: 5rem;
+            padding-left: 5rem;
+        }
+    }
+}

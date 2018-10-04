@@ -1,0 +1,121 @@
+@import '../../../../assets/css/variables.scss';
+.total-spending-container{
+    text-align: left;
+    .graphSubHeading{
+        text-align: center;
+        .date{
+            font-size: 1.2rem;
+            line-height: 1.1;
+            letter-spacing: 0.02rem;
+            color: $app_grey3;
+            display: block;
+            margin-top: 0.8rem;
+        }
+    }
+
+    .doughnut-content-wrapper{
+        width: 27.1rem;
+        height: 27.1rem;
+        position: relative;
+        margin: auto;
+        margin-bottom: 2rem;
+        .doughnut-inner-content{
+            position: absolute;
+            top: 8rem;
+            left: 0;
+            right: 0;
+            margin: auto;
+            height: 13rem;
+            width: 18rem;
+            text-align: center;
+            h6{
+                font-size: 1.6rem;
+                font-weight: bold;
+                line-height: 1.2;
+                color: $app_grey5;
+            }
+            h4{
+                font-size: 1.3rem;
+                letter-spacing: 0.01rem;
+                color: $app_grey5;
+            }
+            p{
+                line-height: 1.1;
+                letter-spacing: 0.01rem;
+                text-align: center;
+                padding-right: 0.3rem;
+                &:nth-child(2){
+                    font-size: 1.8rem;
+                    color: $range-slider-bg;
+                    margin-bottom: 2rem;
+                }
+                &:nth-child(4){
+                    font-size: 1.6rem;
+                    color: $app_black;
+                }
+            }
+            div{
+                margin-top: 2.1rem;
+            }
+        }
+    }
+    :global(.form-control){
+        border-radius: 0.7rem;
+        background-color: $app_white;
+        box-shadow: 0 0 1rem 0 rgba(125, 125, 125, 0.15);
+        border: solid 0.1rem $app_grey2;
+        text-transform: capitalize;
+    }
+    select{
+        -webkit-appearance: none;
+        -moz-appearance: none;
+        appearance: none;
+        padding: 0.2rem 2rem 0.2rem 2rem;
+        border: none;
+        background: transparent url("../../../../assets/icons/open_dropdown.svg") no-repeat right center;
+
+    background-origin: content-box;
+
+    }
+}
+.bookValueText{
+    font-size: 1.4rem;
+    letter-spacing: 0.02rem;
+    color: $app_grey4;
+}
+.full-legend-container{
+    width: 100%;
+    vertical-align: middle;
+    .legend-wrapper{
+        width: 5.4rem;
+        height: 5.4rem;
+        line-height: 5.1rem;
+        border-radius: 50%; 
+        border: 0.3rem solid $diagram_shamrock;
+        text-align: center;
+        margin-bottom: 1.2rem;
+        span{
+            font-size: 1.6rem;
+            line-height: 1.2;
+        }
+    }
+    .legend-label-wrapper{
+        height: 5.4rem;
+        text-align: left;
+        vertical-align: middle;
+        line-height: 5.4rem;
+        font-size: 1.4rem;
+        color: $slider-runnable-track-bg;
+    }
+    .amount-wrapper{
+        height: 5.4rem;
+        line-height: 5.4rem;
+        vertical-align: middle;
+        font-size: 1.8rem;
+        text-align: right;
+        color: $app_black;
+        span{
+            padding-right: 0.3rem;
+        }
+    }
+}

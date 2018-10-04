@@ -1,0 +1,135 @@
+@import '../../assets/css/variables.scss';
+.container{
+    @media(max-width: 991px){
+        padding: 0;
+        .firstBlock{
+            width: 3.5rem;
+        }
+    }
+    background: $app_white;
+    .navigationContent{
+        height: 100%;
+        @media (min-width: 1200px){
+            max-width: 93rem;
+            margin-left: auto;
+            margin-right: auto;
+            padding-right: 0;
+            padding-left: 0;
+        }
+    }
+    box-shadow: 0 0 1rem 0 rgba(0, 0, 0, 0.2);
+    height: 8rem;
+    @media(max-width: 991px){
+        :global(.row.mobile){
+            padding-top: 0;
+            margin: 0;
+            :global(.dropdown.btn-group){
+               width:100%;
+                :global(.btn){
+                    box-shadow: none;
+                    padding: 2rem 1.5rem 0 1.5rem;
+                    height: 8rem;
+                    background: $app_white;
+                    border: none;
+                    width:100%;
+                    border-radius: 0;
+                    .nav-tabs{
+                        padding-top: 0;
+                        height: 100%;
+                        padding-bottom: 0;
+                        text-align: left;
+                        .typeName{
+                            color: $app_black;
+                        }
+                        img{
+                            position: absolute;
+                            right: 2.5rem;
+                            top: 50%;
+                        }
+                    }
+                    :global(.dropdown-toggle) {
+                        box-shadow: none;
+                    }
+                }
+                :global(.dropdown-menu){
+                    position: relative;
+                    top: -8rem;
+                    border-radius: 0;
+                    width:100%;
+                    margin-top: 0;
+                    border: 0;
+                    padding-top: 0;
+                    padding-bottom: 0;
+                    li a {
+                        padding: 0rem 2rem 0 2rem;
+                        background: $app_white;
+                        &:hover,:focus{
+                            background: $app_white;
+                        }
+                        .nav-tabs{
+                            border-top: 0.1rem solid $dropzone-active-bg;
+                            padding-top: 2rem;
+                        }
+                    }
+                }
+            }
+        }
+    }
+    :global(.row){
+        margin: 0 0.5rem;
+        background: $btn-default-white_text_color;
+        height: 100%;
+        .nav-tabs{
+            padding-top: 1.8rem;
+            background-color: $app_white;
+            padding-left: 0rem;
+            padding-right: 1.4rem;
+            cursor: pointer;
+            height: 100%;
+            &:hover{
+                .typeName{
+                    color: $app_black;
+                    font-weight: bold;
+                }
+            }
+            .typeName{
+                color:$dashboard-unselected;
+                margin-bottom:0.5rem;
+                font-size: 1.3rem;
+                &.selectedListItem{
+                    color: $app_black;
+                }
+            }
+            .amounts{
+                font-size: 1.8rem;
+                color: $app_green;
+                &.negativeAmount{
+                    color: $app_red;
+                }
+                .currency{
+                    padding-right: 0.3rem;
+                }
+            }
+            &.selected{
+                .typeName{
+                    color: $app_black;
+                    font-weight: bold;
+                }
+                @media(min-width: 767px){
+                    .desktopcontainer{
+                        height: 100%;
+                        padding-bottom: 1.2rem;
+                        border-bottom: 0.2rem solid $app_grey5;
+                        display: inline-block;
+                    }
+                }
+            }
+        }
+    }
+    .mobileNavigation{
+        padding: 0;
+        :global(.btn-default){
+            margin-bottom: 0;
+        }
+    }
+}

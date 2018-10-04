@@ -1,0 +1,119 @@
+@import '../../../../assets/css/variables.scss';
+.goalsContainer{
+    .goalsContent{  
+        @media (min-width: 1200px){
+            max-width: 93rem;
+            margin-left: auto;
+            margin-right: auto;
+            padding-right: 0;
+            padding-left: 0;
+        }
+    }
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+    background-color: $app_white;
+    text-align: center;
+    button{
+        background-color: transparent;
+        color: $app_grey3;
+        border: none;
+        cursor: pointer; 
+    }
+    hr{         
+        width: 100%;
+        left: 0;            
+        border-top: solid 0.1rem $slider-runnable-track-bg;
+        opacity: 0.2;
+    }
+    .goalsHeader{
+        @media(min-width: 375px){
+            @media(max-width: 775px){
+                margin-left: 2rem;
+                margin-right: 2rem;
+            }
+        }
+        margin-left: 0;
+        margin-right: 0;
+        text-align: left;
+        h2{
+            font-size: 1.3rem;
+            font-weight: bold;
+            letter-spacing: 0.05rem;
+            color: $app_black;
+            margin-bottom: 4rem;
+            margin-right: 1.1rem;
+            display: inline-block;
+        }
+    }
+    :global(.btn-default){
+        border-radius: 0.7rem;
+        border: solid 0.1rem $app_grey5;
+        vertical-align: middle;
+        color: $app_grey5;
+        font-size: 1.3rem;
+        font-weight: bold;
+        img{
+            padding-left: 0.4rem;
+            padding-bottom: 0.4rem;
+
+        }
+    }
+    .desktopCreateGoal{
+        float: right;
+    }
+    .mobileButton{
+        margin: 0 3rem;
+        min-width: 84%;
+    }
+    .slide-pagination{
+        width: 100%;
+        text-align: center;
+        padding-top: 3rem;
+        padding-bottom: 2rem;
+    }
+    .goals{
+        display: flex;
+        justify-content: space-around;
+        position: relative;
+        a{
+            position: absolute;
+            margin-top: 12%;
+            @media(max-width: 991px){
+                margin-top: 16%;
+            }
+            cursor: pointer;
+            &.next_arrow{
+                right: 1.5rem;
+            }
+            &.back_arrow{
+                left: 1.5rem;
+                -webkit-transform: rotate(180deg);
+                -moz-transform: rotate(180deg);
+                -o-transform: rotate(180deg);
+                -ms-transform: rotate(180deg);
+                transform: rotate(180deg);
+                z-index: 1;
+            }
+            img{
+                width: 0.89rem;
+            }
+        }
+    }
+    .goals_count_circle{
+        width: 2.7rem;
+        height: 2.7rem;
+        border-radius: 50%;
+        background-color: $app_green;
+        display: inline-block;
+        vertical-align: middle;
+        text-align: center;
+        padding: 0;
+        margin: 0;
+        span{
+            line-height: 2.7rem;
+            font-size: 1.2rem;
+            font-weight: 100;
+            color: $app_white;
+        }
+    }
+}

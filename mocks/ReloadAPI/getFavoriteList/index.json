@@ -1,0 +1,11 @@
+{
+	"favorites": [{
+		"name": "Celcom Abah",
+		"payee": null,
+		"number": "1234 3355 5488 5455",
+		"amounts": [10,20,50]
+	}],
+	"type": "iddStd",
+	"nextPage": true,
+	"previousPage": false
+}

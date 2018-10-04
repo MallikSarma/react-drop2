@@ -1,0 +1,48 @@
+@import '../../assets/css/variables.scss';
+.footer_wrapper{
+    .footer{
+        @media(max-width: 375px){
+            padding-left: 1.5rem;
+            padding-right: 1.5rem;
+        }
+        padding-bottom: 2.7rem;
+        padding-top: 2.7rem;
+        text-align: center;
+        &.whiteBackground{
+            background: $app_white;
+        }
+        p{
+            font-size: 1.2rem;
+            letter-spacing: 0.05rem;
+            color: $app_grey4;
+            margin: 0;
+            padding-bottom: 1rem;
+        }
+        span{
+            font-size: 1.2rem;
+            letter-spacing: 0.05rem;
+            color: $app_grey5;
+        }
+        :global(.row){
+            @media(min-width: 1200px){
+                max-width: 100rem;
+                margin: auto;
+                &.terms{
+                    margin-top: 2rem;
+                }
+            }
+            &.terms{
+                margin-top: 2rem;
+            }
+        }
+    }
+}
+.footerbannerbox{
+    @media(max-width: 775px) and (min-width: 376px){
+        padding-left: 5rem;
+        padding-right: 5rem;
+    }
+    img{
+        width: 100%;
+    }
+}

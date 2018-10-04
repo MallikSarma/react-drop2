@@ -1,0 +1,37 @@
+@import '../../../../assets/css/variables.scss';
+.container{
+    padding: 0;
+    @media(max-width: 767px){
+        padding: 0;
+    }
+    @media (min-width: 1200px){
+        max-width: 93rem;
+        margin-left: auto;
+        margin-right: auto;
+        padding-right: 0;
+        padding-left: 0;
+        float: none;
+    }
+    :global(.panel) {
+        width: 100%;
+        box-shadow: 0 0 1rem 0 rgba(118, 118, 118, 0.1);
+        position: relative;
+        border: solid 1px $app_grey2;
+        margin-bottom: 3rem;
+    }
+    :global(.panel-body){
+        height: 100%;
+        padding: 2rem 2rem 0.5rem 2rem;
+        .row{
+            display: flex;
+            justify-content: space-between;
+            font-size: 1.6rem;
+            padding-bottom: 1.5rem;
+            font-weight: normal;
+            color: $app_grey5;
+            .currency{
+                padding-right: 0.3rem;
+            }
+        }
+    }
+}

@@ -1,0 +1,199 @@
+@import "../../assets/css/variables.scss";
+.container{
+    top: inherit;
+    @media (min-width: 768px) {
+        :global(.modal-dialog){
+            width: 41rem;
+            bottom: 0;
+            height: inherit;
+            margin-right: 0;
+            margin-bottom: 0;
+        } 
+        :global(.modal-content){
+            border-radius: 0.8rem;
+            width: 90%;
+            float: right;
+        }  
+    }
+    @media (max-width: 767px) {
+        top:0;
+        padding: 1.6rem 2rem;
+        :global(.modal-dialog){
+            width: 100%;
+            height: 100%;
+            top: 0;
+            margin: auto;
+            z-index: 9999;
+            border-color: $body_bg;
+            opacity: 3;
+        }   
+        :global(.modal-content){
+            width: 100%;
+            border-radius: 0;
+        }
+        :global(.modal-footer){
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+        }
+        :global(.modal-header){
+            border-radius: 0;
+        }
+    }
+    :global(.modal-header){
+        width: 100%;
+        height: 7.5rem;
+        border:none;
+        background-color: $app_gold;
+        border-top-left-radius: 0.8rem;
+        border-top-right-radius: 0.8rem;
+        border-bottom: solid 0.2rem $app_gold;
+        h6{
+            color: $app_grey5;
+            font-size: 1.6rem;
+            line-height: 1;
+            letter-spacing: 0.01rem;
+            text-transform: capitalize;
+            padding-top: 0.7rem;
+        }  
+        img{
+            padding-top: 1.4rem;
+            cursor: pointer;
+            margin-right: 0.8rem;
+        }        
+        .settingtooltip{
+            right: 0;
+            top: 5rem;
+            text-align: left;       
+            ul{
+                margin: 1rem 0;
+                li{
+                    text-align: left;
+                    padding: 0.5rem 1rem;
+                    font-size: 1.3rem;
+                }
+            }
+        }        
+    }
+    :global(.chatpopupicons){
+        width: 5rem;
+        position: absolute;
+        right: 15px;
+    }
+    :global(.settingpopup){
+        background-color: rgba(0,0,0,0.6);
+    }
+    :global(.modal-content){
+        height: inherit;
+        background-color: $app_grey1;      
+        border-radius: 0.8rem;
+    }
+    :global(.modal-body){
+        padding: 0;
+        text-align: center;
+        background-color: $app_grey1;
+        .textSection{
+            padding: 0.5rem;
+            background-color: $app_grey1;
+        }
+    }
+    :global(.modal-footer){
+        padding: 0;
+        .chatinput{
+            background-color: $app_gold;
+            padding: 2rem 1rem;
+            .pair-input {
+                border-radius: 0.7rem;
+                border: solid 0.1rem $app_grey2; 
+                height: 4rem;
+                width: 100%;
+                padding-left: 1.9rem;
+            }
+        } 
+        .chaticons{
+            background-color: $app_grey5;
+            border-bottom-left-radius: 0.8rem;
+            border-bottom-right-radius: 0.8rem;
+            ul{
+                text-align: center;
+                margin: 0 auto;
+                padding: 1rem 0;
+                li{
+                    padding: 1rem 5%;
+                    display: inline-block;
+                    img{
+                        cursor: pointer;
+                    }
+                }
+            }
+        }
+    }
+    .chatBox{
+        text-align: left;
+        width: 100%;
+        :global(.popover){
+            position: relative;
+            display: inline-block !important;
+        }
+        .avatar{
+            width: 7rem;
+            height: 7rem;
+            margin-right: 1rem;
+            display: inline-block;
+            img{
+                width: 100%;
+                height: 90%;
+                border-radius: 50%;
+            }
+        }
+        .leftMessage{
+            :global(.right){
+                background-color: $app_grey5;
+                color: $app_white;
+                border:none;
+                :global(.arrow){
+                    &:after{
+                        border-right-color: $app_grey5;
+                    }
+                }
+            }
+            .avatar{
+                margin-right: 1rem;
+            }
+        }
+        .rightMessage{
+            text-align: right;
+            :global(.left){
+                background-color: $app_gold;
+                border: none;
+                color: $app_black;
+                :global(.arrow){
+                    &:after{
+                        border-left-color: $app_gold;
+                    }
+                }
+            }
+            .avatar{
+                margin-left: 1rem;
+            }
+
+        }
+    }
+}
+#popover{
+    background-color: $app_grey5;
+    &:global(.popover.bottom > .arrow:after){
+        border-bottom-color: $app_grey5;    
+    }
+    :global(.popover-content){
+        color: $app_white;
+        ul{
+            margin-bottom: 0;
+            li{
+                padding: 0.8rem 0;
+            }
+        }
+    }
+}
+
+    

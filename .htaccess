@@ -1,0 +1,12 @@
+RewriteEngine On
+#first rule is for mock which can be later removed
+#We have to try to reduce remaining rules
+RewriteRule ^app\/.+\/PayAPI\/(.+)\/index.json$ mocks/PayAPI/$1/index.json
+RewriteRule ^app\/.+\/(.+)\/index.json$ mocks/$1/index.json
+RewriteRule ^app\/.*\/*css\/(.+[.].+)$ static/css/$1
+RewriteRule ^app\/.+\/icons\/(.+[.].+)$ static/icons/$1
+RewriteRule ^app\/.+\/img\/(.+[.].+)$ static/img/$1
+RewriteRule ^app\/.+\/avatars\/(.+[.].+)$ static/avatars/$1
+RewriteRule ^app\/.+\/(.+[.].+)$ static/$1
+RewriteRule app\/.* app.html
+RewriteRule maybankm2u index.html

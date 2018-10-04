@@ -1,0 +1,137 @@
+
+@import "../../assets/css/variables.scss";
+.side_bar_wrapper {
+    min-width: 27rem;
+    max-width: 27rem;
+    background-color: $app_black;
+    z-index: 2;
+    color: $app_grey2;
+    padding-top: 0;
+    padding-bottom: 3.7rem;
+    padding-right: 0;
+    padding-left: 0;
+    min-height: 100%;
+    .divider{
+        height:0.1rem;
+        hr{         
+            width: 100%;
+            left: 0;            
+            border-top: solid 0.1rem $slider-runnable-track-bg;
+            opacity: 0.2;
+
+        }
+    }
+    li{
+        direction: ltr;
+        text-align: left;
+        min-width: 100%;
+        border-bottom: solid 0.01rem $app_grey5;
+        height:6.8rem;
+    }
+    li > a{
+        padding-top: 2rem;
+        height: 6.8rem;
+    }
+    :global(.navbar-nav){
+        margin: 0;
+    }
+    @media(max-width: 991px){
+        :global(.navbar-header){
+            float:none;
+        }
+        :global(.navbar-brand){
+            padding-left:25%;
+        }
+    }
+    :global(.navbar-default){
+        padding-top: 0rem;
+        z-index: 99999;
+        a{
+            font-size: 1.3rem !important;
+            font-weight: bold;
+            letter-spacing: 0.05rem !important;
+            color: $btn-default-white_text_color;
+        }
+        :global(.active){
+            border-left: solid 0.3rem $app_gold;
+        }
+    }
+    :global(.navbar-brand){
+        margin-left:2.3rem;
+
+    }
+    .logo{
+        width: 20.4rem;
+        height: 3.4rem;
+        position: relative;
+    }
+    .navbar-toggle{
+        padding-left: 2rem;
+        border: none;
+        background-color: transparent;
+    }
+    @media (min-width: 768px) {
+        .header  .intro-text {
+            padding-top: 25%;
+            .intro-lead-in {
+                font-size: 8rem;
+                font-weight: bold;
+                line-height: 0.8;
+                letter-spacing: -1.7px;
+                text-align: center;
+                color: $btn-default-white_text_color;
+            }
+            .intro-heading {
+                text-transform: uppercase;
+                margin-top: 23.6rem;
+            }
+        }
+        .logo{
+            width: 20.4rem;
+            height: 3.4rem;
+            position: relative;
+        }
+    }
+
+    @media (max-width: 767px) {
+        .header  .intro-text {
+            padding-top: 50%;
+            .intro-lead-in {
+                font-size: 5rem;
+                font-weight: bold;
+                line-height: 1;
+                letter-spacing: -1.1px;
+                text-align: center;
+                color: $btn-default-white_text_color;
+            }
+            .intro-heading {
+                text-transform: uppercase;
+                margin-top: 23.6rem;
+            }
+        }
+        .logo{
+            position: absolute;
+            left: 50%;
+            width: 20.4rem;
+            height: 3.4rem;
+            margin-top: 0rem;
+            margin-left: -10.3rem;
+            top: 2rem;
+        }
+    }
+    .icon_container{
+        height: 1.7rem;
+        padding-left: 2rem;
+        padding-top: 2rem; 
+        span{
+            padding-left: 0.8rem;
+        } 
+    }
+    .search_btn{
+        padding-left: 2rem;
+    }
+    
+}
+.lastLogin{
+    padding-left: 1.5rem;
+}

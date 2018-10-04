@@ -1,0 +1,118 @@
+{
+    "currency": "RM",
+    "currentEffectiveDate": {
+        "display": "20 Dec, 2016",
+        "expected": "20161220"
+    },
+    "accounts": [
+        {
+            "name": "Wadiah Account",
+            "accountNumber": "3121 5454 4545 4645",
+            "availableBalance": 1454,
+            "displayNumber": "XXXX XXXX XXXX 4645",
+            "type": "casa"
+        },
+        {
+            "name": "Wadiah Account-i",
+            "accountNumber": "3121 5454 4545 4644",
+            "availableBalance": 1454,
+            "displayNumber": "XXXX XXXX XXXX 4644",
+            "type": "mfca"
+        },
+        {
+            "name": "Wadiah Account-i",
+            "accountNumber": "3121 5454 4545 4643",
+            "availableBalance": 1454,
+            "displayNumber": "XXXX XXXX XXXX 4643",
+            "type": "card"
+        }
+    ],
+    "toAccounts": [
+        {
+            "name": "Wadiah Account",
+            "number": "3121 5454 4545 4645",
+            "availableBalance": 1454,
+            "displayNumber": "3121 5454 4545 4645",
+            "card": false,
+            "mfca": true,
+            "currency": "SGD",
+            "transferableFromMfca": true
+        },
+        {
+            "name": "Wadiah Account-i",
+            "number": "3121 5454 4545 4644",
+            "availableBalance": 1454,
+            "displayNumber": "XXXX XXXX XXXX 4644",
+            "card": false,
+            "mfca": false,
+            "cardPayments": {
+                "minimum": 250,
+                "statement": 500,
+                "outstanding": 450
+            },
+            "transferableFromMfca": true
+        }
+    ],
+    "transactionLimit": 235,
+    "transactionTypes": [
+        {
+            "id": "fundTransfer",
+            "display": "Fund Transfer"
+        },
+        {
+            "id": "creditCard",
+            "display": "Credit Card"
+        },
+        {
+            "id": "loanPayment",
+            "display": "Loan Payment"
+        },
+        {
+            "id": "hirePurchase",
+            "display": "Hire Purchase"
+        }
+    ],
+    "transferModes": [
+        {
+            "id": "specialinstantTransfer",
+            "displayName": "Special Instant Transfer (IT)",
+            "fee": 0.23
+        },
+        {
+          "id": "instantTransfer",
+          "displayName": "Instant Transfer (IT)",
+          "fee": 0.53
+        }
+    ],
+    "banks": [
+        {
+            "name": "Maybank",
+            "id": 1212111,
+            "default": true,
+            "accountNumber": "1234 3355 5488 5455",
+            "cardsLengths": {
+                "fundTransfer": 12,
+                "creditCard": 14,
+                "loanPayment": 12,
+                "hirePurchase": 14
+            }
+        },
+        {
+            "name": "CIMB",
+            "id": 1212131,
+            "default": false,
+            "accountNumber": "1234 3355 5488 5456",
+            "cardsLengths": {
+                "fundTransfer": 12,
+                "creditCard": 14,
+                "loanPayment": 12,
+                "hirePurchase": 14
+            }
+        }
+    ],
+    "type": "ownAccounts",
+    "nextPage": true,
+    "currentPageNo": 1,
+    "previousPage": false,
+    "isFavourite": true
+}

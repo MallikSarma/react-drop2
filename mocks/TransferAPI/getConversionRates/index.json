@@ -1,0 +1,11 @@
+{
+	"base":"RM",
+	"baseToOthers": {
+		"SGD": 3.25,
+		"USD": 4.15
+	},
+	"othersToBase": {
+		"SGD": 0.5,
+		"USD": 0.75
+	}
+}

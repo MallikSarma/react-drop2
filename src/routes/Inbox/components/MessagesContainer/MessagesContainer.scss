@@ -1,0 +1,132 @@
+@import '../../../../assets/css/variables.scss';
+
+.container{
+    padding-top: 2rem;
+    @media (max-width: 767px){
+        margin-left: -1.5rem;
+        margin-right: -1.5rem; 
+    }
+    .heading{
+        margin-bottom: 2.5rem;
+    }
+    .myInbox{
+        margin-left: 1.5rem;
+        font-size: 2rem;
+    }
+    .leftPanel{
+        padding: 0;
+        @media (min-width: 767px){
+            padding:0 2rem 0 0;
+        }
+    }
+    .rightPanel{
+        padding:0;
+    }
+    :global(.list-group){
+        @media(min-width: 768px){
+            overflow-y:auto;
+            height:45rem;
+        }
+    }
+    :global(.list-group-item){
+        border:0;
+        border-radius: inherit;
+        border-top: 0.1rem solid #ddd;
+        height: 15rem;
+        &:hover{
+            cursor: pointer;
+        } 
+        .messageSubject{
+            span:last-child{
+                float: right;
+                font-weight: normal;
+                font-size: 1.4rem;
+                color: $app_grey4;
+            }
+            font-weight: bold;
+            text-transform: uppercase;
+        }
+        .messageTitle{
+            font-size: 1.6rem;
+            font-weight: bold;
+            padding-top: 1rem;
+            
+        }
+        .messageText{
+            font-size: 1rem;
+            height: 5rem;
+            padding-top: 0rem;
+            white-space: pre-line;
+            overflow: hidden;
+            text-overflow: ellipsis;
+            display: block;
+        }
+    }
+    :global(.list-group-item.active){
+        background-color: $app_gold;
+        color: $app_black;
+    }
+    :global(.panel){
+        @media(max-width: 767px) {
+            margin: 0;
+        }
+		width: 100%;
+        box-shadow: 0 0 1rem 0 rgba(194, 194, 194, 0.5);
+        position: relative;
+        .minPayment{
+        	font-size: 1.6rem;
+        	color:$app_black;
+        	margin-left: 1rem;
+        }
+    }
+    :global(.panel-body){
+        height: 100%;
+        position: relative;
+        padding:0;
+        padding-bottom: 4rem;
+        .messageBody{
+            position:relative;
+            top:6rem;
+        }
+    }
+    :global(.well){
+        .messages_count_circle{
+            width: 2.7rem;
+            height: 2.7rem;
+            vertical-align: middle;
+            text-align: center;
+            border-radius: 50%;
+            padding:0;
+            background-color: $app_green;
+            span{
+                font-size: 1.2rem;
+                font-weight: 100;
+                vertical-align: middle;
+                text-align: center;
+                color: $app_white;
+            }
+        }
+        position: absolute;
+        height: 6rem;
+        width: 100%;
+        top: 0;
+        left: 0;
+        margin-bottom: 0;
+        border-radius: 0.7rem 0.7rem 0 0;
+        border: none;
+        font-size: 1.8rem;
+        color: $app_grey5;
+        span{
+            font-size: 1.6rem;
+            font-weight: 900;
+        }
+        :global(.row){
+            margin-left:0;
+            margin-right: 0;
+        }
+        button{
+            width: 100%;
+            display: none;
+        }
+    }
+}

@@ -1,0 +1,245 @@
+@import '../../../../assets/css/variables.scss';
+.cardsAccountContainer{
+    @media(max-width: 991px) and (min-width: 376px){
+        padding-left: 2rem;
+        padding-right: 2rem;
+    }
+    .cardImage{
+        padding-bottom: 2rem;
+        padding-right: 10rem;
+    }
+    .chargeCard{
+        @media(min-width: 991px){
+            .panelAdjustment{
+                :global(.col-md-12){
+                    padding: 0;
+                }
+            }
+        }
+    }
+    .section{
+        padding-left: 3rem;
+        padding-right: 3rem;
+        @media(max-width: 767px){
+            @media(min-width: 376px){
+                max-width: 93%;
+            }
+        }
+    }   
+    .details{
+        border-top-left-radius: 0.8rem;
+        border-bottom-left-radius: 0.8rem;
+    }
+    .accountInfo{
+        @media(max-width: 768px){
+            display: flex;
+        }
+        @media (min-width: 1200px){
+            max-width: 81rem;
+            margin-left: auto;
+            margin-right: auto;
+            padding-right: 0;
+            padding-left: 0;
+            float: none;
+            margin-bottom: 5rem;
+        }
+        padding: 2rem 0;
+        span{
+            font-size: 2rem;
+            margin: 0;
+            display: inline;
+            &.number{
+                font-size: 1.3rem;
+                color: $app_grey3;
+            }
+        }
+    }
+    @media (min-width: 1200px){
+        .panelAdjustment{
+            max-width: 78rem;
+            margin:auto; 
+            :global(.col-sm-4):first-child{
+                padding-left: 0;
+            }
+            :global(.col-sm-4):last-child{
+                padding-right: 0;
+            }
+        }
+    }
+    .tinyPanels{
+         @media (min-width: 1200px){
+            max-width: 78rem;
+            margin-left: auto;
+            margin-right: auto;
+            padding-right: 0;
+            padding-left: 0;
+        }
+        padding-bottom: 2rem;
+        @media(max-width: 767px){
+            .firstCard , .lastCard , .secondCard{
+                padding: 0;
+            }
+        }
+    }
+    .ezyCashContainer{
+        padding-top:2.5rem;
+        &.tinyPanels{
+            max-width: 81rem;
+            @media(min-width: 376px) and (max-width: 991px){
+                margin-left: 2rem;
+                margin-right: 2rem;
+            }
+            @media(max-width: 375px){
+                margin-left: 2rem;
+                margin-right: 2rem;
+            }
+        }
+    }
+    .amountHeader{
+        width: 10rem;
+    }
+    .option{
+        width: 0.5rem !important;
+        text-align: right !important;
+    }
+    .accountInfo{   
+        @media(max-width: 767px){  
+            margin-bottom: 4rem;
+        }
+        @media(max-width: 375px){
+            display: flex;
+            margin-bottom: 0;
+            margin-top: 2rem;
+            margin-left: 0.5rem;
+            .hide{
+                display: none;
+            }
+        }
+    }
+    .moreIcon{
+        position: relative;
+        @media(max-width: 375px){
+            right: 3rem;
+        }
+        padding: 0.5rem;
+        text-align: right;
+        &:hover{
+            cursor: pointer;
+        }
+    }
+    .selectWrapper{
+        margin-bottom: 2rem;
+        img{
+            margin-left:2rem;
+        }
+        ul{           
+            border-radius: 0.7rem;
+            background-color: $app_grey5;
+            box-shadow: 0 0 1rem 0 rgba(0, 0, 0, 0.3);
+            max-height: 17.3rem;
+            overflow-y: auto;
+            top:0;
+            li {
+                a{
+                color:$app_white;
+                font-size: 1.6rem;
+                line-height: 1.9;
+                letter-spacing: 0.02rem;
+                    &:hover, &:focus {
+                    text-decoration: none;
+                    color: $app_gold;
+                    background-color: transparent;
+                    }
+                }
+            }
+        }   
+    }
+    button{
+        img{
+            margin-left:2rem;
+        }
+    }
+    .pullHeaderRight{
+        text-align: right;
+        margin-bottom: 1rem;
+    }
+    .pullHeaderLeft{
+        text-align: left;
+        margin-bottom: 1rem;   
+    }
+    .tableHolder{
+        background-color: $app_white;
+    }
+    .tableFooter{
+        padding-top: 3rem;
+        a{
+            position: absolute;
+            margin-top: 20%;
+            margin-bottom: 12%;
+            cursor: pointer;
+            &.next_arrow{
+                right: 1.5rem;
+            }
+            &.back_arrow{
+                left: 1.5rem;
+                -webkit-transform: rotate(180deg);
+                -moz-transform: rotate(180deg);
+                -o-transform: rotate(180deg);
+                -ms-transform: rotate(180deg);
+                transform: rotate(180deg);
+            }
+        }
+    }
+    .amounts{
+        color: $app_green;
+        display: flex;
+        .currency{
+            padding-right: 0.3rem;
+        }
+        &.negativeAmount{
+            color: $app_red;
+            span:nth-child(1)::before { 
+                content: "-";
+            }
+        }
+    }
+    .download{
+        &:hover{
+            cursor:pointer;
+        }
+        a{ 
+            position: relative;
+            right: 1rem;
+        }
+    }
+    .availableBalanceSection{
+        padding: 0 1.5rem 2rem 1.5rem;
+        .firstCard{
+            padding: 0;
+        }
+        .lastCard{
+            padding: 0;
+        }
+        .secondCard{
+            padding: 0;
+        }
+        .lastUpdated{
+            direction: rtl;
+            span:nth-child(1){
+                padding-right: 0.3rem;
+            }
+        }
+    }
+    .detailsTable{
+        @media(max-width: 1199px){
+            margin-left: -10.5rem;
+            margin-right: -10.5rem;
+        }
+        background: $app_white;
+        padding-top: 3rem;
+        padding-bottom: 3rem;
+        .detailDate{
+            margin-top: 3rem;
+        }
+    }
+};

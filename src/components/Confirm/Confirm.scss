@@ -1,0 +1,128 @@
+@import '../../assets/css/variables.scss';
+.confirm-wrapper{
+    @media(min-width:1200px){
+        :global(.container-fluid){
+            width:90rem;
+            margin-left:auto;
+            margin-right:auto;
+            padding-right:7rem;
+        } 
+        :global(.col-sm-6){
+            padding-right:0;
+            padding-left: 0;
+        } 
+    }
+    width: 100%;
+    background-color: $app_gold;
+    position: fixed;
+    vertical-align: middle;
+    bottom: 0;
+    z-index: 99999;
+    .confirm-right-wrapper{
+        padding-top: 2.2rem;
+        padding-bottom: 2.2rem;
+        vertical-align: middle;
+    }
+    @media(min-width: 768px){
+        
+        .confirm-right-wrapper{
+            p{
+                font-size: 1.2rem;
+                letter-spacing: 0.02rem;
+                text-align: right;
+                color: $app_black;
+                padding: 0;
+                margin: 0;
+                span{
+                    font-weight: bold;
+                }
+            }
+        }
+    }
+    @media(max-width: 767px){
+        .confirm-right-wrapper{
+            p{
+                font-size: 1.2rem;
+                letter-spacing: 0.02rem;
+                text-align: left;
+                color: $app_black;
+                padding-bottom: 1rem;
+                span{
+                    font-weight: bold;
+                }
+            }
+        }
+
+    }
+    .confirm-heading-wrapper{
+        display: flex;
+        flex-direction:column;
+        h6{
+            font-size: 1.9rem;
+            line-height: 1.2;
+            letter-spacing: 0.01rem;
+            color: $app_black;
+            text-transform: none;
+        }
+        .tac-msg{
+            font-size: 1.3rem;
+            line-height: 1.2;
+            letter-spacing: 0.01rem;
+            color: $app_black;
+            text-transform: none;
+        }
+    }
+    a,
+    a:hover,
+    a:focus,
+    a:active,
+    a.active {
+        outline: none;
+        color: $app_black;
+        font-weight: bold;
+    }
+    .input-wrapper {
+        display: block;
+        margin-bottom: 1rem;
+        .input-icon {
+            position: absolute;
+            padding-top: 2.1rem;
+            z-index: 3;
+        }
+        .pair-input {
+            border-radius: 0.7rem;
+            border: solid 0.1rem $app_grey2; 
+            height: 4rem;
+            width: 100%;
+        }
+    }
+    :global(.btn){
+        height: 4rem;
+        padding: 0;
+        float: right;
+        padding-left: 1.5rem;
+        padding-right: 1.5rem;
+        height: 4.5rem;
+        border:none;
+        @media(max-width: 767px){
+            margin-right: 0;
+            margin-left: 0;
+        }
+
+        img{
+            margin-left: 1rem;
+            padding-bottom: 0.4rem;
+        }
+    } 
+}
+@media (max-width: 767px) {
+    .confirm-wrapper{
+        border-bottom: 0;
+        position: fixed;
+        padding-left: 0.8rem;
+        padding-right: 0.8rem;
+        width:100%;
+    }
+}
+
+

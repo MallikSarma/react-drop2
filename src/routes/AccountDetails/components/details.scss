@@ -1,0 +1,106 @@
+@import '../../../assets/css/variables.scss';
+html,body{
+    overflow: hidden;
+}
+.accountContainer{
+    height: 100%;
+    overflow-y: auto;
+    &.stillLoading{
+        min-height: 100%
+    }
+    :global(.navbar-default){
+        border: none;
+    }
+    background: $app_ash;
+    @media(max-width: 991px){
+        &.mobileRTL{
+            direction: rtl;
+            :global(.side_bar_container){
+                direction:ltr;
+                min-width:100%;
+            }
+        }
+    }
+    :global(.notification-message){
+        padding-top:2.2rem;
+        padding-bottom: 2.2rem;
+        text-align: center;
+        color:$app_white;
+    }
+    :global(.notification-title){
+        color: $app_white;
+        font-size: 1.6rem;
+        text-align: center;
+        text-transform: none;
+    }
+    :global(.notification-dismiss){
+        background-color: transparent;
+        margin: 2rem;
+    }
+    :global(.notification.notification-visible){
+        min-height: 9rem;
+    }
+}
+.container{
+    width: 100%;
+    overflow-x: hidden;
+    position: relative;
+    :global(.loaderChildren){
+        display: flex;
+    }
+    @media(max-width: 991px){
+        direction:ltr;
+        min-width: 100%;
+    }
+}
+.contentContainer{
+    display: flex;
+    flex-direction: row;
+    position: relative;
+    width: 100%;
+    @media(min-width: 768px){
+        > :global(.container-fluid){
+            margin-top: 23rem;
+            width: 100%;
+        }
+        .summarySection{
+            margin-top: 23rem;
+            width: 100%;  
+        }
+    }
+    @media(max-width: 767px){
+        > :global(.container-fluid){
+            margin-top: 16rem;
+            width: 100%;
+        }
+        .summarySection{
+            margin-top: 23rem;
+            width: 100%;  
+        }
+    }
+}
+.topSection{
+    position: absolute;
+    top: 0;
+    width: 100%;
+    z-index: 2;
+    @media(min-width: 1200px){
+        padding-right: 27rem;
+    }
+    &.topFixed{
+        .navigation{
+            top: 0;
+            width: 100%;
+            @media(min-width: 1200px){
+                padding-right: 27rem;
+            }
+            position: fixed;
+        }
+    }
+}
+.paddingLeft{
+    left: 27rem;
+}
+.paddingRight{
+    right: 27rem;
+}

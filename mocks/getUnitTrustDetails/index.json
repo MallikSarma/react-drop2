@@ -1,0 +1,152 @@
+{
+	"id": "3351451215152",
+	"tab": "wealth",
+	"wealthTypes": "unitTrust",
+	"name": "UnitTrust ",
+	"accounts": [{
+		"accountNumber": "6183943-CDS",
+		"lastUpdated": "30 December 2016",
+		"currency": "RM",
+		"investmentOverview": {
+			"marketValue": 19384.09,
+			"bookValue": 15000,
+			"totalUnits": 12894,
+			"unrealizedGainsLoss": {
+				"amount": 4384.09,
+				"percentage": 22.6
+			}
+		}
+	}, {
+		"accountNumber": "76890-IFN",
+		"lastUpdated": "16 May 2016",
+		"currency": "RM",
+		"investmentOverview": {
+			"marketValue": 10384.09,
+			"bookValue": 8000,
+			"totalUnits": 8000,
+			"unrealizedGainsLoss": {
+				"amount": 238409,
+				"percentage": -12.60
+			}
+		}
+	}],
+	"investmentInfo": {
+		"investmentType": [{
+			"displayName": "One time subscription"
+		}, {
+			"displayName": "Regular savings plan"
+		}]
+	},
+	"fundHouse": [{
+		"fundHouseName": "Amanah Mutual Berhad",
+		"funds": [{
+			"fundName": "AMB Balanced Trust Fund",
+			"unitHeld": 665.34,
+			"currency": "RM",
+			"lastClosing": 1.010000,
+			"currentValueFcy": null,
+			"currentValueLcy": 672,
+			"profit": 24.86,
+			"lastValuedDate": "13/07/16"
+		}, {
+			"fundName": "AMB Dana Ikhlas",
+			"unitHeld": 964.99,
+			"currency": "RM",
+			"lastClosing": 1.061500,
+			"currentValueFcy": null,
+			"currentValueLcy": 1024.34,
+			"profit": 23,
+			"lastValuedDate": "12/07/16"
+		}]
+	}, {
+		"fundHouseName": "HLG Unit Trust Berhad",
+		"funds": [{
+			"fundName": "HLG Asia Pacific Dividend Fund ",
+			"unitHeld": 300.34,
+			"currency": "RM",
+			"lastClosing": 3.010000,
+			"currentValueFcy": null,
+			"currentValueLcy": 800,
+			"profit": 51.86,
+			"lastValuedDate": "13/07/16"
+		}, {
+			"fundName": "HLG Global Value Fund ",
+			"unitHeld": 312.10,
+			"currency": "RM",
+			"lastClosing": 1.061599,
+			"currentValueFcy": null,
+			"currentValueLcy": 1024.34,
+			"profit": 30,
+			"lastValuedDate": "09/07/16"
+		}]
+	}],
+	"maybankMarketInsights": [{
+		"category": "Property",
+		"location": "South East Asia",
+		"date": "February 21, 2016",
+		"headLine": "Unmasking Asia - The Singapore Fix"
+	}, {
+		"category": "Economics",
+		"location": "United States",
+		"date": "January 12, 2016",
+		"headLine": "Economics Research | United States - FOMC"
+	}, {
+		"category": "Economics",
+		"location": "Asia Pacific",
+		"date": "December 29, 2015",
+		"headLine": "Strategy Report - Six-for-16"
+	}, {
+		"category": "Strategy",
+		"location": "Asia",
+		"date": "November 25, 2015",
+		"headLine": "BNM Annual Report 2015 - No major surprise"
+	}, {
+		"category": "Technology",
+		"location": "Global",
+		"date": "Decamber 29, 2015",
+		"headLine": "Malaysia Automotive - Less New Cars For CNY"
+	}, {
+		"category": "Regional",
+		"location": "Global",
+		"date": "Decamber 29, 2015",
+		"headLine": "Malaysia Strategy - Fund flows"
+	}],
+	"assetAllocation": [{
+		"name": "Gold & Silver",
+		"amount": 12065,
+		"allocationPercentage": 20
+	}, {
+		"name": "Unit Trust",
+		"amount": 10857.60,
+		"allocationPercentage": 18
+	}, {
+		"name": "Foreign Currency",
+		"amount": 9651.20,
+		"allocationPercentage": 10
+	}, {
+		"name": "Retail Bonds",
+		"amount": 6032,
+		"allocationPercentage": 15
+	}, {
+		"name": "Structured Investment",
+		"amount": 5428.8,
+		"allocationPercentage": 9
+	}, {
+		"name": "Dual Currency Investment",
+		"amount": 4825.60,
+		"allocationPercentage": null
+	}],
+	"colorsList": [
+		"#F5A623",
+		"#B2C753",
+		"#C4D676",
+		"#81DEA6",
+		"#2dc884",
+		"#389A6E",
+		"#4fc0db",
+		"#4a8fd0",
+		"#416589",
+		"#416589",
+		"Da4747"
+	]
+}

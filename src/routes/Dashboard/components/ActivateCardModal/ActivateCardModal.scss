@@ -1,0 +1,196 @@
+@import '../../../../assets/css/variables.scss';
+.container{
+    z-index: 99999;
+    .cardInfo{
+        display: flex;
+        .cardImage{
+            margin-right: 1rem;
+        }
+    }
+    @media (min-width: 768px) {
+        :global(.modal-dialog){
+            width: 50rem;
+            top:7rem;
+            height: inherit;
+            margin: auto;
+        } 
+        :global(.modal-header){
+            border-top-left-radius: 0.8rem;
+            border-top-right-radius: 0.8rem;
+        }
+        :global(.modal-footer){
+            border-bottom-left-radius: 0.8rem;
+            border-bottom-right-radius: 0.8rem;
+        }
+        :golbal(.modal-content){
+            border-radius: 0.8rem;
+        }
+    }
+    @media (max-width: 767px) {
+        padding-left:0;
+        :global(.modal-dialog){
+            width: 100%;
+            top: 0;
+            margin: auto;
+            z-index: 9999;
+            border-color: $body_bg;
+            opacity: 3;
+        }   
+        :global(.modal-content){
+            -webkit-border-radius: 0;
+            -moz-border-radius: 0;
+            border-radius: 0;
+        }
+    }
+    :global(.modal-header){
+        width: 100%;
+        height: 7.5rem;
+        border:none;
+        background-color: $body_bg;
+        h6{
+            color: $btn-default-white_text_color;
+            font-size: 1.6rem;
+            line-height: 1;
+            letter-spacing: 0.01rem;
+            text-transform: capitalize;
+            padding-top: 0.7rem;
+            padding-left:0.7rem;
+        }   
+    }
+    :global(.modal-content){
+        width: 100%;
+    }
+    :global(.modal-body){
+        padding: 0;
+        .cardTitleSection{
+            background-color: $app_ash;
+            padding: 2rem 2.7rem 2rem 2.7rem;
+            h2{
+                font-size: 1.6rem;
+                letter-spacing: 0.02rem;
+                text-transform: none;
+                margin-top: 0;
+            }
+            span{
+                font-size: 1.2rem;
+                letter-spacing: 0.02rem;
+                color: $app_grey3;
+            }
+
+        }
+        .textSection{
+            padding: 2rem 2.7rem 2rem 2.7rem;
+            background-color: $app_grey1;
+            h3{
+                font-size: 1.2rem;
+                font-weight: 900;
+                letter-spacing: 0.01rem;
+                color: $app_grey5;
+            }
+            p{
+                font-size: 1.6rem;
+                letter-spacing: 0.02rem;
+            }
+            span{
+                font-size: 1.2rem;
+                line-height: 1.3;
+                letter-spacing: 0.01rem;
+                color: $app_grey4;
+            }
+        }
+        .textBoxSection{
+            padding: 2rem 2.7rem 2rem 2.7rem;
+
+        }
+        .cardImage{
+            width: 9.1rem;
+            height: 5.1rem;
+            img{
+                width: 100%;
+                height: 100%;
+            }
+        }
+        p{
+            padding: 0;
+            margin: 0;
+        }
+        .pair-input {
+            border-radius: 0.7rem;
+            border: solid 0.1rem $app_grey2; 
+            height: 4rem;
+            width: 100%;
+            padding-left: 1.9rem;
+        }
+    }
+    :global(.modal-footer){
+        padding: 2rem 2.7rem 2rem 2.7rem;
+        p{
+            text-align: left;
+            font-size: 1.4rem;
+            letter-spacing: 0.01rem;
+            color: $app_grey4;
+            span{
+                color: $app_black;
+            }
+        }
+    }
+    lable{
+        font-weight: 500;
+        font-size: 1.5rem;
+        padding-right:1rem;
+    }
+    .termsContainer{
+        &:hover{
+            cursor: pointer;
+        }
+    }
+    .lableWithHelp{
+        display: flex;
+    }
+    .radioButton{
+        width: 2.5rem;
+        height: 2.5rem;
+        cursor: pointer;
+        img{
+            width: 100%;
+            height: 100%;
+            cursor: pointer;
+        }
+    }
+    :global(.close){
+        margin-top: 0;
+        margin-left: 3rem;
+        font-size: 3.4rem;
+        opacity: 5;
+        text-shadow: 0 0 0 $btn-default-white_text_color;
+        span{
+            vertical-align: middle;
+        }
+    }
+    :global(.btn){
+        font-size: 1.3rem;
+        width: 100%;
+        height: 4.5rem;
+        padding: 0;
+        font-size: 1.3rem;
+        font-weight: bold;
+    }
+    :global(.btn-success){  
+        width: 100%;
+        border: none !important;
+    }
+    .tooltipWithInput{
+        display: flex;
+        img{
+            padding-right: 1rem;
+        }
+    }
+}
+.tooltipWrapper {
+    z-index: 99999;
+    opacity: 0.9;
+    :global(.tooltip-inner){
+        padding:1.5rem;
+        background-color: $app_black;
+    }
+}

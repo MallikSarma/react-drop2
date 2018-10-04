@@ -1,0 +1,32 @@
+{
+    "accountInfo":{
+        "name": "Emman Savings Account",
+        "number": "1111 2222 3333 4445",
+        "availableBalance": 51000
+    },
+    "requestTac":true,
+    "recieptPDF":"static/img/samplePdf.pdf",
+    "currency":"RM",
+    "principalAmount": 5190, 
+    "closingAmount":11730,
+    "linkedFDAccount":{
+        "name":"Maybank Flexi Fixed Deposit",
+        "number":"1111 2222 3333"
+    },
+    "certificateInfo": [{
+        "label":"Account Type",
+        "value":"Individual"
+    },{
+        "label":"Term",
+        "value":"12 Months Campaign Rate @ 4.5% p.a"
+    },{
+        "label":"Interest Frequency",
+        "value":"On Maturity"
+    },{
+        "label":"Interest Mode",
+        "value":"Add to Principal"
+    },{
+        "label":"Maturity Instructions",
+        "value":"Auto Renewal"
+    }]
+}

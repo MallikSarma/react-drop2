@@ -1,0 +1,12 @@
+{
+	"linkedAccounts":[
+		{
+			"name": "Amanah Saham 1Malaysia",
+			"number": "1122 2211 2121 1212"
+		}
+	],
+	"type": "asnb",
+	"currentPageNo": 1,
+	"nextPage": true,
+	"previousPage": false
+}

@@ -1,0 +1,69 @@
+{
+    "zeroActivityDetails": [
+        {
+            "imageUrl": "m2u/static/img/get_installment_plan.png",
+            "mobileImageUrl":"m2u/static/img/get_installment_plan.png",
+            "redirectUrl":""
+        },{
+            "imageUrl": "m2u/static/img/need_extra_cash.png",
+            "mobileImageUrl":"m2u/static/img/need_extra_cash.png",
+            "redirectUrl":""
+        },{
+            "imageUrl":"m2u/static/img/need_to_increase_your_credit.png",
+            "mobileImageUrl":"m2u/static/img/need_to_increase_your_credit.png",
+            "redirectUrl":""
+        }
+    ],
+    "activities": [{
+        "date": "14 Jan 2016",
+        "time": "09:15:10 AM",
+        "currency": "RM",
+        "details": {
+            "from": {
+                "accountName": "Wadiah Savings Account",
+                "accountNumber": "1111 2222 3333"
+            },
+            "to": {
+                "accountName": "Azhar Razali",
+                "accountNumber": "1111 2222 3334"
+            },
+            "timeStamp": {
+                "dateTime": "14 January, 2016",
+                "details": "Today"
+            },
+            "addFavorite": null,
+            "extraDetails": null
+        },
+        "amount": 250,
+        "status": {
+            "success": false,
+            "successMessage": "Transaction Failed",
+            "referenceNumber": "IT12542496/456"
+        }
+    }, {
+        "date": "13 Jan 2016",
+        "time": "09:15:10 AM",
+        "currency": "RM",
+        "details": {
+            "from": null,
+            "to": null,
+            "addFavorite": {
+                "accountName": "Amit Kushal",
+                "accountNumber": "1111 2222 3334"
+            },
+            "timeStamp": {
+                "dateTime": "14 January, 2016",
+                "details": "Later"
+            },
+            "extraDetails": [
+                "Request TAC"
+            ]
+        },
+        "amount": 250,
+        "status": {
+            "success": true,
+            "successMessage": "TAC Sent",
+            "referenceNumber": "IT12542496/456"
+        }
+    }]
+}

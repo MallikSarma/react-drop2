@@ -1,0 +1,150 @@
+@import '../../assets/css/variables.scss';
+.confirm-wrapper{
+    @media(min-width: 1200px){ 
+        padding-right: 5.5rem;
+    } 
+    width: 100%;
+    background-color: $app_gold;
+    position: fixed;
+    vertical-align: middle;
+    bottom: 0;
+    z-index: 99999;
+    @media(min-width: 1200px){      
+        .fixContainer{
+            width: 110rem;
+            margin-left: auto;
+            margin-right: auto;            
+        }
+    }    
+    .confirm-right-wrapper{
+        min-height: 12.6rem;
+        padding-top: 2.2rem;
+        padding-bottom: 2.2rem;
+        vertical-align: middle;
+        .btn-wrapper{
+            text-align: center;
+            top:0.5rem;
+            @media(min-width: 768px){      
+                text-align: right;
+                top:2rem;
+            }
+            position: relative;
+            :global(.btn.btn-success){
+                margin-right: 1rem;
+                border: none;
+                height: 4.5rem;
+                padding: 0 2rem 0 3rem;
+                font-weight: bold;
+                font-size: 1.6rem;
+                .btn-action{
+                    font-weight: normal;
+                    margin-right: 0.5rem;
+                }
+                .btn-currency{
+                    margin-right: 0.5rem;
+                }
+                .btn-total-amount{
+                    margin-right: 2rem;
+                }
+                .pay-icon{
+                    background: url(../../assets/icons/transaction_white.svg) center center no-repeat ;
+                    background-size: contain;
+                    width: 1.3rem;
+                    height: 1.9rem;
+                    display: inline-block;
+                    vertical-align: middle;
+                }
+            }
+        }
+        .tac-msg{
+            font-size: 1.2rem;
+            line-height: 1.2;
+            letter-spacing: 0.01rem;
+            color: $app_black;
+            text-transform: none;
+            text-align: center;
+            @media(min-width: 768px){      
+                text-align: left;
+            }            
+        }        
+    }
+    @media(min-width: 768px){      
+        .confirm-right-wrapper{
+            p{
+                font-size: 1.2rem;
+                letter-spacing: 0.02rem;
+                text-align: right;
+                color: $app_black;
+                padding: 0;
+                margin: 0;
+                span{
+                    font-weight: bold;
+                }
+            }
+        }
+    }
+    @media(max-width: 767px){
+        .confirm-right-wrapper{
+            p{
+                font-size: 1.2rem;
+                letter-spacing: 0.02rem;
+                text-align: left;
+                color: $app_black;
+                padding-bottom: 1rem;
+                span{
+                    font-weight: bold;
+                }
+            }
+        }
+
+    }
+    .confirm-heading-wrapper{
+        position: relative;
+        top: 0.7rem;        
+        margin-left: -0.4rem;
+        h6{
+            text-align: center;
+            @media(min-width: 768px){
+                text-align: left;
+            }             
+            font-size: 1.9rem;
+            line-height: 1.2;
+            letter-spacing: 0.01rem;
+            color: $app_black;
+            text-transform: none;
+        }
+    }
+    a,
+    a:hover,
+    a:focus,
+    a:active,
+    a.active {
+        outline: none;
+        color: $app_black;
+        font-weight: bold;
+    }
+    .input-wrapper {
+        display: block;
+        margin-bottom: 1rem;
+        .input-icon {
+            position: absolute;
+            padding-top: 2.1rem;
+            z-index: 3;
+        }
+        .pair-input {
+            border-radius: 0.7rem;
+            border: solid 0.1rem $app_grey2; 
+            height: 4rem;
+            width: 100%;
+        }
+    }
+}
+@media (max-width: 767px) {
+    .confirm-wrapper{
+        border-bottom: 0;
+        position: fixed;
+        padding-left: 0.8rem;
+        padding-right: 0.8rem;
+        width:100%;
+    }
+}

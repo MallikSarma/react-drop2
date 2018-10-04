@@ -1,0 +1,106 @@
+ 
+{
+    "dashboardType":"wealth",
+    "transactionPeriod":30,
+    "wealth": {
+        "accumulatedAmount": null,
+        "accumulatedCurrency": null,
+        "accountDetails": null,
+        "rewardDetails": null,
+        "wealthDetails":{
+            "currency":"RM",
+            "colorsList": [
+               "#F5A623",
+               "#B2C753",
+               "#C4D676",
+               "#81DEA6",
+               "#2dc884",
+               "#389A6E",
+               "#4fc0db",
+               "#4a8fd0",
+               "#416589",
+               "#416589",
+               "Da4747"
+           ],
+            "totalMarketValue":60320,
+            "lastUpdate":"As of 30 March 2016, 6:30pm EDT",
+            "unrealisedGainsLoss":{
+                "amount":2000,
+                "percentage":24
+            },
+            "bookValue":58000,
+            "assetAllocation":[{
+                "name": "Gold & Silver",
+                "amount":12065,
+                "allocationPercentage":20
+            },{
+                "name": "Unit Trust",
+                "amount":10857.60,
+                "allocationPercentage":18
+            },{
+                "name": "Foreign Currency",
+                "amount":9651.20,
+                "allocationPercentage":10
+            },{
+                "name": "Shares",
+                "amount":7238,
+                "allocationPercentage":12
+            },{
+                "name": "Retail Bonds",
+                "amount":6032,
+                "allocationPercentage":15
+            },{
+                "name": "Structured Investment",
+                "amount":5428.8,
+                "allocationPercentage":9
+            },{
+                "name": "Dual Currency Investment",
+                "amount":4825.60,
+                "allocationPercentage":null
+            }]
+
+        },
+        "zeroInvestments": [{
+            "id": "2151451215152",
+            "name": "Gold & Silver",
+            "imgAccessUrl": "m2u/static/icons/gold.svg",
+            "description": "Gold & silver is free from the evils of inside trading. Besides, there are no company specific risks as seen in stock markets."
+        }, {
+            "id": "2151451215152",
+            "name": "Foreign Currency",
+            "imgAccessUrl": "m2u/static/icons/foreign_currency.svg",
+            "description": "This market provides opportunities to take advantage of movements in exchange rates."
+        }, {
+            "id": "2151451215152",
+            "name": "Unit Trust",
+            "imgAccessUrl": "m2u/static/icons/investment_certificate.svg",
+            "description": "This market provides opportunities to take advantage of movements in exchange rates."
+        }, {
+            "id": "2151451215152",
+            "name": "Shares",
+            "imgAccessUrl": "m2u/static/icons/stocks_laptop_monitor.svg",
+            "description": "Shares provide the highest potential returns. On the downside, stocks tend to be the most volatile investments."
+        }, {
+            "id": "2151451215152",
+            "name": "Dual Currency Investment",
+            "imgAccessUrl": "m2u/static/icons/dual_currency.svg",
+            "description": "Dual Currency Investment is a short-term investment product that gives you the opportunity to earn potentially higher returns on investment in the currency markets."
+        }, {
+            "id": "2151451215152",
+            "name": "Structured Investment",
+            "imgAccessUrl": "m2u/static/icons/investment_graph_board.svg",
+            "description": "A structured deposit is essentially a combination of a deposit and an investment product, where the return is dependent on the performance of some underlying financial instrument."
+        }, {
+            "id": "2151451215152",
+            "name": "Retail Bonds",
+            "imgAccessUrl": "m2u/static/icons/retail_bonds.svg",
+            "description": "People invest in bonds for predictable income stream and also to preserve their capital investment."
+        }, {
+            "id": "2151451215152",
+            "name": "Insurance-Investment Link",
+            "imgAccessUrl": "m2u/static/icons/money_protection.svg",
+            "description": "Investment-linked insurance policies (ILPs) have both life insurance and investment components."
+        }]
+    }
+        
+}

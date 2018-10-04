@@ -1,0 +1,787 @@
+{
+    "m2uLite": false,
+    "imTeen": false,
+    "lastLogin":{
+       "date":"14 January, 2016",
+       "time": "10:20:35 am"
+    },
+    "sampleCardUrl": "m2u/static/images/sample_card.png",
+    "pageContent": {
+        "saved": {
+            "accumulatedAmount": 22715.12,
+            "accumulatedCurrency": "RM",
+            "accountDetails": [{
+                "id": "2151451215152",
+                "name": "Wadiah Savings Account",
+                "number": "1111 2222 3333 4444",
+                "displayNumber": "XXXX XXXX 4234",
+                "primaryCurrency": "RM",
+                "primaryAmount": 2000,
+                "secondaryCurrency": null,
+                "secondaryAmount": null,
+                "imgAccessUrl": null,
+                "amountConsumed": null,
+                "maxLimit": null,
+                "type": "savings",
+                "transactionTypes": [
+                    "debitCard",
+                    "m2uPay",
+                    "m2uTransaction"
+                ]
+            },{
+                "id": "2151451215156",
+                "name": "Maybank2u Current Account",
+                "number": "1111 2222 3333 4445",
+                "displayNumber": "XXXX XXXX 4235",
+                "primaryCurrency": "RM",
+                "primaryAmount": 20640,
+                "secondaryCurrency": null,
+                "secondaryAmount": null,
+                "imgAccessUrl": null,
+                "amountConsumed": null,
+                "maxLimit": null,
+                "type": "current",
+                "transactionTypes": [
+                    "debitCard",
+                    "m2uTransaction"
+                ]
+            }, {
+                "id": "2151451215154",
+                "name": "eWallet",
+                "number": "1111 2222 3333 4446",
+                "displayNumber": "XXXX XXXX 6548",
+                "primaryCurrency": null,
+                "primaryAmount": null,
+                "secondaryCurrency": null,
+                "secondaryAmount": null,
+                "imgAccessUrl": null,
+                "casalite": true,
+                "amountConsumed": 4316,
+                "maxLimit": 5000,
+                "type": "casalite",
+                "transactionTypes": [
+                    "m2uPay",
+                    "m2uTransaction"
+                ]
+            },
+            {
+                "id": "2151451215152",
+                "name": "Wadiah Savings Account",
+                "number": "1111 2222 3333 4444",
+                "displayNumber": "XXXX XXXX 4234",
+                "primaryCurrency": "RM",
+                "primaryAmount": 2000,
+                "secondaryCurrency": null,
+                "secondaryAmount": null,
+                "imgAccessUrl": null,
+                "amountConsumed": null,
+                "maxLimit": null,
+                "type": "savings",
+                "transactionTypes": [
+                    "debitCard",
+                    "m2uPay",
+                    "m2uTransaction"
+                ]
+            }, {
+                "id": "2151451215156",
+                "name": "Maybank2u Current Account",
+                "number": "1111 2222 3333 4445",
+                "displayNumber": "XXXX XXXX 4235",
+                "primaryCurrency": "RM",
+                "primaryAmount": 20640,
+                "secondaryCurrency": null,
+                "secondaryAmount": null,
+                "imgAccessUrl": null,
+                "amountConsumed": null,
+                "maxLimit": null,
+                "type": "current",
+                "transactionTypes": [
+                    "debitCard",
+                    "m2uTransaction"
+                ]
+            }, {
+                "id": "2151451215154",
+                "name": "eWallet",
+                "number": "1111 2222 3333 4446",
+                "displayNumber": "XXXX XXXX 6548",
+                "primaryCurrency": null,
+                "primaryAmount": null,
+                "secondaryCurrency": null,
+                "secondaryAmount": null,
+                "imgAccessUrl": null,
+                "casalite": true,
+                "amountConsumed": 4316,
+                "maxLimit": 5000,
+                "type": "casalite",
+                "transactionTypes": [
+                    "m2uPay",
+                    "m2uTransaction"
+                ]
+            },
+            {
+                "id": "2151451215154",
+                "name": "eWallet",
+                "number": "1111 2222 3333 4446",
+                "displayNumber": "XXXX XXXX 6548",
+                "primaryCurrency": null,
+                "primaryAmount": null,
+                "secondaryCurrency": null,
+                "secondaryAmount": null,
+                "imgAccessUrl": null,
+                "casalite": true,
+                "amountConsumed": 4316,
+                "maxLimit": 5000,
+                "type": "casalite",
+                "transactionTypes": [
+                    "m2uPay",
+                    "m2uTransaction"
+                ]
+            }],
+            "otherAccounts": [{
+                "id": "2151451215152",
+                "name": "iSavvy Saving Plus Account",
+                "number": "1231 2335 3234",
+                "displayNumber": "XXXX XXXX 3234",
+                "primaryCurrency": "RM",
+                "primaryAmount": 2000,
+                "secondaryCurrency": "SGD",
+                "secondaryAmount": 454545,
+                "imgAccessUrl": "m2u/static/img/circle_sgflag.png",
+                "amountConsumed": null,
+                "maxLimit": null,
+                "type": "savings",
+                "transactionTypes": [
+                    "debitCard",
+                    "m2uPay",
+                    "m2uTransaction"
+                ]
+            }, {
+                "id": "2151451215152",
+                "name": "Vivvy Sofea (Primary)",
+                "number": "2132 2212 5554",
+                "displayNumber": "XXXX XXXX 5554",
+                "primaryCurrency": "RM",
+                "primaryAmount": 20600,
+                "secondaryCurrency": null,
+                "secondaryAmount": null,
+                "imgAccessUrl": "m2u/static/img/vivylogo.png",
+                "amountConsumed": null,
+                "maxLimit": null,
+                "type": "savings",
+                "transactionTypes": [
+                    "debitCard",
+                    "m2uPay"
+                ]
+            }, {
+                "id": "2151451215152",
+                "name": "iSavvy Saving Plus Account",
+                "number": "1231 2335 3234",
+                "displayNumber": "XXXX XXXX 3234",
+                "primaryCurrency": "RM",
+                "primaryAmount": 2000,
+                "secondaryCurrency": "SGD",
+                "secondaryAmount": 454545,
+                "imgAccessUrl": "m2u/static/img/circle_sgflag.png",
+                "amountConsumed": null,
+                "maxLimit": null,
+                "type": "savings",
+                "transactionTypes": [
+                    "debitCard",
+                    "m2uPay",
+                    "m2uTransaction"
+                ]
+            }, {
+                "id": "2151451215152",
+                "name": "Vivvy Sofea (Primary)",
+                "number": "2132 2212 5554",
+                "displayNumber": "XXXX XXXX 5554",
+                "primaryCurrency": "RM",
+                "primaryAmount": 20600,
+                "secondaryCurrency": null,
+                "secondaryAmount": null,
+                "imgAccessUrl": "m2u/static/img/vivylogo.png",
+                "amountConsumed": null,
+                "maxLimit": null,
+                "type": "savings",
+                "transactionTypes": [
+                    "debitCard",
+                    "m2uTransaction"
+                ]
+            }, {
+                "id": "2151451215152",
+                "name": "iSavvy Saving Plus Account",
+                "number": "1231 2335 3234",
+                "displayNumber": "XXXX XXXX 3234",
+                "primaryCurrency": "RM",
+                "primaryAmount": 2000,
+                "secondaryCurrency": "SGD",
+                "secondaryAmount": 454545,
+                "imgAccessUrl": "m2u/static/img/circle_sgflag.png",
+                "amountConsumed": null,
+                "maxLimit": null,
+                "type": "savings",
+                "transactionTypes": [
+                    "debitCard",
+                    "m2uPay",
+                    "m2uTransaction"
+                ]
+            }, {
+                "id": "2151451215152",
+                "name": "Vivvy Sofea (Primary)",
+                "number": "2132 2212 5554",
+                "displayNumber": "XXXX XXXX 5554",
+                "primaryCurrency": "RM",
+                "primaryAmount": 20600,
+                "secondaryCurrency": null,
+                "secondaryAmount": null,
+                "imgAccessUrl": "m2u/static/img/vivylogo.png",
+                "amountConsumed": null,
+                "maxLimit": null,
+                "type": "savings",
+                "transactionTypes": [
+                    "debitCard",
+                    "m2uPay",
+                    "m2uTransaction"
+                ]
+            }, {
+                "id": "2151451215152",
+                "name": "iSavvy Saving Plus Account",
+                "number": "1231 2335 3234",
+                "displayNumber": "XXXX XXXX 3234",
+                "primaryCurrency": "RM",
+                "primaryAmount": 2000,
+                "secondaryCurrency": "SGD",
+                "secondaryAmount": 454545,
+                "imgAccessUrl": "m2u/static/img/circle_sgflag.png",
+                "amountConsumed": null,
+                "maxLimit": null,
+                "type": "savings",
+                "transactionTypes": [
+                    "debitCard",
+                    "m2uPay",
+                    "m2uTransaction"
+                ]
+            }, {
+                "id": "2151451215152",
+                "name": "Vivvy Sofea (Primary)",
+                "number": "2132 2212 5554",
+                "displayNumber": "XXXX XXXX 5554",
+                "primaryCurrency": "RM",
+                "primaryAmount": 20600,
+                "secondaryCurrency": null,
+                "secondaryAmount": null,
+                "imgAccessUrl": "m2u/static/img/vivylogo.png",
+                "amountConsumed": null,
+                "maxLimit": null,
+                "type": "savings",
+                "transactionTypes": [
+                    "debitCard",
+                    "m2uPay",
+                    "m2uTransaction"
+                ]
+            }],
+            "goals": [{
+                "message": "goal 1",
+                "target": 5000,
+                "achieved": 2000
+            }, {
+                "message": "goal 2",
+                "target": 6000,
+                "achieved": 2000
+            }, {
+                "message": "goal 3",
+                "target": 7000,
+                "achieved": 2000
+            }, {
+                "message": "goal 4",
+                "target": 8000,
+                "achieved": 2000
+            }, {
+                "message": "goal 5",
+                "target": 8000,
+                "achieved": 8000
+            }, {
+                "message": "goal 6",
+                "target": 9000,
+                "achieved": 2000
+            }, {
+                "message": "goal 6",
+                "target": 9000,
+                "achieved": 2000
+            }]
+        },
+        "fixedDeposit": {
+            "accumulatedAmount": 22715.12,
+            "accumulatedCurrency": "RM",
+            "accountDetails": [
+                {
+                    "id": "2151451215152",
+                    "name": "Maybank Fixed Deposit",
+                    "number": "1111 2222 3333 4444",
+                    "displayNumber": "XXXX XXXX 4234",
+                    "primaryCurrency": "RM",
+                    "primaryAmount": 2000,
+                    "secondaryCurrency": null,
+                    "secondaryAmount": null,
+                    "imgAccessUrl": null,
+                    "amountConsumed": null,
+                    "maxLimit": null,
+                    "type": "individual",
+                    "transactionTypes": [
+                        "m2uPay",
+                        "m2uTransaction"
+                    ]
+                },
+                {
+                    "id": "2151451215152",
+                    "name": "Maybank Joint Fixed Deposit",
+                    "number": "1111 2222 3333 4445",
+                    "displayNumber": "XXXX XXXX 4234",
+                    "primaryCurrency": "RM",
+                    "primaryAmount": 2000,
+                    "secondaryCurrency": null,
+                    "secondaryAmount": null,
+                    "imgAccessUrl": null,
+                    "amountConsumed": null,
+                    "maxLimit": null,
+                    "type": "joint",
+                    "transactionTypes": [
+                        "m2uPay",
+                        "m2uTransaction"
+                    ]
+                }
+            ]
+        },
+        "cards": {
+            "accumulatedAmount": -4545,
+            "accumulatedCurrency": "RM",
+            "accountDetails": [{
+                "id": "2151451215152",
+                "name": "Credit Card",
+                "number": "XXXX XXXX XXXX 4444",
+                "displayNumber": "XXXX XXXX XXXX 4444",
+                "primaryCurrency": "RM",
+                "primaryAmount": -2000,
+                "secondaryCurrency": null,
+                "secondaryAmount": null,
+                "imgAccessUrl": "m2u/static/img/card.svg",
+                "amountConsumed": null,
+                "maxLimit": null,
+                "type": "creditCard",
+                "transactionTypes": [
+                    "debitCard",
+                    "m2uPay",
+                    "m2uTransaction"
+                ]
+            }, {
+                "id": "2151451215152",
+                "name": "Charge Card",
+                "number": "XXXX XXXX XXXX 4445",
+                "displayNumber": "XXXX XXXX XXXX 4445",
+                "primaryCurrency": "RM",
+                "primaryAmount": -2000,
+                "secondaryCurrency": null,
+                "secondaryAmount": null,
+                "imgAccessUrl": "m2u/static/img/card.svg",
+                "amountConsumed": null,
+                "maxLimit": null,
+                "type": "chargeCard",
+                "transactionTypes": [
+                    "debitCard"
+                ]
+            }, {
+                "id": "2151451215152",
+                "name": "Prepaid Card",
+                "number": "XXXX XXXX XXXX 4446",
+                "displayNumber": "XXXX XXXX XXXX 4446",
+                "primaryCurrency": "RM",
+                "primaryAmount": 2000,
+                "secondaryCurrency": null,
+                "type": "prepaidCard",
+                "secondaryAmount": null,
+                "imgAccessUrl": "m2u/static/img/card.svg",
+                "amountConsumed": null,
+                "maxLimit": null,
+                "type": "prepaidCard",
+                "transactionTypes": [
+                    "debitCard"
+                ]
+            }],
+            "rewardDetails": [{
+                "id": "2151451215152",
+                "name": "TreatsPoints",
+                "point": 25453
+            }, {
+                "id": "2151451215152",
+                "name": "Treats Airmiles",
+                "point": 5454
+            }, {
+                "id": "2151451215152",
+                "name": "Membership Rewards Points",
+                "point": 1544
+            }],
+            "cardsConsumption": {
+                "currency": "RM",
+                "colorsList": [
+                   "#F5A623",
+                   "#B2C753",
+                   "#C4D676",
+                   "#81DEA6",
+                   "#2dc884",
+                   "#389A6E",
+                   "#4fc0db",
+                   "#4a8fd0",
+                   "#416589",
+                   "#416589",
+                   "Da4747"
+               ],
+                "aggregate": {
+                    "Jan 2016": {
+                        "total": 8500,
+                        "details": [{
+                            "label": "Petrol",
+                            "amount": 3400
+                        }, {
+                            "label": "Food",
+                            "amount": 1100
+                        }, {
+                            "label": "Food",
+                            "amount": 2000
+                        }, {
+                            "label": "Food",
+                            "amount": 2000
+                        }]
+                    },
+                    "Feb 2016": {
+                        "total": 6500,
+                        "details": [{
+                            "label": "Petrol",
+                            "amount": 2500
+                        }, {
+                            "label": "Food",
+                            "amount": 3000
+                        }, {
+                            "label": "Food",
+                            "amount": 1000
+                        }]
+                    }
+                },
+                "cardSpecific": {
+                    "Maybank Credit Card": {
+                        "Jan 2016": {
+                            "total": 8700,
+                            "details": [{
+                                "label": "Petrol",
+                                "amount": 2000
+                            }, {
+                                "label": "Food",
+                                "amount": 4000
+                            }, {
+                                "label": "Food",
+                                "amount": 4700
+                            }]
+                        }
+                    },
+                    "Maybank Credit Card-i": {
+                        "Jan 2016": {
+                            "total": 6000,
+                            "details": [{
+                                "label": "Petrol",
+                                "amount": 2000
+                            }, {
+                                "label": "Food",
+                                "amount": 4000
+                            }]
+                        },
+                        "Feb 2016": {
+                            "total": 6000,
+                            "details": [{
+                                "label": "Petrol",
+                                "amount": 2000
+                            }, {
+                                "label": "Food",
+                                "amount": 4000
+                            }]
+                        }
+                    }
+                }
+            }
+        },
+        "loans": {
+            "accumulatedAmount": "2132",
+            "accumulatedCurrency": "RM",
+            "accountDetails": [
+                {
+                    "id": "2151451215152",
+                    "name": "Personal Loan",
+                    "number": "1111 2222 3333 4444",
+                    "displayNumber": "XXXX XXXX 5154",
+                    "primaryCurrency": "RM",
+                    "primaryAmount": -2000,
+                    "secondaryCurrency": null,
+                    "secondaryAmount": null,
+                    "imgAccessUrl": null,
+                    "amountConsumed": null,
+                    "maxLimit": null,
+                    "type": "personal",
+                    "transactionTypes": [
+                        "m2uPay",
+                        "m2uTransaction"
+                    ]
+                },{
+                    "id": "2151451215152",
+                    "name": "Conventional  Hire Purchase Loan",
+                    "number": "1111 2222 3333 4445",
+                    "displayNumber": "XXXX XXXX 5154",
+                    "primaryCurrency": "RM",
+                    "primaryAmount": -2000,
+                    "secondaryCurrency": null,
+                    "secondaryAmount": null,
+                    "imgAccessUrl": null,
+                    "amountConsumed": null,
+                    "maxLimit": null,
+                    "type": "hirePurchase",
+                    "transactionTypes": [
+                        "m2uPay",
+                        "m2uTransaction"
+                    ]
+                },
+                {
+                    "id": "2151451215152",
+                    "name": "Term Loan",
+                    "number": "1111 2222 3333 4446",
+                    "displayNumber": "XXXX XXXX 5154",
+                    "primaryCurrency": "RM",
+                    "primaryAmount": -2000,
+                    "secondaryCurrency": null,
+                    "secondaryAmount": null,
+                    "amountConsumed": null,
+                    "maxLimit": null,
+                    "type": "termLoan",
+                    "transactionTypes": [
+                        "m2uPay",
+                        "m2uTransaction"
+                    ]
+                },
+                {
+                    "id": "2151451215152",
+                    "name": "Islamic Personal Financing-i ",
+                    "number": "1111 2222 3333 4447",
+                    "displayNumber": "XXXX XXXX 5154",
+                    "primaryCurrency": "RM",
+                    "primaryAmount": -2000,
+                    "secondaryCurrency": null,
+                    "secondaryAmount": null,
+                    "amountConsumed": null,
+                    "maxLimit": null,
+                    "type": "islamicTerm",
+                    "transactionTypes": [
+                        "m2uPay",
+                        "m2uTransaction"
+                    ]
+                },
+                {
+                    "id": "2151451215152",
+                    "name": "ASB Financing Loan",
+                    "number": "1111 2222 3333 4448",
+                    "displayNumber": "XXXX XXXX 5154",
+                    "primaryCurrency": "RM",
+                    "primaryAmount": -2000,
+                    "secondaryCurrency": null,
+                    "secondaryAmount": null,
+                    "amountConsumed": null,
+                    "maxLimit": null,
+                    "type": "asbFinancing",
+                    "transactionTypes": [
+                        "m2uPay",
+                        "m2uTransaction"
+                    ]
+                },
+                {
+                    "id": "2151451215152",
+                    "name": "Maybank Progressive Interest Loan",
+                    "number": "1111 2222 3333 4449",
+                    "displayNumber": "XXXX XXXX 5154",
+                    "primaryCurrency": "RM",
+                    "primaryAmount": -2000,
+                    "secondaryCurrency": null,
+                    "secondaryAmount": null,
+                    "amountConsumed": null,
+                    "maxLimit": null,
+                    "type": "progressiveInterest",
+                    "transactionTypes": [
+                        "m2uPay",
+                        "m2uTransaction"
+                    ]
+                }
+            ]
+        },
+        "wealth": {
+            "accumulatedAmount": null,
+            "accumulatedCurrency": null,
+            "accountDetails": null,
+            "rewardDetails": null,
+            "wealthDetails":{
+                "currency":"RM",
+                "colorsList": [
+                   "#F5A623",
+                   "#B2C753",
+                   "#C4D676",
+                   "#81DEA6",
+                   "#2dc884",
+                   "#389A6E",
+                   "#4fc0db",
+                   "#4a8fd0",
+                   "#416589",
+                   "#416589",
+                   "Da4747"
+               ],
+                "totalMarketValue":60320,
+                "lastUpdate":"As of 30 March 2016, 6:30pm EDT",
+                "unrealisedGainsLoss":{
+                    "amount":2000,
+                    "percentage":24
+                },
+                "bookValue":58000,
+                "assetAllocation":[{
+                    "name": "Gold & Silver",
+                    "amount":12065,
+                    "allocationPercentage":20
+                },{
+                    "name": "Unit Trust",
+                    "amount":10857.60,
+                    "allocationPercentage":18
+                },{
+                    "name": "Foreign Currency",
+                    "amount":9651.20,
+                    "allocationPercentage":10
+                },{
+                    "name": "Shares",
+                    "amount":7238,
+                    "allocationPercentage":12
+                },{
+                    "name": "Retail Bonds",
+                    "amount":6032,
+                    "allocationPercentage":15
+                },{
+                    "name": "Structured Investment",
+                    "amount":5428.8,
+                    "allocationPercentage":9
+                },{
+                    "name": "Dual Currency Investment",
+                    "amount":4825.60,
+                    "allocationPercentage":null
+                }]
+
+            },
+            "zeroInvestments": [{
+                "id": "2151451215152",
+                "name": "Gold & Silver",
+                "imgAccessUrl": "m2u/static/icons/gold.svg",
+                "description": "Gold & silver is free from the evils of inside trading. Besides, there are no company specific risks as seen in stock markets."
+            }, {
+                "id": "2151451215152",
+                "name": "Foreign Currency",
+                "imgAccessUrl": "m2u/static/icons/foreign_currency.svg",
+                "description": "This market provides opportunities to take advantage of movements in exchange rates."
+            }, {
+                "id": "2151451215152",
+                "name": "Unit Trust",
+                "imgAccessUrl": "m2u/static/icons/investment_certificate.svg",
+                "description": "This market provides opportunities to take advantage of movements in exchange rates."
+            }, {
+                "id": "2151451215152",
+                "name": "Shares",
+                "imgAccessUrl": "m2u/static/icons/stocks_laptop_monitor.svg",
+                "description": "Shares provide the highest potential returns. On the downside, stocks tend to be the most volatile investments."
+            }, {
+                "id": "2151451215152",
+                "name": "Dual Currency Investment",
+                "imgAccessUrl": "m2u/static/icons/dual_currency.svg",
+                "description": "Dual Currency Investment is a short-term investment product that gives you the opportunity to earn potentially higher returns on investment in the currency markets."
+            }, {
+                "id": "2151451215152",
+                "name": "Structured Investment",
+                "imgAccessUrl": "m2u/static/icons/investment_graph_board.svg",
+                "description": "A structured deposit is essentially a combination of a deposit and an investment product, where the return is dependent on the performance of some underlying financial instrument."
+            }, {
+                "id": "2151451215152",
+                "name": "Retail Bonds",
+                "imgAccessUrl": "m2u/static/icons/retail_bonds.svg",
+                "description": "People invest in bonds for predictable income stream and also to preserve their capital investment."
+            }, {
+                "id": "2151451215152",
+                "name": "Insurance-Investment Link",
+                "imgAccessUrl": "m2u/static/icons/money_protection.svg",
+                "description": "Investment-linked insurance policies (ILPs) have both life insurance and investment components."
+            }]
+        }
+    },
+    "sideContent": {
+        "profileImageUrl": null,
+        "unreadMessages": [
+            {
+                "message": "Weekend Branches open for Debit Card replacement on 10 September 2016",
+                "type" : "announcement"
+            },
+            {
+                "message": "Important Reminder: TreatsPoints expiry",
+                "type" : "promotion"
+            },
+            {
+                "message": "This is the notification",
+                "type" : "notification"
+            },
+            {
+                "message": "You bill is ready",
+                "type" : "billpresentment"
+            },
+            {
+                "message": "Goal transfer is ready",
+                "type" : "goaltransfer"
+            }
+            
+        ],
+        "accountsForPay": [
+            "Wadiah Savings Account",
+            "Maybank Savings Account"
+        ],
+        "quickPayOptions": [{
+            "name": "DIGI Reload",
+            "secondaryName": "0106676670",
+            "id": "9875412545",
+            "type": "reload",
+            "quickOption": "reloadFav" 
+        }, {
+            "name": "My Indah Water",
+            "secondaryName": "Indah Water Konsortium",
+            "id": "9875412545df",
+            "type": "transfer",
+            "quickOption": "jompayOpen"
+        }, {
+            "name": "Mom",
+            "secondaryName": "CIMB Bank Berhad",
+            "id": "9875412545",
+            "type": "reload",
+            "quickOption": "payFav"
+        }, {
+            "name": "Kumpulan Wang Simpanan",
+            "secondaryName": "111122223333",
+            "id": "9875412545",
+            "type": "reload",
+            "quickOption": "transferMobileOpen"
+        }, {
+            "name": "Tenaga Nasional Berhad",
+            "secondaryName": "111122223333",
+            "id": "9875412545",
+            "type": "transfer",
+            "quickOption": "transferThirdPartyFav"
+        }]
+    },
+    "bannerDetails": 
+        {
+            "mobileBannerUrl": "m2u/static/img/mobile-crossselling.jpg",
+            "desktopBannerUrl": "m2u/static/img/crosselling.png",
+            "redirectUrl": ""
+        }
+}

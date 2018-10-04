@@ -1,0 +1,176 @@
+@import '../../../../assets/css/variables.scss';
+.container{
+    @media (min-width: 768px) {
+        :global(.modal-dialog){
+            width: 36.09rem;
+            top:14.2rem;
+            height: inherit;
+            margin: auto;
+        } 
+        :global(.modal-header) {
+            border-top-left-radius: 0.8rem;
+            border-top-right-radius: 0.8rem;
+        }
+        :global(.modal-content){
+            border-radius: 0.8rem;
+        }
+    }
+    .image-caption{
+            margin-left: 1rem;
+    }
+
+    @media (max-width: 767px) {
+        :global(.modal-dialog){
+            width: 100%;
+            height: 100%;
+            margin: auto;
+        }
+        :global(.modal-content){            
+            border-radius:0;
+        }   
+    }
+    :global(.modal-header){
+        width: 100%;
+        height: 12.4rem;
+        background-image:url('../../../../assets/img/dashboard_bg.png');
+        background-size: cover;
+        background-repeat:no-repeat;
+        .close {
+            background: url(../../../../assets/icons/close_white.svg) center center no-repeat ;
+            background-size: contain;
+            width: 1.7rem;
+            height: 1.7rem;
+            position: absolute;
+            right: 3.5rem;
+            top: 3rem;
+            cursor: pointer;
+        }
+    }
+    :global(.modal-content){
+        width: 100%;
+        height: inherit;
+        padding-bottom: 4rem;
+    }
+    :global(.modal-body){
+        padding-left: 3.8rem;
+        padding-right: 3.8rem;
+        padding-bottom: 2.5rem;
+        padding-top: 2.91rem;
+    }
+    :global(.modal-footer){
+        padding-top: 0rem;
+        background-color: $app_white;   
+    }
+    :global(.close){
+        font-size: 3.4rem;
+        opacity: 5;
+    }
+    :global(.btn){
+        font-size: 1.3rem;
+        width: 100%;
+        height: 4.5rem;
+        padding: 0;
+        border-radius: 0.7rem;
+        font-size: 1.3rem;
+        font-weight: bold;
+    }
+    :global(.btn-success){  
+        width: 100%;
+        border: none !important;
+    }
+    :global(.btn-default){  
+        border: solid 0.1rem $app_grey4;
+    }
+    @media (min-width: 768px) {
+        .left-btn-container {
+            padding-left: 3.8rem;
+            padding-right: 0.5rem;
+        }
+        .right-btn-container {
+            padding-right: 3.8rem;
+            padding-left: 0.5rem;    
+        }
+    }
+    @media (max-width: 767px) {
+        .left-btn-container {
+            padding-right: 3.8rem;
+            padding-left: 3.8rem;
+            padding-bottom: 1.5rem;
+        }
+        .right-btn-container {
+            padding-right: 3.8rem;
+            padding-left: 3.8rem;    
+        }
+    }
+
+    .avatar_wrapper{
+        margin-top:5.5rem;
+        padding: 0; 
+        img {
+            width: 11.09rem;
+            height:11.09rem;
+            display: block;
+            margin-left: auto;
+            margin-right: auto;
+        }
+    }
+    h1{
+        padding-top: 2.91rem;
+        padding-bottom: 2.91rem;
+        font-size: 3rem;
+        font-weight: bold;
+        line-height: 1.1;
+        letter-spacing: -0.06rem;
+        text-align: center;
+        color: $app_black;
+        text-transform:  capitalize;
+    }
+
+    .loginBox {       
+        .login-field-wrapper {
+            display: -webkit-box;
+            display: -ms-flexbox;
+            display: flex;
+            height: 7rem;
+        }
+        .login-input-icon {
+            position: absolute;
+            padding-left: 1.6rem;
+            padding-top: 2.1rem;
+            z-index: 3;
+        }
+        .login-input {
+            border-radius: 0.7rem;
+            border: solid 0.1rem $app_grey2;
+            -webkit-box-flex: 1;
+            -ms-flex: 1;
+            flex: 1;
+            width: 100%;
+            padding-left: 5.5rem;
+            z-index: 2;
+            &.incorrectPassword{
+                border: solid 0.2rem $app_red;
+                &:focus{
+                    box-shadow: 0 none;
+                    outline: 0 none;
+                }
+            }
+        }
+
+        .iconSpan {
+            position: absolute;
+            z-index: 2;
+            right: 5.79rem;
+            padding-top: 2.6rem;
+            cursor: pointer;
+        }
+    }
+
+    p{
+        font-size: 1.7rem;
+        text-align: center;
+        span{
+            font-weight: bold;
+        }
+    }
+}

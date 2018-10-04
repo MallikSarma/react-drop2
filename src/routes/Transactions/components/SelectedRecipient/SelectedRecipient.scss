@@ -1,0 +1,92 @@
+@import '../../../../assets/css/variables.scss';
+.container{
+    margin-top: 0.5rem;
+    :global(.panel) {
+        height:5rem;
+        background: transparent;
+        width: 100%;
+        box-shadow: 0 0 1rem 0 rgba(118, 118, 118, 0.1);
+        position: relative;
+        border: solid 0.1rem $app_grey2;
+        margin-bottom: 0;
+        cursor: pointer;
+    }
+    :global(.panel-body){
+        height:5rem;
+        padding: 1.5rem 2rem 0.5rem 2rem;
+        background-color: $app_gold;
+        border-radius: 0.7rem;
+        .row{
+            margin-bottom: 1.9rem;
+            text-align:left;
+        }
+        .amount{
+            font-size: 1.6rem;
+            font-weight: 600;
+            padding-left: 1rem;
+        }
+        .currency{
+            font-size: 1.6rem;
+            font-weight: 600;
+        }
+        .selectFavorite{
+            img{
+                   border-radius: 5rem;
+                   background-color: $app_gold;
+                }
+            display: flex;
+            justify-content: space-around;
+            @media(min-width: 768px){
+                flex-direction:row;
+            }
+            @media(max-width: 767px){
+                flex-direction:column;
+            }
+            &:hover{
+                cursor: pointer;
+            }
+        }
+        .menu{
+            font-weight: 600;
+            float: right;
+            padding-right: 1rem;
+            padding-left: 2rem;
+            font-size: 3rem;
+            margin-top: -1.5rem;
+            a:hover{
+                cursor: pointer;
+                text-decoration: none;
+            }
+        }
+        .number{
+            font-size: 1.2rem;
+            color: $app_grey3;
+            padding-left: 0.5rem;
+        }
+        .payee{
+            font-size: 1.6rem;
+            color: $app_black;
+            padding-left: 0.5rem;
+        }
+        .favoriteName{
+            font-size: 1.6rem;
+            font-weight: bold;
+            color: $app_black;
+            padding-left: 0.5rem;
+        }
+        .toggleButton{
+            text-align: right;
+            position: absolute;
+            right: 0;
+        }
+        .favoriteContent{
+            display: flex;
+            @media(min-width: 768px){
+                flex-direction:row;
+            }
+            @media(max-width: 767px){
+                flex-direction:column;
+            }
+        }
+    }
+}

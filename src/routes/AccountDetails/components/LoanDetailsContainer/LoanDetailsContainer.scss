@@ -1,0 +1,323 @@
+@import '../../../../assets/css/variables.scss';
+.container{
+    @media(max-width: 768px){
+        @media(min-width: 376px){
+            padding: 0 1.5rem;
+            padding-left: 2.5rem;
+            padding-right: 2.5rem;
+        }
+    }
+    @media (min-width: 1200px){
+        .dataSection{
+            max-width: 78rem;
+            margin: auto;
+            padding-left:0;
+            padding-right:0;
+        }
+        .panelAdjustment{
+            margin-left: -3rem;
+            margin-right: -3rem;
+        }
+    }
+    .details{
+        border-top-left-radius: 0.8rem;
+        border-bottom-left-radius: 0.8rem;
+    }
+    .accountInfo{
+        @media (min-width: 1200px){
+            max-width: 93rem;
+            margin-left: auto;
+            margin-right: auto;
+            padding-left:0;
+            padding-right:0;
+        } 
+        padding: 2rem 0;
+        @media(max-width: 767px){
+            padding: 1.5rem 0;
+        }
+        span{
+            font-size: 2rem;
+            margin: 0;
+            display: inline;
+            &.number{
+                font-size: 1.2rem;
+                color: $app_grey3;
+                padding-left: 1.4rem;
+                position: relative;
+                top: 0.3rem;
+                @media(max-width: 767px){
+                    display: block;
+                    padding-left: 0;
+                }
+            }
+        }
+        img{
+            cursor: pointer;
+             float: right;
+             right: 0.3rem;
+             position: relative;
+             padding: 0.5rem;
+        }
+    }
+    .selectWrapper{
+        margin-bottom: 2rem;
+        img{
+            margin-left:2rem;
+        }
+        ul{           
+            border-radius: 0.7rem;
+            background-color: $app_grey5;
+            box-shadow: 0 0 1rem 0 rgba(0, 0, 0, 0.3);
+            max-height: 17.3rem;
+            overflow-y: auto;
+            top:0;
+            li {
+                a{
+                color:$app_white;
+                font-size: 1.6rem;
+                line-height: 1.9;
+                letter-spacing: 0.02rem;
+                    &:hover, &:focus {
+                    text-decoration: none;
+                    color: $app_gold;
+                    background-color: transparent;
+                    }
+                }
+            }
+        }   
+    }
+    button{
+        img{
+            margin-left:2rem;
+        }
+    }
+    .pullHeaderRight{
+        text-align: right;
+        margin-bottom: 1rem;
+        @media (max-width: 767px) {
+            padding: 0;
+        }
+    }
+    .pullHeaderLeft{
+        text-align: center;
+        @media (max-width: 767px) {
+            padding: 0;
+        }         
+        h6{
+            text-align: left;
+            font-size: 1.6rem;
+            font-weight: 900;
+        } 
+    }
+    .tableHolder{
+        background-color: $app_white;
+    }
+    .tableFooter{
+        padding-top: 3rem;
+        a{
+            position: absolute;
+            margin-top: 20%;
+            margin-bottom: 12%;
+            cursor: pointer;
+            &.next_arrow{
+                right: 1.5rem;
+                @media (max-width: 767px) {
+                    right: 0;
+                    top: 1.5rem;
+                }
+            }
+            &.back_arrow{
+                left: 1.5rem;
+                -webkit-transform: rotate(180deg);
+                -moz-transform: rotate(180deg);
+                -o-transform: rotate(180deg);
+                -ms-transform: rotate(180deg);
+                transform: rotate(180deg);
+            }
+        }
+    }
+    .amounts{
+        color: $app_green;
+        display: flex;
+        .currency{
+            padding-right: 0.3rem;
+        }
+        &.negativeAmount{
+            color: $app_red;
+            span:nth-child(1)::before { 
+                content: "- ";
+            }
+        }
+    }
+    .download{
+        &:hover{
+            cursor:pointer;
+        }
+        a{ 
+            margin-left: 1rem;
+        }
+    }
+    .tinyPanels{
+         @media (min-width: 1200px){
+            max-width: 93rem;
+            margin-left: auto;
+            margin-right: auto;
+            padding-right: 0;
+            padding-left: 0;
+        }
+    }
+    .progressBar{
+        @media (min-width: 1200px){
+            max-width: 93rem;
+            margin-left: auto;
+            margin-right: auto;
+            padding-right: 0;
+            padding-left: 0;
+        }
+        margin-bottom: 3rem;
+        :global(.panel.panel-default) {
+            width: 100%;
+            height: 9.4rem;
+            box-shadow: 0 0 1rem 0 rgba(118, 118, 118, 0.1);
+            position: relative;
+            border: solid 0.1rem $app_grey2;
+            margin-bottom: 0;
+        }        
+    }
+    .lable{
+        position: relative;
+        top: -8.5rem;
+        padding: 1rem;
+    }
+    :global(.panel-body){
+        height: 100%;
+        padding: 0.7rem 0.75rem 0.7rem 0.75rem;
+        p{
+        font-size: 1.6rem;
+        letter-spacing: 0.02rem;
+        color: $app_black;
+        }
+        .currency{
+            padding-right: 0.3rem;
+        }
+        .balances{
+            text-align: left;
+        }
+        .balancesRight
+        {
+            text-align: right;
+        }
+        .details{
+            text-align: right;
+        }
+        :global(.progress){
+            background: $app_green;
+            width: 100%;
+            height: 7.6rem;
+            position: relative;
+            :global(.container-fluid)
+            {
+                position: absolute;
+                width: 100%;
+            }
+            .outstanding{
+                margin-top: 1rem;
+            }
+            .paid{
+               margin-top: 1rem;
+               text-align: right; 
+            }
+            .outstandingCredit{
+                color: $dropzone-active-bg;
+                font-size: 1.3rem;
+                font-weight: 900;               
+            }
+            .paidCredit{
+                color: $dropzone-active-bg;
+                font-size: 1.3rem;
+                font-weight: 900;
+                text-align: right;
+            }
+            .outstandingBalance{
+                margin-top: 2rem;
+                color: $app_white;
+                font-size: 2rem;
+                @media(max-width: 767px){
+                    font-size: 1.4rem;
+                    color:#fff;
+                }
+            }
+            .paidBalance{
+                margin-right: 2rem;
+                margin-top: 2rem;
+                color: $app_white;
+                font-size: 2rem;
+                text-align: right;
+            }
+        }
+        :global(.progress-bar){
+            text-align: left;
+            background: $app_red;
+        }
+    }
+    .lastUpdated{
+        direction: rtl;
+        padding-top: 0.5rem;
+        span:nth-child(1){
+            padding-right: 0.3rem;
+        }
+    }
+    .detailsTable{
+        @media(max-width: 1199px){
+            margin-left: -10.5rem;
+            margin-right: -10.5rem;
+        }
+        background: $app_white;
+        padding-top: 3rem;
+        padding-bottom: 3rem;
+        @media(min-width: 376px) and (max-width: 1200px){
+            margin-left: -4rem;
+            margin-right: -4rem;
+        }
+        @media (max-width: 768px) {
+            padding-top: 1.5rem;
+        }
+    }
+    .cardContainer{
+        :global(.row){
+            padding-top: 2rem; 
+        }
+        .advanceWell{
+                >div{
+                    >span{
+                        color: $app_green;
+                    }
+                }
+        }
+    }        
+    .vbarDiv{
+        display: flex;
+        flex-direction: column;
+        width: 80%;
+        margin: auto;
+        color: $app_white;
+        padding-top: 5%;
+        @media(max-width: 767px){
+            padding-top: 3%;
+        }
+        .progressDiv{
+            display: flex;
+            justify-content: space-between;
+            padding-top: 2%;
+        }
+        .vbarDivTextCredit{
+            color: $app_white;
+            .vbarDivTextCreditBalance{
+                color: $app_white;
+                .vbarDivTextCreditCurrency{
+                    color: $app_white;
+                }   
+            } 
+        }
+    }
+}

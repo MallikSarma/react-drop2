@@ -1,0 +1,137 @@
+{
+    "retrievalReference":{
+        "balance":"RTGHNMY67890OLHGFTEDVBNT"
+    },
+    "dashboardType":"fixedDeposit",
+    "transactionPeriod":30,
+    "accSummary":[
+        {
+        "idx":"1",
+        "code":"03",
+        "type":"S",
+        "longName":"Maybank Fixed Deposit",
+        "shortName":"PL",
+        "displayNumber":"1111 2222 3333 4444",
+        "imgAccessUrl":null,
+        "status":"true",
+        "statusMessage":"",
+        "pageData": 
+        {
+            "amountConsumed":null,
+            "maxLimit":null,
+            "primaryBalance":
+                {
+                    "label":null,
+                    "indicator":"+",
+                    "value":"-2001.00",
+                    "currency":"RM"
+                },
+            "secondaryBalance":null,          
+            "availableBalance":
+                {
+                    "label":"Available Balance",
+                    "indicator":"+",
+                    "value":"2001.00",
+                    "currency":"RM"
+                },
+            "moneyIn":
+                {
+                    "label":"MONEY IN",
+                    "indicator":"-",
+                    "value":"4000",
+                    "currency":"RM"
+                },
+            "moneyOut":
+                {
+                    "label":"MONEY OUT",
+                    "indicator":"-",
+                    "value":"30404",
+                    "currency":"RM"
+                }
+        },
+        "panelData":[
+            {
+                "label":"1-day Float",
+                "indicator":"+",
+                "value":"2001.00",
+                "currency":"RM"
+            },
+            {
+                "label":"1-day Float",
+                "indicator":"+",
+                "value":"2001.00",
+                "currency":"RM"
+            }
+        ],
+        "transactionTypes":[
+            "debitCard",
+            "m2uPay",
+            "m2uTransaction"
+        ]
+    },{
+        "idx":"2",
+        "code":"03",
+        "type":"S",
+        "longName":"Maybank Joint Fixed Deposit",
+        "shortName":"CHPL",
+        "displayNumber":"1111 2222 3333 4445",
+        "imgAccessUrl":null,
+        "status":"true",
+        "statusMessage":"",
+        "pageData": 
+        {
+            "amountConsumed":null,
+            "maxLimit":null,
+            "primaryBalance":
+                {
+                    "label":null,
+                    "indicator":"+",
+                    "value":"2001.00",
+                    "currency":"RM"
+                },
+            "secondaryBalance":null,          
+            "availableBalance":
+                {
+                    "label":"Available Balance",
+                    "indicator":"+",
+                    "value":"2001.00",
+                    "currency":"RM"
+                },
+            "moneyIn":
+                {
+                    "label":"MONEY IN",
+                    "indicator":"-",
+                    "value":"4000",
+                    "currency":"RM"
+                },
+            "moneyOut":
+                {
+                    "label":"MONEY OUT",
+                    "indicator":"-",
+                    "value":"30404",
+                    "currency":"RM"
+                }
+        },
+        "panelData":[
+            {
+                "label":"1-day Float",
+                "indicator":"+",
+                "value":"2001.00",
+                "currency":"RM"
+            },
+            {
+                "label":"1-day Float",
+                "indicator":"+",
+                "value":"2001.00",
+                "currency":"RM"
+            }
+        ],
+        "transactionTypes":[
+            "debitCard",
+            "m2uPay",
+            "m2uTransaction"
+        ]
+    }],
+    "otherAccountsSummary" :null,
+    "goals":null  
+}

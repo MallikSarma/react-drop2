@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 15.1.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 width="820px" height="142px" viewBox="0 0 820 142" enable-background="new 0 0 820 142" xml:space="preserve">
+<filter  width="200%" y="-50%" filterUnits="objectBoundingBox" x="-50%" height="200%" id="filter-2">
+	<feOffset  dy="0" result="shadowOffsetOuter1" in="SourceAlpha" dx="0"></feOffset>
+	<feGaussianBlur  stdDeviation="5" result="shadowBlurOuter1" in="shadowOffsetOuter1"></feGaussianBlur>
+	
+		<feColorMatrix  type="matrix" in="shadowBlurOuter1" values="0 0 0 0 0.215686275   0 0 0 0 0.215686275   0 0 0 0 0.215686275  0 0 0 0.3 0">
+		</feColorMatrix>
+</filter>
+<title>Group 6</title>
+<desc>Created with Sketch.</desc>
+<g id="Indipendant-Travel1-2000x1250">
+	<g id="Rectangle-13">
+		<g filter="url(#filter-2)">
+			<path d="M17,10h786c3.866,0,7,3.134,7,7v108c0,3.866-3.134,7-7,7H17c-3.866,0-7-3.134-7-7V17C10,13.134,13.134,10,17,10z"/>
+		</g>
+		<g>
+			<path id="path-1_1_" fill="#171717" d="M17,10h786c3.866,0,7,3.134,7,7v108c0,3.866-3.134,7-7,7H17c-3.866,0-7-3.134-7-7V17
+				C10,13.134,13.134,10,17,10z"/>
+		</g>
+	</g>
+</g>
+</svg>

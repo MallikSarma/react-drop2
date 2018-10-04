@@ -1,0 +1,18 @@
+{
+    "allow":true,
+    "allowMessage":"",
+    "relogin":null,
+    "hsmEncKey":"0AC879502B85CCBF6F5227C62FB990970A2D3A890FC9CC8774829CA2B8380D47BAC2E614C09FFCFC",
+    "screen":"Activate",
+    "id":"",
+    "cardNoHsm":"",
+    "hsmLmkTpk":"DA5E90DDF85D032AF1468B42FF66256C",
+    "mobileDisplay":"016-365XXXX",
+    "action":"Activate",
+    "accntType":"STP",
+    "accessNumber":7887889000072785,
+    "ibServiceCard":7887,
+    "RECAPTCHA_PUBLIC_KEY":"6LdIfAsTAAAAAFxkUakNi_pazhg15f7Ua1gPrnwr",
+    "termConditionRequired":true,
+    "termConditionURL":"static/img/Terms_and_Conditions_of_Maybank2u_Online_Banking_Services-EN.pdf"
+}

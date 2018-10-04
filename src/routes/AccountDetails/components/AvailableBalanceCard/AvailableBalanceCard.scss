@@ -1,0 +1,69 @@
+@import '../../../../assets/css/variables.scss';
+
+.container{
+    @media(max-width: 375px){
+        margin-bottom: 1rem;
+    }
+    :global(>.panel) {
+        width: 100%;
+        height: 9.4rem;
+        box-shadow: 0 0 1rem 0 rgba(118, 118, 118, 0.1);
+        position: relative;
+        border: solid 1px $app_grey2;
+        margin-bottom: 0;
+    }
+    :global(.panel-body){
+        height: 100%;
+        padding: 0.7rem 0.75rem 0.7rem 0.75rem;
+        p{
+            font-size: 1.6rem;
+            letter-spacing: 0.02rem;
+            color: $app_black;
+            &.text{
+                font-size: 1.3rem;
+                font-weight: bold;
+                padding-top: 0.8rem;
+            }
+            &.balance{
+                font-size: 2rem;
+                line-height: 2.3rem;
+            }
+
+        }
+        .details{
+            text-align: right;
+        }
+    }
+    .innerPanel{
+        text-align: left;
+        :global(.panel){
+            font-size: 1.3rem;
+            height: 8rem;
+            p{
+                color: $dropzone-active-bg;
+                margin:0;
+                padding-left: 1rem;
+            }
+        }
+    }
+    .moneyIn{
+        :global(.panel){
+            background-color: $app_green;
+        }
+    }
+    .moneyOut{
+        :global(.panel){
+            background-color: $app_red;
+        }
+    }
+    .availableBalance{
+        padding-top: 1rem;
+        padding-left: 1rem;
+        p{
+            margin-bottom: 0;
+        }
+    }
+    .currency{
+        padding-right: 0.3rem;
+    }
+}

@@ -1,0 +1,102 @@
+@import '../../../../assets/css/variables.scss';
+.container{
+    text-align: center;
+    .prompt{
+        font-size: 2rem;
+        line-height: 1.35;
+        color: $app_black;
+        margin-top: 4rem;
+        margin-bottom: 4rem;
+        text-align: center;
+        margin-left: 4.5rem;
+        margin-right: 4.5rem;
+        img{
+            margin: auto;
+            margin-bottom:3rem;
+        }
+    }
+    .lock{
+        width: 8.6rem;
+        height: 8.6rem;
+        margin: auto;
+        padding-bottom: 1rem;
+        img{
+            width: 100%;
+            height: 100%;
+        }
+    }
+    .table{
+        table{
+            width: 90%;
+            margin: auto;
+            margin-top: 2%;
+            margin-bottom: 5rem;
+        }
+        .tableHead{
+                background-color: $app_grey5;
+                font-size: 1.2rem;
+                font-weight: bold;
+                letter-spacing: 0.02rem;
+                color: $tableHead;
+                th{
+                    padding-left: 2rem;
+                }
+            .firstCol{
+                border-top-left-radius: 0.8rem;
+                border-bottom-left-radius: 0.8rem;
+                width: 50%;
+            }
+            .lastCol{
+                border-top-right-radius: 0.8rem;
+                border-bottom-right-radius: 0.8rem;
+                width: 50%;
+            }
+        }
+        .tableBody{
+            td{
+                padding-left: 2rem;
+                text-align: left;
+            }
+        }
+    }
+}
+.activityDetails{
+    display: flex;
+    flex-direction: column;
+}
+.date{
+    display: flex;
+    flex-direction: column;
+    color: $app_black;
+    font-size: 1.3rem;
+    margin-bottom: 1.3rem;
+    .time{
+        color: $app_grey3;
+    }
+    >p{
+        margin: 0;
+    }
+}
+.success{
+    color: $app_green;
+}
+.failure{
+    color: $app_red;
+}
+.reference{
+}
+.muted{
+    color: $app_grey3;
+}
+.statusAndRef,.from,.to{
+    font-size: 1.3rem;
+    margin-bottom: 1.3rem;
+    >p{
+        margin: 0;
+    }
+}
+@media print {
+    .noPrint{
+        display: none;
+    }
+}

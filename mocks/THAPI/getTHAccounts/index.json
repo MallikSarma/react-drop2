@@ -1,0 +1,13 @@
+{
+	"linkedOwnTH": [
+		{
+			"name": "Amanah Saham 1Malaysia",
+			"payee": "Tabung Haji",
+			"accountNumber": "1122 2211 2121 1212"
+		}
+	],
+	"nextPage": true,
+	"previousPage": false,
+	"currentPageNo": 1,
+	"type": "other"
+}

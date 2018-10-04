@@ -1,0 +1,33 @@
+@import "../../../../assets/css/variables.scss";
+
+.CircularProgress-Bg,
+.CircularProgress-Fg {
+    fill: none;
+}
+
+.CircularProgress-Bg {
+    stroke: $goals_stroke;
+}
+
+.CircularProgress-Fg {
+    -webkit-transition: stroke-dashoffset .5s ease-in-out;
+            transition: stroke-dashoffset .5s ease-in-out;
+    stroke: $goals_progress_stroke;
+    &.completed{
+        stroke: $range-slider-bg;
+    }
+}
+svg{
+    font-family: Lato;
+    font-size: 1.3rem;
+    line-height: 2;
+}
+.CircularProgress-Text{
+    font-size: 1.3rem;
+}
+.CircularProgress-Amount{
+    font-size: 1.5rem;
+}
+.goalMessage{
+    fill: $goal_message;
+}

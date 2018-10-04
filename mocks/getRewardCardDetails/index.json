@@ -1,0 +1,22 @@
+{
+	"idx": "",
+    "longName":"Treats Airmiles",
+    "shortName":"TA",
+    "displayNumber":"25453",
+	"details": [{
+		"imageUrl": "m2u/static/img/card.svg",
+		"name": "Wadial Credit Card",
+		"displayNumber": "XXXX XXXX XXXX 1245",
+		"points": 4545
+	}, {
+		"imageUrl": "m2u/static/img/card.svg",
+		"name": "Wadial Credit Card",
+		"displayNumber": "XXXX XXXX XXXX 1245",
+		"points": 4545
+	}, {
+		"imageUrl": "m2u/static/img/card.svg",
+		"name": "Banking TREATS Points",
+		"displayNumber": null,
+		"points": 4545
+	}]	
+}

@@ -1,0 +1,110 @@
+{
+	"id": "2151451215152",
+	"name": "Wadiah Savings Account",
+	"casalite": false,
+	"number": "1111 2222 3333 4444",
+	"displayNumber": "XXXX XXXX XXXX 4444",
+	"tab": "saved",
+	"type": "Savings",
+	"detailsType": "casa",
+	"totalBalance": 20000,
+	"currency": "RM",
+	"availableBalance": 12515,
+	"moneyIn": 154,
+	"moneyOut": 1458,
+	"lastUpdated": "30 January 2016, 06:00am",
+	"transactions": {
+		"allTransactions": [{
+			"date": "28/01/2017",
+			"buyersDetails": null,
+			"description": {
+				"mainContent": "Starbucks KLCC",
+				"subContent": null
+			},
+		"amount": -17.35,
+		"receiptUrl":null
+		},{
+			"date": "28/01/2017",
+			"description": {
+				"mainContent": "Coffee Been KLCC",
+				"subContent": null
+			},
+		"amount": 47.35,
+		"receiptUrl":"static/img/Blank_pdf.pdf"
+		},{
+			"date": "28/01/2017",
+			"description": {
+				"mainContent": "Subway KLCC",
+				"subContent": null
+			},
+		"amount": 48.38,
+		"receiptUrl":null
+		}],
+		"debitCardTransactions": [{
+			"date": "28/01/2017",
+			"buyersDetails": null,
+			"description": {
+				"mainContent": "Starbucks KLCC",
+				"subContent": null
+			},
+			"amount": -17.35
+		}],
+		"m2uTransactions": [{
+			"date": "28/01/2017",
+			"buyersDetails": null,
+			"description": {
+				"mainContent": "Starbucks KLCC",
+				"subContent": null
+			},
+			"amount": -17.35
+		}],
+		"m2uPay": [{
+			"date": "28/01/2017",
+			"buyersDetails": {
+				"name": "abhishek",
+				"email": "abi@email.com"
+			},
+			"description": {
+				"mainContent": "Starbucks KLCC",
+				"subContent": "Coffee"
+			},
+			"amount": -17.35
+		}]
+	},
+	"statementDays": 30,	
+	"statementDetails":[{
+            "id": 101,
+            "label": "26 Nov 2015 - 25 Dec 2015",
+            "statementPdfUrl": "static/img/Blank_pdf.pdf"
+        },
+        {
+            "id": 102,
+            "label": "26 Oct 2015 - 25 Nov 2015",
+            "statementPdfUrl": "static/img/Blank_pdf.pdf"
+        },
+        {
+            "id": 103,
+            "label": "26 Aug 2015 - 25 Sep 2015",
+            "statementPdfUrl": "static/img/Blank_pdf.pdf"
+        },
+        {
+            "id": 104,
+            "label": "26 Jun 2015 - 25 Jul 2015",
+            "statementPdfUrl": "static/img/Blank_pdf.pdf"
+        },
+        {
+            "id": 105,
+            "label": "26 Apr 2015 - 25 May 2015",
+            "statementPdfUrl": "static/img/Blank_pdf.pdf"
+        }],
+    "collectionModes":[
+        {
+            "label": "Mail To Address",
+            "address": "65 Jalan Camar Taman Camar Indah Selangor 66700, Malaysia"
+         },
+         {
+            "label": "Collect At Branch",
+            "address": "MAYBANK IB Registered Office. 33rd Floor, Menara Maybank 100 Jalan Tun Perak 50050 Kuala Lumpur P.O. Box 11057 50734 Kuala Lumpur."
+        }]
+	
+}

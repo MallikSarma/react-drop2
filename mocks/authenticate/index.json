@@ -1,0 +1,16 @@
+{
+	"authenticate":true,
+	"accountInactive":false,
+	"adaptEnroll":true,
+	"dashboardType":[
+		"casa",
+		"fixedDeposit",
+		"cards",
+		"loans",
+		"wealth"
+	],
+	"customertype":"IND",
+	"lastLoginDate":"14 January, 2016 10:20:35 AM",
+	"backdropPath":"m2u/static/img/dashboard_bg.png",
+	"profileImageUrl":"m2u/static/img/profile_pic.svg"
+}

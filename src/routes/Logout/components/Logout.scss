@@ -1,0 +1,14 @@
+@import '../../../assets/css/variables.scss';
+.container{
+    background: $app_white;
+    min-height: 100%;
+}
+@media (min-width: 1200px){  
+    :global(.container) {
+        width: 120rem;
+        margin-left: auto;
+        margin-right: auto;
+        padding-right: 0;
+        padding-left: 0;
+    }
+}

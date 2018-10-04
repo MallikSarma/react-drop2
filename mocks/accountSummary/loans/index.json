@@ -1,0 +1,495 @@
+{
+    "retrievalReference":{
+        "balance":"RTGHNMY67890OLHGFTEDVBNT"
+    },
+    "dashboardType":"loans",
+    "transactionPeriod":30,
+    "accSummary":[
+        {
+        "idx":"1",
+        "code":"03",
+        "type":"N",
+        "longName":"Personal Loan",
+        "shortName":"PL",
+        "displayNumber":"1111 2222 3333 4444",
+        "imgAccessUrl":null,
+        "status":"true",
+        "statusMessage":"",
+        "pageData": 
+        {
+            "lastUpdated": "30 January 2016, 06:00am",
+            "primaryBalance":
+                {
+                    "label":null,
+                    "indicator":"+",
+                    "value":"2001.00",
+                    "currency":"RM"
+                },
+            "secondaryBalance":null,
+            "outstanding":
+                {
+                    "label":null,
+                    "indicator":"+",
+                    "value":"1545",
+                    "currency":"RM"
+                },
+            "paidAmount":
+                {
+                    "label":null,
+                    "indicator":"+",
+                    "value":"264",
+                    "currency":"RM"
+                },
+            "monthlyInstallmentValue":
+                {
+                    "label":"Monthly Installment",
+                    "indicator":"+",
+                    "value":"264",
+                    "currency":"RM"
+                },
+            "monthlyInstallmentDate":
+                {
+                    "label":null,
+                    "indicator":null,
+                    "value":"01 Feb 2016",
+                    "currency":null
+                },
+            "installmentDueTodayValue":
+                {
+                    "label":"Installment Due as of Today",
+                    "indicator":"+",
+                    "value":"264",
+                    "currency":"RM"
+                },
+            "installmentDueTodayDate":
+                {
+                    "label":null,
+                    "indicator":null,
+                    "value":"01 Feb 2016",
+                    "currency":null
+                }
+        },
+        "panelData":[
+            {
+                "label":"Interest Rate",
+                "indicator":"+",
+                "value":"2.54",
+                "currency":null
+            },
+            {
+                "label":"Last Payment Amount",
+                "indicator":"+",
+                "value":"264",
+                "currency":"RM"
+            },
+            {
+                "label":"Financing Period",
+                "indicator":"+",
+                "value":"108 Months Left",
+                "currency":null
+            },
+            {
+                "label":"Late Payment Charges",
+                "indicator":"+",
+                "value":"8",
+                "currency":"RM"
+            }
+        ]
+    },{
+        "idx":"2",
+        "code":"03",
+        "type":"L",
+        "longName":"Conventional Hire Purchase Loan",
+        "shortName":"CHPL",
+        "displayNumber":"1111 2222 3333 4445",
+        "imgAccessUrl":null,
+        "status":"true",
+        "statusMessage":"",
+        "pageData": 
+        {
+            "lastUpdated": "30 January 2016, 06:00am",
+            "primaryBalance":
+                {
+                    "label":null,
+                    "indicator":"+",
+                    "value":"-2001.00",
+                    "currency":"RM"
+                },
+            "secondaryBalance":null,
+            "outstanding":
+                {
+                    "label":null,
+                    "indicator":"+",
+                    "value":"1545",
+                    "currency":"RM"
+                },
+            "paidAmount":
+                {
+                    "label":null,
+                    "indicator":"+",
+                    "value":"264",
+                    "currency":"RM"
+                },
+            "monthlyInstallmentValue":
+                {
+                    "label":"Monthly Installment",
+                    "indicator":"+",
+                    "value":"264",
+                    "currency":"RM"
+                },
+            "monthlyInstallmentDate":
+                {
+                    "label":null,
+                    "indicator":null,
+                    "value":"01 Feb 2016",
+                    "currency":null
+                },
+            "installmentDueTodayValue":
+                {
+                    "label":"Installment Due as of Today",
+                    "indicator":"+",
+                    "value":"264",
+                    "currency":"RM"
+                },
+            "installmentDueTodayDate":
+                {
+                    "label":null,
+                    "indicator":null,
+                    "value":"01 Feb 2016",
+                    "currency":null
+                },
+            "payInAdvance":
+                {
+                    "label":"Pay In Advance",
+                    "indicator":null,
+                    "value":"240",
+                    "currency":"RM"
+                }
+        },
+        "panelData":[
+            {
+                "label":"Car Registration",
+                "indicator":null,
+                "value":"WAA8888X",
+                "currency":null
+            },
+            {
+                "label":"Interest Rate",
+                "indicator":"+",
+                "value":"2.43",
+                "currency":null
+            },
+            {
+                "label":"Last Payment Amount",
+                "indicator":"+",
+                "value":"88888888",
+                "currency":"RM"
+            },
+            {
+                "label":"Financing Period",
+                "indicator":"+",
+                "value":"108 Months Left",
+                "currency":null
+            },
+            {
+                "label":"Penalty Charges",
+                "indicator":"+",
+                "value":"8",
+                "currency":"RM"
+            },
+            {
+                "label":"Other Charges",
+                "indicator":"+",
+                "value":"184",
+                "currency":"RM"
+            }
+        ]
+    },{
+        "idx":"3",
+        "code":"03",
+        "type":"L",
+        "longName":"Term Loan",
+        "shortName":"TL",
+        "displayNumber":"1111 2222 3333 4446",
+        "imgAccessUrl":null,
+        "status":"true",
+        "statusMessage":"",
+        "pageData": 
+        {
+            "lastUpdated": "30 January 2016, 06:00am",
+            "primaryBalance":
+                {
+                    "label":null,
+                    "indicator":"+",
+                    "value":"-2001.00",
+                    "currency":"RM"
+                },
+            "secondaryBalance":null,
+            "outstanding":
+                {
+                    "label":null,
+                    "indicator":"+",
+                    "value":"1545",
+                    "currency":"RM"
+                },
+            "paidAmount":
+                {
+                    "label":null,
+                    "indicator":"+",
+                    "value":"264",
+                    "currency":"RM"
+                },
+            "monthlyInstallmentValue":
+                {
+                    "label":"Monthly Installment",
+                    "indicator":"+",
+                    "value":"264",
+                    "currency":"RM"
+                },
+            "monthlyInstallmentDate":
+                {
+                    "label":null,
+                    "indicator":null,
+                    "value":"01 Feb 2016",
+                    "currency":null
+                },
+            "installmentDueTodayValue":
+                {
+                    "label":"Installment Due as of Today",
+                    "indicator":"+",
+                    "value":"264",
+                    "currency":"RM"
+                },
+            "installmentDueTodayDate":
+                {
+                    "label":null,
+                    "indicator":null,
+                    "value":"01 Feb 2016",
+                    "currency":null
+                },
+            "payInAdvance":
+                {
+                    "label":"Pay In Advance",
+                    "indicator":null,
+                    "value":"240",
+                    "currency":"RM"
+                }
+        },
+        "panelData":[
+            {
+                "label":"Outstanding Balance",
+                "indicator":"+",
+                "value":"6330000",
+                "currency":"RM"
+            },
+            {
+                "label":"Interest Rate",
+                "indicator":"+",
+                "value":"2.43",
+                "currency":null
+            },
+            {
+                "label":"Outstanding Progressive Interest",
+                "indicator":"+",
+                "value":"1777",
+                "currency":"RM"
+            },
+            {
+                "label":"Financing Period",
+                "indicator":"+",
+                "value":"108 Months Left",
+                "currency":null
+            },
+            {
+                "label":"MISC Charges",
+                "indicator":"+",
+                "value":"185",
+                "currency":"RM"
+            },
+            {
+                "label":"Late Payment Charges",
+                "indicator":"+",
+                "value":"184",
+                "currency":"RM"
+            }
+        ]
+    },{
+        "idx":"4",
+        "code":"03",
+        "type":"L",
+        "longName":"Islamic Personal Financing-i ",
+        "shortName":"IPF",
+        "displayNumber":"1111 2222 3333 4445",
+        "imgAccessUrl":null,
+        "status":"true",
+        "statusMessage":"",
+        "pageData": 
+        {
+            "lastUpdated": "30 January 2016, 06:00am",
+            "primaryBalance":
+                {
+                    "label":null,
+                    "indicator":"+",
+                    "value":"-2001.00",
+                    "currency":"RM"
+                },
+            "secondaryBalance":null,
+            "outstanding":
+                {
+                    "label":null,
+                    "indicator":"+",
+                    "value":"1545",
+                    "currency":"RM"
+                },
+            "paidAmount":
+                {
+                    "label":null,
+                    "indicator":"+",
+                    "value":"264",
+                    "currency":"RM"
+                },
+            "monthlyInstallmentValue":
+                {
+                    "label":"Monthly Installment",
+                    "indicator":"+",
+                    "value":"264",
+                    "currency":"RM"
+                },
+            "monthlyInstallmentDate":
+                {
+                    "label":null,
+                    "indicator":null,
+                    "value":"01 Feb 2016",
+                    "currency":null
+                },
+            "installmentDueTodayValue":
+                {
+                    "label":"Installment Due as of Today",
+                    "indicator":"+",
+                    "value":"264",
+                    "currency":"RM"
+                },
+            "installmentDueTodayDate":
+                {
+                    "label":null,
+                    "indicator":null,
+                    "value":"01 Feb 2016",
+                    "currency":null
+                }
+        },
+        "panelData":[
+            {
+                "label":"Profit Rate",
+                "indicator":"+",
+                "value":"2.54",
+                "currency":null
+            },
+            {
+                "label":"Last Payment Amount",
+                "indicator":"+",
+                "value":"100",
+                "currency":"RM"
+            },
+            {
+                "label":"Outstanding Progressive Interest",
+                "indicator":"+",
+                "value":"1777",
+                "currency":"RM"
+            },
+            {
+                "label":"Financing Period",
+                "indicator":"+",
+                "value":"108 Months Left",
+                "currency":null
+            },
+            {
+                "label":"Late Payment Charges",
+                "indicator":"+",
+                "value":"184",
+                "currency":"RM"
+            }
+        ]
+    },{
+        "idx":"5",
+        "code":"03",
+        "type":"L",
+        "longName":"ASB Financing-i",
+        "shortName":"AF",
+        "displayNumber":"1111 2222 3333 4445",
+        "imgAccessUrl":null,
+        "status":"true",
+        "statusMessage":"",
+        "pageData": 
+        {
+            "primaryBalance":
+                {
+                    "label":null,
+                    "indicator":"+",
+                    "value":"-2001.00",
+                    "currency":"RM"
+                },
+            "secondaryBalance":null,
+            "monthlyInstallmentValue":
+                {
+                    "label":"Monthly Installment",
+                    "indicator":"+",
+                    "value":"264",
+                    "currency":"RM"
+                },
+            "monthlyInstallmentDate":
+                {
+                    "label":null,
+                    "indicator":null,
+                    "value":"01 Feb 2016",
+                    "currency":null
+                },
+            "installmentDueTodayValue":
+                {
+                    "label":"Installment Due as of Today",
+                    "indicator":"+",
+                    "value":"264",
+                    "currency":"RM"
+                },
+            "installmentDueTodayDate":
+                {
+                    "label":null,
+                    "indicator":null,
+                    "value":"01 Feb 2016",
+                    "currency":null
+                },
+            "payInAdvance":
+                {
+                    "label":"Pay In Advance",
+                    "indicator":null,
+                    "value":"240",
+                    "currency":"RM"
+                }
+        },
+        "panelData":[
+            {
+                "label":"Profit Rate",
+                "indicator":"+",
+                "value":"2.54",
+                "currency":null
+            },
+            {
+                "label":"Last Payment Amount",
+                "indicator":"+",
+                "value":"100",
+                "currency":"RM"
+            },
+            {
+                "label":"Financing Period",
+                "indicator":"+",
+                "value":"108 Months Left",
+                "currency":null
+            },
+            {
+                "label":"Late Payment Charges",
+                "indicator":"+",
+                "value":"184",
+                "currency":"RM"
+            }
+        ]
+    }] 
+}

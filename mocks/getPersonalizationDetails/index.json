@@ -1,0 +1,112 @@
+{
+	"loginAction": "",
+	"adaptAnswer2": "",
+	"authStatusCode": "",
+	"adaptRiskScoreConfig": null,
+	"adaptAnswer3": "",
+	"adaptRiskScore": null,
+	"adaptQuestionsBean": {
+		"adaptQuestionOptionsMap2": {
+			"Q2.6": "What was the name of your first pet?",
+			"Q2.4": "In what city was your father born? ( Enter full name of city Eg.\"Petaling Jaya\" )",
+			"Q2.12": "What was the name of your favorite teacher in secondary school?",
+			"Q2.13": "What is your favorite animal?",
+			"Q2.1": "What is the name of the best man at your wedding?"
+		},
+		"adaptQuestionOptionsMap3": {
+			"Q3.16": "Who is your favorite world leader?",
+			"Q3.15": "What was the model of your first vehicle?",
+			"Q3.13": "Who is your favorite athlete?",
+			"Q3.11": "What is your all time favorite movie?",
+			"Q3.17": "Where did you travel on your honeymoon?"
+		},
+		"adaptQuestionOptionsMap1": {
+			"Q1.2": "What is your maternal grandmother's name? ( Mother's side )",
+			"Q1.7": "What is the name of your oldest nephew?",
+			"Q1.12": "What is the name of your favorite uncle?",
+			"Q1.15": "In what city\/town does your nearest sibling live?(Enter full name of city Eg.\"Petaling Jaya\")",
+			"Q1.13": "What is the name of your favorite Auntie?"
+		}
+	},
+	"adaptQustionId2": "",
+	"adaptAnswer1": "",
+	"selectedImageAltText": "",
+	"selectedImageName": "",
+	"tacVal": "",
+	"authRetry": "",
+	"adaptImagesBean": [
+        {
+        	"path":"m2u/static/avatars/IAB_CL1_PX01693.jpg",
+        	"altText": "first image"
+        },
+        {
+        	"path":"m2u/static/avatars/IAF_CL1_PX01376.jpg",
+        	"altText": "second image"
+        },
+        {
+        	"path":"m2u/static/avatars/IAF_CL1_PX01378.jpg",
+        	"altText": "third image"
+        },
+        {
+        	"path":"m2u/static/avatars/IAF_CL1_PX01387.jpg",
+        	"altText": "fourth image"
+        },
+        {
+        	"path":"m2u/static/avatars/IAH1_CL1_PX00450.jpg",
+        	"altText": "fifth image"
+        },
+        {
+        	"path":"m2u/static/avatars/IAH1_CL1_PX00510.jpg",
+        	"altText": "sixth image"
+        },
+        {
+        	"path":"m2u/static/avatars/IAN_CL1_PX00850.jpg",
+        	"altText": "seventh image"
+        },
+        {
+        	"path":"m2u/static/avatars/IAS_CL1_PX00544.jpg",
+        	"altText": "eight image"
+        }
+    ],
+	"themes": [
+		{
+			"altText": "art",
+			"path": "m2u/static/img/101_dashboard_abstract_01.jpg",
+			"backdrops": [
+				"m2u/static/img/101_dashboard_abstract_01.jpg",
+				"m2u/static/img/101_dashboard_abstract_02.jpg",
+				"m2u/static/img/101_dashboard_abstract_03.jpg"
+			]
+		},
+		{
+			"altText": "city",
+			"path": "m2u/static/img/101_dashboard_city_01.jpg",
+			"backdrops": [
+				"m2u/static/img/101_dashboard_city_01.jpg",
+				"m2u/static/img/101_dashboard_city_02.jpg",
+				"m2u/static/img/101_dashboard_city_05.jpg"
+				]
+		},
+		{
+			"altText": "nature",
+			"path": "m2u/static/img/101_dashboard_nature_01.jpg",
+			"backdrops": null
+		}
+	],
+	"selectedImageHeight": "",
+	"selectedImageCaption": "",
+	"selectedImage": "",
+	"challengeQuestionList": null,
+	"adaptQustion2": "",
+	"adaptQustionId1": "",
+	"adaptQustion3": "",
+	"authStatusDesc": "",
+	"adaptTACStatus": "",
+	"selectedImageWidth": "",
+	"status0": "",
+	"urlParams": null,
+	"status0Display": "",
+	"adaptQustion1": "",
+	"adaptQustionId3": "",
+	"RSAStatus": ""
+}

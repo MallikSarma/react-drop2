@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Maybank2u</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=1"/>
+
+    <!-- Bootstrap Core CSS -->
+    <!--Custom Css -->
+    <!-- Maybank CSS -->
+    <link href="css/reset.css" rel="stylesheet">
+    <link href="css/maybank.css" rel="stylesheet">
+    <!-- Custom Fonts -->
+    <link href='http://fonts.googleapis.com/css?family=Lato&subset=latin,latin-ext' rel='stylesheet' type='text/css'>
+</head>
+<body oncontextmenu="return true">
+    <div id="root"></div>
+    <script>
+        var head = document.getElementsByTagName("head")[0];
+        var script = document.createElement("script");
+        script.type = "text/javascript";
+        script.charset = "utf-8";
+        script.src = "static/main.js?v=" + Math.random();
+        head.appendChild(script);
+    </script>
+</body>
+</html>

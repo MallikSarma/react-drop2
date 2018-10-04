@@ -1,0 +1,88 @@
+{
+    "inboxContent": {
+        "inbox": [{
+            "id": "2151451215152",
+            "type": "notification",
+            "date": "Sun 27 Mar 2016",
+            "time": "12:01:10 PM",
+            "subject":"Well done Vina",
+            "message": "You have succefully funded Mama's Present goal, ready to take the money out? You have succefully funded Mama's Present goal, ready to take the money out?",
+            "read": false,
+            "transfer":true,
+            "billPayment":false,
+            "billDetails":{
+                "billId":null,                  
+                "billPdfUrl":"static/img/Blank_pdf.pdf",
+                "billerName":null,
+                "accountNumber": null,
+                "payAmount": null,
+                "effectieDate":null
+            },
+            "adviceAndNotice": false,
+            "adviceAndNoticePdfURL": null
+        },
+        {
+            "id": "2151451215153",
+            "type": "notification",
+            "date": "Sun 27 Mar 2016",
+            "time": "12:01:10 PM",
+            "subject":"Well done Vina 2",
+            "message": "2 You have succefully funded Mama's Present goal, ready to take the money out? You have succefully funded Mama's Present goal, ready to take the money out?",
+            "read": false,
+            "transfer":true,
+            "billPayment":false,
+            "billDetails":{
+                "billId":null,                  
+                "billPdfUrl":null,
+                "billerName":null,
+                "accountNumber": null,
+                "payAmount": null,
+                "effectiveDate":null
+            },
+            "adviceAndNotice": false,
+            "adviceAndNoticePdfURL": null
+        },
+        {
+            "id": "2151451215154",
+            "type": "notification",
+            "date": "Sun 27 Mar 2016",
+            "time": "12:01:10 PM",
+            "subject":"Well done Vina 3",
+            "message": "3 You have succefully funded Mama's Present goal, ready to take the money out? You have succefully funded Mama's Present goal, ready to take the money out?",
+            "read": false,
+            "transfer":true,
+            "billPayment":false,
+            "billDetails":{
+                "billId":null,                  
+                "billPdfUrl":null,
+                "billerName":null,
+                "accountNumber": null,
+                "payAmount": null,
+                "effectieDate":null
+            },
+            "adviceAndNotice": false,
+            "adviceAndNoticePdfURL": null
+        },
+        {
+            "id": "2151451215155",
+            "type": "notification",
+            "date": "Sun 27 Mar 2016",
+            "time": "12:01:10 PM",
+            "subject":"Well done Vina 4",
+            "message": "4 You have succefully funded Mama's Present goal, ready to take the money out?",
+            "read": false,
+            "transfer":true,
+            "billPayment":false,
+            "billDetails":{
+                "billId":null,                  
+                "billPdfUrl":null,
+                "billerName":null,
+                "accountNumber": null,
+                "payAmount": null,
+                "effectieDate":null
+            },
+            "adviceAndNotice": false,
+            "adviceAndNoticePdfURL": null
+        }]
+    }
+}

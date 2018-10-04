@@ -1,0 +1,101 @@
+{
+	"id": "2151451215152",
+	"tab": "cards",
+	"detailsType": "card",
+	"name": "Credit Card ",
+	"number": "1111 2222 3333 4444",
+	"cardType":"creditCard",
+	"displayNumber": "XXXX XXXX XXXX 4444",
+	"cardImageUrl": "",
+	"outstanding": 5545,
+	"lastUpdated": "30 January 2016, 06:00am",
+	"creditLimit": 3000,
+	"availableCreditLimit": 6000,
+	"lastPayment": 800,
+	"lastPaymentDate": "30 January 2016",
+	"currency": "RM",
+	"minimumPayment": 265,
+	"dueDate": "2 March 2016",
+	"statementBalance": 2642,
+	"transactions":{
+		"allTransactions": [{
+			"date": "28/01/2017",
+			"description": {
+				"mainContent": "Starbucks KLCC",
+				"subContent": null
+			},
+			"amount": -17.35,
+			"receiptUrl":null,
+			"ezyPayEligible":true
+		},{
+			"date": "28/01/2017",
+			"description": {
+				"mainContent": "Payment @ Maybank2u",
+				"subContent": null
+			},
+			"amount": 10,
+			"receiptUrl":null,
+			"ezyPayEligible":false
+		},{
+			"date": "28/01/2017",
+			"description": {
+				"mainContent": "Lazada My-CanonEOS23",
+				"subContent": null
+			},
+			"amount": 10,
+			"receiptUrl":"static/img/samplePdf.pdf",
+			"ezyPayEligible":false
+
+		}],
+		"cardTransactions": [{
+			"date": "28/01/2017",
+			"description": {
+				"mainContent": "Starbucks KLCC",
+				"subContent": null
+			},
+			"amount": -17.35,
+			"receiptUrl":null,
+			"ezyPayEligible":false
+		}],
+		"m2uTransactions": [{
+			"date": "28/01/2017",
+			"description": {
+				"mainContent": "Payment @ Maybank2u",
+				"subContent": null
+			},
+			"amount": -17.35,
+			"receiptUrl":null,
+			"ezyPayEligible":false
+		}]
+	},
+	"statementDetails":[{
+            "id": 101,
+            "label": "26 Nov 2015 - 25 Dec 2015",
+            "statementPdfUrl": "static/img/Blank_pdf.pdf"
+        },
+        {
+            "id": 102,
+            "label": "26 Oct 2015 - 25 Nov 2015",
+            "statementPdfUrl": "static/img/Blank_pdf.pdf"
+        },
+        {
+            "id": 103,
+            "label": "26 Aug 2015 - 25 Sep 2015",
+            "statementPdfUrl": "static/img/Blank_pdf.pdf"
+        },
+        {
+            "id": 104,
+            "label": "26 Jun 2015 - 25 Jul 2015",
+            "statementPdfUrl": "static/img/Blank_pdf.pdf"
+        },
+        {
+            "id": 105,
+            "label": "26 Apr 2015 - 25 May 2015",
+            "statementPdfUrl": "static/img/Blank_pdf.pdf"
+    }],
+	"availableBalance": 30000000,
+	"moneyIn": 677,
+	"moneyOut": 888,
+	"lastTopUp": 10000,
+	"topupDate": "30 January 2016, 06:00am"
+}

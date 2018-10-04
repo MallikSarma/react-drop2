@@ -1,0 +1,97 @@
+@import '../../../../assets/css/variables.scss';
+.container{
+    @media (min-width: 1200px){
+        max-width: 78rem;
+        margin-left: auto;
+        margin-right: auto;
+        padding-right: 0;
+        padding-left: 0;
+        &.loans{
+            max-width: 76rem;
+        }
+    }
+    :global(.btn.btn-default){
+        border-radius: 0.7rem;
+    }
+    text-align: center;
+    .table{
+        .tableHead{
+            background-color: $app_grey5;
+            font-size: 1.2rem;
+            font-weight: bold;
+            letter-spacing: 0.02rem;
+            color: $tableHead;
+            display: block;
+            border-radius: 0.8rem;
+            margin-bottom: 0.24rem;
+            &thead, tr, th{
+                border-bottom: none;
+            }
+            th{
+                padding-left: 2rem;            
+                vertical-align: middle;
+                padding-right: 0;
+                &:nth-child(1){
+                    width: 7rem;
+                }
+            }
+        }
+        .tableBody{
+            td{
+                padding-left: 2rem;
+                text-align: left;
+            }
+            tr{
+                display: block;
+                margin-bottom: 0.24rem;
+                border-radius: 0.8rem;
+                td{
+                    border: none;
+                    span{
+                        opacity: 1;
+                        color: #ffffff;
+                    }
+                }
+            }
+            tr:nth-child(1){
+                background-color: $app_green;
+                td:nth-child(1){
+                    width: 7rem;
+                    border-top-left-radius: 0.8rem;
+                    border-bottom-left-radius: 0.8rem;
+                }
+                td:last-child{
+                    border-top-right-radius: 0.8rem;
+                    border-bottom-right-radius: 0.8rem;   
+                }
+            }
+            tr:nth-child(2){
+                background-color:rgba(56,154,110,0.7);
+                td:nth-child(1){
+                    width: 7rem;
+                    border-top-left-radius: 0.8rem;
+                    border-bottom-left-radius: 0.8rem;
+                }
+                td:last-child{
+                    border-top-right-radius: 0.8rem;
+                    border-bottom-right-radius: 0.8rem;   
+                }
+            }
+            tr:last-child{
+                background-color:rgba(56,154,110,0.5);
+                td:nth-child(1){
+                    width: 7rem;
+                    border-top-left-radius: 0.8rem;
+                    border-bottom-left-radius: 0.8rem;
+                }
+                td:last-child{
+                    border-top-right-radius: 0.8rem;
+                    border-bottom-right-radius: 0.8rem;   
+                }
+            }
+            tr:nth-child(1) td{
+                border-top: none;
+            }
+        }
+    }
+}

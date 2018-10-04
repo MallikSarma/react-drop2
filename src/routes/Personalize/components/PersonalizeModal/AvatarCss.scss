@@ -1,0 +1,135 @@
+@import '../../../../assets/css/variables.scss';
+.avatar_wrapper{
+    text-align: center;
+    canvas{
+        width: auto;
+        margin: 0;
+        height: 26.2rem;
+    }
+    h2{
+        font-size: 3rem;
+        font-weight: bold;
+        line-height: 1.1;
+        letter-spacing: -0.06rem;
+        text-align: center;
+        color: $app_black;
+        text-transform: capitalize; 
+        padding-bottom: 2.5rem;
+    }
+    .small-icon{
+        top: -0.8rem;
+        position: absolute;
+        right: 2rem;
+    }
+    .big-icon{
+        top: -1.5rem;
+        position: absolute;
+    }
+
+    input[type=range] {
+        -webkit-appearance: none; /* Hides the slider so that custom slider can be made */
+        width: 100%; /* Specific width is required for Firefox. */
+        background: transparent; /* Otherwise white in Chrome */
+        margin-bottom:2rem;
+    }
+    input[type=range]::-webkit-slider-thumb {
+         -webkit-appearance: none;
+    }
+    input[type=range]:focus {
+        outline: none; /* Removes the blue border. You should probably do some kind of focus styling for accessibility reasons though. */
+    }
+    input[type=range]::-ms-track {
+        width: 100%;
+        cursor: pointer;
+        /* Hides the slider so custom styles can be added */
+        background: transparent; 
+        border-color: transparent;
+        color: transparent;
+    }
+        /* Special styling for WebKit/Blink */
+    input[type=range]::-webkit-slider-thumb {
+        -webkit-appearance: none;
+        width: 3rem;
+        height: 3rem;
+        background-color: $range-slider-bg;
+        border: solid 0.25rem $btn-default-white_text_color;
+        border-radius: 10rem;
+        cursor: pointer;
+        margin-top: -1.4rem; 
+        //box-shadow: 0.1rem -0.1rem 0.1rem $body_bg, 0rem 0rem 0.1rem $range-slider-box-shadow-b;
+    }
+    /* All the same stuff for Firefox */
+    input[type=range]::-moz-range-thumb {
+        -webkit-appearance: none;
+        width: 3rem;
+        height: 3rem;
+        background-color: $range-slider-bg;
+        border: solid 0.25rem $btn-default-white_text_color;
+        border-radius: 10rem;
+        cursor: pointer;
+        margin-top: -1.4rem; 
+        box-shadow: 0.1rem -0.1rem 0.1rem $body_bg, 0rem 0rem 0.1rem $range-slider-box-shadow-b;
+    }
+    /* All the same stuff for IE */
+    input[type=range]::-ms-thumb {
+        -webkit-appearance: none;
+        width: 3rem;
+        height: 3rem;
+        background-color: $range-slider-bg;
+        border: solid 0.25rem $btn-default-white_text_color;
+        border-radius: 10rem;
+        cursor: pointer;
+        margin-top: -1.4rem; 
+        box-shadow: 0.1rem -0.1rem 0.1rem $body_bg, 0rem 0rem 0.1rem $range-slider-box-shadow-b;
+    }
+    input[type=range]::-webkit-slider-runnable-track {
+        width: 31.8rem !important;
+        height: 0.74rem;
+        border-radius: 10rem;
+        background-color: $slider-runnable-track-bg;
+        border: solid 0.1rem $slider-runnable-track-bg;
+        width: 100%;
+        height: 0.84rem;
+        cursor: pointer;
+    }
+    input[type=range]:focus::-webkit-slider-runnable-track {
+        background: $slider-runnable-track-bg;
+    }
+    input[type=range]::-moz-range-track {
+        width: 31.8rem !important;
+        height: 0.74rem;
+        border-radius: 10rem;
+        background-color: $slider-runnable-track-bg;
+        border: solid 0.1rem $slider-runnable-track-bg;
+        width: 100%;
+        height: 0.84rem;
+        cursor: pointer;
+    }
+    input[type=range]::-ms-track {
+        width: 31.8rem;
+        height: 0.84rem;
+        cursor: pointer;
+        background: transparent;
+        border-color: transparent;
+        border-width: 1.6rem 0;
+        color: transparent;
+    }
+    input[type=range]::-ms-fill-lower {
+        background: $ms-fill-lower-bg;
+        border: 0.02rem solid $ms-fill-lower-border;
+        border-radius: 0.26rem;
+        box-shadow: 0.1rem 0.1rem 0.1rem $body_bg, 0rem 0rem 1rem $range-slider-box-shadow-b;
+    }
+    input[type=range]:focus::-ms-fill-lower {
+        background: $ms-fill-lower-bg;
+    }
+    input[type=range]::-ms-fill-upper {
+        background: $ms-fill-lower-bg;
+        border: 0.02rem solid $ms-fill-lower-border;
+        border-radius: 0.26rem;
+        box-shadow: 0.1rem 0.1rem 0.1rem $body_bg, 0rem 0rem 1rem $range-slider-box-shadow-b;
+    }
+    input[type=range]:focus::-ms-fill-upper {
+        background: $ms-fill-upper;
+    }
+}

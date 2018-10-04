@@ -1,0 +1,39 @@
+
+@import '../../assets/css/variables.scss';
+.container {
+    position :fixed;
+    z-index: 9999;
+    .loader {
+      border: 0.2rem solid $app_grey3;
+      border-radius: 50%;
+      border-top: 0.2rem solid $app_gold;
+      width: 5rem;
+      height: 5rem;
+      -webkit-animation: spin 2s linear infinite;
+      animation: spin 2s linear infinite;
+      position: fixed;
+      left: 45%;
+      top: 50%;
+      z-index: 9999;
+    }
+    .overlay{
+      position: fixed;
+      top: 0;
+      left: 0;
+      right: 0;
+      bottom: 0;
+      background: $app_black;
+      opacity: 0.5;
+    }
+    @-webkit-keyframes spin {
+      0% { -webkit-transform: rotate(0deg); }
+      100% { -webkit-transform: rotate(360deg); }
+    }
+
+    @keyframes spin {
+      0% { transform: rotate(0deg); }
+      100% { transform: rotate(360deg); }
+    }
+}
+
+

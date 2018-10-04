@@ -1,0 +1,226 @@
+@import '../../../../assets/css/variables.scss';
+.savingAccountContainer{
+    @media(max-width: 775px) and (min-width: 376px){
+        padding-left: 2rem;
+        padding-right: 2rem;
+    }
+    .requestCopy{
+        @media(max-width: 375px){
+            margin-bottom: 2rem;
+        }
+    }
+    .pullHeaderRight{
+        text-align: right;
+        select{
+            margin-bottom: 2rem;
+        }
+    }
+    .pullHeaderLeft{
+        text-align: left;
+        select{
+            margin-bottom: 2rem;
+        }   
+    }
+    .accountInfo{
+        @media (min-width: 1200px){
+            max-width: 80rem;
+            margin-left: auto;
+            margin-right: auto;
+            padding-right: 0;
+            padding-left: 0;
+        }
+        .accountName{
+            font-size: 2rem;
+            margin: 0;
+            display: inline;
+            .number{
+                font-size: 1.3rem;
+                color: $app_grey3;
+                padding-left: 1.4rem;
+                 @media(max-width: 767px){
+                    display: block;
+                    padding-left: 0;
+                 }
+
+            }
+        }
+        img{
+            cursor: pointer;
+        }
+    }
+    .amountHeader{
+        width: 10rem;
+    }
+    .option{
+        width: 0.5rem;
+    }
+    .details{
+        border-top-left-radius: 0.8rem;
+        border-bottom-left-radius: 0.8rem;
+    }
+    @media(max-width: 767px){  
+        .accountInfo{   
+            margin-top: 3rem;
+            margin-bottom: 3rem;
+        }
+        .pullHeaderRight{
+            text-align: center;
+            button{
+                width: 100%;
+            }
+        }
+        .pullHeaderLeft{
+            text-align: center;
+            button{
+                width: 100%;
+            }
+        }
+    }
+    .moreIcon{
+        cursor: pointer;
+        width: 1.8rem;
+        float: right;
+        height: 2rem;
+    }
+    .selectWrapper{
+        margin-bottom: 3rem;
+        img{
+            margin-left:2rem;
+        }
+        ul{
+            min-width: initial;
+            width: 100%;       
+            border-radius: 0.7rem;
+            background-color: $app_grey5;
+            box-shadow: 0 0 1rem 0 rgba(0, 0, 0, 0.3);
+            max-height: 17.3rem;
+            overflow-y: auto;
+            top:0;
+            li {
+                a{
+                color:$app_white;
+                font-size: 1.6rem;
+                line-height: 1.9;
+                letter-spacing: 0.02rem;
+                    &:hover, &:focus {
+                    text-decoration: none;
+                    color: $app_gold;
+                    background-color: transparent;
+                    }
+                }
+            }
+        }   
+    }
+    button{
+        img{
+            margin-left:2rem;
+        }
+    }
+    .tableHolder{
+        background-color: $app_white;
+    }
+    .tableFooter{
+        @media(max-width: 375px){
+            margin: 0;
+        }
+        padding-top: 3rem;
+        a{
+            position: absolute;
+            margin-top: 20%;
+            margin-bottom: 12%;
+            cursor: pointer;
+            &.next_arrow{
+                right: 1.5rem;
+            }
+            &.back_arrow{
+                left: 1.5rem;
+                -webkit-transform: rotate(180deg);
+                -moz-transform: rotate(180deg);
+                -o-transform: rotate(180deg);
+                -ms-transform: rotate(180deg);
+                transform: rotate(180deg);
+            }
+        }
+    }
+    .amounts{
+        color: $app_green;
+        display: flex;
+        .currency{
+            padding-right: 0.3rem;
+        }
+        &.negativeAmount{
+            color: $app_red;
+            span:nth-child(1)::before { 
+                content: "-";
+            }
+        }
+    }
+    .download{
+        &:hover{
+            cursor:pointer;
+        }
+        a{ 
+            margin-left: 1rem;
+        }
+    }
+    @media(min-width: 768px){
+        .accountInfo{
+            padding-top: 2rem;
+        }
+        .availableBalanceSection{
+            .firstCard{
+                padding: 0 0.5rem 0 0rem;
+                @media(max-width: 767px){
+                    padding: 0;
+                }
+            }
+            .lastCard{
+                padding: 0 0rem 0 0.5rem;
+                @media(max-width: 767px){
+                    padding: 0;
+                }
+            }
+            .secondCard{
+                padding: 0 0.5rem 0 0.5rem;
+                @media(max-width: 767px){
+                    padding: 0;
+                }
+            }
+        }
+    }
+    @media(max-width: 767px){
+        .availableBalanceSection{
+            .firstCard{
+                padding: 0;
+            }
+            .lastCard{
+                padding: 0;
+            }
+            .secondCard{
+                padding: 0;
+            }
+        }
+    }
+    .lastUpdated{
+        text-align: right;
+        @media(min-width: 376px){
+            padding-bottom: 2rem;
+            padding-top: 1rem;
+        }
+        span:nth-child(1){
+            padding-right: 0.3rem;
+        }
+    }
+    .detailsTable{
+        @media(max-width: 1199px){
+            margin-left: -10.5rem;
+            margin-right: -10.5rem;
+        }
+        background: $app_white;
+        padding-top: 3rem;
+        padding-bottom: 3rem;
+        .detailDate{
+            margin-top: 3rem;
+        }
+    }
+};

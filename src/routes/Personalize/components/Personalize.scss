@@ -1,0 +1,192 @@
+@import '../../../assets/css/variables.scss';
+.container{
+    height: 100%;
+    :global(.notification-message){
+        padding-top:2.2rem;
+        padding-bottom: 2.2rem;
+        text-align: center;
+        color:$app_white;
+    }
+    :global(.notification-title){
+        color: $app_white;
+        font-size: 1.6rem;
+        text-align: center;
+        text-transform: none;
+    }
+    :global(.notification-dismiss){
+        background-color: transparent;
+        margin: 2rem;
+    }
+    :global(.notification.notification-visible){
+        min-height: 9rem;
+    }
+}
+.pes-wrapper{
+    background-color: $btn-default-white_text_color;
+    height: 100%;
+    .top-panel{
+        background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('../../../assets/img/personalize_bg.png');
+        background-size: cover;
+        background-repeat:no-repeat;
+        background-color: transparent;
+        opacity: 5 !important;
+        height: 37.5rem;
+
+        h1{
+            padding-top: 12.8rem;
+            text-align: center;
+            font-size: 5.5rem;
+            font-weight: bold;
+            line-height: 1;
+            text-align: center;
+        }
+    }
+    p{
+        font-size: 1.6rem;
+        color: $pedonalize-paragraph-color;
+        padding-bottom: 3.6rem;
+    }
+    label{
+        font-size: 1.4rem;
+        color: $app_grey5;
+        font-weight: normal;
+        padding-top: 1rem;
+        padding-bottom: 1rem;
+    }
+    .labelIcon{
+        background-color: transparent;
+        text-align: right;
+        border: none;
+        padding-top: 1rem;
+        padding-bottom: 1rem;
+    }
+    .term-wrapper{
+        padding-top: 3.5rem;
+        padding-bottom: 3.5rem;
+        .terms{
+            font-size: 1.2rem;
+            letter-spacing: 0.02rem;
+            color: $app_grey4;
+            span{
+                color: $body_bg;
+                font-weight: bold;
+            }
+        }
+    }
+    :global(.btn){
+        font-size: 1.3rem;
+        width: 100%;
+        height: 4.5rem;
+        padding: 0;
+        border-radius: 0.7rem;
+        font-size: 1.3rem;
+        font-weight: bold;
+    }
+    :global(.btn-success){  
+        width: 100%;
+        border: none !important;
+    }
+    @media (min-width: 768px) {
+        .labelIcon{
+            float: right;
+        }
+    }
+    @media (max-width: 767px) {
+        .labelIcon{
+            float: none;    
+        }
+    }
+    input[type=radio] {
+        width: 2.5rem;
+        height: 2.5rem;
+        border: solid 0.2rem $app_grey2;
+        padding-top: 1.5rem;
+    }
+    .input-wrapper {
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        height: 4rem;
+        padding-right: 3rem;
+        margin-bottom: 1rem;
+    }
+    .input-icon {
+        position: absolute;
+        padding-left: 1.6rem;
+        padding-top: 2.1rem;
+        z-index: 3;
+    }
+    .pair-input {
+        border-radius: 0.7rem;
+        border: solid 0.1rem $app_grey2 !important;
+        -webkit-box-flex: 1;
+        -ms-flex: 1;
+        flex: 1;
+        width: 80%;
+        padding-left: 1.9rem;
+    }
+    @media (max-width: 767px) {
+        .left-panel{
+            height: 43.1rem;
+        }
+    }
+    @media (max-width: 767px) {
+        .right-panel{
+        background-color: $btn-default-white_text_color;
+        }
+    }
+    @media (min-width: 768px) {
+        h1{
+            font-size: 5.5rem;
+            font-weight: bold;
+            line-height: 1;
+            color: $btn-default-white_text_color;
+            text-transform: none;
+        }
+        h2{
+            font-size: 3rem;
+            font-weight: bold;
+            line-height: 0.9;
+            letter-spacing: -0.06rem;
+            color:$app_black;
+            text-transform: none;
+        }
+        .left-panel-content{
+            padding-top: 17.4rem;
+            padding-left: 3rem;
+            padding-right: 3rem;
+            width: 100%;
+        }
+        .right-panel-content{
+            padding-top: 17.4rem;
+            padding-left: 3rem;
+            padding-right: 3rem;
+            width: 100%;
+        }
+    }
+    @media (max-width: 767px) {
+        h1{
+            font-size: 5rem;
+            font-weight: bold;
+            line-height: 1;
+            color: $btn-default-white_text_color;
+            text-align: center;
+            text-transform: none;
+        }
+        .left-panel-content{
+            padding-top: 10.2rem;
+            padding-left: 3rem;
+            padding-right: 3rem;
+            width: 100%;
+        }
+        .right-panel-content{
+            padding-top: 3rem;
+            padding-left: 3rem;
+            padding-right: 3rem;
+            width: 100%;
+            p{
+                text-align: center;
+            }
+        }
+    }
+}

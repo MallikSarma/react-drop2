@@ -1,0 +1,265 @@
+@import '../../../../assets/css/variables.scss';
+.savingAccountContainer{
+    @media(max-width: 767px){
+        padding: 0 3rem 0 3rem;
+    }
+    .pullHeaderRight{
+        text-align: right;
+        margin-bottom: 1rem;
+    }
+    .pullHeaderLeft{
+        text-align: left;
+        margin-bottom: 1rem;   
+    }
+    .fundName{
+        font-weight: bold;
+    }
+    .pushRowTop{
+        margin-top: 2rem;
+    }
+    .pushRowTopButton{
+        margin-top: 1rem;
+    }
+    .positiveNumber{
+        color: $app_green;
+    }
+    .negativeNumber{
+        color: $app_red;
+    }
+    .cardsHeader{
+        padding-top:3rem;
+        padding-bottom:3rem;
+        h4{
+            font-size: 1.3rem;
+            font-weight: bold;
+            line-height: 1;
+            color: $app_black;
+        }
+    }
+    .accountInfo{
+        @media (min-width: 1200px){
+            max-width: 80rem;
+            padding-right: 0;
+            padding-left: 0;
+        }
+        .accountName{
+            @media(max-width: 767px){
+                text-align: center;
+                margin-bottom: 2rem;
+            }
+            font-size: 2rem;
+            margin: 0;
+            display: inline;
+            .number{
+                font-size: 1.3rem;
+                color: $app_grey3;
+                padding-left: 1.4rem;
+                 @media(max-width: 767px){
+                    display: block;
+                    padding-left: 0;
+                 }
+
+            }
+        }
+        img{
+            cursor: pointer;
+        }
+    }
+    :global(.dropdown-menu){
+        width: 100%;
+    }
+    :global(.btn-group){
+        width: 100%;
+        z-index: 1;
+        button{
+            text-align: left;
+            padding-left: .1rem;
+            height: 4.5rem;
+            border: solid 0.1rem $app_black;
+            width: 100%;
+            img{
+                top: 2rem;
+                right: .5rem;
+                position: absolute;
+                margin-right: .8rem;
+            }
+            span{
+                text-align: center;
+            }
+        }
+    }
+    .selectWrapper{
+        margin-bottom: 2rem;
+        ul{           
+            border-radius: 0.7rem;
+            background-color: $app_grey5;
+            box-shadow: 0 0 1rem 0 rgba(0, 0, 0, 0.3);
+            max-height: 17.3rem;
+            overflow-y: auto;
+            top:0;
+            li {
+                a{
+                color:$app_white;
+                font-size: 1.6rem;
+                line-height: 1.9;
+                letter-spacing: 0.02rem;
+                    &:hover, &:focus {
+                    text-decoration: none;
+                    color: $app_gold;
+                    background-color: transparent;
+                    }
+                }
+            }
+        }   
+    }
+    .amountHeader{
+        width: 10rem;
+    }
+    .option{
+        width: 0.5rem;
+    }
+    .details{
+        border-top-left-radius: 0.8rem;
+        border-bottom-left-radius: 0.8rem;
+    }
+    @media(max-width: 767px){  
+        .accountInfo{   
+            margin-top: 4rem;
+            margin-bottom: 4rem;
+        }
+        .pullHeaderRight{
+            text-align: center;
+            button{
+                width: 100%;
+            }
+        }
+        .pullHeaderLeft{
+            text-align: center;
+            button{
+                width: 100%;
+            }
+        }
+    }
+    .moreIcon{
+        text-align: right;
+    }
+    .tableHolder{
+        background-color: $app_white;
+    }
+    .tableFooter{
+        a{
+            position: absolute;
+            margin-top: 20%;
+            margin-bottom: 12%;
+            cursor: pointer;
+            &.next_arrow{
+                right: 1.5rem;
+            }
+            &.back_arrow{
+                left: 1.5rem;
+                -webkit-transform: rotate(180deg);
+                -moz-transform: rotate(180deg);
+                -o-transform: rotate(180deg);
+                -ms-transform: rotate(180deg);
+                transform: rotate(180deg);
+            }
+        }
+    }
+    .amounts{
+        color: $app_green;
+        display: flex;
+        .currency{
+            padding-right: 0.3rem;
+        }
+        &.negativeAmount{
+            color: $app_red;
+            span:nth-child(1)::before { 
+                content: "- ";
+            }
+        }
+    }
+    .download{
+        &:hover{
+            cursor:pointer;
+        }
+        a{ 
+            margin-left: 1rem;
+        }
+    }
+    @media(min-width: 768px){
+        .accountInfo{
+            padding-top: 3rem;
+        }
+        .availableBalanceSection{
+            .firstCard{
+                padding: 0 0.5rem 0 0rem;
+            }
+            .lastCard{
+                padding: 0 0rem 0 0.5rem;
+            }
+            .secondCard{
+                padding: 0 0.5rem 0 0.5rem;
+            }
+            .lastUpdated{
+                text-align: right;
+                padding-bottom: 2rem;
+                padding-top: 1rem;
+                span:nth-child(1){
+                    padding-right: 0.3rem;
+                }
+            }
+        }
+    }
+    .detailsTable{
+        @media(max-width: 1199px){
+            margin-left: -10.5rem;
+            margin-right: -10.5rem;
+        }
+        background: $app_white;
+        padding-bottom: 6rem;
+        .detailDate{
+            margin-top: 3rem;
+        }
+    }
+    :global(.btn-success){
+        height: 4.5rem;
+        width: 100%;
+        padding-top: 1.2rem
+    }
+    .stockCode{
+        width: 0 !important;
+    }
+    @media(max-width: 767px){
+        .stockName{
+            border-top-left-radius: 0.7rem;
+            border-bottom-left-radius: 0.7rem;
+        }
+    }
+    .more{
+        text-align: center;
+        font-size: 1.3rem;
+        font-weight: 900;
+        letter-spacing: 0.02rem;
+        text-align: center;
+        color: $app_grey3;
+        text-transform: uppercase;
+    }
+    button{
+        background-color: $range-slider-bg;
+        color: $app_white;
+        border: none;
+        cursor: pointer; 
+        margin-top: 0.8rem;
+    }
+    hr{
+            width: 100%;
+            left: 0;            
+            border-top: solid 0.1rem $slider-runnable-track-bg;
+            opacity: 0.2;
+    }
+    .bookValueText{
+        font-size: 1.4rem;
+        letter-spacing: 0.02rem;
+        color: $app_grey4;
+    }
+}

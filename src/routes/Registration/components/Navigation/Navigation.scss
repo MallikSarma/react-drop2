@@ -1,0 +1,53 @@
+@import '../../../../assets/css/variables.scss';
+.navContainer{
+    position: absolute;
+    width: 100%;
+}
+.navbar-default-p{
+    padding-top: 2.1rem;
+    z-index: 99999;
+    a{
+        width: 100%;
+        font-size: 1.3rem !important;
+        font-weight: bold;
+        letter-spacing: 0.05rem !important;
+        color: $btn-default-white_text_color;
+    }
+    :global(.container){
+        margin-left:0.8rem;
+    }
+}
+    .logo{
+        width: 20.4rem;
+        height: 3.4rem;
+        position: relative;
+    }
+    .menu{
+        width: 3.2rem;
+    }
+    .navbar-toggle{
+        border: none;
+        background-color: transparent;
+    }
+
+    .navbar-left{
+        float: left;
+        margin-left: 1rem;
+    }
+    @media (max-width: 767px) { 
+        .logo{
+            position: relative;
+            top: -4.5rem;
+            margin: auto;
+            left: 1.5rem;
+        }
+    }
+
+    @media (min-width: 768px) { 
+        .logo{
+            width: 20.4rem;
+            height: 3.4rem;
+            position: relative;
+        }
+    }
+

@@ -1,0 +1,71 @@
+@import '../../../../assets/css/variables.scss';
+.container{
+    @media (min-width: 1200px){
+        max-width: 93rem;
+        margin-left: auto;
+        margin-right: auto;
+        padding-right: 0;
+        padding-left: 0;
+    }
+    padding-bottom: 1rem;
+    :global(>.panel) {
+        width: 100%;
+        height: 9.4rem;
+        box-shadow: 0 0 1rem 0 rgba(118, 118, 118, 0.1);
+        position: relative;
+        border: solid 0.1rem $app_grey2;
+        margin-bottom: 0;
+    }
+    :global(.panel-body){
+        height: 100%;
+        padding: 0.7rem 0.75rem 0.7rem 0.75rem;
+        p{
+        font-size: 1.6rem;
+        letter-spacing: 0.02rem;
+        color: $app_black;
+        }
+        .progress{
+            position: absolute;
+        }
+        .currency{
+            padding-right: 0.3rem;
+        }
+        .balances{
+            text-align: left;
+        }
+        .details{
+            text-align: right;
+            }
+        :global(.progress){
+            background: $app_grey3;
+            width: 100%;
+            height: 7.6rem;
+            position: relative;
+            .available{
+                margin-top: 1rem;
+            }
+            .availableCredit{
+                margin-left: 2rem;
+                color: $dropzone-active-bg;
+                font-size: 1.3rem;
+                font-weight: 900;
+            }
+            .availableBalance{
+                margin-left: 2rem;
+                margin-top: 2rem;
+                color: $app_white;
+                font-size: 2rem;
+            }
+        }
+        :global(.progress-bar){
+            text-align: left;
+            background: $app_green;
+        }
+    }
+    .lastUpdated{
+        direction: rtl;
+        span:nth-child(1){
+            padding-right: 0.3rem;
+        }
+    }
+}

@@ -1,0 +1,228 @@
+@import '../../../../assets/css/variables.scss';
+.container{
+    z-index: 99999;
+    p{
+        color: $app_grey3;
+        margin-top: 2.8rem;
+        margin-bottom: 2.8rem;
+    }
+    .dropzoneContainer{
+        padding-top: 2.8rem;
+        cursor: pointer;
+        height: 100%;
+    }
+    @media (min-width: 768px) {
+        :global(.modal-dialog){
+            width: 50rem;
+            top:5.5rem;
+            height: inherit;
+            margin: auto;
+        }
+        :global(.modal-content){
+            border-top-right-radius: 0.8em;
+            border-top-left-radius: 0.8em;
+        }
+        :global(.modal-header){
+            border-top-right-radius: 0.8em;
+            border-top-left-radius: 0.8em;
+        }
+
+    }
+    @media (max-width: 767px) {
+        padding-left: 0px !important;
+        :global(.navbar)
+        {
+            display:none;
+        }
+        :global(.modal-dialog){
+            width: 100%;
+            top: 0;
+            margin: auto;
+            z-index: 9999;
+            border-color: $body_bg;
+            opacity: 3;
+        }   
+    }
+    :global(.modal-header){
+        width: 100%;
+        height: 7.5rem;
+        border:none;
+        background-color: $body_bg;
+        padding-left: 3rem;
+        h6{
+            color: $btn-default-white_text_color;
+            font-family: Lato;
+            font-size: 1.6rem;
+            line-height: 1;
+            letter-spacing: 0.01rem;
+            text-transform: capitalize;
+            padding-top: 0.7rem;
+        }
+    }
+    :global(.modal-content){
+        width: 100%;
+        height: inherit;
+        padding-bottom: 2rem;
+    }
+    @media (max-width: 767px){
+        :global(.modal-body){
+            background-color: transparent;
+            height: 10rem;
+            width: 24rem;
+            margin: auto;
+            button{
+                background-color: transparent;
+                color: $btn-default-white_text_color;
+            }
+        }
+    }
+    @media (max-width: 767px){
+        :global(.modal-content){
+            opacity: 0.95;
+            background-color: $app_grey5;
+            -webkit-border-radius: 0rem;
+            -moz-border-radius: 0rem;
+            border-radius: 0rem;
+        }
+    }
+    :global(.modal-body){
+        padding:0;
+        @media(min-width: 768px){
+            background-color: $app_ash;
+            height: 24.4rem;
+        }
+        :global(.rc-progress-circle){
+            width: 11.5rem;
+            height: 11.5rem;
+            display:block;
+            margin:auto;
+            position: absolute;
+            left: 50%;
+            margin-left: -5.75rem;
+        }
+        img{
+            width: 11.5rem;
+            height: 11.5rem;
+            display:block;
+            margin:auto;
+            position: absolute;
+            left: 50%;
+            margin-left: -5.75rem;
+            border-radius: 50rem;
+        }
+        p{
+            padding-top:11rem;
+            padding-bottom: 0;
+        }
+        .dropzone{
+            .active{
+                background-color: $dropzone-active-bg;
+            }
+        }
+    }
+    :global(.modal-footer){
+        padding-top: 0px;
+        padding-left: 4.5rem;
+        padding-right: 4.5rem;
+        .image-choices-wrapper{
+            margin-bottom: 3rem;
+            text-align: center;
+            width: 90%;
+            margin: auto;
+            .default-image{
+                cursor: pointer;
+                background: $app_white;
+                border-radius: 50%;
+                border: 0.5rem solid $app_ash;
+                width: 6.5rem;
+                padding: 1.1rem;
+                margin-bottom: 1rem;
+                height: 6.5rem;
+                margin-left: auto;
+                margin-right: auto;
+                img{
+                    margin: auto;
+                    width: 100%;
+                    height: 100%;
+                }
+                &.image-clicked{
+                    border: solid 0.5rem $app_gold;
+                }
+            }
+        }
+    }
+    @media (max-width: 767px){
+        :global(.modal-footer){
+            opacity: 0.95;
+            padding-top: 0rem;
+            .image-choices-wrapper{
+                margin-top: 3rem;
+                margin-bottom: 3rem;
+                .default-image{
+                    width: 9rem;
+                    height: 9rem;
+                    margin-bottom: 3.1rem;              
+                    img{
+                        margin: auto;
+                        width: 100%;
+                        height: 100%;
+                    }
+                }
+                p{
+                    color: $btn-default-white_text_color !important;
+                }
+            }
+        }
+    }
+    :global(.close){
+        font-size: 3.4rem;
+        opacity: 5;
+    }
+    :global(.btn){
+        font-size: 1.3rem;
+        width: 100%;
+        height: 4.5rem;
+        padding: 0;
+        border-radius: 0.7rem;
+        font-family: Lato;
+        font-size: 1.3rem;
+        font-weight: bold;
+    }
+    :global(.btn-success){  
+        width: 100%;
+        margin-top:2rem;
+    }
+
+    .avatar_wrapper{
+        margin-top:3.5rem;
+        padding: 0;
+        img {
+            width: 11.09rem;
+            height:11.09rem;
+            display: block;
+            margin-left: auto;
+            margin-right: auto;
+        }
+    }
+    h1{
+        padding-top: 2.91rem;
+        padding-bottom: 2.91rem;
+        font-size: 3rem;
+        font-weight: bold;
+        line-height: 1.1;
+        letter-spacing: -0.06rem;
+        text-align: center;
+        color: #171717;
+        text-transform:  capitalize;
+    }
+    p{
+        font-size: 1.7rem;
+        text-align: center;
+        span{
+            font-weight: bold;
+        }
+    }
+    
+}
+
+    

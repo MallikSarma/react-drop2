@@ -1,0 +1,111 @@
+{
+	"id": "2151451215152",
+	"name": "Maybank Joint Fixed Deposit",
+	"number": "1111 2222 3333 4445",
+	"type": "joint",
+	"detailsType": "fixedDeposit",
+	"tab": "fixedDeposit",
+	"pidmTermsAndConditionsUrl":"static/img/samplePdf.pdf",
+	"jointAccountHolders": [
+		"Rina Mariani",
+		"Emman"
+	],
+	"currency": "RM",
+	"availableBalance": 51000,
+	"certificates": [{
+		"certNumber": "000001",
+		"principal": 50000,
+		"termInMonths": 6,
+		"interestPA": 3.80,
+		"placementDate": "18/12/2016",
+		"maturityDate": "18/06/2016",
+		"interestPayment": "Add To Principal",
+		"uponMaturity": "Auto-renewal",
+		"closingAmount": 48000,
+		"managementAllowed": true,
+		"linkedFDAccNumber": "1111 2222 3333",
+		"tenure": 3,
+		"interestFrequency": "3"
+	},{
+		"certNumber": "000001",
+		"principal": 4000,
+		"termInMonths": 9,
+		"interestPA": 3.12,
+		"placementDate": "12/11/2016",
+		"maturityDate": "12/02/2016",
+		"interestPayment": "Add To Principal",
+		"uponMaturity": "Credit to Account",
+		"closingAmount": 48000,
+		"managementAllowed": false,
+		"linkedFDAccNumber": "1111 2222 3333",
+		"tenure": 3,
+		"interestFrequency": "On Maturity"
+	},{
+		"certNumber": "000001",
+		"principal": 9000,
+		"termInMonths": 9,
+		"interestPA": 3.12,
+		"placementDate": "12/11/2016",
+		"maturityDate": "12/02/2016",
+		"interestPayment": "Add To Principal",
+		"uponMaturity": "Credit to Account",
+		"closingAmount": 48000,
+		"managementAllowed": false,
+		"linkedFDAccNumber": "1111 2222 3333",
+		"tenure": 3,
+		"interestFrequency": "3"
+	},{
+		"certNumber": "000001",
+		"principal": 7000,
+		"termInMonths": 9,
+		"interestPA": 3.12,
+		"placementDate": "12/11/2016",
+		"maturityDate": "12/02/2016",
+		"interestPayment": "Credit to Account",
+		"uponMaturity": "Credit to Account",
+		"closingAmount": 48000,
+		"managementAllowed": true,
+		"linkedFDAccNumber": "1111 2222 3333",
+		"tenure": 3,
+		"interestFrequency": "3"
+	}],
+	"defaultData": {
+		"allAccounts": [{
+			"name": "Wadiah Savings Account",
+			"number": "1111 2222 3333 4444"
+		}, {
+			"name": "Emman Savings Account",
+			"number": "1111 2222 3333 4445"
+		}],
+		"term": [{
+			"months": 3,
+			"rate": 3.95,
+			"campaign": true,
+			"interestFrequency": [
+				"24"
+			]
+		}, {
+			"months": 6,
+			"rate": 3.95,
+			"campaign": false,
+			"interestFrequency": [
+				"Upon Maturity"
+			]
+		},{
+			"months": 9,
+			"rate": 3.95,
+			"campaign": false,
+			"interestFrequency": [
+				"Upon Maturity"
+			]
+		}
+		],
+		"interestMode": [
+			"Add to Principal",
+			"Credit To Account"
+		],
+		"maturityInstructions": [
+			"Auto-Renewal"
+		]
+	}
+}

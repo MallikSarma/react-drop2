@@ -1,0 +1,22 @@
+@import "../../assets/css/variables.scss";
+#popover{
+    background-color: $app_grey5;
+    &:global(.popover.top > .arrow:after){
+        border-top-color: $app_grey5;    
+    }
+    :global(.popover-content){
+        color: $app_white;
+    }
+}
+.labelIcon{
+    background-color: transparent;
+    text-align: right;
+    border: none;
+    margin-top: 1rem;
+    padding-bottom: 1rem;
+    cursor: pointer;
+    @media (min-width: 767px) {
+        float: right;
+    }
+    margin-left:1rem;
+}

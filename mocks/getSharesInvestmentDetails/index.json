@@ -1,0 +1,178 @@
+{
+	"id": "2151451215152",
+	"tab": "wealth",
+	"currency":"RM",
+	"wealthTypes": "shares",
+	"name": "Shares ",
+	"accounts":[{
+		"accountNumber":"6183943-CDS",
+		"currency":"RM",
+		"investmentOverview":{
+			"marketValue":39208,
+			"bookValue":20000,
+			"unrealizedGainsLoss":{
+				"amount":19208,
+				"percentage":-13.2
+			}
+		},
+		"lastUpdated": "02 November 2016",
+		"stocks":[{
+			"stockCode":"7036",
+			"stockName":"Bornoil[s]",
+			"lastClosing":0.185,
+			"lastHigh":0.185,
+			"lastLow":0.180,
+			"lastVolumeTransacted":629131,
+			"totalUnits":389,
+			"avarageBuyPrice":0.180,
+			"unrealizedGainsLoss":null
+		},{
+			"stockCode":"5238WA",
+			"stockName":"Aax-wa",
+			"lastClosing":0.29,
+			"lastHigh":0.305,
+			"lastLow":0.385,
+			"lastVolumeTransacted":430635,
+			"totalUnits":1000,
+			"avarageBuyPrice":0.290,
+			"unrealizedGainsLoss":-0.015
+		},{
+			"stockCode":"5072A",
+			"stockName":"Xinghe-wa",
+			"lastClosing":0.123,
+			"lastHigh":0.010,
+			"lastLow":0.009,
+			"lastVolumeTransacted":323708,
+			"totalUnits":118,
+			"avarageBuyPrice":0.105,
+			"unrealizedGainsLoss":0.015
+		}]
+
+	},{
+		"accountNumber":"76890-IFN",
+		"investmentOverview":{
+			"marketValue":400098,
+			"bookValue":57700,
+			"unrealizedGainsLoss":{
+				"amount":8908,
+				"percentage":30
+			}
+		},
+		"lastUpdated": "02 November 2016",
+		"stocks":[{
+			"stockCode":"7036",
+			"stockName":"Sanichi [s]",
+			"lastClosing":1.130,
+			"lastHigh":0.210,
+			"lastLow":0.208,
+			"lastVolumeTransacted":323444,
+			"totalUnits":567,
+			"avarageBuyPrice":0.180,
+			"unrealizedGainsLoss":0.005
+		},{
+			"stockCode":"5238WA",
+			"stockName":"Ifcamsc [s]",
+			"lastClosing":0.29,
+			"lastHigh":0.305,
+			"lastLow":0.385,
+			"lastVolumeTransacted":430635,
+			"totalUnits":1000,
+			"avarageBuyPrice":0.290,
+			"unrealizedGainsLoss":-0.015
+		},{
+			"stockCode":"5072A",
+			"stockName":"Vs [s]",
+			"lastClosing":0.123,
+			"lastHigh":0.010,
+			"lastLow":0.009,
+			"lastVolumeTransacted":323708,
+			"totalUnits":118,
+			"avarageBuyPrice":0.105,
+			"unrealizedGainsLoss":0.015
+		}]
+
+	}],
+	"maybankStockPicks":[{
+		"name":"Panamy",
+		"last":39.200,
+		"change":1.400
+	},{
+		"name":"Aji",
+		"last":14.460,
+		"change":0.460
+	},{
+		"name":"Prkcorp",
+		"last":2.380,
+		"change":0.200
+	}],
+	"maybankMarketInsights":[{
+		"category": "Property",
+		"location":"South East Asia",
+		"date":"February 21, 2016",
+		"headLine":"Unmasking Asia - The Singapore Fix"
+	},{
+		"category": "Economics",
+		"location":"United States",
+		"date":"January 12, 2016",
+		"headLine":"Economics Research | United States - FOMC"
+	},{
+		"category": "Economics",
+		"location":"Asia Pacific",
+		"date":"December 29, 2015",
+		"headLine":"Strategy Report - Six-for-16"
+	},{
+		"category": "Strategy",
+		"location":"Asia",
+		"date":"November 25, 2015",
+		"headLine":"BNM Annual Report 2015 - No major surprise"
+	},{
+		"category": "Technology",
+		"location":"Global",
+		"date":"Decamber 29, 2015",
+		"headLine":"Malaysia Automotive - Less New Cars For CNY"
+	},{
+		"category": "Regional",
+		"location":"Global",
+		"date":"Decamber 29, 2015",
+		"headLine":"Malaysia Strategy - Fund flows"
+	}],
+    "assetAllocation":[{
+        "name": "Gold & Silver",
+        "amount":12065,
+        "allocationPercentage":20
+    },{
+        "name": "Unit Trust",
+        "amount":10857.60,
+        "allocationPercentage":18
+    },{
+        "name": "Foreign Currency",
+        "amount":9651.20,
+        "allocationPercentage":10
+    },{
+        "name": "Retail Bonds",
+        "amount":6032,
+        "allocationPercentage":15
+    },{
+        "name": "Structured Investment",
+        "amount":5428.8,
+        "allocationPercentage":9
+    },{
+        "name": "Dual Currency Investment",
+        "amount":4825.60,
+        "allocationPercentage":null
+    }],
+    "colorsList": [
+       "#F5A623",
+       "#B2C753",
+       "#C4D676",
+       "#81DEA6",
+       "#2dc884",
+       "#389A6E",
+       "#4fc0db",
+       "#4a8fd0",
+       "#416589",
+       "#416589",
+       "Da4747"
+   ]
+	
+}

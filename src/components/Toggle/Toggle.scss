@@ -1,0 +1,23 @@
+
+@import "../../assets/css/variables.scss";
+
+.container{
+    width: 4rem;
+    height: 2.2rem;
+    border-radius: 10rem;
+    background-color: $app_grey2;
+    padding: 0.1rem;
+    cursor: pointer;
+    &.active{
+        background-color: $app_green;
+        .circle{
+            float: right;
+        }
+    }
+    .circle{
+        width: 2rem;
+        height: 2rem;
+        background-color: $app_white;
+        border-radius: 50%;
+    }
+}

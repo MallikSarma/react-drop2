@@ -1,0 +1,24 @@
+{
+    "accountInfo":{
+        "name": "Emman Savings Account",
+        "number": "1111 2222 3333 4445",
+        "availableBalance": 51000
+    },
+    "recieptPDF":"static/img/Blank_pdf.pdf",
+    "currency":"RM",
+    "registerBillInfo": {
+        "accountHolderName": "Salman"
+    },
+    "totalAmount": 5190, 
+    "linkedAccount":{
+        "name":"My Indah Water",
+        "number":"1111 2222 3333"
+    },
+    "quickPayInfo": [{
+        "label":"Effective Date",
+        "value":"Today 21 October, 2016 "
+    },{
+        "label":"Reference ID",
+        "value":"IT88992213/147"
+    }]
+}

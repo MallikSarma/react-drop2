@@ -1,0 +1,56 @@
+@import '../../../../assets/css/variables.scss';
+
+.container{
+    :global(.panel) {
+        width: 100%;
+        height: 9rem;
+        position: relative;
+        background-color: $app_gold;
+        border: 0rem solid transparent;
+        border-radius: 0rem;
+        .transaction_align{
+            margin-top: 1.3rem;
+            margin-bottom: 3.4rem;
+        }
+        .transaction{
+            font-size: 1.9rem;
+            font-weight: normal;
+            line-height: 1.21;
+            letter-spacing: 0.01rem;
+            color: $app_grey5;
+            margin-left: 20.4rem;
+        }
+        :global(.btn-lg){
+                padding: 1.4rem 2rem;
+                line-height: 1.33333;
+                border-radius: 0.5rem;
+
+        }
+    }
+    .buttons{
+        text-align:right;
+        .icon{
+            margin-left: 3rem;
+        }
+        .save{
+            margin-right: 1rem;
+            :global(.btn-primary){
+                background-color:transparent;
+                color:$app_black;
+                border-color: $app_black;
+            }
+        }
+        .receipt{
+            :global(.btn-primary){
+                background-color:$app_green;
+                color:$app_white;
+                box-shadow: 0 0 1rem 0 rgba(125, 125, 125, 0.15);
+                border-color: $app_green;
+                }
+            }
+        }
+    :global(.panel-body){
+        height: 100%;
+        position: relative;
+    }
+}

@@ -1,0 +1,342 @@
+{
+    "retrievalReference":{
+        "balance":"RTGHNMY67890OLHGFTEDVBNT"
+    },
+    "dashboardType":"cards",
+    "accSummary":[
+        {
+        "idx":"1",
+        "code":"03",
+        "type":"C",
+        "longName":"Credit Card",
+        "shortName":"CD",
+        "displayNumber":"XXXX XXXX XXXX 4234",
+        "imgAccessUrl":"m2u/static/img/card.svg",
+        "status":"true",
+        "statusMessage":"",
+        "pageData": 
+        {
+            "lastUpdated": "30 January 2016, 06:00am",
+            "primaryBalance":
+                {
+                    "label":null,
+                    "indicator":"+",
+                    "value":"2001.00",
+                    "currency":"RM"
+                },
+            "secondaryBalance":null, 
+            "outstanding":
+                {
+                    "label":null,
+                    "indicator":"+",
+                    "value":"1545",
+                    "currency":"RM"
+                },
+            "statementBalance":
+                {
+                    "label":null,
+                    "indicator":"+",
+                    "value":"264",
+                    "currency":"RM"
+                },
+            "minimumPayment":
+                {
+                    "label":null,
+                    "indicator":"+",
+                    "value":"264",
+                    "currency":"RM"
+                }
+        },
+        "panelData":[
+            {
+                "label":"Credit Limit",
+                "indicator":"+",
+                "value":"3,000.00",
+                "currency":"RM"
+            },
+            {
+                "label":"Available Credit Limit",
+                "indicator":"+",
+                "value":"6,000.00",
+                "currency":"RM"
+            },
+            {
+                "label":"Last Payment Amount",
+                "indicator":"+",
+                "value":"800.00",
+                "currency":"RM"
+            },
+            {
+                "label":"Last Payment Date",
+                "indicator":"+",
+                "value":"30 January 2016",
+                "currency":"RM"
+            }
+        ],
+        "transactionTypes":[
+            "debitCard",
+            "m2uPay",
+            "m2uTransaction"
+        ]
+    },{
+        "idx":"2",
+        "code":"03",
+        "type":"R",
+        "longName":"Charge Card",
+        "shortName":"CHD",
+        "displayNumber":"XXXX XXXX XXXX 4234",
+        "imgAccessUrl":"m2u/static/img/card.svg",
+        "status":"true",
+        "statusMessage":"",
+        "pageData": 
+        {
+            "lastUpdated": "30 January 2016, 06:00am",
+            "primaryBalance":
+                {
+                    "label":null,
+                    "indicator":"+",
+                    "value":"2001.00",
+                    "currency":"RM"
+                },
+            "secondaryBalance":null, 
+            "outstanding":
+                {
+                    "label":null,
+                    "indicator":"+",
+                    "value":"1545",
+                    "currency":"RM"
+                }
+        },
+        "panelData":[
+            {
+                "label":"Credit Limit",
+                "indicator":"+",
+                "value":"3,000.00",
+                "currency":"RM"
+            },
+            {
+                "label":"Available Credit Limit",
+                "indicator":"+",
+                "value":"6,000.00",
+                "currency":"RM"
+            },
+            {
+                "label":"Last Payment Amount",
+                "indicator":"+",
+                "value":"800.00",
+                "currency":"RM"
+            },
+            {
+                "label":"Last Payment Date",
+                "indicator":"+",
+                "value":"30 January 2016",
+                "currency":"RM"
+            }
+        ],
+        "transactionTypes":[
+            "debitCard",
+            "m2uPay",
+            "m2uTransaction"
+        ]
+    },{
+        "idx":"3",
+        "code":"03",
+        "type":"J",
+        "longName":"Prepaid Card",
+        "shortName":"PC",
+        "displayNumber":"XXXX XXXX XXXX 4234",
+        "imgAccessUrl":"m2u/static/img/card.svg",
+        "status":"true",
+        "statusMessage":"",
+        "pageData": 
+        {        
+            "primaryBalance":
+                {
+                    "label":null,
+                    "indicator":"+",
+                    "value":"2001.00",
+                    "currency":"RM"
+                },
+            "secondaryBalance":null,  
+            "availableBalance":
+                {
+                    "label":"Available Balance",
+                    "indicator":"+",
+                    "value":"2001.00",
+                    "currency":"RM"
+                },
+            "moneyIn":
+                {
+                    "label":"MONEY IN",
+                    "indicator":"-",
+                    "value":"4000",
+                    "currency":"RM"
+                },
+            "moneyOut":
+                {
+                    "label":"MONEY OUT",
+                    "indicator":"-",
+                    "value":"30404",
+                    "currency":"RM"
+                }
+        },
+        "panelData":[
+            {
+                "label":"Credit Limit",
+                "indicator":"+",
+                "value":"3,000.00",
+                "currency":"RM"
+            },
+            {
+                "label":"Available Credit Limit",
+                "indicator":"+",
+                "value":"6,000.00",
+                "currency":"RM"
+            },
+            {
+                "label":"Last Payment Amount",
+                "indicator":"+",
+                "value":"800.00",
+                "currency":"RM"
+            },
+            {
+                "label":"Last Payment Date",
+                "indicator":"+",
+                "value":"30 January 2016",
+                "currency":"RM"
+            }
+        ],
+        "transactionTypes":[
+            "debitCard",
+            "m2uPay",
+            "m2uTransaction"
+        ]
+    }],
+    "cardsConsumption": {
+        "currency": "RM",
+        "colorsList": [
+           "#F5A623",
+           "#B2C753",
+           "#C4D676",
+           "#81DEA6",
+           "#2dc884",
+           "#389A6E",
+           "#4fc0db",
+           "#4a8fd0",
+           "#416589",
+           "#416589",
+           "Da4747"
+       ],
+        "aggregate": {
+            "Jan 2016": {
+                "total": 8500,
+                "details": [{
+                    "label": "Petrol",
+                    "amount": 3400
+                }, {
+                    "label": "Food",
+                    "amount": 1100
+                }, {
+                    "label": "Food",
+                    "amount": 2000
+                }, {
+                    "label": "Food",
+                    "amount": 2000
+                }]
+            },
+            "Feb 2016": {
+                "total": 6500,
+                "details": [{
+                    "label": "Petrol",
+                    "amount": 2500
+                }, {
+                    "label": "Food",
+                    "amount": 3000
+                }, {
+                    "label": "Food",
+                    "amount": 1000
+                }]
+            }
+        },
+        "cardSpecific": {
+            "Maybank Credit Card": {
+                "Jan 2016": {
+                    "total": 8700,
+                    "details": [{
+                        "label": "Petrol",
+                        "amount": 2000
+                    }, {
+                        "label": "Food",
+                        "amount": 4000
+                    }, {
+                        "label": "Food",
+                        "amount": 4700
+                    }]
+                }
+            },
+            "Maybank Credit Card-i": {
+                "Jan 2016": {
+                    "total": 6000,
+                    "details": [{
+                        "label": "Petrol",
+                        "amount": 2000
+                    }, {
+                        "label": "Food",
+                        "amount": 4000
+                    }]
+                },
+                "Feb 2016": {
+                    "total": 6000,
+                    "details": [{
+                        "label": "Petrol",
+                        "amount": 2000
+                    }, {
+                        "label": "Food",
+                        "amount": 4000
+                    }]
+                }
+            }
+        }
+    },
+   "rewards" :[
+        {
+        "idx":"1",
+        "code":"03",
+        "type":"",
+        "longName":"Treats Points",
+        "shortName":"TP",
+        "displayNumber":"1544",
+        "imgAccessUrl":"",
+        "status":"true",
+        "statusMessage":"",
+        "pageData":null,
+        "panelData":null,
+        "transactionTypes":null
+    },{
+        "idx":"2",
+        "code":"03",
+        "type":"",
+        "longName":"Treats Airmiles",
+        "shortName":"TA",
+        "displayNumber":"25453",
+        "imgAccessUrl":"",
+        "status":"true",
+        "statusMessage":"",
+        "pageData":null,
+        "panelData":null,
+        "transactionTypes":null
+    },{
+        "idx":"3",
+        "code":"03",
+        "type":"",
+        "longName":"Membership Rewards Points",
+        "shortName":"MRP",
+        "displayNumber":"1544",
+        "imgAccessUrl":"",
+        "status":true,
+        "statusMessage":"",
+        "pageData":null,
+        "panelData":null,
+        "transactionTypes":null
+    }]
+}

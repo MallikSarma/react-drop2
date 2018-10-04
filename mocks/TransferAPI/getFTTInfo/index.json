@@ -1,0 +1,107 @@
+{
+	"banks": [
+		{
+			"name": "",
+			"supportedCode": "BSB"
+		}
+	],
+	"nationalities": [
+		"Malaysian",
+		"non-malaysian"
+	],
+	"purpose": [
+		{
+			"name":"Goods",
+			"subCategories": [
+				"Grants and Gifts,Donations",
+				"Other Government Transfers",
+				"Other Private Transfer",
+				"Worker's Remittances"
+			]
+		},
+		{
+			"name": "Services",
+			"subCategories": []
+		},
+		{
+			"name": "Transfer",
+			"subCategories": []
+		},
+		{
+			"name": "Capital Transaction",
+			"subCategories": []
+		}
+	],
+	"transactionFeeByRecipient": true,
+	"aboutMeOptions": [
+		{
+			"key" : "residentWithDomestic",
+			"terms": {
+				"heading": "Domestic",
+				"list": [
+					"loren ipsum 1",
+					"loren ipsum 2"
+				],
+				"extraInfo": [
+					{
+						"key": "**",
+						"message": ""
+					},
+					{
+						"key": "^",
+						"message": ""
+					}
+				],
+				"clickHereUrl": "",
+				"clickHereMessage": ""
+			},
+			"id" : "125515"
+		},
+		{
+			"key" : "residentWithoutDomestic",
+			"terms": {
+				"heading": "Without Domestic",
+				"list": [
+					"loren ipsum 1",
+					"loren ipsum 2"
+				],
+				"extraInfo": [
+					{
+						"key": "**",
+						"message": ""
+					},
+					{
+						"key": "^",
+						"message": ""
+					}
+				],
+				"clickHereUrl": "",
+				"clickHereMessage": ""
+			},
+			"id" : "125515"
+		},
+		{
+			"key" : "nonResident",
+			"terms": {
+				"heading": "non resident",
+				"list": [
+					"loren ipsum 1",
+					"loren ipsum 2"
+				],
+				"extraInfo": [
+					{
+						"key": "**",
+						"message": ""
+					},
+					{
+						"key": "^",
+						"message": ""
+					}
+				],
+				"clickHereUrl": "",
+				"clickHereMessage": ""
+			},
+			"id" : "125515"
+		}
+	]
+}

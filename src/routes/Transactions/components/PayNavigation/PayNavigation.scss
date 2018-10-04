@@ -1,0 +1,116 @@
+@import '../../../../assets/css/variables.scss';
+.container{
+    background: $app_white;
+    .navigationContent{        
+        @media (min-width: 768px){
+            height:inherit;
+            max-width: 93rem;
+            margin-left: auto;
+            margin-right: auto;
+            padding-right: 0;
+            padding-left: 0;
+        }
+    }
+    box-shadow: 0 0 1rem 0 rgba(0, 0, 0, 0.2);
+    height: 5rem;
+    @media(max-width: 767px){
+        :global(.row.mobile){
+            padding-top: 0;
+            :global(.dropdown.btn-group){
+               width:100%;
+                :global(.btn){
+                    box-shadow: none;
+                    padding: 2rem 3.5rem 0 3.5rem;
+                    height: 8rem;
+                    background: $app_white;
+                    border: none;
+                    width:100%;
+                    border-radius: 0;
+                    .nav-tabs{
+                        height: 100%;
+                        padding-bottom: 0;
+                        text-align: left;
+                        .typeName{
+                            color: $app_black;
+                            text-align: center;
+                            font-weight: 600;
+                        }
+                        img{
+                            position: absolute;
+                            right: 4rem;
+                            top: 50%;
+                        }
+                    }
+                    :global(.dropdown-toggle) {
+                        box-shadow: none;
+                    }
+                }
+                :global(.dropdown-menu){
+                    border-radius: 0;
+                    width:100%;
+                    margin-top: 0;
+                    border: 0;
+                    padding-top: 0;
+                    padding-bottom: 0;
+                    li a {
+                        padding: 0rem 3.5rem 0 3.5rem;
+                        background: $app_white;
+                        &:hover,:focus{
+                            background: $app_white;
+                        }
+                        .nav-tabs{
+                            border-top: 0.1rem solid $dropzone-active-bg;
+                            padding-top: 2rem;
+                        }
+                    }
+                }
+            }
+        }
+    }
+    :global(.row){
+        background: $btn-default-white_text_color;
+        height: 100%;
+        .typeName{
+            color:$dashboard-unselected;
+            font-weight: 600;
+            font-size: 1.4rem;
+            padding: 0.5rem;
+        }
+        .amounts{
+            font-size: 1.8rem;
+            color: $app_green;
+            &.negativeAmount{
+                color: $app_red;
+            }
+            .currency{
+                padding-right: 0.3rem;
+            }
+        }
+    }
+    .nav-tabs{
+        margin-right: 7rem;
+        padding: 0.95rem 0.5rem 0 0;
+        cursor: pointer;
+        text-align: center;
+    }
+    .selected{
+        .typeName{
+            color: $app_black;
+            font-weight: bold;
+        }
+        @media(min-width: 767px){
+            .desktopcontainer{
+                height: 100%;
+                padding-bottom: 1rem;
+                border-bottom: 0.2rem solid $app_grey5;
+                display: inline-block;
+            }
+        }
+    }
+    .mobileNavigation{
+        padding: 0;
+        :global(.btn-default){
+            margin-bottom: 0;
+        }
+    }
+}

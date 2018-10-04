@@ -1,0 +1,54 @@
+@import '../../../../assets/css/variables.scss';
+.container{
+    @media (min-width: 1200px){
+        max-width: 93rem;
+        margin-left: auto;
+        margin-right: auto;
+        padding-right: 0;
+        padding-left: 0;
+        float: none;
+    }
+    :global(.panel) {
+        width: 100%;
+        box-shadow: 0 0 1rem 0 rgba(118, 118, 118, 0.1);
+        position: relative;
+        border: solid 0.1rem $app_grey2;
+        margin-bottom: 1rem;
+    }
+    :global(.panel-body){
+        height: 100%;
+        padding: 2rem 2rem 0.5rem 2rem;
+        .row{
+            display: flex;
+            justify-content: space-between;
+            font-size: 1.6rem;
+            font-weight: normal;
+            color: $app_grey5;
+            margin-bottom: 1.9rem;
+            position: relative;
+        }
+        .align{
+            float:right;
+            font-size: 1.6rem;
+            color: $app_black;
+            @media(max-width: 767px){
+                font-size: 1.4rem;
+            }
+        }
+        .secvalalign{
+            font-size: 1.2rem;
+            color: $app_grey4;            
+            position: absolute;
+            right: 0;
+            top: 2rem;
+            @media(max-width: 767px){
+                font-size: 1.4rem;
+                padding-right: 1rem;
+            }
+        }
+        .category{
+            font-size: 1.6rem;
+            color: $app_black;
+        }
+    }
+}

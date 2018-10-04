@@ -1,0 +1,20 @@
+{ 
+    "totalAmount":975,
+    "currency":"RM",
+    "recieptPDF":"static/img/samplePdf.pdf",
+    "accountInfo":{
+        "name":"Islamic Financing",
+        "number":"1251 2155 1545 1211"
+    },
+    "toAccount":{
+        "name":"Maybank Flexi Savings",
+        "number":"1111 2222 3333"
+    },
+    "redrawInfo": [{
+        "label":"Processing fee (Inclusive GST)",
+        "value":"RM 25.00"
+    },{
+        "label":"Reference ID",
+        "value":"IT88992213/147"
+    }]
+}

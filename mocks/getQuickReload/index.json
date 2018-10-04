@@ -1,0 +1,46 @@
+ {
+  "tacRequired": true,
+  "quickOption": "reload",
+  "currency": "RM",
+  "isFavourite": true,
+  "isOpen": false,
+  "currentEffectiveDate": {
+    "display": "20 Dec, 2016",
+    "expected": "20161220"
+  },
+  "accounts": [
+    {
+      "name": "Wadiah Account",
+      "accountNumber": "3121 5454 4545 4645",
+      "availableBalance": 1454,
+      "displayNumber": "XXXX XXXX XXXX 4645",
+      "type": "casa"
+    },
+    {
+      "name": "Wadiah Account-i",
+      "accountNumber": "3121 5454 4545 4644",
+      "availableBalance": 1454,
+      "displayNumber": "XXXX XXXX XXXX 4644",
+      "type": "mfca"
+    },
+    {
+      "name": "Wadiah Account-i",
+      "accountNumber": "3121 5454 4545 4643",
+      "availableBalance": 1454,
+      "displayNumber": "XXXX XXXX XXXX 4643",
+      "type": "card"
+    }
+  ],
+  "transactionInfo": {
+    "id": 12152155,
+    "name": "Celcom Abah",
+    "serviceProviderName": "Celcom",
+    "mobileNumber": "01116341711",
+    "reloadAmount": [
+      "10",
+      "30",
+      "50",
+      "100"
+    ]
+  }
+} 

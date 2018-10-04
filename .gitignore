@@ -1,0 +1,8 @@
+node_modules/
+bin/
+~dist/
+*.DSS_Store
+**.orig
+src/messages/en-US/
+test_report/
+npm-debug.log

@@ -1,0 +1,141 @@
+@import '../../../../assets/css/variables.scss';
+.container{
+    text-align: center;
+    width:90rem;
+    margin: auto;
+    .buttonRow{
+        text-align: right;
+        button{
+            padding: 1rem 2.5rem;
+            margin-bottom: 3rem;
+            border: 1px solid $app_grey5;
+            text-transform: uppercase;
+            img{
+                padding-left: 1rem;
+            }
+        }
+        button:hover{
+            background-color: $app_white;
+        }
+    }
+    .lock{
+        width: 8.6rem;
+        height: 8.6rem;
+        img{
+            width: 100%;
+            height: 100%;
+        }
+    }
+    .prompt{
+        width: 58rem;
+        height: 5.4rem;
+        font-size: 2rem;
+        line-height: 1.35;
+        color: $app_black;
+        margin: auto;
+        margin-top: 4rem;
+        margin-bottom: 5rem;
+        text-align: left;
+    }
+    .summaryText{
+        padding-top: 1rem;
+    }
+    .table{
+        table{
+            width: 90rem;
+            margin: auto;
+
+        }
+        .tableHead{
+                background-color: $app_grey5;
+                font-size: 1.2rem;
+                font-weight: bold;
+                letter-spacing: 0.02rem;
+                color: $tableHead;
+                th{
+                    padding-left: 2rem;
+                }
+            .firstCol{
+                border-top-left-radius: 0.8rem;
+                border-bottom-left-radius: 0.8rem;
+            }
+            .lastCol{
+                border-top-right-radius: 0.8rem;
+                border-bottom-right-radius: 0.8rem;
+                width: 22rem;
+            }
+        }
+        .tableBody{
+            td{
+                padding-left: 2rem;
+                text-align: left;
+            }
+        }
+    }
+}
+.activityDetails{
+    display: flex;
+    flex-direction: column;
+}
+.date{
+    display: flex;
+    flex-direction: column;
+    color: $app_black;
+    font-size: 1.3rem;
+    .time{
+        color: $app_grey3;
+    }
+}
+.tick{
+    width: 1.3rem;
+    height: 1.04rem;
+    margin-top: 0.5rem;
+    img{
+        width: 100%;
+        height: 100%;
+    }
+}
+.cross{
+    width: 1.3rem;
+    height: 1.35rem;
+    margin-top: 0.6rem;
+    img{
+        height: 100%;
+        width: 100%;
+    }    
+}
+.success{
+    color: $app_green;
+}
+.failure{
+    color: $app_red;
+}
+.reference{
+    margin-top: 4.4rem;
+}
+.muted{
+    color: $app_grey3;
+}
+.from{
+    font-size: 1.3rem;
+    margin-bottom: 1.3rem;
+}
+.to{
+    font-size: 1.3rem;
+    margin-bottom: 2.6rem;
+}
+
+@media print {
+    .printView{
+        display: block !important;
+        .table{
+            padding-top: 2rem;
+        }
+    }
+    .noPrint{
+        display: none;
+    }
+    :global(.img-responsive){
+        margin: auto;
+    }
+}

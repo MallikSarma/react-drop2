@@ -1,0 +1,25 @@
+@import '../../../../assets/css/variables.scss';
+.popup {
+    background: $app_grey5;
+    box-shadow: 0 0 1rem 0 rgba(0,0,0,0.30);
+    border-radius: 0.7rem;
+    padding: 1rem 0;
+    position: absolute;
+    top: 0;
+    right: 1.5rem;
+    z-index: 3;
+    text-align: left;
+    white-space: nowrap;
+    a {
+        display: none;
+        color: $app_grey1;
+        display: block;
+        padding: 0.5rem 2rem 0.5rem 1.7rem;
+        cursor: pointer;
+        text-decoration: none;
+        &:hover {
+            color: $app_gold;
+        }
+    }
+
+}

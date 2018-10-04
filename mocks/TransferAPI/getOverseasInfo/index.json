@@ -1,0 +1,27 @@
+{
+	"countries": [
+		{
+			"name": "Australia",
+			"flagUrl": "",
+			"currency": "AUD",
+			"otherCurrencies": ["USD"],
+			"exhangeRate": "3.1",
+			"transfersAllowed": [
+				{
+					"name":"ftt",
+					"serviceCharge": 50,
+					"transactionFee": true,
+					"receiveMethods": [
+						"Credit to Account",
+						"Cash"
+					],
+					"dailyTransferLimit": {
+						"min": 20,
+						"max": 50
+					},
+					"transferDuration": "1 ~ 3 Working Days"
+				}
+			]
+		}
+	]
+}

@@ -1,0 +1,252 @@
+@import "../../../../assets/css/variables.scss";
+
+.sliderContainer{
+    @media (min-width: 1200px){
+        max-width: 93rem;
+        margin-left: auto;
+        margin-right: auto;
+        padding-right: 0;
+        padding-left: 0;
+    }
+    :global(.panel-default){
+        padding-top:1.7rem;
+    }
+    @media(max-width: 767px){
+        margin-left: 1.5rem;
+        margin-right: 1.5rem;
+        .contentPadding{
+            margin-top: 1.5rem;
+        }
+    }
+    @media(max-width: 767px){
+        .sectionHeader{
+            margin-right: 1.5rem;
+            margin-bottom: 1.5rem;
+        }
+    }
+     @media(min-width: 768px){
+        .sectionHeader{
+            margin-bottom: 1.5rem;
+        }
+    }
+    .contentPadding{
+        padding: 0;
+    }
+    .sectionHeader{
+        text-align: left;
+        h2{
+            font-size: 1.3rem;
+            font-weight: bold;
+            letter-spacing: 0.05rem;
+            color: $app_black;
+            margin-bottom: 1.5rem;
+            margin-right: 1.1rem;
+            margin-top: 0;
+            display: inline-block;
+        }
+    }
+    :global(.panel-body){
+        padding: 1rem 1rem 1rem 1rem;
+    }
+    .headerText{
+        width: 100%;
+        left: 0;
+        margin-bottom: 0;
+        border-radius: 0 0 0.7rem 0.7rem;
+        border: none;
+        font-size: 1.8rem;
+        color: $app_grey5;
+    }
+    .subHeaderText{
+        width: 100%;
+        min-height: auto;
+        max-height: 23rem;
+        position: relative;
+        padding-bottom: 1.1rem;
+    }
+    .negativeAmount{
+        color: $app_red;
+    }
+    .positiveAmount{
+        color: $app_green;
+    }
+    .inputSubText {
+        div{
+            color: $app_grey4;
+            opacity: .4;
+            display:block;
+            width:33%;
+            height:50%;
+            float:left; 
+            &:nth-child(1){
+                padding-left: .2rem;
+            }
+            &:nth-child(2){
+                text-align: right;
+                padding-right: 5rem;
+            }
+            &:last-child{
+                text-align: right;
+                position: relative;
+                left: .6rem;
+            }
+        }
+    }
+    .lastCol {
+        text-align: right;
+    }
+    .more{
+        text-align: center;
+        font-size: 1.3rem;
+        font-weight: 900;
+        letter-spacing: 0.02rem;
+        text-align: center;
+        color: $app_grey3;
+        text-transform: uppercase;
+    }
+    button{
+        background-color: transparent;
+        color: $app_grey3;
+        border: none;
+        cursor: pointer; 
+        margin-top: 0.8rem;
+    }
+    hr{         
+        width: 100%;
+        left: 0;            
+        border-top: solid 0.1rem $slider-runnable-track-bg;
+        opacity: 0.2;
+    }
+    input[type=range] {
+        -webkit-appearance: none; /* Hides the slider so that custom slider can be made */
+        width: 100%; /* Specific width is required for Firefox. */
+        background: transparent; /* Otherwise white in Chrome */
+        margin-bottom:1rem;
+    }
+    input[type=range]::-webkit-slider-thumb {
+         -webkit-appearance: none;
+    }
+    input[type=range]:focus {
+        outline: none; /* Removes the blue border. You should probably do some kind of focus styling for accessibility reasons though. */
+    }
+    input[type=range]::-ms-track {
+        width: 100%;
+        cursor: pointer;
+        /* Hides the slider so custom styles can be added */
+        background: transparent; 
+        border-color: transparent;
+        color: transparent;
+    }
+    /* Special styling for WebKit/Blink */
+    input[type=range]::-webkit-slider-thumb {
+        -webkit-appearance: none;
+        width: 3rem;
+        height: 3rem;
+        background: url(../../../../assets/icons/double_sided_arrow_black.svg) center center no-repeat ;
+        background-color: $app_grey1;
+        border: solid 0.1rem $app_grey2;
+        border-radius: 10rem;
+        cursor: pointer;
+        margin-top: -1.4rem; 
+        //box-shadow: 0.1rem -0.1rem 0.1rem $body_bg, 0rem 0rem 0.1rem $range-slider-box-shadow-b;
+    }
+    /* All the same stuff for Firefox */
+    input[type=range]::-moz-range-thumb {
+        -webkit-appearance: none;
+        width: 3rem;
+        height: 3rem;
+        background: url(../../../../assets/icons/double_sided_arrow_black.svg) center center no-repeat;
+        background-color: $app_grey1;
+        border: solid 0.1rem $app_grey2;
+        border-radius: 10rem;
+        cursor: pointer;
+        margin-top: -1.4rem; 
+        box-shadow: 0.1rem -0.1rem 0.1rem $body_bg, 0rem 0rem 0.1rem $range-slider-box-shadow-b;
+    }
+    /* All the same stuff for IE */
+    input[type=range]::-ms-thumb {
+        -webkit-appearance: none;
+        width: 3rem;
+        height: 3rem;
+        background: url(../../../../assets/icons/double_sided_arrow_black.svg) center center no-repeat;
+        background-color: $app_grey1;
+        border: solid 0.1rem $app_grey2;
+        border-radius: 10rem;
+        cursor: pointer;
+        margin-top: -1.4rem; 
+        box-shadow: 0.1rem -0.1rem 0.1rem $body_bg, 0rem 0rem 0.1rem $range-slider-box-shadow-b;
+        z-index: 999;
+    }
+    input[type=range]::-webkit-slider-runnable-track {
+        width: 31.8rem !important;
+        height: 0.74rem;
+        border-radius: 10rem;
+        background: url(../../../../assets/icons/sliderRainbow.png) no-repeat;
+        background-size: 100% 100%;
+        width: 100%;
+        height: 0.84rem;
+        cursor: pointer;
+    }
+    input[type=range]:focus::-webkit-slider-runnable-track {
+        background: url(../../../../assets/icons/sliderRainbow.png) no-repeat;
+        background-size: 100% 100%;
+    }
+    input[type=range]::-moz-range-track {
+        width: 31.8rem !important;
+        height: 0.74rem;
+        border-radius: 10rem;
+        background: url(../../../../assets/icons/sliderRainbow.png) no-repeat;
+        background-size: 100% 100%;
+        width: 100%;
+        height: 0.84rem;
+        cursor: pointer;
+    }
+    input[type=range]::-ms-track {
+        width: 31.8rem;
+        height: 0.84rem;
+        cursor: pointer;
+        background: transparent;
+        border-color: transparent;
+        border-width: 1.6rem 0;
+        color: transparent;
+    }
+    input[type=range]::-ms-fill-lower {
+        background: $ms-fill-lower-bg;
+        border: 0.02rem solid $ms-fill-lower-border;
+        border-radius: 0.26rem;
+        box-shadow: 0.1rem 0.1rem 0.1rem $body_bg, 0rem 0rem 1rem $range-slider-box-shadow-b;
+    }
+    input[type=range]:focus::-ms-fill-lower {
+        background: $ms-fill-lower-bg;
+    }
+    input[type=range]::-ms-fill-upper {
+        background: $ms-fill-lower-bg;
+        border: 0.02rem solid $ms-fill-lower-border;
+        border-radius: 0.26rem;
+        box-shadow: 0.1rem 0.1rem 0.1rem $body_bg, 0rem 0rem 1rem $range-slider-box-shadow-b;
+    }
+    input[type=range]:focus::-ms-fill-upper {
+        background: $ms-fill-upper;
+    }
+}
+
+#popover{
+    background-color: $app_grey5;
+    &:global(.popover.top > .arrow:after){
+        border-top-color: $app_grey5;    
+    }
+    :global(.popover-content){
+        color: $app_white;
+    }
+}
+.labelIcon1{
+    position: absolute;
+    height: 2rem;
+    width: 2rem;
+    top: -1.3rem;
+    text-align: right;
+    border: none;
+    margin-top: 1rem;
+    padding-bottom: 1rem;
+    cursor: pointer;
+}

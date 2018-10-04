@@ -1,0 +1,63 @@
+{
+	"favorites":[
+		{
+			"name": "Celcom Abah",
+			"payee": "Celcom",
+			"accountNumber": "1234 3355 5488 5455",
+			"billUrl": "",
+			"billerCode": "8787",
+			"jompayRefList":[
+				12345678,
+				13456788
+			],
+			"id": 12152155,
+			"billAmount": 235,
+			"zakat": true,
+			"lhdn": false,
+			"epf": false,
+			"akpk": false,
+			"mygst":false,
+			"zakatInfo":{
+				"type": "",
+				"number": "221 54545 1212"
+			},
+			"epfInfo":{
+				"number": "21215",
+				"type": "",
+				"memberName": "",
+				"icNo": ""
+			}
+		},
+		{
+			"name": "Astro Abah",
+			"payee": "Astro",
+			"accountNumber": "1234 3355 5488 5455",
+			"billUrl": "",
+			"billerCode": "8787",
+			"jompayRefList":[
+				12345678,
+				13456788
+			],
+			"id": 12152155,
+			"billAmount": 521,
+			"zakat": true,
+			"lhdn": false,
+			"epf": false,
+			"akpk": false,
+			"mygst":false,
+			"zakatInfo":{
+				"type": "",
+				"number": "221 54545 1212"
+			},
+			"epfInfo":{
+				"number": "21215",
+				"type": "",
+				"memberName": "",
+				"icNo": ""
+			}
+		}
+	],
+	"type": "payee",
+	"nextPage": true,
+	"previousPage": false
+}

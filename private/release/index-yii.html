@@ -1,0 +1,61 @@
+<html>
+<head>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+	<title>Maybank - Releases</title>
+	<style>
+		body{font-family:"SC Sans", Arial, Helvetica, sans-serif; }
+		h1{font-family:"SC Sans", Arial, Helvetica, sans-serif; color:#ed1a23 ; border-bottom:2px solid;}
+		h2{font-family:"SC Sans", Arial, Helvetica, sans-serif; color:#ed1a23; border-bottom:1px solid; padding-bottom:5px;}
+		h3{font-family:"SC Sans", Arial, Helvetica, sans-serif; color:#7c2328;}
+		h4{font-family:"SC Sans", Arial, Helvetica, sans-serif; color:#ed1a23 ;}
+		h5{font-family:"SC Sans", Arial, Helvetica, sans-serif; color:#7c2328; margin: 0 0 1rem 0;}
+		ol, li{font-family:"SC Sans", Arial, Helvetica, sans-serif; color:#333; font-size:13px; padding:0; background-color:#fff; margin:5px 5px 0 10px; line-height:15px;}
+		li{border-bottom:2px solid #fff; padding: 0;}
+		li > a {display: inline-block; padding: 10px 0;}
+		.divSection{border:0px solid #ddd; margin:10px 10px 10px 10px; width:230px; float:left;}
+		section {clear:both;overflow:hidden;}
+		@media only screen and (max-width: 30em) {
+			ol, li{font-size:14px;}
+			.divSection {width: 100%;}
+		}
+		.compat-note{  font-size: 10px;  font-style: italic; }
+		a{color:#000;}
+		.stripe{position:absolute;bottom: 0px; width:97%;}
+		.header-title{    text-decoration: none;   font-style: normal;     border-bottom: 0px;   position: absolute;  top: 0;     left: 225px;  margin: 0;}
+	</style>
+</head>
+
+<body>
+	<div class="logo  "><a target="_blank" href="#"><img src="images/mbblogo.svg" style=" width: 200px;  height: 35px"/></a>
+		<h1 class="header-title"> Dev Internal </h1>
+	</div>
+
+	<h4></h4>
+	<section>
+		<h2>DEV Release <strong>{{build_number}}</strong> for Malaysia</h2>
+		<p>Date: {{date_time}} | <a href="./changelogs/changelog-{{build_number}}.txt" target="_blank">Release Notes</a></p>
+		<div class="divSection">
+			<h5>Demo HTML</h5>
+			<ol>
+				<li><a target="_blank" href="http://dev.aleph-labs.com/clients/Maybank/m2u/Yii/demo-my/m2u/app/login/">Open demo</a></li>
+			</ol>
+		</div>
+	</section>
+
+	<section class="compat-note">
+	<!-- 	**Tested on the following web browsers (Chrome  45.0.2454.101 (64-bit)). We are doing continuous testing for other browsers for development purpose -->.
+	</section>
+
+
+	<img class=" stripe" style="display:none ;margin-top:7.5px" src="images/stripebar.gif" width="100%">
+</body>
+</html>
+
+
+
+
+
+
+
+
+

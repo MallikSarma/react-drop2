@@ -1,0 +1,108 @@
+@import '../../assets/css/variables.scss';
+.save-wrapper{
+    width: 100%;
+    min-height: 9rem;
+    background-color: $app_gold;
+    position: fixed;
+    vertical-align: middle;
+    bottom: 0;
+    z-index: 999;
+    .save-right-wrapper{
+        padding-top: 2.2rem;
+        padding-bottom: 2.2rem;
+        vertical-align: middle;
+    }
+    @media(min-width: 768px){       
+        .save-right-wrapper{
+            p{
+                font-size: 1.2rem;
+                letter-spacing: 0.02rem;
+                text-align: right;
+                color: $app_black;
+                padding: 0;
+                margin: 0;
+                span{
+                    font-weight: bold;
+                }
+            }
+        }
+    }
+    @media(max-width: 767px){
+        .save-right-wrapper{
+            p{
+                font-size: 1.2rem;
+                letter-spacing: 0.02rem;
+                text-align: left;
+                color: $app_black;
+                padding-bottom: 1rem;
+                span{
+                    font-weight: bold;
+                }
+            }
+        }
+
+    }
+    .save-heading-wrapper{
+        h6{
+            font-size: 1.9rem;
+            line-height: 1.2;
+            letter-spacing: 0.01rem;
+            color: $app_black;
+            text-transform: none;
+            padding-left: 3rem;
+        }
+    }
+    a,
+    a:hover,
+    a:focus,
+    a:active,
+    a.active {
+        outline: none;
+        color: $app_black;
+        font-weight: bold;
+    }
+    .input-wrapper {
+        display: block;
+        margin-bottom: 1rem;
+        .input-icon {
+            position: absolute;
+            padding-top: 2.1rem;
+            z-index: 3;
+        }
+        .pair-input {
+            border-radius: 0.7rem;
+            border: solid 0.1rem $app_grey2; 
+            height: 4rem;
+            width: 100%;
+        }
+    }
+    :global(.btn){
+        padding: 0;
+        width: 100%;
+        height: 4.5rem;
+        border:none;
+        margin-left: 0.5rem;
+        img{
+            margin-left: 1rem;
+            padding-bottom: 0.4rem;
+        }
+    } 
+    :global(.btn-default){
+        background-color: transparent;
+        border: solid 0.2rem $app_black;        
+        padding-top: 1.1rem;
+    }
+    @media (max-width: 767px) {
+        :global(.btn-default){
+            margin-bottom:1rem;
+        }
+        .save-wrapper{
+            height: 15rem;
+            border-bottom: 0;
+            position: fixed;
+            padding-left: 0.8rem;
+            padding-right: 0.8rem;
+            width:100%;
+        }
+    }
+}

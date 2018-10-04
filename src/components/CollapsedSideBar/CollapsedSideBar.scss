@@ -1,0 +1,30 @@
+
+@import '../../assets/css/variables.scss';
+.collapsed-side-panel {
+    width: 6rem;
+    height: 100%;
+    background-color: $app_black;
+    position: absolute;
+    right: 0;
+    position: fixed;
+    z-index: 2;
+}
+.menu-icon {
+    position: absolute;
+    margin-left: 1.7rem;
+    padding-bottom: 1rem;
+    top: 3.1rem;
+}
+.side-nav-icons{
+    margin-top: 30rem;
+    margin-left: auto;
+    margin-right: auto;
+    ul{
+        list-style: none;
+    }
+    li{
+        margin-bottom: 1.4rem;
+    }
+}
+
+

@@ -1,0 +1,22 @@
+{
+    "retrievalReference":{
+        "goal":"RTGHNMY67890OLHGFTEDVBNT"
+    },
+    "goals":[
+        {
+            "message": "goal 4",
+            "target": 8000,
+            "achieved": 2000
+        },
+        {
+            "message": "goal 5",
+            "target": 8000,
+            "achieved": 8000
+        },
+        {
+            "message": "goal 6",
+            "target": 9000,
+            "achieved": 2000
+        }
+    ]   
+}

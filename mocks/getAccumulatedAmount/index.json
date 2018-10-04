@@ -1,0 +1,34 @@
+{
+    "accumulatedInfo":{
+        "casa":{
+            "status":true,
+            "accumulatedAmount": 22715.12,
+            "accumulatedCurrency":"RM"
+        },
+        "fixedDeposit":{
+            "status":true,
+            "accumulatedAmount": 22715.12,
+            "accumulatedCurrency":"RM"
+        },
+        "cards":{
+            "status":true,
+            "accumulatedAmount":-4545,
+            "accumulatedCurrency":"RM"
+        },
+        "loans":{
+            "status":true,
+            "accumulatedAmount":2132,
+            "accumulatedCurrency":"RM"
+        },
+        "wealth":{
+            "status":true,
+            "accumulatedAmount":null,
+            "accumulatedCurrency":null
+        }
+    },
+    "bannerDetails":{
+        "accessUrl":"m2u/static/img/crosselling.png",
+        "mobileUrl":"m2u/static/img/mobile-crossselling.jpg",
+        "redirectUrl":null
+    }
+}

@@ -1,0 +1,28 @@
+{
+	"tacRequired":true,
+	"quickOption":"transfer",
+	"isFavourite":true,
+	"currentEffectiveDate":[{
+		"display":"20 Dec, 2016",
+		"expected":"20161220"
+	}],
+	"accounts":[{
+		"longName":"Wadiah Account",
+		"shortName":"",
+		"accountNumber":"3121 5454 4545 4645",
+		"currency":"RM","availableBalance":1454,
+		"displayNumber":"XXXX XXXX XXXX 4645",
+		"type":"casa"
+	}],
+	"quickLink":[{
+		"status":true,
+		"title":"Indah Water Konsortium",
+		"subTitle":"My Indah Water",
+		"callToPage":"PAY|REG|708|1|10023123123| 0||1|8880|"
+	},{
+		"status":true,
+		"title":"DIGI Reload",
+		"subTitle":"0166500924",
+		"callToPage":"PAY|REG|708|1|10023123123| 0||1|8880|"
+	}]
+}

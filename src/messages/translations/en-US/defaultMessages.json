@@ -1,0 +1,2787 @@
+[
+  {
+    "descriptors": [
+      {
+        "defaultMessage": "Please confirm your details",
+        "id": "app.details.pleaseConfirm"
+      },
+      {
+        "defaultMessage": "REQUEST TAC",
+        "id": "app.details.requestTac"
+      },
+      {
+        "defaultMessage": "To proceed with this payment, please request and insert your TAC number",
+        "id": "app.details.requestTacMsg"
+      }
+    ],
+    "path": "src/components/Confirm/index.json"
+  },
+  {
+    "descriptors": [
+      {
+        "defaultMessage": "Register Bill",
+        "id": "app.details.registerBill"
+      },
+      {
+        "defaultMessage": "Add New Favourite",
+        "id": "app.details.addNewFavorite"
+      }
+    ],
+    "path": "src/components/FavoriteSummary/index.json"
+  },
+  {
+    "descriptors": [
+      {
+        "defaultMessage": "All rights reserved.",
+        "id": "app.dashboard.copyright"
+      },
+      {
+        "defaultMessage": "Terms & Condition • Security, Privacy & Client Charter • FAQ",
+        "id": "app.dashboard.termsConditions"
+      }
+    ],
+    "path": "src/components/Footer/index.json"
+  },
+  {
+    "descriptors": [
+      {
+        "defaultMessage": "MY ACCOUNTS",
+        "id": "app.login.myAccounts"
+      },
+      {
+        "defaultMessage": "PAY & TRANSFER",
+        "id": "app.login.payTransfer"
+      },
+      {
+        "defaultMessage": "APPLY",
+        "id": "app.login.apply"
+      },
+      {
+        "defaultMessage": "MY LAST LOGIN",
+        "id": "app.login.myLastLogin"
+      }
+    ],
+    "path": "src/components/Header/index.json"
+  },
+  {
+    "descriptors": [
+      {
+        "defaultMessage": "In Queue",
+        "id": "app.details.inQueue"
+      },
+      {
+        "defaultMessage": "Total amount is inclusive of bank charges and GST",
+        "id": "app.details.multiPayMsg"
+      },
+      {
+        "defaultMessage": "Payment",
+        "id": "app.details.payment"
+      }
+    ],
+    "path": "src/components/MultiTransactionSticky/index.json"
+  },
+  {
+    "descriptors": [
+      {
+        "defaultMessage": "SAVED",
+        "id": "app.dashboard.saved"
+      },
+      {
+        "defaultMessage": "FIXED DEPOSIT",
+        "id": "app.dashboard.fixedDeposit"
+      },
+      {
+        "defaultMessage": "CARDS",
+        "id": "app.dashboard.cards"
+      },
+      {
+        "defaultMessage": "LOANS",
+        "id": "app.dashboard.loans"
+      },
+      {
+        "defaultMessage": "WEALTH",
+        "id": "app.dashboard.wealth"
+      }
+    ],
+    "path": "src/components/Navigation/index.json"
+  },
+  {
+    "descriptors": [
+      {
+        "defaultMessage": "A One-Time Password has been sent to",
+        "id": "app.registration.oneTimePassSent"
+      },
+      {
+        "defaultMessage": "TAC has been sent to",
+        "id": "app.tacSent"
+      },
+      {
+        "defaultMessage": "If you did not receive,",
+        "id": "app.registration.ifYouDidNotReceive"
+      },
+      {
+        "defaultMessage": "click here",
+        "id": "app.registration.clickHere"
+      },
+      {
+        "defaultMessage": "CONFIRM",
+        "id": "app.registration.confirm"
+      },
+      {
+        "defaultMessage": "OTP has been sent.",
+        "id": "app.registration.otp"
+      },
+      {
+        "defaultMessage": "TAC has been requested.",
+        "id": "app.tacRequested"
+      }
+    ],
+    "path": "src/components/OneTimePassword/index.json"
+  },
+  {
+    "descriptors": [
+      {
+        "defaultMessage": "Pay from",
+        "id": "app.details.payFrom"
+      },
+      {
+        "defaultMessage": "Id",
+        "id": "app.details.id"
+      },
+      {
+        "defaultMessage": "Other Account Type",
+        "id": "app.details.otherAccountType"
+      },
+      {
+        "defaultMessage": "Recurrence",
+        "id": "app.details.recurrence"
+      },
+      {
+        "defaultMessage": "Phone Number",
+        "id": "app.details.phoneNumber"
+      },
+      {
+        "defaultMessage": "Tax Number",
+        "id": "app.details.taxNumber"
+      },
+      {
+        "defaultMessage": "Instalment Number",
+        "id": "app.details.instalmentNumber"
+      },
+      {
+        "defaultMessage": "EPF Number",
+        "id": "app.details.epfNumber"
+      },
+      {
+        "defaultMessage": "MembersvName",
+        "id": "app.details.membersName"
+      },
+      {
+        "defaultMessage": "IC Number",
+        "id": "app.details.icNumber"
+      },
+      {
+        "defaultMessage": "Payment Type",
+        "id": "app.details.paymentType"
+      },
+      {
+        "defaultMessage": "EPF Account Type",
+        "id": "app.details.epfAccountType"
+      },
+      {
+        "defaultMessage": "Zakat Type",
+        "id": "app.details.zakatType"
+      },
+      {
+        "defaultMessage": "MyGST Account Number",
+        "id": "app.details.myGSTAccountNumber"
+      },
+      {
+        "defaultMessage": "Filing Period",
+        "id": "app.details.filingPeriod"
+      },
+      {
+        "defaultMessage": "Media Number",
+        "id": "app.details.mediaNumber"
+      },
+      {
+        "defaultMessage": "Payment Code",
+        "id": "app.details.paymentCode"
+      },
+      {
+        "defaultMessage": "Assesment Year",
+        "id": "app.details.assesmentYear"
+      }
+    ],
+    "path": "src/components/PaymentSummary/index.json"
+  },
+  {
+    "descriptors": [
+      {
+        "defaultMessage": "Term & Conditions",
+        "id": "app.details.termAndConditions"
+      },
+      {
+        "defaultMessage": "I Agree",
+        "id": "app.details.iAgree"
+      },
+      {
+        "defaultMessage": "By clicking the I Accept button, Your here By declare, undertake and confirm the fallowing:",
+        "id": "app.details.jompayTermsDeclare"
+      },
+      {
+        "defaultMessage": "By clicking the I Accept button, Your here By declare, undertake and confirm the fallowing:",
+        "id": "app.details.jompayTermsTitle"
+      }
+    ],
+    "path": "src/components/PayModals/JomPayTermModal/index.json"
+  },
+  {
+    "descriptors": [
+      {
+        "defaultMessage": "Payment Type",
+        "id": "app.transactions.paymentType"
+      },
+      {
+        "defaultMessage": "IC Number",
+        "id": "app.transactions.icNumber"
+      }
+    ],
+    "path": "src/components/PayModals/OtherPayInfo/AKPK/index.json"
+  },
+  {
+    "descriptors": [
+      {
+        "defaultMessage": "Card Number",
+        "id": "app.transactions.cardNumber"
+      },
+      {
+        "defaultMessage": "Pay Option",
+        "id": "app.transactions.payOption"
+      },
+      {
+        "defaultMessage": "Total Amount",
+        "id": "app.transactions.totalAmount"
+      },
+      {
+        "defaultMessage": "Reference",
+        "id": "app.transactions.reference"
+      }
+    ],
+    "path": "src/components/PayModals/OtherPayInfo/CardPayment/index.json"
+  },
+  {
+    "descriptors": [
+      {
+        "defaultMessage": "EPF Account Type",
+        "id": "app.transactions.epfAccountType"
+      },
+      {
+        "defaultMessage": "Member's Name",
+        "id": "app.transactions.membersName"
+      },
+      {
+        "defaultMessage": "EPF Number",
+        "id": "app.transactions.epfNumber"
+      },
+      {
+        "defaultMessage": "Member's IC Number",
+        "id": "app.transactions.icMemberNumber"
+      }
+    ],
+    "path": "src/components/PayModals/OtherPayInfo/EPF/index.json"
+  },
+  {
+    "descriptors": [
+      {
+        "defaultMessage": "Tax Number",
+        "id": "app.transactions.taxNumber"
+      },
+      {
+        "defaultMessage": "Payment Code",
+        "id": "app.transactions.paymentCode"
+      },
+      {
+        "defaultMessage": "Assesment Year",
+        "id": "app.transactions.assesmentYear"
+      },
+      {
+        "defaultMessage": "Instalment Number",
+        "id": "app.transactions.instalmentNumber"
+      }
+    ],
+    "path": "src/components/PayModals/OtherPayInfo/LHDN/index.json"
+  },
+  {
+    "descriptors": [
+      {
+        "defaultMessage": "MyGST Account Number",
+        "id": "app.transactions.myGSTAccountNumber"
+      },
+      {
+        "defaultMessage": "Filing Period",
+        "id": "app.transactions.filingPeriod"
+      },
+      {
+        "defaultMessage": "Media Number",
+        "id": "app.transactions.mediaNumber"
+      }
+    ],
+    "path": "src/components/PayModals/OtherPayInfo/MyGST/index.json"
+  },
+  {
+    "descriptors": [
+      {
+        "defaultMessage": "Pay Amount",
+        "id": "app.transactions.payAmount"
+      },
+      {
+        "defaultMessage": "Zakat Type",
+        "id": "app.transactions.zakatType"
+      },
+      {
+        "defaultMessage": "Phone Number",
+        "id": "app.transactions.phoneNumber"
+      }
+    ],
+    "path": "src/components/PayModals/OtherPayInfo/Zakat/index.json"
+  },
+  {
+    "descriptors": [
+      {
+        "defaultMessage": "Quick",
+        "id": "app.details.quick"
+      },
+      {
+        "defaultMessage": "Pay To",
+        "id": "app.details.payTo"
+      },
+      {
+        "defaultMessage": "Account Number",
+        "id": "app.details.accountNumber"
+      },
+      {
+        "defaultMessage": "Ref-1",
+        "id": "app.details.ref1"
+      },
+      {
+        "defaultMessage": "Ref-2",
+        "id": "app.details.ref2"
+      },
+      {
+        "defaultMessage": "Pay Amount",
+        "id": "app.details.payAmount"
+      },
+      {
+        "defaultMessage": "Effective Date",
+        "id": "app.details.effectiveDate"
+      },
+      {
+        "defaultMessage": "Today",
+        "id": "app.details.today"
+      },
+      {
+        "defaultMessage": "Frequency",
+        "id": "app.details.frequency"
+      },
+      {
+        "defaultMessage": "Start",
+        "id": "app.details.startDate"
+      },
+      {
+        "defaultMessage": "End",
+        "id": "app.details.endDate"
+      },
+      {
+        "defaultMessage": "Notes",
+        "id": "app.details.notes"
+      },
+      {
+        "defaultMessage": "Set Recurring",
+        "id": "app.details.setRecurring"
+      },
+      {
+        "defaultMessage": "Add Another Payment +",
+        "id": "app.details.addAnotherPayment"
+      },
+      {
+        "defaultMessage": "All",
+        "id": "app.details.all"
+      }
+    ],
+    "path": "src/components/PayModals/PaymentModal/index.json"
+  },
+  {
+    "descriptors": [
+      {
+        "defaultMessage": "Mobile Number",
+        "id": "app.details.mobileNumber"
+      },
+      {
+        "defaultMessage": "Reload Amount",
+        "id": "app.details.reloadAmount"
+      },
+      {
+        "defaultMessage": "RELOAD",
+        "id": "app.details.reload"
+      },
+      {
+        "defaultMessage": "Quick Reload to",
+        "id": "app.details.quickReloadTo"
+      }
+    ],
+    "path": "src/components/ReloadModal/index.json"
+  },
+  {
+    "descriptors": [
+      {
+        "defaultMessage": "Transaction Completed",
+        "id": "app.details.transactionCompleted"
+      },
+      {
+        "defaultMessage": "Save Receipt",
+        "id": "app.details.saveReceipt"
+      }
+    ],
+    "path": "src/components/SaveReceipt/index.json"
+  },
+  {
+    "descriptors": [
+      {
+        "defaultMessage": "Need Help?",
+        "id": "app.dashboard.needHelp"
+      },
+      {
+        "defaultMessage": "Start Live Chat",
+        "id": "app.dashboard.startLiveChat"
+      },
+      {
+        "defaultMessage": "Enter Keyword ...",
+        "id": "app.dashboard.enterKeyword"
+      }
+    ],
+    "path": "src/components/SearchModal/index.json"
+  },
+  {
+    "descriptors": [
+      {
+        "defaultMessage": "STOCK",
+        "id": "app.dashboard.stockHeader"
+      },
+      {
+        "defaultMessage": "LAST",
+        "id": "app.dashboard.lastHeader"
+      },
+      {
+        "defaultMessage": "CHANGE",
+        "id": "app.dashboard.changeHeader"
+      },
+      {
+        "defaultMessage": "MAYBANK STOCK PICKS",
+        "id": "app.dashboard.stockPicks"
+      },
+      {
+        "defaultMessage": "YIELD",
+        "id": "app.dashboard.yield"
+      },
+      {
+        "defaultMessage": "LOGOUT",
+        "id": "app.dashboard.logout"
+      },
+      {
+        "defaultMessage": "TRANSFER",
+        "id": "app.dashboard.transfer"
+      },
+      {
+        "defaultMessage": "SKIP",
+        "id": "app.dashboard.skip"
+      },
+      {
+        "defaultMessage": "QUICK PAY & TRANSFER",
+        "id": "app.dashboard.quickTransfer"
+      },
+      {
+        "defaultMessage": "READ",
+        "id": "app.dashboard.announcement"
+      },
+      {
+        "defaultMessage": "READ",
+        "id": "app.dashboard.promotion"
+      },
+      {
+        "defaultMessage": "READ",
+        "id": "app.dashboard.notification"
+      },
+      {
+        "defaultMessage": "VIEW BILL",
+        "id": "app.dashboard.billpresentment"
+      },
+      {
+        "defaultMessage": "TRANSFER",
+        "id": "app.dashboard.goaltransfer"
+      }
+    ],
+    "path": "src/components/SideBar/index.json"
+  },
+  {
+    "descriptors": [
+      {
+        "defaultMessage": "You have",
+        "id": "app.dashboard.youHave"
+      },
+      {
+        "defaultMessage": "in your savings.",
+        "id": "app.dashboard.inSavings"
+      },
+      {
+        "defaultMessage": "View the investments opportunities below when you invest",
+        "id": "app.dashboard.viewInvestments"
+      }
+    ],
+    "path": "src/components/Slider/index.json"
+  },
+  {
+    "descriptors": [
+      {
+        "defaultMessage": "Recipient's Name",
+        "id": "app.details.recipientName"
+      },
+      {
+        "defaultMessage": "Transaction Type",
+        "id": "app.details.transactionType"
+      },
+      {
+        "defaultMessage": "Transfer Mode",
+        "id": "app.details.transferMode"
+      }
+    ],
+    "path": "src/components/TransferModals/OtherTransferInfo/ITIBG/index.json"
+  },
+  {
+    "descriptors": [
+      {
+        "defaultMessage": "Convertion Rate",
+        "id": "app.details.convertionRate"
+      },
+      {
+        "defaultMessage": "(RM = AUD)",
+        "id": "app.details.rmToAud"
+      }
+    ],
+    "path": "src/components/TransferModals/OtherTransferInfo/MFCA/index.json"
+  },
+  {
+    "descriptors": [
+      {
+        "defaultMessage": "Quick Transfer To",
+        "id": "app.details.quickTransferTo"
+      },
+      {
+        "defaultMessage": "Recipient's Reference",
+        "id": "app.details.recipientReference"
+      },
+      {
+        "defaultMessage": "ADDITIONAL INFO (OPTIONAL)",
+        "id": "app.details.additionalInfo"
+      },
+      {
+        "defaultMessage": "Other Transfer Details",
+        "id": "app.details.otherTransferDetails"
+      },
+      {
+        "defaultMessage": "Notify via SMS",
+        "id": "app.details.notifySms"
+      },
+      {
+        "defaultMessage": "Notify via Email",
+        "id": "app.details.notifyemail"
+      },
+      {
+        "defaultMessage": "Card Number",
+        "id": "app.details.cardNumber"
+      },
+      {
+        "defaultMessage": "Pay Option",
+        "id": "app.details.payOption"
+      },
+      {
+        "defaultMessage": "Any Amount",
+        "id": "app.details.anyAmount"
+      },
+      {
+        "defaultMessage": "Minimum Amount",
+        "id": "app.details.minimumAmount"
+      },
+      {
+        "defaultMessage": "Statement Amount",
+        "id": "app.details.statementAmount"
+      },
+      {
+        "defaultMessage": "Outstanding Amount",
+        "id": "app.details.outstandingAmount"
+      },
+      {
+        "defaultMessage": "Add Another Transfer +",
+        "id": "app.details.addAnotherTransfer"
+      }
+    ],
+    "path": "src/components/TransferModals/TransferModal/index.json"
+  },
+  {
+    "descriptors": [
+      {
+        "defaultMessage": "Live Support Chat",
+        "id": "app.dashboard.liveSupportChat"
+      },
+      {
+        "defaultMessage": "Say something",
+        "id": "app.dashboard.saySomething"
+      },
+      {
+        "defaultMessage": "Save Chat",
+        "id": "app.dashboard.saveChat"
+      },
+      {
+        "defaultMessage": "Send Chat to Email",
+        "id": "app.dashboard.sendChatEmail"
+      },
+      {
+        "defaultMessage": "Ask for Remote Assistance",
+        "id": "app.dashboard.askRemoteAssist"
+      }
+    ],
+    "path": "src/components/WebChatModal/index.json"
+  },
+  {
+    "descriptors": [
+      {
+        "defaultMessage": "One Day Float",
+        "id": "app.details.oneDayFloat"
+      },
+      {
+        "defaultMessage": "Two Days Float",
+        "id": "app.details.twoDaysFloat"
+      },
+      {
+        "defaultMessage": "Authorized Limit",
+        "id": "app.details.authorizedLimit"
+      },
+      {
+        "defaultMessage": "Credit Limit",
+        "id": "app.details.creditLimit"
+      },
+      {
+        "defaultMessage": "Available Credit Limit",
+        "id": "app.details.availableCreditLimit"
+      },
+      {
+        "defaultMessage": "Last Payment Amount",
+        "id": "app.details.lastPaymentAmount"
+      },
+      {
+        "defaultMessage": "Last Payment Date",
+        "id": "app.details.lastPaymentDate"
+      }
+    ],
+    "path": "src/routes/AccountDetails/components/AccountDetailsCard/index.json"
+  },
+  {
+    "descriptors": [
+      {
+        "defaultMessage": "Placement",
+        "id": "app.details.placement"
+      },
+      {
+        "defaultMessage": "Manage",
+        "id": "app.details.manage"
+      }
+    ],
+    "path": "src/routes/AccountDetails/components/AccountTransactionSummary/index.json"
+  },
+  {
+    "descriptors": [
+      {
+        "defaultMessage": "AVAILABLE BALANCE",
+        "id": "app.details.availableBalance"
+      },
+      {
+        "defaultMessage": "MONEY IN",
+        "id": "app.details.moneyIn"
+      },
+      {
+        "defaultMessage": "MONEY OUT",
+        "id": "app.dashboard.moneyOut"
+      }
+    ],
+    "path": "src/routes/AccountDetails/components/AvailableBalanceCard/index.json"
+  },
+  {
+    "descriptors": [
+      {
+        "defaultMessage": "PAY NOW",
+        "id": "app.details.payNow"
+      }
+    ],
+    "path": "src/routes/AccountDetails/components/CardDetails/index.json"
+  },
+  {
+    "descriptors": [
+      {
+        "defaultMessage": "Card Transactions",
+        "id": "app.details.cardTransactions"
+      },
+      {
+        "defaultMessage": "Minimum Payment",
+        "id": "app.details.minimumPayment"
+      },
+      {
+        "defaultMessage": "Statement Balance",
+        "id": "app.details.statementBalance"
+      },
+      {
+        "defaultMessage": "EzyCash",
+        "id": "app.details.ezycashFirstCardTitle"
+      },
+      {
+        "defaultMessage": "Need Extra Cash?",
+        "id": "app.details.ezycashFirstCardMessage"
+      },
+      {
+        "defaultMessage": "EzyCash Plus",
+        "id": "app.details.ezycashSecondCardTitle"
+      },
+      {
+        "defaultMessage": "Get Easy Installment Plan",
+        "id": "app.details.ezycashSecondCardMessage"
+      },
+      {
+        "defaultMessage": "Balance Transfer",
+        "id": "app.details.ezycashThirdCardTitle"
+      },
+      {
+        "defaultMessage": "Consolidate Your Outstanding Balances",
+        "id": "app.details.ezycashThirdCardMessage"
+      }
+    ],
+    "path": "src/routes/AccountDetails/components/CardsAccountDetailsContainer/index.json"
+  },
+  {
+    "descriptors": [
+      {
+        "defaultMessage": "AVAILABLE CREDIT",
+        "id": "app.details.availableCredit"
+      }
+    ],
+    "path": "src/routes/AccountDetails/components/CasaLiteAccountDetails/index.json"
+  },
+  {
+    "descriptors": [
+      {
+        "defaultMessage": "Your request has been processed.",
+        "id": "app.details.yourRequestHasBeen"
+      }
+    ],
+    "path": "src/routes/AccountDetails/components/Details.json"
+  },
+  {
+    "descriptors": [
+      {
+        "defaultMessage": "APPLY NOW",
+        "id": "app.details.applyNow"
+      }
+    ],
+    "path": "src/routes/AccountDetails/components/EzyCash/index.json"
+  },
+  {
+    "descriptors": [
+      {
+        "defaultMessage": "Interest Payment Frequency",
+        "id": "app.details.intrestPaymentFrequency"
+      },
+      {
+        "defaultMessage": "Interest Mode",
+        "id": "app.details.intrestPaymentMode"
+      },
+      {
+        "defaultMessage": "Credit To Account",
+        "id": "app.details.creditToAccount"
+      },
+      {
+        "defaultMessage": "Maybank Conventional fixed Deposit - Manage",
+        "id": "app.details.maybankConventionalManage"
+      }
+    ],
+    "path": "src/routes/AccountDetails/components/FdManagePopup/index.json"
+  },
+  {
+    "descriptors": [
+      {
+        "defaultMessage": "Transfer To",
+        "id": "app.details.transferTo"
+      },
+      {
+        "defaultMessage": "Certificate Number",
+        "id": "app.details.certificateNumber"
+      },
+      {
+        "defaultMessage": "Interest",
+        "id": "app.details.intrest"
+      },
+      {
+        "defaultMessage": "Interest Mode",
+        "id": "app.details.intrestMode"
+      },
+      {
+        "defaultMessage": "Tenure",
+        "id": "app.details.tenure"
+      },
+      {
+        "defaultMessage": "Closing Amount",
+        "id": "app.details.closingAmount"
+      },
+      {
+        "defaultMessage": "From Account",
+        "id": "app.details.fromAccount"
+      },
+      {
+        "defaultMessage": "Transfer Amount",
+        "id": "app.details.transferAmount"
+      },
+      {
+        "defaultMessage": "Referance",
+        "id": "app.details.referance"
+      },
+      {
+        "defaultMessage": "Uplift",
+        "id": "app.details.uplift"
+      },
+      {
+        "defaultMessage": "Maybank Conventional Fixed Deposit - Upliftment",
+        "id": "app.details.maybankConventional"
+      },
+      {
+        "defaultMessage": "Maturity Date",
+        "id": "app.details.maturityDate"
+      }
+    ],
+    "path": "src/routes/AccountDetails/components/FdUpliftmentModal/index.json"
+  },
+  {
+    "descriptors": [
+      {
+        "defaultMessage": "Total Amount",
+        "id": "app.details.totalAmount"
+      },
+      {
+        "defaultMessage": "Account Type",
+        "id": "app.details.accountType"
+      },
+      {
+        "defaultMessage": "Individual",
+        "id": "app.details.individual"
+      },
+      {
+        "defaultMessage": "Joint Account {index}",
+        "id": "app.details.jointAccountName"
+      }
+    ],
+    "path": "src/routes/AccountDetails/components/FixedDepositCard/index.json"
+  },
+  {
+    "descriptors": [
+      {
+        "defaultMessage": "CERT NUMBER",
+        "id": "app.details.certNumberHeader"
+      },
+      {
+        "defaultMessage": "PRINCIPAL",
+        "id": "app.details.principalHeader"
+      },
+      {
+        "defaultMessage": "TERM",
+        "id": "app.details.termHeader"
+      },
+      {
+        "defaultMessage": "INTEREST (p.a)",
+        "id": "app.details.interestPaHeader"
+      },
+      {
+        "defaultMessage": "PLACEMENT DATE",
+        "id": "app.details.placementDateHeader"
+      },
+      {
+        "defaultMessage": "MATURITY DATE",
+        "id": "app.details.maturityDateHeader"
+      },
+      {
+        "defaultMessage": "INTEREST PAYMENT",
+        "id": "app.details.interestPaymentHeader"
+      },
+      {
+        "defaultMessage": "UPON MATURITY",
+        "id": "app.details.uponMaturityHeader"
+      },
+      {
+        "defaultMessage": "months",
+        "id": "app.details.months"
+      },
+      {
+        "defaultMessage": "CERTIFICATES",
+        "id": "app.details.certificates"
+      },
+      {
+        "defaultMessage": "MAKE PLACEMENT",
+        "id": "app.details.makePlacement"
+      },
+      {
+        "defaultMessage": "You are only allowed to uplift or manage this certificate at the branch.",
+        "id": "app.details.youAreOnlyAllowed"
+      }
+    ],
+    "path": "src/routes/AccountDetails/components/FixedDepositsContainer/index.json"
+  },
+  {
+    "descriptors": [
+      {
+        "defaultMessage": "Outstanding Balance",
+        "id": "app.details.outstandingBalance"
+      },
+      {
+        "defaultMessage": "TOTAL PAID",
+        "id": "app.details.totalPaid"
+      },
+      {
+        "defaultMessage": "Monthly Installment",
+        "id": "app.details.monthlyInstallment"
+      },
+      {
+        "defaultMessage": "Installment Due as of Today",
+        "id": "app.details.installmentDue"
+      },
+      {
+        "defaultMessage": "Transaction History",
+        "id": "app.details.transactionHistory"
+      },
+      {
+        "defaultMessage": "Pay In Advance",
+        "id": "app.details.payInAdvance"
+      }
+    ],
+    "path": "src/routes/AccountDetails/components/LoanDetailsContainer/index.json"
+  },
+  {
+    "descriptors": [
+      {
+        "defaultMessage": "MAKE PLACEMENT",
+        "id": "app.details.mgreakePlacementBtn"
+      },
+      {
+        "defaultMessage": "Maybank Conventional Fixed Deposit",
+        "id": "app.details.fdPlacementModalHeader"
+      },
+      {
+        "defaultMessage": "Transfer From",
+        "id": "app.details.transferFrom"
+      },
+      {
+        "defaultMessage": "Principal Amount",
+        "id": "app.details.principalAmount"
+      },
+      {
+        "defaultMessage": "Interest Frequency",
+        "id": "app.details.interestFrequency"
+      },
+      {
+        "defaultMessage": "Interest Mode",
+        "id": "app.details.interestMode"
+      },
+      {
+        "defaultMessage": "I have read the PIDM brochure and understand the Maybank conventional fixed deposit is eligible for protection by PIDM.",
+        "id": "app.details.footerMessage"
+      },
+      {
+        "defaultMessage": "Term",
+        "id": "app.details.term"
+      },
+      {
+        "defaultMessage": "Maturity Instructions",
+        "id": "app.details.maturityInstructions"
+      }
+    ],
+    "path": "src/routes/AccountDetails/components/PlacementModal/index.json"
+  },
+  {
+    "descriptors": [
+      {
+        "defaultMessage": "Upliftment",
+        "id": "app.dashboard.upliftment"
+      },
+      {
+        "defaultMessage": "Manage",
+        "id": "app.dashboard.manage"
+      }
+    ],
+    "path": "src/routes/AccountDetails/components/PopupFixedDeposit/index.json"
+  },
+  {
+    "descriptors": [
+      {
+        "defaultMessage": "Pay Card",
+        "id": "app.details.payCard"
+      },
+      {
+        "defaultMessage": "Pay Bills",
+        "id": "app.details.payBills"
+      },
+      {
+        "defaultMessage": "Add Sub Card",
+        "id": "app.details.addSubCard"
+      },
+      {
+        "defaultMessage": "Transfer Funds",
+        "id": "app.details.transferFunds"
+      },
+      {
+        "defaultMessage": "Block & Replace Card",
+        "id": "app.details.blockAndReplaceCard"
+      },
+      {
+        "defaultMessage": "Apply EzyCash",
+        "id": "app.details.applyEzyCash"
+      },
+      {
+        "defaultMessage": "Apply EzyCash Plus",
+        "id": "app.details.applyEzyCashPlus"
+      },
+      {
+        "defaultMessage": "Balance Transfer",
+        "id": "app.details.balanceTransfer"
+      },
+      {
+        "defaultMessage": "Pay Monthly Installment",
+        "id": "app.details.payMonthlyInstallment"
+      },
+      {
+        "defaultMessage": "Pay Installment Due",
+        "id": "app.details.payInstallmentDue"
+      },
+      {
+        "defaultMessage": "Redraw Advance Payment",
+        "id": "app.details.redrawAdvancePayment"
+      },
+      {
+        "defaultMessage": "Growth",
+        "id": "app.details.growth"
+      },
+      {
+        "defaultMessage": "Yield",
+        "id": "app.details.yield"
+      },
+      {
+        "defaultMessage": "Value",
+        "id": "app.details.value"
+      },
+      {
+        "defaultMessage": "Funds",
+        "id": "app.details.funds"
+      }
+    ],
+    "path": "src/routes/AccountDetails/components/PopupMenuDropDown/index.json"
+  },
+  {
+    "descriptors": [
+      {
+        "defaultMessage": "REDRAW",
+        "id": "app.details.redraw"
+      },
+      {
+        "defaultMessage": "Advance Payment Redraw",
+        "id": "app.details.redrawModalHeader"
+      },
+      {
+        "defaultMessage": "Notes",
+        "id": "app.details.note"
+      },
+      {
+        "defaultMessage": "To Account",
+        "id": "app.details.toAccount"
+      },
+      {
+        "defaultMessage": "I AGREE TO THE TERMS AND CONDITIONS",
+        "id": "app.details.redrawModalfooter"
+      },
+      {
+        "defaultMessage": "A processing fee of",
+        "id": "app.details.aProcessingFee"
+      },
+      {
+        "defaultMessage": "will be debited from your",
+        "id": "app.details.willBeDeducted"
+      },
+      {
+        "defaultMessage": "Account",
+        "id": "app.details.account"
+      }
+    ],
+    "path": "src/routes/AccountDetails/components/RedrawModal/index.json"
+  },
+  {
+    "descriptors": [
+      {
+        "defaultMessage": "Statement Month",
+        "id": "app.dashboard.statementMonth"
+      },
+      {
+        "defaultMessage": "Collection Mode",
+        "id": "app.dashboard.collectionMode"
+      }
+    ],
+    "path": "src/routes/AccountDetails/components/RequestHardCopyModal/index.json"
+  },
+  {
+    "descriptors": [
+      {
+        "defaultMessage": "Points",
+        "id": "app.details.rewardPoints"
+      },
+      {
+        "defaultMessage": "Treats Points",
+        "id": "app.details.treatsPointsDetail"
+      }
+    ],
+    "path": "src/routes/AccountDetails/components/RewardDetails/index.json"
+  },
+  {
+    "descriptors": [
+      {
+        "defaultMessage": "Treats Points",
+        "id": "app.details.treatsPoints"
+      },
+      {
+        "defaultMessage": "Membership Reward Points",
+        "id": "app.details.membershipRewardPoints"
+      },
+      {
+        "defaultMessage": "Treats Airmiles",
+        "id": "app.details.treatsAirmiles"
+      },
+      {
+        "defaultMessage": "REDEEM",
+        "id": "app.details.redeemBtn"
+      },
+      {
+        "defaultMessage": "Available",
+        "id": "app.details.rewardAvailable"
+      },
+      {
+        "defaultMessage": "You latest Rewards Points Balance will be updated daily and only accounts with the balance of 2,000 Points and above will be displayed.",
+        "id": "app.details.rewardHeaderMassage"
+      }
+    ],
+    "path": "src/routes/AccountDetails/components/RewardDetailsContainer/index.json"
+  },
+  {
+    "descriptors": [
+      {
+        "defaultMessage": "As of",
+        "id": "app.details.asOf"
+      },
+      {
+        "defaultMessage": "Date",
+        "id": "app.details.dateHeader"
+      },
+      {
+        "defaultMessage": "Description",
+        "id": "app.details.descriptionHeader"
+      },
+      {
+        "defaultMessage": "Amount",
+        "id": "app.details.amountHeader"
+      },
+      {
+        "defaultMessage": "All Transaction History",
+        "id": "app.details.allTransactions"
+      },
+      {
+        "defaultMessage": "Debit Card Transaction",
+        "id": "app.details.debitCard"
+      },
+      {
+        "defaultMessage": "M2U Transaction",
+        "id": "app.details.m2uTransaction"
+      },
+      {
+        "defaultMessage": "M2U Pay",
+        "id": "app.details.m2uPay"
+      },
+      {
+        "defaultMessage": "Last {count} days",
+        "id": "app.details.lastNDays"
+      },
+      {
+        "defaultMessage": "REQUEST HARD COPY",
+        "id": "app.details.requestHardCopy"
+      },
+      {
+        "defaultMessage": "VIEW STATEMENT",
+        "id": "app.details.viewStatement"
+      }
+    ],
+    "path": "src/routes/AccountDetails/components/SavingAccountContainer/index.json"
+  },
+  {
+    "descriptors": [
+      {
+        "defaultMessage": "Kindly be advised once you have activated your new PIN & PAY card, your current card (if any) will be deactivated immediately.",
+        "id": "app.dashboard.kindlyBeadvised"
+      },
+      {
+        "defaultMessage": "Notes",
+        "id": "app.dashboard.notes"
+      },
+      {
+        "defaultMessage": "This only applies to all individual Credit/Charge card(s).In order to mitigate any fraudulent and unauthorized usage kindly ensure that the physical card is in your custody before proceeding for card activation.",
+        "id": "app.personalize.thisOnlyAppliesTo"
+      },
+      {
+        "defaultMessage": "Expiry Year of Your New Card",
+        "id": "app.dashboard.expiryYearForYourCard"
+      },
+      {
+        "defaultMessage": "I HEREBY AGREE TO THE",
+        "id": "app.dashboard.iHereByAgree"
+      },
+      {
+        "defaultMessage": "ACTIVATE",
+        "id": "app.dashboard.activate"
+      },
+      {
+        "defaultMessage": "VIEW SAMPLE",
+        "id": "app.dashboard.viewSample"
+      }
+    ],
+    "path": "src/routes/Dashboard/components/ActivateCardModal/index.json"
+  },
+  {
+    "descriptors": [
+      {
+        "defaultMessage": "SHOW MORE",
+        "id": "app.dashboard.showMore"
+      },
+      {
+        "defaultMessage": "SHOW LESS",
+        "id": "app.dashboard.showLess"
+      }
+    ],
+    "path": "src/routes/Dashboard/components/CardsContainer/index.json"
+  },
+  {
+    "descriptors": [
+      {
+        "defaultMessage": "REWARDS",
+        "id": "app.dashboard.rewards"
+      },
+      {
+        "defaultMessage": "OTHER ACCOUNTS",
+        "id": "app.dashboard.otherAccounts"
+      },
+      {
+        "defaultMessage": "You have sucessfully activated your credit card",
+        "id": "app.dashboard.cardActivationSuccessText"
+      },
+      {
+        "defaultMessage": "14 Jan 2016",
+        "id": "app.dashboard.cardActivationSuccessSecondary"
+      },
+      {
+        "defaultMessage": "You have sucessfully set PIN for Maybank World MasterCard",
+        "id": "app.dashboard.setPinSuccessText"
+      },
+      {
+        "defaultMessage": "14 Jan 2016",
+        "id": "app.dashboard.setPinSuccessSecondary"
+      },
+      {
+        "defaultMessage": "Amount should not be empty",
+        "id": "app.dashboard.emptyAmount"
+      }
+    ],
+    "path": "src/routes/Dashboard/components/Dashboard.json"
+  },
+  {
+    "descriptors": [
+      {
+        "defaultMessage": "MY GOALS",
+        "id": "app.dashboard.myGoals"
+      },
+      {
+        "defaultMessage": "CREATE GOAL",
+        "id": "app.dashboard.createGoal"
+      }
+    ],
+    "path": "src/routes/Dashboard/components/GoalsContainer/index.json"
+  },
+  {
+    "descriptors": [
+      {
+        "defaultMessage": "COMPLETED",
+        "id": "app.dashboard.completed"
+      },
+      {
+        "defaultMessage": "SAVED SO FAR",
+        "id": "app.dashboard.savedSoFar"
+      }
+    ],
+    "path": "src/routes/Dashboard/components/GoalsProgress/index.json"
+  },
+  {
+    "descriptors": [
+      {
+        "defaultMessage": "Important Notice",
+        "id": "app.dashboard.importantNotice"
+      },
+      {
+        "defaultMessage": "Your card has been sucessfully activated.",
+        "id": "app.dashboard.yourCardHasBeen"
+      },
+      {
+        "defaultMessage": "Do you want to set PIN?",
+        "id": "app.personalize.doYouWantToSetPin"
+      },
+      {
+        "defaultMessage": "LATER",
+        "id": "app.dashboard.later"
+      },
+      {
+        "defaultMessage": "SET NOW",
+        "id": "app.dashboard.setNow"
+      }
+    ],
+    "path": "src/routes/Dashboard/components/ImportantNoticeModal/index.json"
+  },
+  {
+    "descriptors": [
+      {
+        "defaultMessage": "View Details",
+        "id": "app.dashboard.viewDetails"
+      },
+      {
+        "defaultMessage": "Pay Bills",
+        "id": "app.dashboard.payBills"
+      },
+      {
+        "defaultMessage": "Transfer Funds",
+        "id": "app.dashboard.transferFunds"
+      },
+      {
+        "defaultMessage": "View Statement",
+        "id": "app.dashboard.viewStatement"
+      },
+      {
+        "defaultMessage": "Cheque Services",
+        "id": "app.dashboard.chequeServices"
+      },
+      {
+        "defaultMessage": "Add Nickname",
+        "id": "app.dashboard.addNickname"
+      },
+      {
+        "defaultMessage": "Pay Card",
+        "id": "app.dashboard.payCard"
+      },
+      {
+        "defaultMessage": "Add Supp. Card",
+        "id": "app.dashboard.addSuppCard"
+      },
+      {
+        "defaultMessage": "Block & Replace Card",
+        "id": "app.dashboard.blockAndReplaceCard"
+      },
+      {
+        "defaultMessage": "Activate Card",
+        "id": "app.dashboard.activateCard"
+      },
+      {
+        "defaultMessage": "Set Pin",
+        "id": "app.dashboard.setPin"
+      },
+      {
+        "defaultMessage": "Important Notice",
+        "id": "app.dashboard.activationConfirmation"
+      },
+      {
+        "defaultMessage": "Your Card hase been successfully activated",
+        "id": "app.dashboard.activatetionText"
+      },
+      {
+        "defaultMessage": "SET NOW",
+        "id": "app.dashboard.activationOkBtnText"
+      },
+      {
+        "defaultMessage": "LATER",
+        "id": "app.dashboard.activationCancelBtnText"
+      },
+      {
+        "defaultMessage": "Make Placement",
+        "id": "app.dashboard.makePlacement"
+      },
+      {
+        "defaultMessage": "Make Payment",
+        "id": "app.dashboard.makePayment"
+      }
+    ],
+    "path": "src/routes/Dashboard/components/PopupMenu/index.json"
+  },
+  {
+    "descriptors": [
+      {
+        "defaultMessage": "Points",
+        "id": "app.dashboard.rewardPoints"
+      }
+    ],
+    "path": "src/routes/Dashboard/components/RewardCard/index.json"
+  },
+  {
+    "descriptors": [
+      {
+        "defaultMessage": "Important: Please ensure you have received physical card before proceed for Set PIN.",
+        "id": "app.dashboard.importantPleaseEnsure"
+      },
+      {
+        "defaultMessage": "New Pin",
+        "id": "app.personalize.newPin"
+      },
+      {
+        "defaultMessage": "Confirm Pin",
+        "id": "app.dashboard.confirmPin"
+      }
+    ],
+    "path": "src/routes/Dashboard/components/SetPinModal/index.json"
+  },
+  {
+    "descriptors": [
+      {
+        "defaultMessage": "TOTAL MARKET VALUE",
+        "id": "app.dashboard.totalMarketValue"
+      },
+      {
+        "defaultMessage": "TOTAL BOOK VALUE",
+        "id": "app.dashboard.totalBookValue"
+      },
+      {
+        "defaultMessage": "UNREALIZED GAINS / LOSS",
+        "id": "app.dashboard.unrealizedGainsOrLoss"
+      },
+      {
+        "defaultMessage": "BOOK VALUE",
+        "id": "app.dashboard.bookValue"
+      },
+      {
+        "defaultMessage": "Total Market Value does not include DCI",
+        "id": "app.dashboard.totalMarketValueDoesNot"
+      }
+    ],
+    "path": "src/routes/Dashboard/components/TotalMarketValue/index.json"
+  },
+  {
+    "descriptors": [
+      {
+        "defaultMessage": "TOTAL SPENT",
+        "id": "app.dashboard.totalSpent"
+      }
+    ],
+    "path": "src/routes/Dashboard/components/TotalSpending/index.json"
+  },
+  {
+    "descriptors": [
+      {
+        "defaultMessage": "My Spending",
+        "id": "app.dashboard.myTotalSpending"
+      },
+      {
+        "defaultMessage": "All Maybank Cards",
+        "id": "app.dashboard.allMaybankCards"
+      }
+    ],
+    "path": "src/routes/Dashboard/components/TotalSpendingContainer/index.json"
+  },
+  {
+    "descriptors": [
+      {
+        "defaultMessage": "Asset allocation based on market value",
+        "id": "app.dashboard.assetAllocationBasedOnMarket"
+      }
+    ],
+    "path": "src/routes/Dashboard/components/WealthContainer/index.json"
+  },
+  {
+    "descriptors": [
+      {
+        "defaultMessage": "Set Your Goal!",
+        "id": "app.dashboard.zeroGoalsTitle"
+      },
+      {
+        "defaultMessage": "Plan and achieve your goals are so simple with Goal-Based Savings Account. Get started today!",
+        "id": "app.dashboard.zeroGoalsMessage"
+      }
+    ],
+    "path": "src/routes/Dashboard/components/ZeroGoals/index.json"
+  },
+  {
+    "descriptors": [
+      {
+        "defaultMessage": "View Bill",
+        "id": "app.inbox.viewBill"
+      }
+    ],
+    "path": "src/routes/Inbox/components/MessageBox/index.json"
+  },
+  {
+    "descriptors": [
+      {
+        "defaultMessage": "New Messages",
+        "id": "app.inbox.newMessages"
+      },
+      {
+        "defaultMessage": "My Inbox",
+        "id": "app.inbox.myInbox"
+      }
+    ],
+    "path": "src/routes/Inbox/components/MessagesContainer/index.json"
+  },
+  {
+    "descriptors": [
+      {
+        "defaultMessage": "Let`s get you restarted with your access number and pin.",
+        "id": "app.login.accountInactiveMessage"
+      },
+      {
+        "defaultMessage": "Card  Access Number",
+        "id": "app.login.accessNumber"
+      }
+    ],
+    "path": "src/routes/Login/components/AccountInactive/index.json"
+  },
+  {
+    "descriptors": [
+      {
+        "defaultMessage": "Open Account",
+        "id": "app.login.openAccount"
+      },
+      {
+        "defaultMessage": "Maybank Cards",
+        "id": "app.login.maybankCards"
+      },
+      {
+        "defaultMessage": "Get a Loan",
+        "id": "app.login.getALoan"
+      },
+      {
+        "defaultMessage": "Grow Wealth",
+        "id": "app.login.growWealth"
+      },
+      {
+        "defaultMessage": "Insure Me",
+        "id": "app.login.insureMe"
+      },
+      {
+        "defaultMessage": "More",
+        "id": "app.login.more"
+      }
+    ],
+    "path": "src/routes/Login/components/Footer/index.json"
+  },
+  {
+    "descriptors": [
+      {
+        "defaultMessage": "Don't worry, {name}",
+        "id": "app.login.dontWorry"
+      },
+      {
+        "defaultMessage": "You can try to reset your password.",
+        "id": "app.login.tryToResetPassword"
+      },
+      {
+        "defaultMessage": "You can try to reset your password.",
+        "id": "app.login.youCanTry"
+      }
+    ],
+    "path": "src/routes/Login/components/ForgotPasswordSuggestion/index.json"
+  },
+  {
+    "descriptors": [
+      {
+        "defaultMessage": "Hi {name}! We found your account",
+        "id": "app.login.foundYourAccount"
+      },
+      {
+        "defaultMessage": "If you know your password, please proceed to login in.",
+        "id": "app.login.ifYouKnowYourPassword"
+      },
+      {
+        "defaultMessage": "Otherwise click Reset Password.",
+        "id": "app.login.otherwiseReset"
+      },
+      {
+        "defaultMessage": "Your Username",
+        "id": "app.login.yourUsername"
+      },
+      {
+        "defaultMessage": "Reset Password",
+        "id": "app.login.resetPassword"
+      }
+    ],
+    "path": "src/routes/Login/components/FoundAccount/index.json"
+  },
+  {
+    "descriptors": [
+      {
+        "defaultMessage": "PERSONAL",
+        "id": "app.login.personal"
+      },
+      {
+        "defaultMessage": "BUSINESS",
+        "id": "app.login.business"
+      },
+      {
+        "defaultMessage": "REGISTER NOW",
+        "id": "app.login.registerNow"
+      },
+      {
+        "defaultMessage": "Humanising Banking",
+        "id": "app.login.humanisingBusiness"
+      },
+      {
+        "defaultMessage": "VIEW PRODUCTS & SERVICES",
+        "id": "app.login.viewProducts"
+      }
+    ],
+    "path": "src/routes/Login/components/Header/index.json"
+  },
+  {
+    "descriptors": [
+      {
+        "defaultMessage": "Oops! Wrong username/password",
+        "id": "app.login.wrongPassPrompt1"
+      },
+      {
+        "defaultMessage": "You have only {attemptsLeft} attempts to login into your account.",
+        "id": "app.login.wrongPassPrompt2"
+      },
+      {
+        "defaultMessage": "Sorry, wrong username/password",
+        "id": "app.login.wrongPassPrompt3"
+      },
+      {
+        "defaultMessage": "This is your last attempt, or you can click on Forgot Password.",
+        "id": "app.login.wrongPassPrompt4"
+      },
+      {
+        "defaultMessage": "Your Password Has Been Updated!",
+        "id": "app.login.yourPasswordHasBeenUpdated"
+      },
+      {
+        "defaultMessage": "You may proceed to login",
+        "id": "app.login.youMayLogin"
+      },
+      {
+        "defaultMessage": "Invalid Password",
+        "id": "app.login.invalidPassword"
+      },
+      {
+        "defaultMessage": "Input Password between 8 and 12 alphanumeric characters.",
+        "id": "app.login.invalidPasswordMessage"
+      },
+      {
+        "defaultMessage": "Password Mismatch",
+        "id": "app.login.passwordMismatch"
+      },
+      {
+        "defaultMessage": "Your Password and Confirm Password do not match.",
+        "id": "app.login.passwordMismatchMessage"
+      },
+      {
+        "defaultMessage": "Invalid Username",
+        "id": "app.login.invalidUsername"
+      },
+      {
+        "defaultMessage": "Input Username between 6 and 16 characters.",
+        "id": "app.login.invalidUsernameMessage"
+      },
+      {
+        "defaultMessage": "Invalid Card Access Number",
+        "id": "app.login.invalidCardno"
+      },
+      {
+        "defaultMessage": "Card Access Number must be in 16 digits format.",
+        "id": "app.login.invalidCardnoMessage"
+      },
+      {
+        "defaultMessage": "Invalid PIN Number",
+        "id": "app.login.invalidPin"
+      },
+      {
+        "defaultMessage": "Input Your 6-digits PIN.",
+        "id": "app.login.invalidPinMessage"
+      },
+      {
+        "defaultMessage": "Your Account Has Been Activated!",
+        "id": "app.login.activatedPromptTitle"
+      },
+      {
+        "defaultMessage": "You may proceed to login",
+        "id": "app.login.activatedPromptMessage"
+      }
+    ],
+    "path": "src/routes/Login/components/Login.json"
+  },
+  {
+    "descriptors": [
+      {
+        "defaultMessage": "My Username",
+        "id": "app.login.myUserName"
+      },
+      {
+        "defaultMessage": "LOGIN",
+        "id": "app.login.login"
+      },
+      {
+        "defaultMessage": "Forgot Login Details",
+        "id": "app.login.forgotLoginDetails"
+      }
+    ],
+    "path": "src/routes/Login/components/LoginUsername/index.json"
+  },
+  {
+    "descriptors": [
+      {
+        "defaultMessage": "Please confirm your details.",
+        "id": "app.login.pleaseConfirmYourDetails"
+      },
+      {
+        "defaultMessage": "To proceed, please request and insert your",
+        "id": "app.login.toProceed"
+      },
+      {
+        "defaultMessage": "TAC",
+        "id": "app.login.tac"
+      },
+      {
+        "defaultMessage": "6-digit One Time Password (OTP)",
+        "id": "app.login.sixDigit"
+      },
+      {
+        "defaultMessage": "number",
+        "id": "app.login.number"
+      },
+      {
+        "defaultMessage": "REQUEST TAC",
+        "id": "app.login.requestTAC"
+      }
+    ],
+    "path": "src/routes/Login/components/RequestOTP/index.json"
+  },
+  {
+    "descriptors": [
+      {
+        "defaultMessage": "New Password",
+        "id": "app.login.newPassword"
+      }
+    ],
+    "path": "src/routes/Login/components/ResetPassword/index.json"
+  },
+  {
+    "descriptors": [
+      {
+        "defaultMessage": "Safety Tips",
+        "id": "app.login.safetyTips"
+      },
+      {
+        "defaultMessage": "Let's look at some safety tips.",
+        "id": "app.login.letsLookAtSafety"
+      },
+      {
+        "defaultMessage": "You can skip if you already know how to protect your account when banking online",
+        "id": "app.login.youCanSkip"
+      },
+      {
+        "defaultMessage": "OK, I’M READY",
+        "id": "app.login.okImReady"
+      }
+    ],
+    "path": "src/routes/Login/components/SafetyTipsModal/index.json"
+  },
+  {
+    "descriptors": [
+      {
+        "defaultMessage": "STEP 4",
+        "id": "app.login.step4"
+      },
+      {
+        "defaultMessage": "always",
+        "id": "app.always"
+      },
+      {
+        "defaultMessage": "from Maybank2u after completing your transactions.",
+        "id": "app.login.fromMaybank2u"
+      }
+    ],
+    "path": "src/routes/Login/components/SafetyTipsModal/StepFour.json"
+  },
+  {
+    "descriptors": [
+      {
+        "defaultMessage": "STEP 1",
+        "id": "app.login.step1"
+      },
+      {
+        "defaultMessage": "Remember to ALWAYS manually type",
+        "id": "app.remember"
+      },
+      {
+        "defaultMessage": "www.maybank2u.com.my",
+        "id": "app.login.wwwMaybank2u"
+      },
+      {
+        "defaultMessage": "Maybank2u",
+        "id": "app.login.toAccess"
+      }
+    ],
+    "path": "src/routes/Login/components/SafetyTipsModal/StepOne.json"
+  },
+  {
+    "descriptors": [
+      {
+        "defaultMessage": "STEP 3",
+        "id": "app.login.step3"
+      },
+      {
+        "defaultMessage": "Please ensure your",
+        "id": "app.pleaseEnsure"
+      },
+      {
+        "defaultMessage": "SECURITY IMAGE",
+        "id": "app.login.securityImage"
+      },
+      {
+        "defaultMessage": "and",
+        "id": "app.login.and"
+      },
+      {
+        "defaultMessage": "KEY PHRASE",
+        "id": "app.login.keyPhrase"
+      },
+      {
+        "defaultMessage": "are correct before you key in your password.",
+        "id": "app.login.areCorrect"
+      }
+    ],
+    "path": "src/routes/Login/components/SafetyTipsModal/StepThree.json"
+  },
+  {
+    "descriptors": [
+      {
+        "defaultMessage": "STEP 2",
+        "id": "app.login.step2"
+      },
+      {
+        "defaultMessage": "If you receive any suspicious emails:",
+        "id": "app.ifYouRecieveAny"
+      },
+      {
+        "defaultMessage": "Do not click",
+        "id": "app.login.doNotClick"
+      },
+      {
+        "defaultMessage": "on any link which directs you to Maybank2u.",
+        "id": "app.login.onAnyLink"
+      },
+      {
+        "defaultMessage": "In some cases, doing so may result in your computer being infected by a malicious software.",
+        "id": "app.login.inSomeCases"
+      }
+    ],
+    "path": "src/routes/Login/components/SafetyTipsModal/StepTwo.json"
+  },
+  {
+    "descriptors": [
+      {
+        "defaultMessage": "FORGOT PASSWORD",
+        "id": "app.login.forgotPassword"
+      },
+      {
+        "defaultMessage": "My Password",
+        "id": "app.login.myPassword"
+      }
+    ],
+    "path": "src/routes/Login/components/SecurityPhrase/PasswordComponent.json"
+  },
+  {
+    "descriptors": [
+      {
+        "defaultMessage": "Hello",
+        "id": "app.login.hello"
+      },
+      {
+        "defaultMessage": "Is your security phrase",
+        "id": "app.login.securityPhrasePrompt"
+      },
+      {
+        "defaultMessage": "NOT ME",
+        "id": "app.login.notMe"
+      },
+      {
+        "defaultMessage": "YES",
+        "id": "app.login.yes"
+      }
+    ],
+    "path": "src/routes/Login/components/SecurityPhrase/UserCheck.json"
+  },
+  {
+    "descriptors": [
+      {
+        "defaultMessage": "No problem! It happens to the best of us",
+        "id": "app.login.noProblem"
+      },
+      {
+        "defaultMessage": "Let's verify your access number and pin.",
+        "id": "app.login.letsVerify"
+      },
+      {
+        "defaultMessage": "Account Inactive",
+        "id": "app.login.accountInactive"
+      },
+      {
+        "defaultMessage": "Your account is no longer active.",
+        "id": "app.login.accountNoLongerActive"
+      }
+    ],
+    "path": "src/routes/Login/components/VerifyAccessNumberPin/index.json"
+  },
+  {
+    "descriptors": [
+      {
+        "defaultMessage": "You are now logged out! Thank you for using Maybank2u.",
+        "id": "app.logout.prompt"
+      },
+      {
+        "defaultMessage": "DATE",
+        "id": "app.login.date"
+      },
+      {
+        "defaultMessage": "ACTIVITY DETAILS",
+        "id": "app.logout.activityDetails"
+      },
+      {
+        "defaultMessage": "AMOUNT",
+        "id": "app.logout.amount"
+      },
+      {
+        "defaultMessage": "STATUS & REFERENCE",
+        "id": "app.logout.statusAndRef"
+      },
+      {
+        "defaultMessage": "Transfer from",
+        "id": "app.logout.transferFrom"
+      },
+      {
+        "defaultMessage": "Transfer to",
+        "id": "app.logout.transferTo"
+      },
+      {
+        "defaultMessage": "Add New Favorite",
+        "id": "app.logout.addNewFavorite"
+      },
+      {
+        "defaultMessage": "Print",
+        "id": "app.logout.print"
+      }
+    ],
+    "path": "src/routes/Logout/components/LogoutContent/index.json"
+  },
+  {
+    "descriptors": [
+      {
+        "defaultMessage": "DETAILS",
+        "id": "app.logout.details"
+      },
+      {
+        "defaultMessage": "STATUS",
+        "id": "app.logout.status"
+      }
+    ],
+    "path": "src/routes/Logout/components/MobileLogout/index.json"
+  },
+  {
+    "descriptors": [
+      {
+        "defaultMessage": "Your security phrase is",
+        "id": "app.personalize.securityPhrase"
+      },
+      {
+        "defaultMessage": "Awesome! You have completed your registration,",
+        "id": "app.personalize.awesome"
+      },
+      {
+        "defaultMessage": "SAFETY TIPS",
+        "id": "app.personalize.viewTips"
+      },
+      {
+        "defaultMessage": "DONE",
+        "id": "app.personalize.done"
+      }
+    ],
+    "path": "src/routes/Personalize/components/Completed/index.json"
+  },
+  {
+    "descriptors": [
+      {
+        "defaultMessage": "Profile Image",
+        "id": "app.personalize.profileImage"
+      },
+      {
+        "defaultMessage": "Drag/Upload your photo here",
+        "id": "app.personalize.drag"
+      },
+      {
+        "defaultMessage": "Or choose one of these images.",
+        "id": "app.personalize.elseYouCan"
+      },
+      {
+        "defaultMessage": "browse",
+        "id": "app.personalize.browse"
+      },
+      {
+        "defaultMessage": "NEXT",
+        "id": "app.personalize.next"
+      }
+    ],
+    "path": "src/routes/Personalize/components/DragAndDrop/index.json"
+  },
+  {
+    "descriptors": [
+      {
+        "defaultMessage": "Let’s personalize your Maybank2u.",
+        "id": "app.personalize.letsPersonalize"
+      },
+      {
+        "defaultMessage": "Please Create Security Phrase",
+        "id": "app.personalize.securityPhraseError"
+      },
+      {
+        "defaultMessage": "Input Security Phrase between 5 and 40 characters.",
+        "id": "app.personalize.securityPhraseErrorMessage"
+      },
+      {
+        "defaultMessage": "Challenge Questions Required",
+        "id": "app.personalize.questionAnswerError"
+      },
+      {
+        "defaultMessage": "You must input and answer to all 3 Challenge Questions.",
+        "id": "app.personalize.questionAnswerErrorMessage"
+      },
+      {
+        "defaultMessage": "Invalid Image",
+        "id": "app.personalize.invalidImage"
+      },
+      {
+        "defaultMessage": "The photo has exceeded the size limit, please upload a smaller file.",
+        "id": "app.personalize.invalidImageMessage"
+      }
+    ],
+    "path": "src/routes/Personalize/components/Personalize.json"
+  },
+  {
+    "descriptors": [
+      {
+        "defaultMessage": "CANCEL",
+        "id": "app.personalize.cancel"
+      }
+    ],
+    "path": "src/routes/Personalize/components/PersonalizeModal/index.json"
+  },
+  {
+    "descriptors": [
+      {
+        "defaultMessage": "Pick A City Backdrop",
+        "id": "app.personalize.pickACity"
+      },
+      {
+        "defaultMessage": "RE-PICK",
+        "id": "app.personalize.rePick"
+      }
+    ],
+    "path": "src/routes/Personalize/components/PickBackDrop/index.json"
+  },
+  {
+    "descriptors": [
+      {
+        "defaultMessage": "Theme Image",
+        "id": "app.personalize.themeImage"
+      },
+      {
+        "defaultMessage": "Pick Your Theme",
+        "id": "app.personalize.pickYourTheme"
+      },
+      {
+        "defaultMessage": "This backdrop will change according to the time of the day.",
+        "id": "app.personalize.thisBackDropWillChange"
+      }
+    ],
+    "path": "src/routes/Personalize/components/PickTheme/index.json"
+  },
+  {
+    "descriptors": [
+      {
+        "defaultMessage": "Almost there,",
+        "id": "app.personalize.almost"
+      },
+      {
+        "defaultMessage": "Security Phrase",
+        "id": "app.personalize.securityPhraseQuestion"
+      },
+      {
+        "defaultMessage": "Challenge Question 1",
+        "id": "app.personalize.challengeQuestion1"
+      },
+      {
+        "defaultMessage": "Challenge Question 2",
+        "id": "app.personalize.challengeQuestion2"
+      },
+      {
+        "defaultMessage": "Challenge Question 3",
+        "id": "app.personalize.challengeQuestion3"
+      },
+      {
+        "defaultMessage": "Answer 1",
+        "id": "app.personalize.answer1"
+      },
+      {
+        "defaultMessage": "Answer 2",
+        "id": "app.personalize.answer2"
+      },
+      {
+        "defaultMessage": "Answer 3",
+        "id": "app.personalize.answer3"
+      },
+      {
+        "defaultMessage": "SUBMIT",
+        "id": "app.personalize.submit"
+      },
+      {
+        "defaultMessage": "Eg. happylife",
+        "id": "app.personalize.egHappy"
+      },
+      {
+        "defaultMessage": "Select Question",
+        "id": "app.personalize.selectQuestion"
+      }
+    ],
+    "path": "src/routes/Personalize/components/SecurityPhraseAndQuestions/index.json"
+  },
+  {
+    "descriptors": [
+      {
+        "defaultMessage": "UPLOAD NOW",
+        "id": "app.personalize.uploadNow"
+      },
+      {
+        "defaultMessage": "Hello",
+        "id": "app.personalize.hello"
+      },
+      {
+        "defaultMessage": "What would you like for your profile image?",
+        "id": "app.personalize.whatWouldYou"
+      }
+    ],
+    "path": "src/routes/Personalize/components/UploadNow/index.json"
+  },
+  {
+    "descriptors": [
+      {
+        "defaultMessage": "Ready to create an account?",
+        "id": "app.registration.readyForAccount"
+      },
+      {
+        "defaultMessage": "Verify your access number and pin.",
+        "id": "app.registration.verify"
+      },
+      {
+        "defaultMessage": "Card / Access Number",
+        "id": "app.registration.cardAccessNumber"
+      },
+      {
+        "defaultMessage": "Before we create your account, let us verify your access number and pin.",
+        "id": "app.registration.accountCreatePrompt"
+      },
+      {
+        "defaultMessage": "PIN",
+        "id": "app.registration.pin"
+      },
+      {
+        "defaultMessage": "Enter 6-digit PIN number",
+        "id": "app.registration.pinPlaceholder"
+      },
+      {
+        "defaultMessage": "I AGREE WITH THE",
+        "id": "app.registration.agree"
+      },
+      {
+        "defaultMessage": "TERMS & CONDITIONS",
+        "id": "app.registration.t&c"
+      },
+      {
+        "defaultMessage": "CONTINUE",
+        "id": "app.registration.continue"
+      }
+    ],
+    "path": "src/routes/Registration/components/CardForm/index.json"
+  },
+  {
+    "descriptors": [
+      {
+        "defaultMessage": "Join us and become a Maybank2u user today.",
+        "id": "app.registration.joinMaybank"
+      },
+      {
+        "defaultMessage": "Invalid Email",
+        "id": "app.registration.invalidEmail"
+      },
+      {
+        "defaultMessage": "Your email address is invalid.",
+        "id": "app.registration.invalidEmailMessage"
+      },
+      {
+        "defaultMessage": "Please agree with the Terms & Conditions to proceed.",
+        "id": "app.registration.agreeConditions"
+      },
+      {
+        "defaultMessage": "OTP is required",
+        "id": "app.registration.otpCannotBeEmpty"
+      },
+      {
+        "defaultMessage": "OTP Error",
+        "id": "app.registration.otpError"
+      }
+    ],
+    "path": "src/routes/Registration/components/Registration.json"
+  },
+  {
+    "descriptors": [
+      {
+        "defaultMessage": "We are now ready to create your account.",
+        "id": "app.registration.readyForAccountCreation"
+      },
+      {
+        "defaultMessage": "Create your Maybank2u Username and Password.",
+        "id": "app.registration.createM2UCredentials"
+      },
+      {
+        "defaultMessage": "Username",
+        "id": "app.registration.username"
+      },
+      {
+        "defaultMessage": "Password",
+        "id": "app.registration.password"
+      },
+      {
+        "defaultMessage": "Confirm Password",
+        "id": "app.registration.confirmPassword"
+      },
+      {
+        "defaultMessage": "Email Address",
+        "id": "app.registration.email"
+      },
+      {
+        "defaultMessage": "REQUEST OTP",
+        "id": "app.registration.requestOTP"
+      }
+    ],
+    "path": "src/routes/Registration/components/UsernamePassword/index.json"
+  },
+  {
+    "descriptors": [
+      {
+        "defaultMessage": "EPF Account Type",
+        "id": "app.transactions.epfType"
+      },
+      {
+        "defaultMessage": "Member IC Number",
+        "id": "app.transactions.membersICNumber"
+      }
+    ],
+    "path": "src/routes/Transactions/components/FavoriteModal/epf.json"
+  },
+  {
+    "descriptors": [
+      {
+        "defaultMessage": "Nick Name",
+        "id": "app.transactions.nickName"
+      },
+      {
+        "defaultMessage": "Biller Code",
+        "id": "app.transactions.billerCode"
+      },
+      {
+        "defaultMessage": "Payee",
+        "id": "app.transactions.payee"
+      },
+      {
+        "defaultMessage": "Ref-1",
+        "id": "app.transactions.ref1"
+      },
+      {
+        "defaultMessage": "Ref-2",
+        "id": "app.transactions.ref2"
+      },
+      {
+        "defaultMessage": "Account Number",
+        "id": "app.transactions.accountNumber"
+      },
+      {
+        "defaultMessage": "Register Bill",
+        "id": "app.transactions.registerBill"
+      },
+      {
+        "defaultMessage": "ADD",
+        "id": "app.transactions.addBtn"
+      },
+      {
+        "defaultMessage": "SAVE",
+        "id": "app.transactions.saveBtn"
+      },
+      {
+        "defaultMessage": "REMOVE FAVORITE X",
+        "id": "app.transactions.removeFavoriteBtn"
+      },
+      {
+        "defaultMessage": "Pay To",
+        "id": "app.transactions.name"
+      },
+      {
+        "defaultMessage": "Please Select",
+        "id": "app.transactions.pleaseSelect"
+      },
+      {
+        "defaultMessage": "Account Holder",
+        "id": "app.transactions.accountHolder"
+      },
+      {
+        "defaultMessage": "Terms And Conditions",
+        "id": "app.transactions.termsAndConditions"
+      },
+      {
+        "defaultMessage": "iAccept",
+        "id": "app.transactions.iAccept"
+      },
+      {
+        "defaultMessage": "Edit Favorite",
+        "id": "app.transactions.editFavoriteTitle"
+      },
+      {
+        "defaultMessage": "Remove Favorite",
+        "id": "app.transactions.removeFavoriteTitle"
+      }
+    ],
+    "path": "src/routes/Transactions/components/FavoriteModal/index.json"
+  },
+  {
+    "descriptors": [
+      {
+        "defaultMessage": "Telco",
+        "id": "app.transactions.telco"
+      }
+    ],
+    "path": "src/routes/Transactions/components/FavoriteModal/reload.json"
+  },
+  {
+    "descriptors": [
+      {
+        "defaultMessage": "Pay From",
+        "id": "app.transactions.payFrom"
+      },
+      {
+        "defaultMessage": "Pay To",
+        "id": "app.transactions.payTo"
+      },
+      {
+        "defaultMessage": "Transfer From",
+        "id": "app.transactions.transferFrom"
+      },
+      {
+        "defaultMessage": "Transfer To",
+        "id": "app.transactions.transferTo"
+      },
+      {
+        "defaultMessage": "Reload From",
+        "id": "app.transactions.reloadFrom"
+      },
+      {
+        "defaultMessage": "Reload To",
+        "id": "app.transactions.reloadTo"
+      },
+      {
+        "defaultMessage": "Available Balance",
+        "id": "app.transactions.availableBalance"
+      },
+      {
+        "defaultMessage": "New Payment...",
+        "id": "app.transactions.newPayment"
+      },
+      {
+        "defaultMessage": "Telco List",
+        "id": "app.transactions.telcoList"
+      },
+      {
+        "defaultMessage": "Enter Biller Code",
+        "id": "app.transactions.enterBillerCode"
+      }
+    ],
+    "path": "src/routes/Transactions/components/PayFromToContainer/index.json"
+  },
+  {
+    "descriptors": [
+      {
+        "defaultMessage": "PAY",
+        "id": "app.transactions.pay"
+      },
+      {
+        "defaultMessage": "TRANSFER",
+        "id": "app.transactions.transfer"
+      },
+      {
+        "defaultMessage": "RELOAD",
+        "id": "app.transactions.reload"
+      }
+    ],
+    "path": "src/routes/Transactions/components/PayNavigation/index.json"
+  },
+  {
+    "descriptors": [
+      {
+        "defaultMessage": "Pay",
+        "id": "app.transactions.payText"
+      },
+      {
+        "defaultMessage": "Transfer",
+        "id": "app.transactions.transferText"
+      },
+      {
+        "defaultMessage": "Reload",
+        "id": "app.transactions.reloadText"
+      },
+      {
+        "defaultMessage": "Edit Details",
+        "id": "app.transactions.editFavorite"
+      },
+      {
+        "defaultMessage": "Arrange Order",
+        "id": "app.transactions.arrangeOrder"
+      },
+      {
+        "defaultMessage": "Remove Favorite",
+        "id": "app.transactions.removeFavorite"
+      }
+    ],
+    "path": "src/routes/Transactions/components/Recipient/index.json"
+  },
+  {
+    "descriptors": [
+      {
+        "defaultMessage": "My Favorites",
+        "id": "app.transactions.myFavorites"
+      },
+      {
+        "defaultMessage": "Add New Favorite",
+        "id": "app.transactions.addNewFavorite"
+      }
+    ],
+    "path": "src/routes/Transactions/components/RecipientContainer/index.json"
+  },
+  {
+    "descriptors": [
+      {
+        "defaultMessage": "New Favorite Successfully Added",
+        "id": "app.transaction.newFavoriteSuccessfullyAdded"
+      },
+      {
+        "defaultMessage": "My TNB has been added as one of your favorite payments",
+        "id": "app.transaction.newFavoriteSuccessfullyMessage"
+      },
+      {
+        "defaultMessage": "Favorite Successfully Edited",
+        "id": "app.transaction.favoriteSuccessfullyEdited"
+      },
+      {
+        "defaultMessage": "Favorite Successfully Removed",
+        "id": "app.transaction.favoriteSuccessfullyRemoved"
+      },
+      {
+        "defaultMessage": "Amount should not be empty",
+        "id": "app.transactions.emptyAmount"
+      },
+      {
+        "defaultMessage": "Nick Name should not be empty",
+        "id": "app.transactions.nickNameError"
+      }
+    ],
+    "path": "src/routes/Transactions/components/Transactions.json"
+  },
+  {
+    "descriptors": [
+      {
+        "defaultMessage": "SUBSCRIBE FUND",
+        "id": "app.details.subscribeFund"
+      },
+      {
+        "defaultMessage": "FUND NAME",
+        "id": "app.details.fundName"
+      },
+      {
+        "defaultMessage": "CURRENCY",
+        "id": "app.details.currencyHeader"
+      },
+      {
+        "defaultMessage": "UNIT HELD",
+        "id": "app.details.unitHeld"
+      },
+      {
+        "defaultMessage": "CURRENT VALUE",
+        "id": "app.details.currentValue"
+      },
+      {
+        "defaultMessage": "LAST CLOSING",
+        "id": "app.details.lastClosing"
+      },
+      {
+        "defaultMessage": "FCY",
+        "id": "app.details.fcy"
+      },
+      {
+        "defaultMessage": "LCY",
+        "id": "app.details.lcy"
+      },
+      {
+        "defaultMessage": "PROFIT",
+        "id": "app.details.profit"
+      },
+      {
+        "defaultMessage": "RM",
+        "id": "app.details.rm"
+      },
+      {
+        "defaultMessage": "LAST VALUED DATE",
+        "id": "app.details.lastValuedDate"
+      }
+    ],
+    "path": "src/routes/WealthDetails/components/UnitTrustAccountContainer/index.json"
+  },
+  {
+    "descriptors": [
+      {
+        "defaultMessage": "Trade Now",
+        "id": "app.details.tradeNow"
+      },
+      {
+        "defaultMessage": "Stock Code",
+        "id": "app.details.stockCodeHeader"
+      },
+      {
+        "defaultMessage": "Stock Name",
+        "id": "app.details.stockNameHeader"
+      },
+      {
+        "defaultMessage": "Last Closing",
+        "id": "app.details.lastClosingHeader"
+      },
+      {
+        "defaultMessage": "Last High",
+        "id": "app.details.lastHighHeader"
+      },
+      {
+        "defaultMessage": "Last Low",
+        "id": "app.details.lastLowHeader"
+      },
+      {
+        "defaultMessage": "Last Volume Transacted",
+        "id": "app.details.lastVolumeTransactedHeader"
+      },
+      {
+        "defaultMessage": "Total Units",
+        "id": "app.details.totalUnitsHeader"
+      },
+      {
+        "defaultMessage": "Avg. Buy Price",
+        "id": "app.details.avarageBuyPriceHeader"
+      },
+      {
+        "defaultMessage": "Unrealized Gains / Loss",
+        "id": "app.details.unrealizedGainsLossHeader"
+      },
+      {
+        "defaultMessage": "Maybank Market Insights",
+        "id": "app.details.maybankMarketInsights"
+      },
+      {
+        "defaultMessage": "SHOW MORE",
+        "id": "app.details.showMore"
+      },
+      {
+        "defaultMessage": "SHOW LESS",
+        "id": "app.details.showLess"
+      }
+    ],
+    "path": "src/routes/WealthDetails/components/WealthAccountsContainer/index.json"
+  },
+  {
+    "descriptors": [
+      {
+        "defaultMessage": "Market Value",
+        "id": "app.details.marketValue"
+      },
+      {
+        "defaultMessage": "Book Value",
+        "id": "app.details.bookValue"
+      },
+      {
+        "defaultMessage": "Unrealized Gain/Loss",
+        "id": "app.details.unrealisedGainLoss"
+      }
+    ],
+    "path": "src/routes/WealthDetails/components/WealthDetailsCard/index.json"
+  },
+  {
+    "descriptors": [
+      {
+        "defaultMessage": "Subscribe New fund",
+        "id": "app.dashboard.subscribeNew"
+      },
+      {
+        "defaultMessage": "EDIT YOUR RISK TOLERANCE",
+        "id": "app.dashboard.editYourRisk"
+      },
+      {
+        "defaultMessage": "TOP 3 FUNDS BASED ON YOUR",
+        "id": "app.dashboard.topFunds"
+      },
+      {
+        "defaultMessage": "RISK PROFILE",
+        "id": "app.dashboard.riskProfile"
+      },
+      {
+        "defaultMessage": "HLG GLOBAL RESOURCES INCOME FUND",
+        "id": "app.dashboard.hlg"
+      },
+      {
+        "defaultMessage": "AMISLAMIC GREATER CHINA FUND",
+        "id": "app.dashboard.amislamic"
+      },
+      {
+        "defaultMessage": "MIM Q TARGET RETURN FUND",
+        "id": "app.dashboard.mim"
+      },
+      {
+        "defaultMessage": "FUND TYPE",
+        "id": "app.dashboard.fundType"
+      },
+      {
+        "defaultMessage": "BALANCED",
+        "id": "app.dashboard.balanced"
+      },
+      {
+        "defaultMessage": "TOLERANCE",
+        "id": "app.dashboard.tolerance"
+      },
+      {
+        "defaultMessage": "MIXED ASSET",
+        "id": "app.dashboard.mixedAsset"
+      },
+      {
+        "defaultMessage": "In imperdiet neque eu magna iaculis",
+        "id": "app.dashboard.lorem1"
+      },
+      {
+        "defaultMessage": "eu faucibus lorem suscipit",
+        "id": "app.dashboard.lorem2"
+      },
+      {
+        "defaultMessage": "PROSPECTUS",
+        "id": "app.dashboard.prospectus"
+      },
+      {
+        "defaultMessage": "MORE FUNDS MATCHED YOUR RISK PROFILE",
+        "id": "app.dashboard.moreFunds"
+      },
+      {
+        "defaultMessage": "Fund House",
+        "id": "app.dashboard.fundHouse"
+      },
+      {
+        "defaultMessage": "Fund Name",
+        "id": "app.dashboard.fundName"
+      },
+      {
+        "defaultMessage": "SUBCSCRIPTION DETAILS",
+        "id": "app.dashboard.subscriptionDetails"
+      },
+      {
+        "defaultMessage": "Investment Type",
+        "id": "app.dashboard.investmentType"
+      },
+      {
+        "defaultMessage": "From Account",
+        "id": "app.dashboard.fromAccount"
+      },
+      {
+        "defaultMessage": "Amount",
+        "id": "app.dashboard.amount"
+      },
+      {
+        "defaultMessage": "Currency",
+        "id": "app.dashboard.currency"
+      },
+      {
+        "defaultMessage": "Available Unit Price",
+        "id": "app.dashboard.availableUnitPrice"
+      },
+      {
+        "defaultMessage": "Sales Charges",
+        "id": "app.dashboard.salesCharges"
+      },
+      {
+        "defaultMessage": "I HAVE READ THE",
+        "id": "app.dashboard.iHaveRead"
+      },
+      {
+        "defaultMessage": "AND ACCEPT",
+        "id": "app.dashboard.andAccept"
+      },
+      {
+        "defaultMessage": "TERMS AND CONDITIONS",
+        "id": "app.dashboard.termsAndConditions"
+      },
+      {
+        "defaultMessage": "SUBSCRIBE",
+        "id": "app.dashboard.subscribe"
+      }
+    ],
+    "path": "src/routes/WealthDetails/components/WealthModal/index.json"
+  },
+  {
+    "descriptors": [
+      {
+        "defaultMessage": "CONSERVATIVE",
+        "id": "app.dashboard.conservative"
+      },
+      {
+        "defaultMessage": "MODERATE",
+        "id": "app.dashboard.moderate"
+      },
+      {
+        "defaultMessage": "AGGRESSIVE",
+        "id": "app.dashboard.aggressive"
+      }
+    ],
+    "path": "src/routes/WealthDetails/components/WealthSlider/index.json"
+  }
+]
